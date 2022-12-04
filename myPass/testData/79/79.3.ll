@@ -33,6 +33,13 @@ module asm "\09.ascii \22 \\\22\22"
 module asm "\09.ascii \22github.com/hyperledger/fabric-chaincode-go/shim\22"
 module asm "\09.ascii \22\\\22\\n\22"
 module asm "\09.ascii \22import \22"
+module asm "\09.ascii \22peer\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22github.com/hyperledger/fabric-protos-go/peer\22"
+module asm "\09.ascii \22 \\\22\22"
+module asm "\09.ascii \22github.com/hyperledger/fabric-protos-go/peer\22"
+module asm "\09.ascii \22\\\22\\n\22"
+module asm "\09.ascii \22import \22"
 module asm "\09.ascii \22runtime\22"
 module asm "\09.ascii \22 \22"
 module asm "\09.ascii \22runtime\22"
@@ -46,6 +53,76 @@ module asm "\09.ascii \22unsafe\22"
 module asm "\09.ascii \22 \\\22\22"
 module asm "\09.ascii \22unsafe\22"
 module asm "\09.ascii \22\\\22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22impl\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/internal/impl\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22pragma\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/internal/pragma\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22proto\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22github.com/golang/protobuf/proto\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22proto\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/proto\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22protoiface\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/runtime/protoiface\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22protoimpl\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/runtime/protoimpl\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22protoreflect\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/reflect/protoreflect\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22protowire\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/encoding/protowire\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22queryresult\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22github.com/hyperledger/fabric-protos-go/ledger/queryresult\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22reflect\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22reflect\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22sync\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22sync\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22time\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22time\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22timestamp\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22github.com/golang/protobuf/ptypes/timestamp\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22indirectimport \22"
+module asm "\09.ascii \22timestamppb\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22google.golang.org/protobuf/types/known/timestamppb\22"
+module asm "\09.ascii \22\\n\22"
 module asm "\09.ascii \22init\22"
 module asm "\09.ascii \22 \22"
 module asm "\09.ascii \22bufio\22"
@@ -21254,12 +21331,424 @@ module asm "\09.ascii \22153\22"
 module asm "\09.ascii \22 \22"
 module asm "\09.ascii \22149\22"
 module asm "\09.ascii \22\\n\22"
-module asm "\09.ascii \22types 4 2\22"
-module asm "\09.ascii \22 30\22"
-module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22types 416 2\22"
+module asm "\09.ascii \22 158\22"
+module asm "\09.ascii \22 63\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 91\22"
+module asm "\09.ascii \22 92\22"
+module asm "\09.ascii \22 98\22"
+module asm "\09.ascii \22 96\22"
+module asm "\09.ascii \22 757\22"
+module asm "\09.ascii \22 829\22"
+module asm "\09.ascii \22 723\22"
+module asm "\09.ascii \22 753\22"
+module asm "\09.ascii \22 713\22"
+module asm "\09.ascii \22 123\22"
+module asm "\09.ascii \22 71\22"
+module asm "\09.ascii \22 133\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 72\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 446\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 215\22"
+module asm "\09.ascii \22 133\22"
+module asm "\09.ascii \22 79\22"
+module asm "\09.ascii \22 1259\22"
+module asm "\09.ascii \22 122\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 2109\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 74\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 245\22"
+module asm "\09.ascii \22 79\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 79\22"
+module asm "\09.ascii \22 273\22"
+module asm "\09.ascii \22 612\22"
+module asm "\09.ascii \22 3003\22"
+module asm "\09.ascii \22 75\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 120\22"
+module asm "\09.ascii \22 75\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 74\22"
+module asm "\09.ascii \22 79\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 1854\22"
+module asm "\09.ascii \22 64\22"
+module asm "\09.ascii \22 1189\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 94\22"
+module asm "\09.ascii \22 95\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 92\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 87\22"
 module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 89\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 74\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 83\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 83\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 206\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 74\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 79\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 89\22"
+module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 83\22"
+module asm "\09.ascii \22 93\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 329\22"
+module asm "\09.ascii \22 203\22"
+module asm "\09.ascii \22 75\22"
+module asm "\09.ascii \22 74\22"
+module asm "\09.ascii \22 394\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 89\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 136\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 83\22"
+module asm "\09.ascii \22 133\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 89\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 2238\22"
+module asm "\09.ascii \22 205\22"
+module asm "\09.ascii \22 874\22"
+module asm "\09.ascii \22 92\22"
+module asm "\09.ascii \22 93\22"
+module asm "\09.ascii \22 83\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 89\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 90\22"
+module asm "\09.ascii \22 81\22"
+module asm "\09.ascii \22 78\22"
+module asm "\09.ascii \22 82\22"
+module asm "\09.ascii \22 635\22"
+module asm "\09.ascii \22 357\22"
+module asm "\09.ascii \22 95\22"
+module asm "\09.ascii \22 38\22"
+module asm "\09.ascii \22 2245\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 266\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 252\22"
+module asm "\09.ascii \22 93\22"
+module asm "\09.ascii \22 98\22"
+module asm "\09.ascii \22 218\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 4595\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 219\22"
+module asm "\09.ascii \22 33\22"
+module asm "\09.ascii \22 38\22"
+module asm "\09.ascii \22 516\22"
+module asm "\09.ascii \22 527\22"
+module asm "\09.ascii \22 75\22"
+module asm "\09.ascii \22 3552\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 93\22"
+module asm "\09.ascii \22 105\22"
+module asm "\09.ascii \22 119\22"
+module asm "\09.ascii \22 93\22"
+module asm "\09.ascii \22 12\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 61\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 63\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 34\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 34\22"
+module asm "\09.ascii \22 33\22"
+module asm "\09.ascii \22 34\22"
+module asm "\09.ascii \22 34\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 62\22"
+module asm "\09.ascii \22 62\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 24\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 53\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 53\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 53\22"
+module asm "\09.ascii \22 33\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 33\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 19\22"
+module asm "\09.ascii \22 19\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 19\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 19\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 21\22"
+module asm "\09.ascii \22 14\22"
+module asm "\09.ascii \22 402\22"
+module asm "\09.ascii \22 258\22"
+module asm "\09.ascii \22 109\22"
+module asm "\09.ascii \22 149\22"
+module asm "\09.ascii \22 416\22"
+module asm "\09.ascii \22 235\22"
+module asm "\09.ascii \22 379\22"
+module asm "\09.ascii \22 425\22"
+module asm "\09.ascii \22 545\22"
+module asm "\09.ascii \22 20\22"
+module asm "\09.ascii \22 371\22"
+module asm "\09.ascii \22 507\22"
+module asm "\09.ascii \22 599\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 203\22"
+module asm "\09.ascii \22 626\22"
+module asm "\09.ascii \22 773\22"
+module asm "\09.ascii \22 383\22"
+module asm "\09.ascii \22 321\22"
+module asm "\09.ascii \22 142\22"
+module asm "\09.ascii \22 144\22"
+module asm "\09.ascii \22 132\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 326\22"
+module asm "\09.ascii \22 840\22"
+module asm "\09.ascii \22 196\22"
+module asm "\09.ascii \22 340\22"
+module asm "\09.ascii \22 227\22"
+module asm "\09.ascii \22 33\22"
+module asm "\09.ascii \22 110\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 157\22"
+module asm "\09.ascii \22 156\22"
+module asm "\09.ascii \22 50\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 151\22"
+module asm "\09.ascii \22 53\22"
+module asm "\09.ascii \22 87\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 126\22"
+module asm "\09.ascii \22 125\22"
+module asm "\09.ascii \22 70\22"
+module asm "\09.ascii \22 71\22"
+module asm "\09.ascii \22 50\22"
+module asm "\09.ascii \22 76\22"
+module asm "\09.ascii \22 131\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 424\22"
+module asm "\09.ascii \22 420\22"
+module asm "\09.ascii \22 70\22"
+module asm "\09.ascii \22 104\22"
+module asm "\09.ascii \22 151\22"
+module asm "\09.ascii \22 337\22"
+module asm "\09.ascii \22 84\22"
+module asm "\09.ascii \22 65\22"
+module asm "\09.ascii \22 92\22"
+module asm "\09.ascii \22 194\22"
+module asm "\09.ascii \22 85\22"
+module asm "\09.ascii \22 113\22"
+module asm "\09.ascii \22 25\22"
+module asm "\09.ascii \22 25\22"
+module asm "\09.ascii \22 24\22"
+module asm "\09.ascii \22 24\22"
+module asm "\09.ascii \22 25\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 22\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 23\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 35\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 36\22"
+module asm "\09.ascii \22 37\22"
+module asm "\09.ascii \22 992\22"
+module asm "\09.ascii \22 233\22"
+module asm "\09.ascii \22 165\22"
+module asm "\09.ascii \22 226\22"
+module asm "\09.ascii \22 118\22"
+module asm "\09.ascii \22 152\22"
+module asm "\09.ascii \22 118\22"
+module asm "\09.ascii \22 120\22"
+module asm "\09.ascii \22 120\22"
+module asm "\09.ascii \22 120\22"
+module asm "\09.ascii \22 120\22"
+module asm "\09.ascii \22 80\22"
+module asm "\09.ascii \22 598\22"
+module asm "\09.ascii \22 459\22"
+module asm "\09.ascii \22 264\22"
+module asm "\09.ascii \22 67\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 73\22"
+module asm "\09.ascii \22 2823\22"
+module asm "\09.ascii \22 77\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 88\22"
+module asm "\09.ascii \22 354\22"
+module asm "\09.ascii \22 239\22"
+module asm "\09.ascii \22 97\22"
+module asm "\09.ascii \22 180\22"
+module asm "\09.ascii \22 158\22"
+module asm "\09.ascii \22 72\22"
+module asm "\09.ascii \22 70\22"
+module asm "\09.ascii \22 128\22"
+module asm "\09.ascii \22 221\22"
+module asm "\09.ascii \22 116\22"
+module asm "\09.ascii \22 116\22"
+module asm "\09.ascii \22 115\22"
+module asm "\09.ascii \22 86\22"
+module asm "\09.ascii \22 117\22"
+module asm "\09.ascii \22 249\22"
+module asm "\09.ascii \22 52\22"
+module asm "\09.ascii \22 72\22"
+module asm "\09.ascii \22 51\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 48\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 49\22"
+module asm "\09.ascii \22 23\22"
 module asm "\09.ascii \22\\n\22"
-module asm "\09.ascii \22type 1 \\\22SimpleAsset\\\22 <type 3>\\ntype 2 (? <type -16>)\\ntype 3 struct { Content <type -16> \\\22json:\\\\\\\22content\\\\\\\22\\\22; TxID <type -16> \\\22json:\\\\\\\22txID\\\\\\\22\\\22; }\\n\22"
+module asm "\09.ascii \22type 1 \\\22SimpleAsset\\\22 <type 279>\\n func (t <esc:0x1> <type 256>) Init (stub <type 4>) <type 11>\\n func (t <esc:0x1> <type 256>) Invoke (stub <type 4>) <type 11>\\ntype 2 \\\22github.com/golang/protobuf/proto.Message\\\22 = <type 134>\\ntype 3 \\\22github.com/golang/protobuf/ptypes/timestamp.Timestamp\\\22 = <type 146>\\ntype 4 \\\22github.com/hyperledger/fabric-chaincode-go/shim.ChaincodeStubInterface\\\22 <type 385>\\ntype 5 \\\22github.com/hyperledger/fabric-chaincode-go/shim.CommonIteratorInterface\\\22 <type 382>\\ntype 6 \\\22github.com/hyperledger/fabric-chaincode-go/shim.HistoryQueryIteratorInterface\\\22 <type 384>\\ntype 7 \\\22github.com/hyperledger/fabric-chaincode-go/shim.StateQueryIteratorInterface\\\22 <type 383>\\ntype 8 \\\22github.com/hyperledger/fabric-protos-go/ledger/queryresult.KV\\\22 <type 274>\\n func (m <esc:0x1> <type 235>) Reset ()\\n func (? <esc:0x1> <type 235>) Descriptor () (? <type 354>, ? <type 342>)\\n func (m <type 235>) XXX_Size () <type -11>\\n func (m <type 235>) String () ($ret0 <type -16>)\\n func (? <esc:0x1> <type 235>) ProtoMessage ()\\n func (m <type 235>) XXX_Unmarshal (b <type 354>) <type -19>\\n func (m <esc:0x22> <type 235>) GetNamespace () <type -16>\\n func (m <type 235>) XXX_Marshal (b <type 354>, deterministic <type -15>) (? <type 354>, ? <type -19>)\\n func (m <type 235>) XXX_DiscardUnknown ()\\n func (m <type 235>) XXX_Merge (src <type 2>)\\n func (m <esc:0x22> <type 235>) GetKey () <type -16>\\n func (m <esc:0x22> <type 235>) GetValue () <type 354>\\ntype 9 \\\22github.com/hyperledger/fabric-protos-go/ledger/queryresult.KeyModification\\\22 <type 278>\\n func (m <esc:0x1> <type 236>) Reset ()\\n func (? <esc:0x1> <type 236>) Descriptor () (? <type 354>, ? <type 342>)\\n func (m <type 236>) XXX_Size () <type -11>\\n func (m <type 236>) String () ($ret10 <type -16>)\\n func (? <esc:0x1> <type 236>) ProtoMessage ()\\n func (m <type 236>) XXX_Unmarshal (b <type 354>) <type -19>\\n func (m <type 236>) XXX_Marshal (b <type 354>, deterministic <type -15>) (? <type 354>, ? <type -19>)\\n func (m <type 236>) XXX_DiscardUnknown ()\\n func (m <type 236>) XXX_Merge (src <type 2>)\\n func (m <esc:0x22> <type 236>) GetTxId () <type -16>\\n func (m <esc:0x22> <type 236>) GetValue () <type 354>\\n func (m <esc:0x22> <type 236>) GetTimestamp () <type 253>\\n func (m <esc:0x1> <type 236>) GetIsDelete () <type -15>\\ntype 10 \\\22github.com/hyperledger/fabric-protos-go/peer.QueryResponseMetadata\\\22 <type 270>\\n func (m <esc:0x1> <type 237>) Reset ()\\n func (? <esc:0x1> <type 237>) Descriptor () (? <type 354>, ? <type 342>)\\n func (m <type 237>) XXX_Size () <type -11>\\n func (m <type 237>) String () ($ret240 <type -16>)\\n func (? <esc:0x1> <type 237>) ProtoMessage ()\\n func (m <type 237>) XXX_Unmarshal (b <type 354>) <type -19>\\n func (m <type 237>) XXX_Marshal (b <type 354>, deterministic <type -15>) (? <type 354>, ? <type -19>)\\n func (m <type 237>) XXX_DiscardUnknown ()\\n func (m <type 237>) XXX_Merge (src <type 2>)\\n func (m <esc:0x1> <type 237>) GetFetchedRecordsCount () <type -3>\\n func (m <esc:0x22> <type 237>) GetBookmark () <type -16>\\ntype 11 \\\22github.com/hyperledger/fabric-protos-go/peer.Response\\\22 <type 277>\\n func (m <esc:0x1> <type 238>) Reset ()\\n func (? <esc:0x1> <type 238>) Descriptor () (? <type 354>, ? <type 342>)\\n func (m <type 238>) XXX_Size () <type -11>\\n func (m <type 238>) String () ($ret536 <type -16>)\\n func (? <esc:0x1> <type 238>) ProtoMessage ()\\n func (m <type 238>) XXX_Unmarshal (b <type 354>) <type -19>\\n func (m <esc:0x22> <type 238>) GetPayload () <type 354>\\n func (m <type 238>) XXX_Marshal (b <type 354>, deterministic <type -15>) (? <type 354>, ? <type -19>)\\n func (m <type 238>) XXX_DiscardUnknown ()\\n func (m <type 238>) XXX_Merge (src <type 2>)\\n func (m <esc:0x1> <type 238>) GetStatus () <type -3>\\n func (m <esc:0x22> <type 238>) GetMessage () <type -16>\\ntype 12 \\\22github.com/hyperledger/fabric-protos-go/peer.SignedProposal\\\22 <type 276>\\n func (m <esc:0x22> <type 239>) GetProposalBytes () <type 354>\\n func (m <esc:0x22> <type 239>) GetSignature () <type 354>\\n func (m <type 239>) XXX_Merge (src <type 2>)\\n func (m <type 239>) XXX_DiscardUnknown ()\\n func (m <type 239>) XXX_Marshal (b <type 354>, deterministic <type -15>) (? <type 354>, ? <type -19>)\\n func (m <type 239>) XXX_Unmarshal (b <type 354>) <type -19>\\n func (? <esc:0x1> <type 239>) ProtoMessage ()\\n func (m <type 239>) String () ($ret476 <type -16>)\\n func (m <type 239>) XXX_Size () <type -11>\\n func (? <esc:0x1> <type 239>) Descriptor () (? <type 354>, ? <type 342>)\\n func (m <esc:0x1> <type 239>) Reset ()\\ntype 13 \\\22google.golang.org/protobuf/encoding/protowire.Number\\\22 <type -3>\\n func (n <type 13>) IsValid () ($ret0 <type -15>)\\ntype 14 \\\22google.golang.org/protobuf/encoding/protowire.Type\\\22 <type -1>\\ntype 15 \\\22.google.golang.org/protobuf/internal/impl.atomicNilMessage\\\22 <type 292>\\n func (m <type 242>) Init (mi <type 241>) <type 248>\\ntype 16 \\\22.google.golang.org/protobuf/internal/impl.coderFieldInfo\\\22 <type 285>\\ntype 17 \\\22.google.golang.org/protobuf/internal/impl.coderMessageInfo\\\22 <type 286>\\ntype 18 \\\22.google.golang.org/protobuf/internal/impl.exporter\\\22 <type 195>\\ntype 19 \\\22.google.golang.org/protobuf/internal/impl.extensionFieldInfo\\\22 <type 296>\\ntype 20 \\\22.google.golang.org/protobuf/internal/impl.extensionMap\\\22 <type 363>\\n func (m <esc:0x1> <type 245>) Mutable (xt <type 92>) <type 125>\\n func (m <esc:0x1> <type 245>) Set (xt <type 92>, v <type 125>)\\n func (m <esc:0x1> <type 245>) Get (xt <type 92>) <type 125>\\n func (m <esc:0x1> <type 245>) Has (xt <type 92>) (ok <type -15>)\\n func (m <esc:0x1> <type 245>) Clear (xt <type 92>)\\n func (m <esc:0x1> <type 245>) Range (f <esc:0x1> <type 190>)\\ntype 21 \\\22.google.golang.org/protobuf/internal/impl.fieldInfo\\\22 <type 281>\\ntype 22 \\\22.google.golang.org/protobuf/internal/impl.lazyExtensionValue\\\22 <type 280>\\ntype 23 \\\22.google.golang.org/protobuf/internal/impl.marshalOptions\\\22 <type 283>\\n func (o <type 23>) UseCachedSize () <type -15>\\n func (o <type 23>) Deterministic () <type -15>\\n func (o <type 23>) Options () <type 51>\\ntype 24 \\\22.google.golang.org/protobuf/internal/impl.mergeOptions\\\22 <type 279>\\n func (o <type 24>) Merge (dst <type 52>, src <type 52>)\\ntype 25 \\\22.google.golang.org/protobuf/internal/impl.messageDataType\\\22 <type 291>\\ntype 26 \\\22.google.golang.org/protobuf/internal/impl.messageReflectWrapper\\\22 <type 25>\\n func (m <esc:0x9> <type 248>) Clear (fd <type 94>)\\n func (m <esc:0x2a> <type 248>) ProtoMethods () <type 234>\\n func (m <esc:0x9> <type 248>) WhichOneof (od <type 115>) <type 94>\\n func (m <esc:0x22> <type 248>) .pointer () <type 29>\\n func (m <esc:0x9> <type 248>) Set (fd <type 94>, v <type 125>)\\n func (m <esc:0x22> <type 248>) ProtoMessageInfo () <type 241>\\n func (m <esc:0x6a> <type 248>) Mutable (fd <type 94>) <type 125>\\n func (m <esc:0x32> <type 248>) Descriptor () <type 108>\\n func (m <esc:0x1> <type 248>) IsValid () <type -15>\\n func (m <esc:0x4a> <type 248>) GetUnknown () <type 118>\\n func (m <esc:0x9> <type 248>) Range (f <esc:0x1> <type 190>)\\n func (m <esc:0x6a> <type 248>) NewField (fd <type 94>) <type 125>\\n func (m <esc:0x9> <type 248>) New () <type 107>\\n func (m <esc:0x9> <type 248>) .protoUnwrap () <type 415>\\n func (m <esc:0x1a> <type 248>) Interface () <type 117>\\n func (m <esc:0x9> <type 248>) SetUnknown (b <type 118>)\\n func (m <esc:0x22> <type 248>) .messageInfo () <type 241>\\n func (m <esc:0x9> <type 248>) Has (fd <type 94>) <type -15>\\n func (m <esc:0x22> <type 248>) Type () <type 110>\\n func (m <esc:0x6a> <type 248>) Get (fd <type 94>) <type 125>\\ntype 27 \\\22.google.golang.org/protobuf/internal/impl.offset\\\22 <type -13>\\n func (f <type 27>) IsValid () ($ret784 <type -15>)\\ntype 28 \\\22.google.golang.org/protobuf/internal/impl.oneofInfo\\\22 <type 290>\\ntype 29 \\\22.google.golang.org/protobuf/internal/impl.pointer\\\22 <type 292>\\n func (p <esc:0x12> <type 29>) Int32 () <type 254>\\n func (p <esc:0x12> <type 29>) BytesPtr () <type 212>\\n func (p <esc:0x12> <type 29>) Uint32 () <type 266>\\n func (p <esc:0x1> <type 29>) IsNil () <type -15>\\n func (p <esc:0x12> <type 29>) Uint32Ptr () <type 219>\\n func (p <esc:0x12> <type 29>) BytesSlice () <type 221>\\n func (p <esc:0x12> <type 29>) Float64 () <type 211>\\n func (p <type 29>) AsIfaceOf (t <type 159>) <type 415>\\n func (p <esc:0x12> <type 29>) Uint32Slice () <type 228>\\n func (p <esc:0x12> <type 29>) Int64 () <type 255>\\n func (p <esc:0x22> <type 29>) PointerSlice () <type 341>\\n func (p <esc:0x12> <type 29>) StringPtr () <type 218>\\n func (p <esc:0x12> <type 29>) Uint64Slice () <type 229>\\n func (p <esc:0x12> <type 29>) String () <type 261>\\n func (p <esc:0x12> <type 29>) Bytes () <type 230>\\n func (p <esc:0x12> <type 29>) AsValueOf (t <type 159>) <type 160>\\n func (p <esc:0x12> <type 29>) Float32Ptr () <type 214>\\n func (p <esc:0x12> <type 29>) Float32Slice () <type 223>\\n func (p <esc:0x12> <type 29>) Uint64 () <type 267>\\n func (p <esc:0x12> <type 29>) Float64Slice () <type 224>\\n func (p <esc:0x12> <type 29>) WeakFields () <type 250>\\n func (p <esc:0x12> <type 29>) Float64Ptr () <type 215>\\n func (p <esc:0x1> <type 29>) SetPointer (v <type 29>)\\n func (p <esc:0x12> <type 29>) Bool () <type 209>\\n func (p <esc:0x22> <type 29>) Elem () <type 29>\\n func (p <esc:0x12> <type 29>) Extensions () <type 232>\\n func (p <esc:0x9> <type 29>) AppendPointerSlice (v <type 29>)\\n func (p <esc:0x12> <type 29>) Int32Slice () <type 225>\\n func (p <esc:0x12> <type 29>) Int64Ptr () <type 217>\\n func (p <esc:0x12> <type 29>) Int64Slice () <type 226>\\n func (p <esc:0x12> <type 29>) BoolSlice () <type 222>\\n func (p <esc:0x12> <type 29>) BoolPtr () <type 213>\\n func (p <esc:0x12> <type 29>) Uint64Ptr () <type 220>\\n func (p <esc:0x12> <type 29>) Float32 () <type 210>\\n func (p <esc:0x12> <type 29>) Int32Ptr () <type 216>\\n func (p <esc:0x12> <type 29>) StringSlice () <type 227>\\n func (p <esc:0x12> <type 29>) Apply (f <type 27>) <type 29>\\ntype 30 \\\22.google.golang.org/protobuf/internal/impl.pointerCoderFuncs\\\22 <type 287>\\ntype 31 \\\22.google.golang.org/protobuf/internal/impl.reflectMessageInfo\\\22 <type 282>\\ntype 32 \\\22.google.golang.org/protobuf/internal/impl.structInfo\\\22 <type 294>\\ntype 33 \\\22.google.golang.org/protobuf/internal/impl.unknownFieldsA\\\22 = <type 354>\\ntype 34 \\\22.google.golang.org/protobuf/internal/impl.unmarshalOptions\\\22 <type 284>\\n func (o <esc:0x1> <type 34>) IsDefault () <type -15>\\n func (o <esc:0x1> <type 34>) DiscardUnknown () <type -15>\\n func (o <esc:0x12> <type 34>) Options () <type 53>\\ntype 35 \\\22.google.golang.org/protobuf/internal/impl.unmarshalOutput\\\22 <type 289>\\ntype 36 \\\22.google.golang.org/protobuf/internal/impl.validationInfo\\\22 <type 288>\\ntype 37 \\\22.google.golang.org/protobuf/internal/impl.validationType\\\22 <type -5>\\ntype 38 \\\22.google.golang.org/protobuf/internal/impl.valueCoderFuncs\\\22 <type 293>\\ntype 39 \\\22.google.golang.org/protobuf/internal/impl.weakFields\\\22 <type 46>\\n func (w <esc:0x1> <type 250>) .clear (num <type 96>)\\n func (w <esc:0x1> <type 250>) .set (num <type 96>, m <type 117>)\\n func (w <esc:0x1> <type 39>) .get (num <type 96>) (? <type 117>, ? <type -15>)\\ntype 40 \\\22google.golang.org/protobuf/internal/impl.ExtensionField\\\22 <type 295>\\n func (f <esc:0x12> <type 40>) Type () <type 92>\\n func (f <esc:0x1> <type 240>) SetLazy (t <type 92>, fn <type 178>)\\n func (f <esc:0x2a> <type 240>) Value () <type 125>\\n func (f <esc:0x1> <type 240>) Set (t <type 92>, v <type 125>)\\n func (f <esc:0x1> <type 40>) IsSet () <type -15>\\n func (f <esc:0x9> <type 240>) .lazyInit ()\\n func (f <esc:0x9> <type 240>) .canLazy (xt <esc:0x1> <type 92>) <type -15>\\n func (f <esc:0x9> <type 240>) .appendLazyBytes (xt <type 92>, xi <type 244>, num <type 13>, wtyp <type 14>, b <esc:0x1> <type 354>)\\ntype 41 \\\22google.golang.org/protobuf/internal/impl.MessageInfo\\\22 <type 271>\\n func (mi <esc:0x9> <type 241>) .makeStructInfo (t <type 159>) <type 32>\\n func (mi <esc:0x1> <type 241>) .getPointer (m <type 107>) (p <type 29>, ok <type -15>)\\n func (mi <esc:0x1> <type 241>) .appendExtensions (b <type 354>, ext <esc:0x1> <type 232>, opts <type 23>) (? <type 354>, ? <type -19>)\\n func (mi <esc:0x9> <type 241>) .makeKnownFieldsFunc (si <type 32>)\\n func (mi <type 241>) .marshal (in <type 128>) (out <type 130>, err <type -19>)\\n func (mi <type 241>) Zero () <type 107>\\n func (mi <type 241>) .checkInitialized (in <type 126>) (? <type 127>, ? <type -19>)\\n func (mi <esc:0x1> <type 241>) .mutableUnknownBytes (p <esc:0x12> <type 29>) <type 230>\\n func (mi <type 241>) .marshalAppendPointer (b <type 354>, p <type 29>, opts <type 23>) (? <type 354>, ? <type -19>)\\n func (mi <esc:0x1> <type 241>) .isInitExtensions (ext <esc:0x1> <type 232>) <type -19>\\n func (mi <esc:0x1> <type 241>) .getUnknownBytes (p <esc:0x12> <type 29>) <type 230>\\n func (mi <type 241>) .init ()\\n func (mi <type 241>) .size (in <type 136>) <type 137>\\n func (mi <type 241>) Enum (i <type -11>) <type 87>\\n func (mi <esc:0x3a> <type 241>) .checkField (fd <type 94>) (? <type 246>, ? <type 92>)\\n func (mi <type 241>) .validate (b <type 354>, groupTag <type 13>, opts <type 34>) (out <type 35>, result <type 45>)\\n func (mi <type 241>) MessageOf (m <type 415>) <type 107>\\n func (mi <esc:0x1> <type 241>) .makeExtensionFieldsFunc (t <esc:0x1> <type 159>, si <type 32>)\\n func (mi <type 241>) New () <type 107>\\n func (mi <type 241>) .makeReflectFuncs (t <esc:0x1> <type 159>, si <type 32>)\\n func (mi <esc:0x9> <type 241>) .unmarshalExtension (b <type 354>, num <type 13>, wtyp <type 14>, exts <esc:0x1> <type 363>, opts <type 34>) (out <type 35>, err <type -19>)\\n func (mi <esc:0x9> <type 241>) .makeFieldTypes (si <esc:0x1> <type 32>)\\n func (mi <esc:0x9> <type 241>) .sizePointerSlow (p <type 29>, opts <type 23>) (size <type -11>)\\n func (mi <esc:0x1> <type 241>) .sizeExtensions (ext <esc:0x1> <type 232>, opts <type 23>) (n <type -11>)\\n func (mi <type 241>) .initOnce ()\\n func (mi <type 241>) .unmarshal (in <type 139>) (? <type 141>, ? <type -19>)\\n func (mi <type 241>) .checkInitializedPointer (p <type 29>) <type -19>\\n func (mi <type 241>) .makeCoderMethods (t <esc:0x1> <type 159>, si <type 32>)\\n func (mi <type 241>) .initOneofFieldCoders (od <type 115>, si <esc:0x1> <type 32>)\\n func (mi <type 241>) .makeUnknownFieldsFunc (t <esc:0x1> <type 159>, si <esc:0x1> <type 32>)\\n func (mi <type 241>) .sizePointer (p <type 29>, opts <type 23>) (size <type -11>)\\n func (mi <esc:0x22> <type 241>) Descriptor () <type 108>\\n func (mi <type 241>) Message (i <type -11>) <type 110>\\n func (mi <type 241>) .merge (in <type 131>) <type 132>\\n func (mi <type 241>) .unmarshalPointer (b <type 354>, p <type 29>, groupTag <type 13>, opts <type 34>) (out <type 35>, err <type -19>)\\n func (mi <type 241>) .mergePointer (dst <type 29>, src <type 29>, opts <type 24>)\\ntype 42 \\\22google.golang.org/protobuf/internal/impl.MessageState\\\22 <type 316>\\ntype 43 \\\22google.golang.org/protobuf/internal/impl.SizeCache\\\22 = <type -3>\\ntype 44 \\\22google.golang.org/protobuf/internal/impl.UnknownFields\\\22 = <type 33>\\ntype 45 \\\22google.golang.org/protobuf/internal/impl.ValidationStatus\\\22 <type -11>\\n func (v <type 45>) String () <type -16>\\ntype 46 \\\22google.golang.org/protobuf/internal/impl.WeakFields\\\22 = <type 364>\\ntype 47 \\\22google.golang.org/protobuf/internal/pragma.DoNotCompare\\\22 <type 330>\\ntype 48 \\\22google.golang.org/protobuf/internal/pragma.DoNotCopy\\\22 <type 331>\\ntype 49 \\\22google.golang.org/protobuf/internal/pragma.DoNotImplement\\\22 <type 404>\\ntype 50 \\\22google.golang.org/protobuf/internal/pragma.NoUnkeyedLiterals\\\22 <type 279>\\ntype 51 \\\22google.golang.org/protobuf/proto.MarshalOptions\\\22 <type 299>\\n func (o <type 51>) .sizeMessageSet (m <type 107>) (size <type -11>)\\n func (o <type 51>) MarshalAppend (b <type 354>, m <type 52>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .marshalMap (b <type 354>, fd <type 94>, mapv <type 105>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .marshalList (b <type 354>, fd <type 94>, list <type 104>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .sizeList (num <type 13>, fd <type 94>, list <type 104>) (size <type -11>)\\n func (o <type 51>) .sizeField (fd <type 94>, value <type 125>) (size <type -11>)\\n func (o <type 51>) .marshalMessageSlow (b <type 354>, m <type 107>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .marshal (b <type 354>, m <type 107>) (out <type 130>, err <type -19>)\\n func (o <type 51>) .sizeMap (num <type 13>, fd <type 94>, mapv <type 105>) (size <type -11>)\\n func (o <type 51>) .marshalField (b <type 354>, fd <type 94>, value <type 125>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .marshalSingular (b <type 354>, fd <type 94>, v <type 125>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .sizeSingular (num <type 13>, kind <type 103>, v <type 125>) <type -11>\\n func (o <type 51>) .size (m <type 107>) (size <type -11>)\\n func (o <type 51>) Size (m <type 52>) <type -11>\\n func (o <type 51>) .marshalMessageSet (b <type 354>, m <type 107>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .sizeMessageSlow (m <type 107>) (size <type -11>)\\n func (o <type 51>) MarshalState (in <type 128>) (? <type 130>, ? <type -19>)\\n func (o <type 51>) .marshalMessageSetField (b <type 354>, fd <type 94>, value <type 125>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) Marshal (m <type 52>) (? <type 354>, ? <type -19>)\\n func (o <type 51>) .marshalMessage (b <type 354>, m <type 107>) (? <type 354>, ? <type -19>)\\ntype 52 \\\22google.golang.org/protobuf/proto.Message\\\22 = <type 117>\\ntype 53 \\\22google.golang.org/protobuf/proto.UnmarshalOptions\\\22 <type 306>\\n func (o <type 53>) Unmarshal (b <type 354>, m <type 52>) <type -19>\\n func (o <type 53>) UnmarshalState (in <type 139>) (? <type 141>, ? <type -19>)\\n func (o <type 53>) .unmarshalMap (b <type 354>, wtyp <type 14>, mapv <type 105>, fd <type 94>) (n <type -11>, err <type -19>)\\n func (o <type 53>) .unmarshal (b <type 354>, m <type 107>) (out <type 141>, err <type -19>)\\n func (o <type 53>) .unmarshalMessage (b <type 354>, m <type 107>) <type -19>\\n func (o <type 53>) .unmarshalMessageSetField (m <type 107>, num <type 13>, v <type 354>) <type -19>\\n func (o <type 53>) .unmarshalMessageSlow (b <type 354>, m <type 107>) <type -19>\\n func (o <type 53>) .unmarshalSingular (b <type 354>, wtyp <type 14>, m <type 107>, fd <type 94>) (n <type -11>, err <type -19>)\\n func (o <esc:0x1> <type 53>) .unmarshalScalar (b <esc:0x12> <type 354>, wtyp <type 14>, fd <type 94>) (val <type 125>, n <type -11>, err <type -19>)\\n func (o <type 53>) .unmarshalList (b <type 354>, wtyp <type 14>, list <type 104>, fd <type 94>) (n <type -11>, err <type -19>)\\n func (o <type 53>) .unmarshalMessageSet (b <type 354>, m <type 107>) <type -19>\\ntype 54 \\\22.google.golang.org/protobuf/reflect/protoreflect.appendFunc\\\22 <type 171>\\ntype 55 \\\22.google.golang.org/protobuf/reflect/protoreflect.cardinality\\\22 <type -1>\\ntype 56 \\\22.google.golang.org/protobuf/reflect/protoreflect.checkInitializedInput\\\22 = <type 307>\\ntype 57 \\\22.google.golang.org/protobuf/reflect/protoreflect.checkInitializedOutput\\\22 = <type 298>\\ntype 58 \\\22.google.golang.org/protobuf/reflect/protoreflect.doNotImplement\\\22 <type 49>\\ntype 59 \\\22.google.golang.org/protobuf/reflect/protoreflect.isEnumDescriptor\\\22 <type 407>\\ntype 60 \\\22.google.golang.org/protobuf/reflect/protoreflect.isEnumValueDescriptor\\\22 <type 408>\\ntype 61 \\\22.google.golang.org/protobuf/reflect/protoreflect.isFieldDescriptor\\\22 <type 409>\\ntype 62 \\\22.google.golang.org/protobuf/reflect/protoreflect.isFileDescriptor\\\22 <type 410>\\ntype 63 \\\22.google.golang.org/protobuf/reflect/protoreflect.isMessageDescriptor\\\22 <type 411>\\ntype 64 \\\22.google.golang.org/protobuf/reflect/protoreflect.isMethodDescriptor\\\22 <type 412>\\ntype 65 \\\22.google.golang.org/protobuf/reflect/protoreflect.isOneofDescriptor\\\22 <type 413>\\ntype 66 \\\22.google.golang.org/protobuf/reflect/protoreflect.isServiceDescriptor\\\22 <type 414>\\ntype 67 \\\22.google.golang.org/protobuf/reflect/protoreflect.kind\\\22 <type -1>\\ntype 68 \\\22.google.golang.org/protobuf/reflect/protoreflect.marshalInput\\\22 = <type 309>\\ntype 69 \\\22.google.golang.org/protobuf/reflect/protoreflect.marshalOutput\\\22 = <type 300>\\ntype 70 \\\22.google.golang.org/protobuf/reflect/protoreflect.mergeInput\\\22 = <type 315>\\ntype 71 \\\22.google.golang.org/protobuf/reflect/protoreflect.mergeOutput\\\22 = <type 303>\\ntype 72 \\\22.google.golang.org/protobuf/reflect/protoreflect.methods\\\22 = <type 302>\\ntype 73 \\\22.google.golang.org/protobuf/reflect/protoreflect.sizeInput\\\22 = <type 312>\\ntype 74 \\\22.google.golang.org/protobuf/reflect/protoreflect.sizeOutput\\\22 = <type 314>\\ntype 75 \\\22.google.golang.org/protobuf/reflect/protoreflect.supportFlags\\\22 = <type -8>\\ntype 76 \\\22.google.golang.org/protobuf/reflect/protoreflect.syntax\\\22 <type -1>\\ntype 77 \\\22.google.golang.org/protobuf/reflect/protoreflect.unmarshalInput\\\22 = <type 311>\\ntype 78 \\\22.google.golang.org/protobuf/reflect/protoreflect.unmarshalOutput\\\22 = <type 303>\\ntype 79 \\\22.google.golang.org/protobuf/reflect/protoreflect.value\\\22 <type 297>\\ntype 80 \\\22google.golang.org/protobuf/reflect/protoreflect.Cardinality\\\22 <type 55>\\n func (c <type 80>) GoString () <type -16>\\n func (c <type 80>) String () <type -16>\\n func (c <type 80>) IsValid () <type -15>\\ntype 81 \\\22google.golang.org/protobuf/reflect/protoreflect.Descriptor\\\22 <type 397>\\ntype 82 \\\22google.golang.org/protobuf/reflect/protoreflect.Enum\\\22 <type 387>\\ntype 83 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumDescriptor\\\22 <type 396>\\ntype 84 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumDescriptors\\\22 <type 371>\\ntype 85 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumNumber\\\22 <type -3>\\ntype 86 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumRanges\\\22 <type 399>\\ntype 87 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumType\\\22 <type 386>\\ntype 88 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumValueDescriptor\\\22 <type 395>\\ntype 89 \\\22google.golang.org/protobuf/reflect/protoreflect.EnumValueDescriptors\\\22 <type 372>\\ntype 90 \\\22google.golang.org/protobuf/reflect/protoreflect.ExtensionDescriptor\\\22 = <type 94>\\ntype 91 \\\22google.golang.org/protobuf/reflect/protoreflect.ExtensionDescriptors\\\22 <type 373>\\ntype 92 \\\22google.golang.org/protobuf/reflect/protoreflect.ExtensionType\\\22 <type 403>\\ntype 93 \\\22google.golang.org/protobuf/reflect/protoreflect.ExtensionTypeDescriptor\\\22 <type 378>\\ntype 94 \\\22google.golang.org/protobuf/reflect/protoreflect.FieldDescriptor\\\22 <type 379>\\ntype 95 \\\22google.golang.org/protobuf/reflect/protoreflect.FieldDescriptors\\\22 <type 370>\\ntype 96 \\\22google.golang.org/protobuf/reflect/protoreflect.FieldNumber\\\22 = <type 13>\\ntype 97 \\\22google.golang.org/protobuf/reflect/protoreflect.FieldNumbers\\\22 <type 400>\\ntype 98 \\\22google.golang.org/protobuf/reflect/protoreflect.FieldRanges\\\22 <type 398>\\ntype 99 \\\22google.golang.org/protobuf/reflect/protoreflect.FileDescriptor\\\22 <type 390>\\ntype 100 \\\22google.golang.org/protobuf/reflect/protoreflect.FileImport\\\22 <type 317>\\ntype 101 \\\22google.golang.org/protobuf/reflect/protoreflect.FileImports\\\22 <type 401>\\ntype 102 \\\22google.golang.org/protobuf/reflect/protoreflect.FullName\\\22 <type -16>\\n func (n <esc:0x12> <type 102>) Parent () ($ret14 <type 102>)\\n func (n <esc:0x1> <type 102>) Append (s <esc:0x12> <type 113>) <type 102>\\n func (n <esc:0x12> <type 102>) Name () ($ret13 <type 113>)\\n func (s <esc:0x1> <type 102>) IsValid () <type -15>\\ntype 103 \\\22google.golang.org/protobuf/reflect/protoreflect.Kind\\\22 <type 67>\\n func (k <type 103>) GoString () <type -16>\\n func (k <type 103>) String () <type -16>\\n func (k <type 103>) IsValid () <type -15>\\ntype 104 \\\22google.golang.org/protobuf/reflect/protoreflect.List\\\22 <type 368>\\ntype 105 \\\22google.golang.org/protobuf/reflect/protoreflect.Map\\\22 <type 381>\\ntype 106 \\\22google.golang.org/protobuf/reflect/protoreflect.MapKey\\\22 <type 79>\\n func (k <esc:0x12> <type 106>) Value () ($ret80 <type 125>)\\n func (k <type 106>) String () <type -16>\\n func (k <type 106>) Uint () <type -8>\\n func (k <type 106>) Int () <type -4>\\n func (k <type 106>) Bool () <type -15>\\n func (k <type 106>) Interface () <type 415>\\n func (k <esc:0x1> <type 106>) IsValid () <type -15>\\ntype 107 \\\22google.golang.org/protobuf/reflect/protoreflect.Message\\\22 <type 380>\\ntype 108 \\\22google.golang.org/protobuf/reflect/protoreflect.MessageDescriptor\\\22 <type 389>\\ntype 109 \\\22google.golang.org/protobuf/reflect/protoreflect.MessageDescriptors\\\22 <type 374>\\ntype 110 \\\22google.golang.org/protobuf/reflect/protoreflect.MessageType\\\22 <type 388>\\ntype 111 \\\22google.golang.org/protobuf/reflect/protoreflect.MethodDescriptor\\\22 <type 393>\\ntype 112 \\\22google.golang.org/protobuf/reflect/protoreflect.MethodDescriptors\\\22 <type 375>\\ntype 113 \\\22google.golang.org/protobuf/reflect/protoreflect.Name\\\22 <type -16>\\n func (s <esc:0x1> <type 113>) IsValid () ($ret9 <type -15>)\\ntype 114 \\\22google.golang.org/protobuf/reflect/protoreflect.Names\\\22 <type 402>\\ntype 115 \\\22google.golang.org/protobuf/reflect/protoreflect.OneofDescriptor\\\22 <type 391>\\ntype 116 \\\22google.golang.org/protobuf/reflect/protoreflect.OneofDescriptors\\\22 <type 376>\\ntype 117 \\\22google.golang.org/protobuf/reflect/protoreflect.ProtoMessage\\\22 <type 406>\\ntype 118 \\\22google.golang.org/protobuf/reflect/protoreflect.RawFields\\\22 <type 354>\\n func (b <esc:0x1> <type 118>) IsValid () <type -15>\\ntype 119 \\\22google.golang.org/protobuf/reflect/protoreflect.ServiceDescriptor\\\22 <type 394>\\ntype 120 \\\22google.golang.org/protobuf/reflect/protoreflect.ServiceDescriptors\\\22 <type 377>\\ntype 121 \\\22google.golang.org/protobuf/reflect/protoreflect.SourceLocation\\\22 <type 275>\\ntype 122 \\\22google.golang.org/protobuf/reflect/protoreflect.SourceLocations\\\22 <type 369>\\ntype 123 \\\22google.golang.org/protobuf/reflect/protoreflect.SourcePath\\\22 <type 343>\\n func (p1 <esc:0x1> <type 123>) Equal (p2 <esc:0x1> <type 123>) ($ret16 <type -15>)\\n func (p <type 251>) .appendMessageOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendSourceCodeInfo_Location (b <type 354>) <type 354>\\n func (p <type 251>) .appendServiceOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendEnumValueDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendEnumDescriptorProto_EnumReservedRange (b <type 354>) <type 354>\\n func (p <type 251>) .appendFieldOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendSingularField (b <type 354>, name <esc:0x1> <type -16>, f <esc:0x2a> <type 54>) ($ret18 <type 354>)\\n func (p <type 251>) .appendEnumDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendRepeatedField (b <type 354>, name <esc:0x1> <type -16>, f <esc:0x2a> <type 54>) <type 354>\\n func (p <type 251>) .appendEnumOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendOneofOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendEnumValueOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendFileDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendDescriptorProto_ReservedRange (b <type 354>) <type 354>\\n func (p <type 251>) .appendOneofDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendFileOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendServiceDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendFieldDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendMethodDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendExtensionRangeOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendDescriptorProto_ExtensionRange (b <type 354>) <type 354>\\n func (p <type 251>) .appendSourceCodeInfo (b <type 354>) <type 354>\\n func (p <type 123>) String () <type -16>\\n func (p <type 251>) .appendUninterpretedOption (b <type 354>) <type 354>\\n func (p <type 251>) .appendMethodOptions (b <type 354>) <type 354>\\n func (p <type 251>) .appendDescriptorProto (b <type 354>) <type 354>\\n func (p <type 251>) .appendUninterpretedOption_NamePart (b <type 354>) <type 354>\\ntype 124 \\\22google.golang.org/protobuf/reflect/protoreflect.Syntax\\\22 <type 76>\\n func (s <type 124>) GoString () <type -16>\\n func (s <type 124>) String () <type -16>\\n func (s <type 124>) IsValid () <type -15>\\ntype 125 \\\22google.golang.org/protobuf/reflect/protoreflect.Value\\\22 <type 79>\\n func (v <type 125>) Bytes () <type 354>\\n func (v <type 125>) String () <type -16>\\n func (v <type 125>) Map () <type 105>\\n func (v <esc:0x1> <type 125>) IsValid () <type -15>\\n func (v <type 125>) List () <type 104>\\n func (v <type 125>) Uint () <type -8>\\n func (v <type 125>) Bool () <type -15>\\n func (v <type 125>) Int () <type -4>\\n func (v <type 125>) .getIface () (x <type 415>)\\n func (v <type 125>) MapKey () <type 106>\\n func (v <type 125>) .getBytes () (x <type 354>)\\n func (v <type 125>) .panicMessage (what <type -16>) <type -16>\\n func (v <type 125>) Enum () <type 85>\\n func (v <type 125>) .getString () (x <type -16>)\\n func (v <type 125>) Float () <type -10>\\n func (v <type 125>) Interface () <type 415>\\n func (v <type 125>) .typeName () <type -16>\\n func (v <type 125>) Message () <type 107>\\ntype 126 \\\22google.golang.org/protobuf/runtime/protoiface.CheckInitializedInput\\\22 = <type 307>\\ntype 127 \\\22google.golang.org/protobuf/runtime/protoiface.CheckInitializedOutput\\\22 = <type 298>\\ntype 128 \\\22google.golang.org/protobuf/runtime/protoiface.MarshalInput\\\22 = <type 308>\\ntype 129 \\\22google.golang.org/protobuf/runtime/protoiface.MarshalInputFlags\\\22 = <type -5>\\ntype 130 \\\22google.golang.org/protobuf/runtime/protoiface.MarshalOutput\\\22 = <type 300>\\ntype 131 \\\22google.golang.org/protobuf/runtime/protoiface.MergeInput\\\22 = <type 315>\\ntype 132 \\\22google.golang.org/protobuf/runtime/protoiface.MergeOutput\\\22 = <type 304>\\ntype 133 \\\22google.golang.org/protobuf/runtime/protoiface.MergeOutputFlags\\\22 = <type -5>\\ntype 134 \\\22google.golang.org/protobuf/runtime/protoiface.MessageV1\\\22 <type 405>\\ntype 135 \\\22google.golang.org/protobuf/runtime/protoiface.Methods\\\22 = <type 301>\\ntype 136 \\\22google.golang.org/protobuf/runtime/protoiface.SizeInput\\\22 = <type 313>\\ntype 137 \\\22google.golang.org/protobuf/runtime/protoiface.SizeOutput\\\22 = <type 314>\\ntype 138 \\\22google.golang.org/protobuf/runtime/protoiface.SupportFlags\\\22 = <type -8>\\ntype 139 \\\22google.golang.org/protobuf/runtime/protoiface.UnmarshalInput\\\22 = <type 310>\\ntype 140 \\\22google.golang.org/protobuf/runtime/protoiface.UnmarshalInputFlags\\\22 = <type -5>\\ntype 141 \\\22google.golang.org/protobuf/runtime/protoiface.UnmarshalOutput\\\22 = <type 305>\\ntype 142 \\\22google.golang.org/protobuf/runtime/protoiface.UnmarshalOutputFlags\\\22 = <type -5>\\ntype 143 \\\22google.golang.org/protobuf/runtime/protoimpl.MessageState\\\22 = <type 42>\\ntype 144 \\\22google.golang.org/protobuf/runtime/protoimpl.SizeCache\\\22 = <type 43>\\ntype 145 \\\22google.golang.org/protobuf/runtime/protoimpl.UnknownFields\\\22 = <type 44>\\ntype 146 \\\22google.golang.org/protobuf/types/known/timestamppb.Timestamp\\\22 <type 318>\\n func (x <esc:0x1> <type 252>) AsTime () <type 168>\\n func (x <esc:0x1> <type 252>) IsValid () <type -15>\\n func (x <type 252>) CheckValid () <type -19>\\n func (x <esc:0x1> <type 252>) GetSeconds () <type -4>\\n func (x <esc:0x1> <type 252>) .check () <type -12>\\n func (x <type 252>) String () <type -16>\\n func (? <esc:0x1> <type 252>) ProtoMessage ()\\n func (x <type 252>) Reset ()\\n func (? <esc:0x1> <type 252>) Descriptor () (? <type 354>, ? <type 342>)\\n func (x <type 252>) ProtoReflect () <type 107>\\n func (x <esc:0x1> <type 252>) GetNanos () <type -3>\\ntype 147 \\\22.reflect.flag\\\22 <type -13>\\n func (f <type 147>) .kind () ($ret98 <type 154>)\\n func (f <type 147>) .ro () ($ret99 <type 147>)\\n func (f <type 147>) .mustBe (expected <type 154>)\\n func (f <type 147>) .mustBeExported ()\\n func (f <type 147>) .mustBeAssignableSlow ()\\n func (f <type 147>) .mustBeExportedSlow ()\\n func (f <type 147>) .mustBeAssignable ()\\ntype 148 \\\22.reflect.hiter\\\22 <type 319>\\n func (h <esc:0x1> <type 258>) .initialized () <type -15>\\ntype 149 \\\22.reflect.method\\\22 <type 322>\\ntype 150 \\\22.reflect.rtype\\\22 <type 323>\\n func (t <esc:0x1> <type 259>) NumOut () <type -11>\\n func (t <esc:0x9> <type 259>) Implements (u <type 159>) <type -15>\\n func (t <esc:0x22> <type 259>) Key () <type 159>\\n func (t <esc:0x32> <type 259>) Field (i <type -11>) <type 157>\\n func (t <type 259>) FieldByNameFunc (match <esc:0x1> <type 197>) (? <type 157>, ? <type -15>)\\n func (t <esc:0x1> <type 259>) IsVariadic () <type -15>\\n func (t <esc:0x1> <type 259>) Align () <type -11>\\n func (t <esc:0x1> <type 259>) Kind () <type 154>\\n func (t <esc:0x22> <type 259>) Elem () <type 159>\\n func (t <esc:0x32> <type 259>) .rawString () <type -16>\\n func (t <type 259>) FieldByName (name <esc:0x1> <type -16>) (? <type 157>, ? <type -15>)\\n func (t <esc:0x9> <type 259>) NumMethod () <type -11>\\n func (t <esc:0x1> <type 259>) .pointers () <type -15>\\n func (t <esc:0x9> <type 259>) ConvertibleTo (u <esc:0x9> <type 159>) <type -15>\\n func (t <esc:0x32> <type 259>) Out (i <type -11>) <type 159>\\n func (t <esc:0x3a> <type 259>) Method (i <type -11>) (m <type 156>)\\n func (t <type 259>) FieldByIndex (index <esc:0x1> <type 342>) <type 157>\\n func (t <esc:0x3a> <type 259>) MethodByName (name <esc:0x1> <type -16>) (m <type 156>, ok <type -15>)\\n func (t <esc:0x1> <type 259>) NumIn () <type -11>\\n func (t <type 259>) .ptrTo () <type 259>\\n func (t <esc:0x9> <type 259>) AssignableTo (u <esc:0x9> <type 159>) <type -15>\\n func (t <esc:0x1> <type 259>) Comparable () <type -15>\\n func (t <esc:0x1> <type 259>) FieldAlign () <type -11>\\n func (t <esc:0x1> <type 259>) Size () <type -13>\\n func (t <esc:0x42> <type 259>) Name () <type -16>\\n func (t <esc:0x1> <type 259>) Bits () <type -11>\\n func (t <esc:0x9> <type 259>) .exportedMethods () <type 348>\\n func (t <esc:0x1> <type 259>) String () <type -16>\\n func (t <esc:0x12> <type 259>) .common () ($ret29 <type 259>)\\n func (t <esc:0x1> <type 259>) .hasName () <type -15>\\n func (t <esc:0x32> <type 259>) In (i <type -11>) <type 159>\\n func (t <esc:0x1> <type 259>) Len () <type -11>\\n func (t <esc:0x1> <type 259>) NumField () <type -11>\\n func (t <esc:0x22> <type 259>) .gcSlice (begin <type -13>, end <type -13>) <type 354>\\n func (t <esc:0x42> <type 259>) PkgPath () <type -16>\\n func (t <esc:0x1> <type 259>) ChanDir () <type 153>\\ntype 151 \\\22.reflect.tflag\\\22 <type -5>\\ntype 152 \\\22.reflect.uncommonType\\\22 <type 321>\\n func (t <esc:0x12> <type 260>) .uncommon () ($ret17 <type 260>)\\n func (t <type 260>) .exportedMethods () <type 348>\\n func (t <esc:0x32> <type 260>) PkgPath () <type -16>\\n func (t <esc:0x32> <type 260>) Name () <type -16>\\ntype 153 \\\22reflect.ChanDir\\\22 <type -11>\\n func (d <type 153>) String () <type -16>\\ntype 154 \\\22reflect.Kind\\\22 <type -12>\\n func (k <type 154>) String () <type -16>\\ntype 155 \\\22reflect.MapIter\\\22 <type 320>\\n func (iter <esc:0x9> <type 257>) Key () <type 160>\\n func (iter <esc:0x1> <type 257>) Next () <type -15>\\n func (iter <esc:0x9> <type 257>) Value () <type 160>\\n func (iter <esc:0x1> <type 257>) Reset (v <type 160>)\\ntype 156 \\\22reflect.Method\\\22 <type 272>\\n func (m <esc:0x1> <type 156>) IsExported () <type -15>\\ntype 157 \\\22reflect.StructField\\\22 <type 273>\\n func (f <esc:0x1> <type 157>) IsExported () <type -15>\\ntype 158 \\\22reflect.StructTag\\\22 <type -16>\\n func (tag <esc:0x12> <type 158>) Get (key <esc:0x1> <type -16>) <type -16>\\n func (tag <esc:0x12> <type 158>) Lookup (key <esc:0x1> <type -16>) (value <type -16>, ok <type -15>)\\ntype 159 \\\22reflect.Type\\\22 <type 367>\\ntype 160 \\\22reflect.Value\\\22 <type 324>\\n func (v <esc:0x1> <type 160>) SetBool (x <type -15>)\\n func (v <esc:0x1> <type 160>) SetComplex (x <type -18>)\\n func (v <esc:0x9> <type 160>) Send (x <type 160>)\\n func (v <type 160>) .call (op <esc:0x1> <type -16>, in <esc:0x9> <type 347>) <type 347>\\n func (v <type 160>) FieldByNameFunc (match <esc:0x1> <type 197>) <type 160>\\n func (v <type 160>) Recv () (x <type 160>, ok <type -15>)\\n func (v <type 160>) .recv (nb <type -15>) (val <type 160>, ok <type -15>)\\n func (v <esc:0x1> <type 160>) OverflowUint (x <type -8>) <type -15>\\n func (v <esc:0x9> <type 160>) .setRunes (x <type 344>)\\n func (v <esc:0x1> <type 160>) OverflowFloat (x <type -10>) <type -15>\\n func (v <esc:0x12> <type 160>) Pointer () <type -13>\\n func (v <esc:0x1> <type 160>) OverflowInt (x <type -4>) <type -15>\\n func (v <esc:0x1> <type 160>) NumField () <type -11>\\n func (v <esc:0x1a> <type 160>) MethodByName (name <esc:0x1> <type -16>) <type 160>\\n func (v <type 160>) MapRange () <type 257>\\n func (v <type 160>) SetIterValue (iter <esc:0x9> <type 257>)\\n func (v <type 160>) String () <type -16>\\n func (v <type 160>) FieldByName (name <esc:0x1> <type -16>) <type 160>\\n func (v <esc:0x12> <type 160>) Field (i <type -11>) <type 160>\\n func (v <esc:0x1> <type 160>) OverflowComplex (x <type -18>) <type -15>\\n func (v <esc:0x1a> <type 160>) FieldByIndexErr (index <esc:0x1> <type 342>) (? <type 160>, ? <type -19>)\\n func (v <type 160>) Slice (i <type -11>, j <type -11>) <type 160>\\n func (v <esc:0x1> <type 160>) CanFloat () <type -15>\\n func (v <esc:0x9> <type 160>) SetBytes (x <type 354>)\\n func (v <esc:0x1> <type 160>) CanInt () <type -15>\\n func (v <esc:0x1> <type 160>) CanAddr () <type -15>\\n func (v <esc:0x1> <type 160>) SetLen (n <type -11>)\\n func (v <esc:0x1> <type 160>) SetInt (x <type -4>)\\n func (v <esc:0x1> <type 160>) InterfaceData () <type 334>\\n func (v <type 160>) Convert (t <type 159>) <type 160>\\n func (v <esc:0x1a> <type 160>) Elem () <type 160>\\n func (v <esc:0x2a> <type 160>) Bytes () <type 354>\\n func (v <esc:0x9> <type 160>) MapIndex (key <type 160>) <type 160>\\n func (v <type 160>) .assignTo (context <esc:0x1> <type -16>, dst <type 259>, target <type 170>) <type 160>\\n func (v <esc:0x1> <type 160>) SetFloat (x <type -10>)\\n func (v <esc:0x12> <type 160>) Index (i <type -11>) <type 160>\\n func (v <esc:0x1> <type 160>) Int () <type -4>\\n func (v <type 160>) CanConvert (t <type 159>) <type -15>\\n func (v <esc:0x12> <type 160>) UnsafePointer () <type 170>\\n func (v <esc:0x9> <type 160>) SetMapIndex (key <type 160>, elem <type 160>)\\n func (v <esc:0x1> <type 160>) Uint () <type -8>\\n func (v <esc:0x1> <type 160>) SetCap (n <type -11>)\\n func (v <esc:0x1> <type 160>) IsNil () <type -15>\\n func (v <esc:0x12> <type 160>) UnsafeAddr () <type -13>\\n func (v <type 160>) Set (x <type 160>)\\n func (v <esc:0x1> <type 160>) IsValid () <type -15>\\n func (v <esc:0x1> <type 160>) SetUint (x <type -8>)\\n func (v <esc:0x1> <type 160>) CanUint () <type -15>\\n func (v <type 160>) Interface () (i <type 161>)\\n func (v <esc:0x9> <type 160>) MapKeys () <type 347>\\n func (v <esc:0x9> <type 160>) TrySend (x <type 160>) <type -15>\\n func (v <type 160>) Slice3 (i <type -11>, j <type -11>, k <type -11>) <type 160>\\n func (v <esc:0x1> <type 160>) Float () <type -10>\\n func (v <esc:0x1> <type 160>) Kind () <type 154>\\n func (v <esc:0x1> <type 160>) SetString (x <type -16>)\\n func (v <esc:0x1> <type 160>) Complex () <type -18>\\n func (v <esc:0x12> <type 160>) .pointer () <type 170>\\n func (v <esc:0x2a> <type 160>) .runes () <type 344>\\n func (v <type 160>) Close ()\\n func (v <esc:0x9> <type 160>) .send (x <type 160>, nb <type -15>) (selected <type -15>)\\n func (v <type 160>) Addr () <type 160>\\n func (v <type 160>) TryRecv () (x <type 160>, ok <type -15>)\\n func (v <esc:0x1> <type 160>) Bool () <type -15>\\n func (v <type 160>) Call (in <esc:0x9> <type 347>) <type 347>\\n func (v <esc:0x1> <type 160>) CanSet () <type -15>\\n func (v <esc:0x1> <type 160>) CanInterface () <type -15>\\n func (v <type 160>) Cap () <type -11>\\n func (v <esc:0x1a> <type 160>) FieldByIndex (index <esc:0x1> <type 342>) <type 160>\\n func (v <type 160>) CallSlice (in <esc:0x9> <type 347>) <type 347>\\n func (v <type 160>) Len () <type -11>\\n func (v <esc:0x1> <type 160>) SetPointer (x <type 170>)\\n func (v <esc:0x1> <type 160>) CanComplex () <type -15>\\n func (v <esc:0x1a> <type 160>) Method (i <type -11>) <type 160>\\n func (v <type 160>) IsZero () <type -15>\\n func (v <type 160>) SetIterKey (iter <esc:0x9> <type 257>)\\n func (v <esc:0x9> <type 160>) NumMethod () <type -11>\\n func (v <esc:0x1a> <type 160>) Type () <type 159>\\ntype 161 \\\22reflect.any\\\22 = <type 415>\\ntype 162 \\\22sync.Mutex\\\22 <type 325>\\n func (m <type 262>) Lock ()\\n func (m <type 262>) TryLock () <type -15>\\n func (m <type 262>) .lockSlow ()\\n func (m <type 262>) Unlock ()\\n func (m <type 262>) .unlockSlow (new <type -3>)\\ntype 163 \\\22.time.zone\\\22 <type 326>\\ntype 164 \\\22.time.zoneTrans\\\22 <type 329>\\ntype 165 \\\22time.Duration\\\22 <type -4>\\n func (d <type 165>) String () <type -16>\\n func (d <type 165>) Nanoseconds () ($ret73 <type -4>)\\n func (d <type 165>) Seconds () ($ret76 <type -10>)\\n func (d <type 165>) Microseconds () ($ret74 <type -4>)\\n func (d <type 165>) Milliseconds () ($ret75 <type -4>)\\n func (d <type 165>) Hours () ($ret78 <type -10>)\\n func (d <type 165>) Truncate (m <type 165>) ($ret79 <type 165>)\\n func (d <type 165>) Minutes () ($ret77 <type -10>)\\n func (d <type 165>) Round (m <type 165>) <type 165>\\ntype 166 \\\22time.Location\\\22 <type 327>\\n func (l <esc:0x12> <type 263>) .get () <type 263>\\n func (l <esc:0x22> <type 263>) String () <type -16>\\n func (l <esc:0x22> <type 263>) .lookup (sec <type -4>) (name <type -16>, offset <type -11>, start <type -4>, end <type -4>, isDST <type -15>)\\n func (l <esc:0x1> <type 263>) .lookupFirstZone () <type -11>\\n func (l <esc:0x1> <type 263>) .firstZoneUsed () <type -15>\\n func (l <esc:0x1> <type 263>) .lookupName (name <esc:0x1> <type -16>, unix <type -4>) (offset <type -11>, ok <type -15>)\\ntype 167 \\\22time.Month\\\22 <type -11>\\n func (m <type 167>) String () <type -16>\\ntype 168 \\\22time.Time\\\22 <type 328>\\n func (t <type 168>) AddDate (years <type -11>, months <type -11>, days <type -11>) <type 168>\\n func (t <esc:0x1> <type 168>) .date (full <type -15>) (year <type -11>, month <type 167>, day <type -11>, yday <type -11>)\\n func (t <esc:0x1> <type 168>) IsDST () <type -15>\\n func (t <esc:0x1> <type 168>) MarshalJSON () (? <type 354>, ? <type -19>)\\n func (t <esc:0x1> <type 168>) Format (layout <esc:0x1> <type -16>) <type -16>\\n func (t <esc:0x12> <type 168>) Add (d <type 165>) <type 168>\\n func (t <esc:0x1> <type 168>) Before (u <esc:0x1> <type 168>) <type -15>\\n func (t <esc:0x1> <type 168>) GoString () <type -16>\\n func (t <esc:0x1> <type 168>) String () <type -16>\\n func (t <esc:0x1> <type 168>) Sub (u <esc:0x1> <type 168>) <type 165>\\n func (t <esc:0x22> <type 168>) .locabs () (name <type -16>, offset <type -11>, abs <type -8>)\\n func (t <esc:0x1> <type 168>) Equal (u <esc:0x1> <type 168>) <type -15>\\n func (t <esc:0x1> <type 168>) Nanosecond () <type -11>\\n func (t <esc:0x12> <type 168>) In (loc <type 263>) <type 168>\\n func (t <esc:0x12> <type 168>) UTC () <type 168>\\n func (t <esc:0x1> <type 168>) IsZero () <type -15>\\n func (t <esc:0x1> <type 168>) Weekday () <type 169>\\n func (t <esc:0x1> <type 168>) Date () (year <type -11>, month <type 167>, day <type -11>)\\n func (t <esc:0x1> <type 168>) UnixMilli () <type -4>\\n func (t <esc:0x1> <type 168>) Year () <type -11>\\n func (t <esc:0x1> <type 264>) .addSec (d <type -4>)\\n func (t <esc:0x1> <type 264>) UnmarshalJSON (data <esc:0x1> <type 354>) <type -19>\\n func (t <esc:0x1> <type 168>) Second () <type -11>\\n func (t <esc:0x1> <type 264>) .nsec () <type -3>\\n func (t <esc:0x1> <type 264>) .unixSec () <type -4>\\n func (t <esc:0x1> <type 168>) MarshalBinary () (? <type 354>, ? <type -19>)\\n func (t <esc:0x1> <type 168>) Clock () (hour <type -11>, min <type -11>, sec <type -11>)\\n func (t <esc:0x22> <type 168>) Zone () (name <type -16>, offset <type -11>)\\n func (t <esc:0x1> <type 264>) .setLoc (loc <type 263>)\\n func (t <esc:0x1> <type 168>) Day () <type -11>\\n func (t <esc:0x1> <type 264>) GobDecode (data <esc:0x1> <type 354>) <type -19>\\n func (t <esc:0x1> <type 168>) After (u <esc:0x1> <type 168>) <type -15>\\n func (t <esc:0x1> <type 168>) UnixNano () <type -4>\\n func (t <esc:0x1> <type 264>) .setMono (m <type -4>)\\n func (t <esc:0x1> <type 168>) Minute () <type -11>\\n func (t <esc:0x1> <type 168>) AppendFormat (b <esc:0x12> <type 354>, layout <esc:0x1> <type -16>) <type 354>\\n func (t <esc:0x1> <type 168>) MarshalText () (? <type 354>, ? <type -19>)\\n func (t <esc:0x1> <type 264>) .stripMono ()\\n func (t <esc:0x12> <type 168>) Round (d <type 165>) <type 168>\\n func (t <esc:0x12> <type 168>) Truncate (d <type 165>) <type 168>\\n func (t <esc:0x1> <type 264>) UnmarshalText (data <esc:0x1> <type 354>) <type -19>\\n func (t <esc:0x1> <type 264>) UnmarshalBinary (data <esc:0x1> <type 354>) <type -19>\\n func (t <esc:0x1> <type 168>) Unix () <type -4>\\n func (t <esc:0x1> <type 168>) YearDay () <type -11>\\n func (t <esc:0x1> <type 264>) .mono () <type -4>\\n func (t <esc:0x1> <type 168>) UnixMicro () <type -4>\\n func (t <esc:0x12> <type 168>) Local () <type 168>\\n func (t <esc:0x1> <type 264>) .sec () <type -4>\\n func (t <esc:0x1> <type 168>) Hour () <type -11>\\n func (t <esc:0x1> <type 168>) .abs () <type -8>\\n func (t <esc:0x1> <type 168>) ISOWeek () (year <type -11>, week <type -11>)\\n func (t <esc:0x1> <type 168>) GobEncode () (? <type 354>, ? <type -19>)\\n func (t <esc:0x1> <type 168>) Month () <type 167>\\n func (t <esc:0x12> <type 168>) Location () <type 263>\\ntype 169 \\\22time.Weekday\\\22 <type -11>\\n func (d <type 169>) String () <type -16>\\ntype 170 \\\22unsafe.Pointer\\\22 <type 269>\\ntype 171 (? <type 251>, ? <type 354>) <type 354>\\ntype 172 (? <type 354>, ? <type 29>, ? <type 243>, ? <type 23>) (? <type 354>, ? <type -19>)\\ntype 173 (? <type 354>, ? <type 29>, ? <type 14>, ? <type 243>, ? <type 34>) (? <type 35>, ? <type -19>)\\ntype 174 (? <type 354>, ? <type 125>, ? <type 13>, ? <type 14>, ? <type 34>) (? <type 125>, ? <type 35>, ? <type -19>)\\ntype 175 (? <type 354>, ? <type 125>, ? <type -8>, ? <type 23>) (? <type 354>, ? <type -19>)\\ntype 176 ()\\ntype 177 () <type 107>\\ntype 178 () <type 125>\\ntype 179 (? <type 29>, ? <type 243>, ? <type 23>) <type -11>\\ntype 180 (? <type 29>, ? <type 243>) <type -19>\\ntype 181 (? <type 29>, ? <type 29>, ? <type 243>, ? <type 24>)\\ntype 182 (? <type 29>, ? <type 118>)\\ntype 183 (? <type 29>, ? <type 125>)\\ntype 184 (? <type 29>) <type 245>\\ntype 185 (? <type 29>)\\ntype 186 (? <type 29>) <type -15>\\ntype 187 (? <type 29>) <type 96>\\ntype 188 (? <type 29>) <type 118>\\ntype 189 (? <type 29>) <type 125>\\ntype 190 (? <type 94>, ? <type 125>) <type -15>\\ntype 191 (? <type 106>, ? <type 125>) <type -15>\\ntype 192 (? <type 125>, ? <type 125>, ? <type 24>) <type 125>\\ntype 193 (? <type 125>, ? <type -11>, ? <type 23>) <type -11>\\ntype 194 (? <type 125>) <type -19>\\ntype 195 (? <type 415>, ? <type -11>) <type 415>\\ntype 196 (? <type -16>)\\ntype 197 (? <type -16>) <type -15>\\ntype 198 (? <type 126>) (? <type 127>, ? <type -19>)\\ntype 199 (? <type 56>) (? <type 57>, ? <type -19>)\\ntype 200 (? <type 128>) (? <type 130>, ? <type -19>)\\ntype 201 (? <type 68>) (? <type 69>, ? <type -19>)\\ntype 202 (? <type 77>) (? <type 78>, ? <type -19>)\\ntype 203 (? <type 139>) (? <type 141>, ? <type -19>)\\ntype 204 (? <type 73>) <type 74>\\ntype 205 (? <type 136>) <type 137>\\ntype 206 (? <type 70>) <type 71>\\ntype 207 (? <type 131>) <type 132>\\ntype 208 (? <type 170>, ? <type 170>) <type -15>\\ntype 209 *<type -15>\\ntype 210 *<type -9>\\ntype 211 *<type -10>\\ntype 212 *<type 230>\\ntype 213 *<type 209>\\ntype 214 *<type 210>\\ntype 215 *<type 211>\\ntype 216 *<type 254>\\ntype 217 *<type 255>\\ntype 218 *<type 261>\\ntype 219 *<type 266>\\ntype 220 *<type 267>\\ntype 221 *<type 337>\\ntype 222 *<type 338>\\ntype 223 *<type 339>\\ntype 224 *<type 340>\\ntype 225 *<type 343>\\ntype 226 *<type 345>\\ntype 227 *<type 349>\\ntype 228 *<type 352>\\ntype 229 *<type 353>\\ntype 230 *<type 354>\\ntype 231 *<type 355>\\ntype 232 *<type 363>\\ntype 233 *<type 72>\\ntype 234 *<type 135>\\ntype 235 *<type 8>\\ntype 236 *<type 9>\\ntype 237 *<type 10>\\ntype 238 *<type 11>\\ntype 239 *<type 12>\\ntype 240 *<type 40>\\ntype 241 *<type 41>\\ntype 242 *<type 15>\\ntype 243 *<type 16>\\ntype 244 *<type 19>\\ntype 245 *<type 20>\\ntype 246 *<type 21>\\ntype 247 *<type 22>\\ntype 248 *<type 26>\\ntype 249 *<type 28>\\ntype 250 *<type 39>\\ntype 251 *<type 123>\\ntype 252 *<type 146>\\ntype 253 *<type 3>\\ntype 254 *<type -3>\\ntype 255 *<type -4>\\ntype 256 *<type 1>\\ntype 257 *<type 155>\\ntype 258 *<type 148>\\ntype 259 *<type 150>\\ntype 260 *<type 152>\\ntype 261 *<type -16>\\ntype 262 *<type 162>\\ntype 263 *<type 166>\\ntype 264 *<type 168>\\ntype 265 *<type 163>\\ntype 266 *<type -7>\\ntype 267 *<type -8>\\ntype 268 *<type -20>\\ntype 269 *any\\ntype 270 struct { FetchedRecordsCount <type -3> \\\22protobuf:\\\\\\\22varint,1,opt,name=fetched_records_count,json=fetchedRecordsCount,proto3\\\\\\\22 json:\\\\\\\22fetched_records_count,omitempty\\\\\\\22\\\22; Bookmark <type -16> \\\22protobuf:\\\\\\\22bytes,2,opt,name=bookmark,proto3\\\\\\\22 json:\\\\\\\22bookmark,omitempty\\\\\\\22\\\22; XXX_NoUnkeyedLiteral <type 279> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_unrecognized <type 354> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_sizecache <type -3> \\\22json:\\\\\\\22-\\\\\\\22\\\22; }\\ntype 271 struct { GoReflectType <type 159>; Desc <type 108>; Exporter <type 18>; OneofWrappers <type 346>; .google.golang.org/protobuf/internal/impl.initMu <type 162>; .google.golang.org/protobuf/internal/impl.initDone <type -7>; ? <type 31>; ? <type 17>; }\\ntype 272 struct { Name <type -16>; PkgPath <type -16>; Type <type 159>; Func <type 160>; Index <type -11>; }\\ntype 273 struct { Name <type -16>; PkgPath <type -16>; Type <type 159>; Tag <type 158>; Offset <type -13>; Index <type 342>; Anonymous <type -15>; }\\ntype 274 struct { Namespace <type -16> \\\22protobuf:\\\\\\\22bytes,1,opt,name=namespace,proto3\\\\\\\22 json:\\\\\\\22namespace,omitempty\\\\\\\22\\\22; Key <type -16> \\\22protobuf:\\\\\\\22bytes,2,opt,name=key,proto3\\\\\\\22 json:\\\\\\\22key,omitempty\\\\\\\22\\\22; Value <type 354> \\\22protobuf:\\\\\\\22bytes,3,opt,name=value,proto3\\\\\\\22 json:\\\\\\\22value,omitempty\\\\\\\22\\\22; XXX_NoUnkeyedLiteral <type 279> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_unrecognized <type 354> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_sizecache <type -3> \\\22json:\\\\\\\22-\\\\\\\22\\\22; }\\ntype 275 struct { Path <type 123>; StartLine <type -11>; StartColumn <type -11>; EndLine <type -11>; EndColumn <type -11>; LeadingDetachedComments <type 349>; LeadingComments <type -16>; TrailingComments <type -16>; Next <type -11>; }\\ntype 276 struct { ProposalBytes <type 354> \\\22protobuf:\\\\\\\22bytes,1,opt,name=proposal_bytes,json=proposalBytes,proto3\\\\\\\22 json:\\\\\\\22proposal_bytes,omitempty\\\\\\\22\\\22; Signature <type 354> \\\22protobuf:\\\\\\\22bytes,2,opt,name=signature,proto3\\\\\\\22 json:\\\\\\\22signature,omitempty\\\\\\\22\\\22; XXX_NoUnkeyedLiteral <type 279> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_unrecognized <type 354> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_sizecache <type -3> \\\22json:\\\\\\\22-\\\\\\\22\\\22; }\\ntype 277 struct { Status <type -3> \\\22protobuf:\\\\\\\22varint,1,opt,name=status,proto3\\\\\\\22 json:\\\\\\\22status,omitempty\\\\\\\22\\\22; Message <type -16> \\\22protobuf:\\\\\\\22bytes,2,opt,name=message,proto3\\\\\\\22 json:\\\\\\\22message,omitempty\\\\\\\22\\\22; Payload <type 354> \\\22protobuf:\\\\\\\22bytes,3,opt,name=payload,proto3\\\\\\\22 json:\\\\\\\22payload,omitempty\\\\\\\22\\\22; XXX_NoUnkeyedLiteral <type 279> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_unrecognized <type 354> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_sizecache <type -3> \\\22json:\\\\\\\22-\\\\\\\22\\\22; }\\ntype 278 struct { TxId <type -16> \\\22protobuf:\\\\\\\22bytes,1,opt,name=tx_id,json=txId,proto3\\\\\\\22 json:\\\\\\\22tx_id,omitempty\\\\\\\22\\\22; Value <type 354> \\\22protobuf:\\\\\\\22bytes,2,opt,name=value,proto3\\\\\\\22 json:\\\\\\\22value,omitempty\\\\\\\22\\\22; Timestamp <type 253> \\\22protobuf:\\\\\\\22bytes,3,opt,name=timestamp,proto3\\\\\\\22 json:\\\\\\\22timestamp,omitempty\\\\\\\22\\\22; IsDelete <type -15> \\\22protobuf:\\\\\\\22varint,4,opt,name=is_delete,json=isDelete,proto3\\\\\\\22 json:\\\\\\\22is_delete,omitempty\\\\\\\22\\\22; XXX_NoUnkeyedLiteral <type 279> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_unrecognized <type 354> \\\22json:\\\\\\\22-\\\\\\\22\\\22; XXX_sizecache <type -3> \\\22json:\\\\\\\22-\\\\\\\22\\\22; }\\ntype 279 struct { }\\ntype 280 struct { .google.golang.org/protobuf/internal/impl.atomicOnce <type -7>; .google.golang.org/protobuf/internal/impl.mu <type 162>; .google.golang.org/protobuf/internal/impl.xi <type 244>; .google.golang.org/protobuf/internal/impl.value <type 125>; .google.golang.org/protobuf/internal/impl.b <type 354>; .google.golang.org/protobuf/internal/impl.fn <type 178>; }\\ntype 281 struct { .google.golang.org/protobuf/internal/impl.fieldDesc <type 94>; .google.golang.org/protobuf/internal/impl.has <type 186>; .google.golang.org/protobuf/internal/impl.clear <type 185>; .google.golang.org/protobuf/internal/impl.get <type 189>; .google.golang.org/protobuf/internal/impl.set <type 183>; .google.golang.org/protobuf/internal/impl.mutable <type 189>; .google.golang.org/protobuf/internal/impl.newMessage <type 177>; .google.golang.org/protobuf/internal/impl.newField <type 178>; }\\ntype 282 struct { .google.golang.org/protobuf/internal/impl.fields <type 357>; .google.golang.org/protobuf/internal/impl.oneofs <type 361>; .google.golang.org/protobuf/internal/impl.fieldTypes <type 358>; .google.golang.org/protobuf/internal/impl.denseFields <type 336>; .google.golang.org/protobuf/internal/impl.rangeInfos <type 346>; .google.golang.org/protobuf/internal/impl.getUnknown <type 188>; .google.golang.org/protobuf/internal/impl.setUnknown <type 182>; .google.golang.org/protobuf/internal/impl.extensionMap <type 184>; .google.golang.org/protobuf/internal/impl.nilMessage <type 15>; }\\ntype 283 struct { .google.golang.org/protobuf/internal/impl.flags <type 129>; }\\ntype 284 struct { .google.golang.org/protobuf/internal/impl.flags <type 140>; .google.golang.org/protobuf/internal/impl.resolver <type 392>; .google.golang.org/protobuf/internal/impl.depth <type -11>; }\\ntype 285 struct { .google.golang.org/protobuf/internal/impl.funcs <type 30>; .google.golang.org/protobuf/internal/impl.mi <type 241>; .google.golang.org/protobuf/internal/impl.ft <type 159>; .google.golang.org/protobuf/internal/impl.validation <type 36>; .google.golang.org/protobuf/internal/impl.num <type 96>; .google.golang.org/protobuf/internal/impl.offset <type 27>; .google.golang.org/protobuf/internal/impl.wiretag <type -8>; .google.golang.org/protobuf/internal/impl.tagsize <type -11>; .google.golang.org/protobuf/internal/impl.isPointer <type -15>; .google.golang.org/protobuf/internal/impl.isRequired <type -15>; }\\ntype 286 struct { .google.golang.org/protobuf/internal/impl.methods <type 135>; .google.golang.org/protobuf/internal/impl.orderedCoderFields <type 335>; .google.golang.org/protobuf/internal/impl.denseCoderFields <type 335>; .google.golang.org/protobuf/internal/impl.coderFields <type 356>; .google.golang.org/protobuf/internal/impl.sizecacheOffset <type 27>; .google.golang.org/protobuf/internal/impl.unknownOffset <type 27>; .google.golang.org/protobuf/internal/impl.unknownPtrKind <type -15>; .google.golang.org/protobuf/internal/impl.extensionOffset <type 27>; .google.golang.org/protobuf/internal/impl.needsInitCheck <type -15>; .google.golang.org/protobuf/internal/impl.isMessageSet <type -15>; .google.golang.org/protobuf/internal/impl.numRequiredFields <type -5>; }\\ntype 287 struct { .google.golang.org/protobuf/internal/impl.mi <type 241>; .google.golang.org/protobuf/internal/impl.size <type 179>; .google.golang.org/protobuf/internal/impl.marshal <type 172>; .google.golang.org/protobuf/internal/impl.unmarshal <type 173>; .google.golang.org/protobuf/internal/impl.isInit <type 180>; .google.golang.org/protobuf/internal/impl.merge <type 181>; }\\ntype 288 struct { .google.golang.org/protobuf/internal/impl.mi <type 241>; .google.golang.org/protobuf/internal/impl.typ <type 37>; .google.golang.org/protobuf/internal/impl.keyType <type 37>; .google.golang.org/protobuf/internal/impl.valType <type 37>; .google.golang.org/protobuf/internal/impl.requiredBit <type -8>; }\\ntype 289 struct { .google.golang.org/protobuf/internal/impl.n <type -11>; .google.golang.org/protobuf/internal/impl.initialized <type -15>; }\\ntype 290 struct { .google.golang.org/protobuf/internal/impl.oneofDesc <type 115>; .google.golang.org/protobuf/internal/impl.which <type 187>; }\\ntype 291 struct { .google.golang.org/protobuf/internal/impl.p <type 29>; .google.golang.org/protobuf/internal/impl.mi <type 241>; }\\ntype 292 struct { .google.golang.org/protobuf/internal/impl.p <type 170>; }\\ntype 293 struct { .google.golang.org/protobuf/internal/impl.size <type 193>; .google.golang.org/protobuf/internal/impl.marshal <type 175>; .google.golang.org/protobuf/internal/impl.unmarshal <type 174>; .google.golang.org/protobuf/internal/impl.isInit <type 194>; .google.golang.org/protobuf/internal/impl.merge <type 192>; }\\ntype 294 struct { .google.golang.org/protobuf/internal/impl.sizecacheOffset <type 27>; .google.golang.org/protobuf/internal/impl.sizecacheType <type 159>; .google.golang.org/protobuf/internal/impl.weakOffset <type 27>; .google.golang.org/protobuf/internal/impl.weakType <type 159>; .google.golang.org/protobuf/internal/impl.unknownOffset <type 27>; .google.golang.org/protobuf/internal/impl.unknownType <type 159>; .google.golang.org/protobuf/internal/impl.extensionOffset <type 27>; .google.golang.org/protobuf/internal/impl.extensionType <type 159>; .google.golang.org/protobuf/internal/impl.fieldsByNumber <type 359>; .google.golang.org/protobuf/internal/impl.oneofsByName <type 362>; .google.golang.org/protobuf/internal/impl.oneofWrappersByType <type 365>; .google.golang.org/protobuf/internal/impl.oneofWrappersByNumber <type 360>; }\\ntype 295 struct { .google.golang.org/protobuf/internal/impl.typ <type 92>; .google.golang.org/protobuf/internal/impl.value <type 125>; .google.golang.org/protobuf/internal/impl.lazy <type 247>; }\\ntype 296 struct { .google.golang.org/protobuf/internal/impl.wiretag <type -8>; .google.golang.org/protobuf/internal/impl.tagsize <type -11>; .google.golang.org/protobuf/internal/impl.unmarshalNeedsValue <type -15>; .google.golang.org/protobuf/internal/impl.funcs <type 38>; .google.golang.org/protobuf/internal/impl.validation <type 36>; }\\ntype 297 struct { ? <type 47>; .google.golang.org/protobuf/reflect/protoreflect.typ <type 170>; .google.golang.org/protobuf/reflect/protoreflect.ptr <type 170>; .google.golang.org/protobuf/reflect/protoreflect.num <type -8>; }\\ntype 298 struct { ? <type 50>; }\\ntype 299 struct { ? <type 50>; AllowPartial <type -15>; Deterministic <type -15>; UseCachedSize <type -15>; }\\ntype 300 struct { ? <type 50>; Buf <type 354>; }\\ntype 301 struct { ? <type 50>; Flags <type 138>; Size <type 205>; Marshal <type 200>; Unmarshal <type 203>; Merge <type 207>; CheckInitialized <type 198>; }\\ntype 302 struct { ? <type 50>; Flags <type 75>; Size <type 204>; Marshal <type 201>; Unmarshal <type 202>; Merge <type 206>; CheckInitialized <type 199>; }\\ntype 303 struct { ? <type 50>; Flags <type -5>; }\\ntype 304 struct { ? <type 50>; Flags <type 133>; }\\ntype 305 struct { ? <type 50>; Flags <type 142>; }\\ntype 306 struct { ? <type 50>; Merge <type -15>; AllowPartial <type -15>; DiscardUnknown <type -15>; Resolver <type 392>; RecursionLimit <type -11>; }\\ntype 307 struct { ? <type 50>; Message <type 107>; }\\ntype 308 struct { ? <type 50>; Message <type 107>; Buf <type 354>; Flags <type 129>; }\\ntype 309 struct { ? <type 50>; Message <type 107>; Buf <type 354>; Flags <type -5>; }\\ntype 310 struct { ? <type 50>; Message <type 107>; Buf <type 354>; Flags <type 140>; Resolver <type 392>; Depth <type -11>; }\\ntype 311 struct { ? <type 50>; Message <type 107>; Buf <type 354>; Flags <type -5>; Resolver <type 392>; Depth <type -11>; }\\ntype 312 struct { ? <type 50>; Message <type 107>; Flags <type -5>; }\\ntype 313 struct { ? <type 50>; Message <type 107>; Flags <type 129>; }\\ntype 314 struct { ? <type 50>; Size <type -11>; }\\ntype 315 struct { ? <type 50>; Source <type 107>; Destination <type 107>; }\\ntype 316 struct { ? <type 50>; ? <type 47>; ? <type 48>; .google.golang.org/protobuf/internal/impl.atomicMessageInfo <type 241>; }\\ntype 317 struct { ? <type 99>; IsPublic <type -15>; IsWeak <type -15>; }\\ntype 318 struct { .google.golang.org/protobuf/types/known/timestamppb.state <type 143>; .google.golang.org/protobuf/types/known/timestamppb.sizeCache <type 144>; .google.golang.org/protobuf/types/known/timestamppb.unknownFields <type 145>; Seconds <type -4> \\\22protobuf:\\\\\\\22varint,1,opt,name=seconds,proto3\\\\\\\22 json:\\\\\\\22seconds,omitempty\\\\\\\22\\\22; Nanos <type -3> \\\22protobuf:\\\\\\\22varint,2,opt,name=nanos,proto3\\\\\\\22 json:\\\\\\\22nanos,omitempty\\\\\\\22\\\22; }\\ntype 319 struct { .reflect.key <type 170>; .reflect.elem <type 170>; .reflect.t <type 170>; .reflect.h <type 170>; .reflect.buckets <type 170>; .reflect.bptr <type 170>; .reflect.overflow <type 231>; .reflect.oldoverflow <type 231>; .reflect.startBucket <type -13>; .reflect.offset <type -5>; .reflect.wrapped <type -15>; B <type -5>; .reflect.i <type -5>; .reflect.bucket <type -13>; .reflect.checkBucket <type -13>; }\\ntype 320 struct { .reflect.m <type 160>; .reflect.hiter <type 148>; }\\ntype 321 struct { .reflect.name <type 261>; .reflect.pkgPath <type 261>; .reflect.methods <type 348>; }\\ntype 322 struct { .reflect.name <type 261>; .reflect.pkgPath <type 261>; .reflect.mtyp <type 259>; .reflect.typ <type 259>; .reflect.tfn <type 170>; }\\ntype 323 struct { .reflect.size <type -13>; .reflect.ptrdata <type -13>; .reflect.hash <type -7>; .reflect.tflag <type 151>; .reflect.align <type -5>; .reflect.fieldAlign <type -5>; .reflect.kind <type -5>; .reflect.equal <type 208>; .reflect.gcdata <type 268>; .reflect.string <type 261>; ? <type 260>; .reflect.ptrToThis <type 259>; }\\ntype 324 struct { .reflect.typ <type 259>; .reflect.ptr <type 170>; ? <type 147>; }\\ntype 325 struct { .sync.state <type -3>; .sync.sema <type -7>; }\\ntype 326 struct { .time.name <type -16>; .time.offset <type -11>; .time.isDST <type -15>; }\\ntype 327 struct { .time.name <type -16>; .time.zone <type 350>; .time.tx <type 351>; .time.extend <type -16>; .time.cacheStart <type -4>; .time.cacheEnd <type -4>; .time.cacheZone <type 265>; }\\ntype 328 struct { .time.wall <type -8>; .time.ext <type -4>; .time.loc <type 263>; }\\ntype 329 struct { .time.when <type -4>; .time.index <type -5>; .time.isstd <type -15>; .time.isutc <type -15>; }\\ntype 330 [0 ] <type 176>\\ntype 331 [0 ] <type 162>\\ntype 332 [2 ] <type 96>\\ntype 333 [2 ] <type 85>\\ntype 334 [2 ] <type -13>\\ntype 335 [] <type 243>\\ntype 336 [] <type 246>\\ntype 337 [] <type 354>\\ntype 338 [] <type -15>\\ntype 339 [] <type -9>\\ntype 340 [] <type -10>\\ntype 341 [] <type 29>\\ntype 342 [] <type -11>\\ntype 343 [] <type -3>\\ntype 344 [] <type -21>\\ntype 345 [] <type -4>\\ntype 346 [] <type 415>\\ntype 347 [] <type 160>\\ntype 348 [] <type 149>\\ntype 349 [] <type -16>\\ntype 350 [] <type 163>\\ntype 351 [] <type 164>\\ntype 352 [] <type -7>\\ntype 353 [] <type -8>\\ntype 354 [] <type -20>\\ntype 355 [] <type 170>\\ntype 356 map [<type 13>] <type 243>\\ntype 357 map [<type 96>] <type 246>\\ntype 358 map [<type 96>] <type 415>\\ntype 359 map [<type 96>] <type 157>\\ntype 360 map [<type 96>] <type 159>\\ntype 361 map [<type 113>] <type 249>\\ntype 362 map [<type 113>] <type 157>\\ntype 363 map [<type -3>] <type 40>\\ntype 364 map [<type -3>] <type 117>\\ntype 365 map [<type 159>] <type 96>\\ntype 366 map [<type -16>] <type 354>\\ntype 367 interface { Align () <type -11>; AssignableTo (u <type 159>) <type -15>; Bits () <type -11>; ChanDir () <type 153>; Comparable () <type -15>; ConvertibleTo (u <type 159>) <type -15>; Elem () <type 159>; Field (i <type -11>) <type 157>; FieldAlign () <type -11>; FieldByIndex (index <type 342>) <type 157>; FieldByName (name <type -16>) (? <type 157>, ? <type -15>); FieldByNameFunc (match <type 197>) (? <type 157>, ? <type -15>); Implements (u <type 159>) <type -15>; In (i <type -11>) <type 159>; IsVariadic () <type -15>; Key () <type 159>; Kind () <type 154>; Len () <type -11>; Method (? <type -11>) <type 156>; MethodByName (? <type -16>) (? <type 156>, ? <type -15>); Name () <type -16>; NumField () <type -11>; NumIn () <type -11>; NumMethod () <type -11>; NumOut () <type -11>; Out (i <type -11>) <type 159>; PkgPath () <type -16>; Size () <type -13>; String () <type -16>; .reflect.common () <type 259>; .reflect.rawString () <type -16>; .reflect.uncommon () <type 260>; }\\ntype 368 interface { Append (? <type 125>); AppendMutable () <type 125>; Get (? <type -11>) <type 125>; IsValid () <type -15>; Len () <type -11>; NewElement () <type 125>; Set (? <type -11>, ? <type 125>); Truncate (? <type -11>); }\\ntype 369 interface { ? <type 58>; ByDescriptor (desc <type 81>) <type 121>; ByPath (path <type 123>) <type 121>; Get (? <type -11>) <type 121>; Len () <type -11>; }\\ntype 370 interface { ? <type 58>; ByJSONName (s <type -16>) <type 94>; ByName (s <type 113>) <type 94>; ByNumber (n <type 96>) <type 94>; ByTextName (s <type -16>) <type 94>; Get (i <type -11>) <type 94>; Len () <type -11>; }\\ntype 371 interface { ? <type 58>; ByName (s <type 113>) <type 83>; Get (i <type -11>) <type 83>; Len () <type -11>; }\\ntype 372 interface { ? <type 58>; ByName (s <type 113>) <type 88>; ByNumber (n <type 85>) <type 88>; Get (i <type -11>) <type 88>; Len () <type -11>; }\\ntype 373 interface { ? <type 58>; ByName (s <type 113>) <type 90>; Get (i <type -11>) <type 90>; Len () <type -11>; }\\ntype 374 interface { ? <type 58>; ByName (s <type 113>) <type 108>; Get (i <type -11>) <type 108>; Len () <type -11>; }\\ntype 375 interface { ? <type 58>; ByName (s <type 113>) <type 111>; Get (i <type -11>) <type 111>; Len () <type -11>; }\\ntype 376 interface { ? <type 58>; ByName (s <type 113>) <type 115>; Get (i <type -11>) <type 115>; Len () <type -11>; }\\ntype 377 interface { ? <type 58>; ByName (s <type 113>) <type 119>; Get (i <type -11>) <type 119>; Len () <type -11>; }\\ntype 378 interface { ? <type 90>; Descriptor () <type 90>; Type () <type 92>; }\\ntype 379 interface { ? <type 81>; ? <type 61>; Cardinality () <type 80>; ContainingMessage () <type 108>; ContainingOneof () <type 115>; Default () <type 125>; DefaultEnumValue () <type 88>; Enum () <type 83>; HasDefault () <type -15>; HasJSONName () <type -15>; HasOptionalKeyword () <type -15>; HasPresence () <type -15>; IsExtension () <type -15>; IsList () <type -15>; IsMap () <type -15>; IsPacked () <type -15>; IsWeak () <type -15>; JSONName () <type -16>; Kind () <type 103>; MapKey () <type 94>; MapValue () <type 94>; Message () <type 108>; Number () <type 96>; TextName () <type -16>; }\\ntype 380 interface { Clear (? <type 94>); Descriptor () <type 108>; Get (? <type 94>) <type 125>; GetUnknown () <type 118>; Has (? <type 94>) <type -15>; Interface () <type 117>; IsValid () <type -15>; Mutable (? <type 94>) <type 125>; New () <type 107>; NewField (? <type 94>) <type 125>; ProtoMethods () <type 233>; Range (f <type 190>); Set (? <type 94>, ? <type 125>); SetUnknown (? <type 118>); Type () <type 110>; WhichOneof (? <type 115>) <type 94>; }\\ntype 381 interface { Clear (? <type 106>); Get (? <type 106>) <type 125>; Has (? <type 106>) <type -15>; IsValid () <type -15>; Len () <type -11>; Mutable (? <type 106>) <type 125>; NewValue () <type 125>; Range (f <type 191>); Set (? <type 106>, ? <type 125>); }\\ntype 382 interface { Close () <type -19>; HasNext () <type -15>; }\\ntype 383 interface { ? <type 5>; Next () (? <type 235>, ? <type -19>); }\\ntype 384 interface { ? <type 5>; Next () (? <type 236>, ? <type -19>); }\\ntype 385 interface { CreateCompositeKey (objectType <type -16>, attributes <type 349>) (? <type -16>, ? <type -19>); DelPrivateData (collection <type -16>, key <type -16>) <type -19>; DelState (key <type -16>) <type -19>; GetArgs () <type 337>; GetArgsSlice () (? <type 354>, ? <type -19>); GetBinding () (? <type 354>, ? <type -19>); GetChannelID () <type -16>; GetCreator () (? <type 354>, ? <type -19>); GetDecorations () <type 366>; GetFunctionAndParameters () (? <type -16>, ? <type 349>); GetHistoryForKey (key <type -16>) (? <type 6>, ? <type -19>); GetPrivateData (collection <type -16>, key <type -16>) (? <type 354>, ? <type -19>); GetPrivateDataByPartialCompositeKey (collection <type -16>, objectType <type -16>, keys <type 349>) (? <type 7>, ? <type -19>); GetPrivateDataByRange (collection <type -16>, startKey <type -16>, endKey <type -16>) (? <type 7>, ? <type -19>); GetPrivateDataHash (collection <type -16>, key <type -16>) (? <type 354>, ? <type -19>); GetPrivateDataQueryResult (collection <type -16>, query <type -16>) (? <type 7>, ? <type -19>); GetPrivateDataValidationParameter (collection <type -16>, key <type -16>) (? <type 354>, ? <type -19>); GetQueryResult (query <type -16>) (? <type 7>, ? <type -19>); GetQueryResultWithPagination (query <type -16>, pageSize <type -3>, bookmark <type -16>) (? <type 7>, ? <type 237>, ? <type -19>); GetSignedProposal () (? <type 239>, ? <type -19>); GetState (key <type -16>) (? <type 354>, ? <type -19>); GetStateByPartialCompositeKey (objectType <type -16>, keys <type 349>) (? <type 7>, ? <type -19>); GetStateByPartialCompositeKeyWithPagination (objectType <type -16>, keys <type 349>, pageSize <type -3>, bookmark <type -16>) (? <type 7>, ? <type 237>, ? <type -19>); GetStateByRange (startKey <type -16>, endKey <type -16>) (? <type 7>, ? <type -19>); GetStateByRangeWithPagination (startKey <type -16>, endKey <type -16>, pageSize <type -3>, bookmark <type -16>) (? <type 7>, ? <type 237>, ? <type -19>); GetStateValidationParameter (key <type -16>) (? <type 354>, ? <type -19>); GetStringArgs () <type 349>; GetTransient () (? <type 366>, ? <type -19>); GetTxID () <type -16>; GetTxTimestamp () (? <type 253>, ? <type -19>); InvokeChaincode (chaincodeName <type -16>, args <type 337>, channel <type -16>) <type 11>; PurgePrivateData (collection <type -16>, key <type -16>) <type -19>; PutPrivateData (collection <type -16>, key <type -16>, value <type 354>) <type -19>; PutState (key <type -16>, value <type 354>) <type -19>; SetEvent (name <type -16>, payload <type 354>) <type -19>; SetPrivateDataValidationParameter (collection <type -16>, key <type -16>, ep <type 354>) <type -19>; SetStateValidationParameter (key <type -16>, ep <type 354>) <type -19>; SplitCompositeKey (compositeKey <type -16>) (? <type -16>, ? <type 349>, ? <type -19>); }\\ntype 386 interface { Descriptor () <type 83>; New (n <type 85>) <type 82>; }\\ntype 387 interface { Descriptor () <type 83>; Number () <type 85>; Type () <type 87>; }\\ntype 388 interface { Descriptor () <type 108>; New () <type 107>; Zero () <type 107>; }\\ntype 389 interface { ? <type 81>; ? <type 63>; Enums () <type 84>; ExtensionRangeOptions (i <type -11>) <type 117>; ExtensionRanges () <type 98>; Extensions () <type 91>; Fields () <type 95>; IsMapEntry () <type -15>; Messages () <type 109>; Oneofs () <type 116>; RequiredNumbers () <type 97>; ReservedNames () <type 114>; ReservedRanges () <type 98>; }\\ntype 390 interface { ? <type 81>; ? <type 62>; Enums () <type 84>; Extensions () <type 91>; Imports () <type 101>; Messages () <type 109>; Package () <type 102>; Path () <type -16>; Services () <type 120>; SourceLocations () <type 122>; }\\ntype 391 interface { ? <type 81>; ? <type 65>; Fields () <type 95>; IsSynthetic () <type -15>; }\\ntype 392 interface { FindExtensionByName (field <type 102>) (? <type 92>, ? <type -19>); FindExtensionByNumber (message <type 102>, field <type 96>) (? <type 92>, ? <type -19>); }\\ntype 393 interface { ? <type 81>; ? <type 64>; Input () <type 108>; IsStreamingClient () <type -15>; IsStreamingServer () <type -15>; Output () <type 108>; }\\ntype 394 interface { ? <type 81>; ? <type 66>; Methods () <type 112>; }\\ntype 395 interface { ? <type 81>; ? <type 60>; Number () <type 85>; }\\ntype 396 interface { ? <type 81>; ? <type 59>; ReservedNames () <type 114>; ReservedRanges () <type 86>; Values () <type 89>; }\\ntype 397 interface { ? <type 58>; FullName () <type 102>; Index () <type -11>; IsPlaceholder () <type -15>; Name () <type 113>; Options () <type 117>; Parent () <type 81>; ParentFile () <type 99>; Syntax () <type 124>; }\\ntype 398 interface { ? <type 58>; Get (i <type -11>) <type 332>; Has (n <type 96>) <type -15>; Len () <type -11>; }\\ntype 399 interface { ? <type 58>; Get (i <type -11>) <type 333>; Has (n <type 85>) <type -15>; Len () <type -11>; }\\ntype 400 interface { ? <type 58>; Get (i <type -11>) <type 96>; Has (n <type 96>) <type -15>; Len () <type -11>; }\\ntype 401 interface { ? <type 58>; Get (i <type -11>) <type 100>; Len () <type -11>; }\\ntype 402 interface { ? <type 58>; Get (i <type -11>) <type 113>; Has (s <type 113>) <type -15>; Len () <type -11>; }\\ntype 403 interface { InterfaceOf (? <type 125>) <type 415>; IsValidInterface (? <type 415>) <type -15>; IsValidValue (? <type 125>) <type -15>; New () <type 125>; TypeDescriptor () <type 93>; ValueOf (? <type 415>) <type 125>; Zero () <type 125>; }\\ntype 404 interface { ProtoInternal (? <type 49>); }\\ntype 405 interface { ProtoMessage (); Reset (); String () <type -16>; }\\ntype 406 interface { ProtoReflect () <type 107>; }\\ntype 407 interface { ProtoType (? <type 83>); }\\ntype 408 interface { ProtoType (? <type 88>); }\\ntype 409 interface { ProtoType (? <type 94>); }\\ntype 410 interface { ProtoType (? <type 99>); }\\ntype 411 interface { ProtoType (? <type 108>); }\\ntype 412 interface { ProtoType (? <type 111>); }\\ntype 413 interface { ProtoType (? <type 115>); }\\ntype 414 interface { ProtoType (? <type 119>); }\\ntype 415 interface { }\\n\22"
 module asm "\09.ascii \22func \22"
 module asm "\09.ascii \22/*asm \22"
 module asm "\09.ascii \22runtime.setmodinfo\22"
@@ -21272,29 +21761,113 @@ module asm "\09.ascii \22 \22"
 module asm "\09.ascii \22<type -16>\22"
 module asm "\09.ascii \22)\22"
 module asm "\09.ascii \22\\n\22"
-module asm "\09.ascii \22checksum 9E98F846C6FC30088C08B07F15135255463107F9\\n\22"
+module asm "\09.ascii \22func \22"
+module asm "\09.ascii \22GetRecord\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22stub\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 4>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22args\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<esc:0x9>\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 349>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -16>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -19>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22func \22"
+module asm "\09.ascii \22SetRecord\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22stub\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 4>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22args\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<esc:0x1>\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 349>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -16>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -19>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22func \22"
+module asm "\09.ascii \22SetRecord1\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22stub\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 4>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22args\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<esc:0x2a>\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type 349>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22 (\22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -16>\22"
+module asm "\09.ascii \22, \22"
+module asm "\09.ascii \22?\22"
+module asm "\09.ascii \22 \22"
+module asm "\09.ascii \22<type -19>\22"
+module asm "\09.ascii \22)\22"
+module asm "\09.ascii \22\\n\22"
+module asm "\09.ascii \22checksum 24B11208E335625E4AA665A4D67A234A018A7312\\n\22"
 module asm "\09.text"
 
-%StructType.0 = type { %_type.0, %IPST.28 }
-%_type.0 = type { i64, i64, i32, i8, i8, i8, i8, %__go_descriptor.176*, i8*, { i8*, i64 }*, %uncommonType.0*, %_type.0* }
-%__go_descriptor.176 = type { i8 (i8*, i8*, i8*)* }
-%uncommonType.0 = type { { i8*, i64 }*, { i8*, i64 }*, %IPST.26 }
-%IPST.26 = type { %method.0*, i64, i64 }
+%StructType.0 = type { %_type.0, %IPST.75 }
+%_type.0 = type { i64, i64, i32, i8, i8, i8, i8, %__go_descriptor.279*, i8*, { i8*, i64 }*, %uncommonType.0*, %_type.0* }
+%__go_descriptor.279 = type { i8 (i8*, i8*, i8*)* }
+%uncommonType.0 = type { { i8*, i64 }*, { i8*, i64 }*, %IPST.73 }
+%IPST.73 = type { %method.0*, i64, i64 }
 %method.0 = type { { i8*, i64 }*, { i8*, i64 }*, %_type.0*, %_type.0*, i8* }
-%IPST.28 = type { %structField.0*, i64, i64 }
+%IPST.75 = type { %structField.0*, i64, i64 }
 %structField.0 = type { { i8*, i64 }*, { i8*, i64 }*, %_type.0*, { i8*, i64 }*, i64 }
 %PtrType.0 = type { %_type.0, %_type.0* }
 %functionDescriptor.0 = type { i64 }
-%MapType.0 = type { %_type.0, %_type.0*, %_type.0*, %_type.0*, %__go_descriptor.177*, i8, i8, i16, i32 }
-%__go_descriptor.177 = type { i64 (i8*, i8*, i64)* }
+%FuncType.0 = type { %_type.0, i8, %IPST.74, %IPST.74 }
+%IPST.74 = type { %_type.0**, i64, i64 }
+%InterfaceType.0 = type { %_type.0, %IPST.76 }
+%IPST.76 = type { %imethod.0*, i64, i64 }
+%imethod.0 = type { { i8*, i64 }*, { i8*, i64 }*, %_type.0* }
+%IPST.0 = type { i8*, i64, i64 }
+%IPST.49 = type { { %_type.0*, i8* }*, i64, i64 }
+%MapType.0 = type { %_type.0, %_type.0*, %_type.0*, %_type.0*, %__go_descriptor.280*, i8, i8, i16, i32 }
+%__go_descriptor.280 = type { i64 (i8*, i8*, i64)* }
 %SliceType.0 = type { %_type.0, %_type.0* }
 %ArrayType.0 = type { %_type.0, %_type.0*, %_type.0*, i64 }
-
-$gcbits..fa = comdat any
+%Response.0 = type { i32, { i8*, i64 }, %IPST.0, {}, %IPST.0, i32 }
+%SimpleAsset.0 = type {}
+%IPST.4 = type { { i8*, i64 }*, i64, i64 }
+%error.0 = type { { %_type.0*, { i8*, i64 } (i8*, i8*)* }*, i8* }
 
 $main.SimpleAsset..p = comdat any
 
 $gcbits..ba = comdat any
+
+$type..func_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 = comdat any
+
+$type..func_8_2main_0SimpleAsset_3github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 = comdat any
+
+$type.._2_2main_0SimpleAsset = comdat any
 
 $string..d = comdat any
 
@@ -21326,9 +21899,12 @@ $gcbits..jsejc = comdat any
 
 $type.._6_7_6_7uint8 = comdat any
 
-@main.SimpleAsset..d = constant %StructType.0 { %_type.0 { i64 32, i64 24, i32 -14990136, i8 0, i8 8, i8 8, i8 25, %__go_descriptor.176* bitcast (%functionDescriptor.0* @main.SimpleAsset..eq..f to %__go_descriptor.176*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..fa, i32 0, i32 0), { i8*, i64 }* @go..C1, %uncommonType.0* @go..C5, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main.SimpleAsset..p, i32 0, i32 0) }, %IPST.28 { %structField.0* getelementptr inbounds ([2 x %structField.0], [2 x %structField.0]* @go..C16, i32 0, i32 0), i64 2, i64 2 } }
-@main.SimpleAsset..eq..f = constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main.SimpleAsset..eq to i64) }
-@gcbits..fa = weak constant [1 x i8] c"\05", comdat
+$gcbits..fa = comdat any
+
+$main_0SetRecord_0keyValueTransientInput..p = comdat any
+
+@main.SimpleAsset..d = constant %StructType.0 { %_type.0 { i64 0, i64 0, i32 -14990136, i8 8, i8 1, i8 1, i8 -103, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal0..f to %__go_descriptor.279*), i8* null, { i8*, i64 }* @go..C1, %uncommonType.0* @go..C5, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main.SimpleAsset..p, i32 0, i32 0) }, %IPST.75 { %structField.0* getelementptr inbounds ([1 x %structField.0], [1 x %structField.0]* @go..C18, i32 0, i32 0), i64 0, i64 0 } }
+@runtime.memequal0..f = external constant %functionDescriptor.0
 @const.0 = private constant [23 x i8] c"\09main\09main.SimpleAsset\00", align 1
 @go..C1 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([23 x i8], [23 x i8]* @const.0, i32 0, i32 0), i64 22 }
 @const.1 = private constant [12 x i8] c"SimpleAsset\00", align 1
@@ -21336,87 +21912,150 @@ $type.._6_7_6_7uint8 = comdat any
 @const.2 = private constant [5 x i8] c"main\00", align 1
 @go..C3 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.2, i32 0, i32 0), i64 4 }
 @go..C4 = internal constant [1 x %method.0] zeroinitializer
-@go..C5 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C2, { i8*, i64 }* @go..C3, %IPST.26 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C4, i32 0, i32 0), i64 0, i64 0 } }
-@main.SimpleAsset..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -239842167, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.176* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.176*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C6, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @main.SimpleAsset..d, i32 0, i32 0) }, comdat
+@go..C5 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C2, { i8*, i64 }* @go..C3, %IPST.73 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C4, i32 0, i32 0), i64 0, i64 0 } }
+@main.SimpleAsset..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -239842167, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C6, %uncommonType.0* @go..C16, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @type.._2_2main_0SimpleAsset, i32 0, i32 0) }, %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @main.SimpleAsset..d, i32 0, i32 0) }, comdat
 @runtime.memequal64..f = external constant %functionDescriptor.0
 @gcbits..ba = weak constant [1 x i8] c"\01", comdat
 @const.3 = private constant [24 x i8] c"*\09main\09main.SimpleAsset\00", align 1
 @go..C6 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([24 x i8], [24 x i8]* @const.3, i32 0, i32 0), i64 23 }
-@const.4 = private constant [8 x i8] c"Content\00", align 1
-@go..C7 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.4, i32 0, i32 0), i64 7 }
-@string..d = weak constant %_type.0 { i64 16, i64 8, i32 -1998952806, i8 0, i8 8, i8 8, i8 24, %__go_descriptor.176* bitcast (%functionDescriptor.0* @runtime.strequal..f to %__go_descriptor.176*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C8, %uncommonType.0* @go..C11, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @string..p, i32 0, i32 0) }, comdat
+@const.4 = private constant [5 x i8] c"Init\00", align 1
+@go..C7 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.4, i32 0, i32 0), i64 4 }
+@type..func_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 = weak constant %FuncType.0 { %_type.0 { i64 8, i64 8, i32 -1765740280, i8 0, i8 8, i8 8, i8 51, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C8, %uncommonType.0* null, %_type.0* null }, i8 0, %IPST.74 { %_type.0** getelementptr inbounds ([1 x %_type.0*], [1 x %_type.0*]* @go..C9, i32 0, i32 0), i64 1, i64 1 }, %IPST.74 { %_type.0** getelementptr inbounds ([1 x %_type.0*], [1 x %_type.0*]* @go..C10, i32 0, i32 0), i64 1, i64 1 } }, comdat
+@const.5 = private constant [163 x i8] c"func(\09github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim\09shim.ChaincodeStubInterface) \09github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer\09peer.Response\00", align 1
+@go..C8 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([163 x i8], [163 x i8]* @const.5, i32 0, i32 0), i64 162 }
+@github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.ChaincodeStubInterface..d = external constant %InterfaceType.0
+@go..C9 = internal constant [1 x %_type.0*] [%_type.0* getelementptr inbounds (%InterfaceType.0, %InterfaceType.0* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.ChaincodeStubInterface..d, i32 0, i32 0)]
+@github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer.Response..d = external constant %StructType.0
+@go..C10 = internal constant [1 x %_type.0*] [%_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer.Response..d, i32 0, i32 0)]
+@type..func_8_2main_0SimpleAsset_3github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 = weak constant %FuncType.0 { %_type.0 { i64 8, i64 8, i32 160665000, i8 0, i8 8, i8 8, i8 51, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C11, %uncommonType.0* null, %_type.0* null }, i8 0, %IPST.74 { %_type.0** getelementptr inbounds ([2 x %_type.0*], [2 x %_type.0*]* @go..C12, i32 0, i32 0), i64 2, i64 2 }, %IPST.74 { %_type.0** getelementptr inbounds ([1 x %_type.0*], [1 x %_type.0*]* @go..C13, i32 0, i32 0), i64 1, i64 1 } }, comdat
+@const.6 = private constant [188 x i8] c"func(*\09main\09main.SimpleAsset, \09github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim\09shim.ChaincodeStubInterface) \09github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer\09peer.Response\00", align 1
+@go..C11 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([188 x i8], [188 x i8]* @const.6, i32 0, i32 0), i64 187 }
+@go..C12 = internal constant [2 x %_type.0*] [%_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main.SimpleAsset..p, i32 0, i32 0), %_type.0* getelementptr inbounds (%InterfaceType.0, %InterfaceType.0* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.ChaincodeStubInterface..d, i32 0, i32 0)]
+@go..C13 = internal constant [1 x %_type.0*] [%_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer.Response..d, i32 0, i32 0)]
+@const.7 = private constant [7 x i8] c"Invoke\00", align 1
+@go..C14 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.7, i32 0, i32 0), i64 6 }
+@go..C15 = internal constant [2 x %method.0] [%method.0 { { i8*, i64 }* @go..C7, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%FuncType.0, %FuncType.0* @type..func_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9, i32 0, i32 0), %_type.0* getelementptr inbounds (%FuncType.0, %FuncType.0* @type..func_8_2main_0SimpleAsset_3github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9, i32 0, i32 0), i8* bitcast (void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* @main.SimpleAsset.Init to i8*) }, %method.0 { { i8*, i64 }* @go..C14, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%FuncType.0, %FuncType.0* @type..func_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9, i32 0, i32 0), %_type.0* getelementptr inbounds (%FuncType.0, %FuncType.0* @type..func_8_2main_0SimpleAsset_3github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9, i32 0, i32 0), i8* bitcast (void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* @main.SimpleAsset.Invoke to i8*) }]
+@go..C16 = internal constant %uncommonType.0 { { i8*, i64 }* null, { i8*, i64 }* null, %IPST.73 { %method.0* getelementptr inbounds ([2 x %method.0], [2 x %method.0]* @go..C15, i32 0, i32 0), i64 2, i64 2 } }
+@type.._2_2main_0SimpleAsset = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 457492633, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C17, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main.SimpleAsset..p, i32 0, i32 0) }, comdat
+@const.8 = private constant [25 x i8] c"**\09main\09main.SimpleAsset\00", align 1
+@go..C17 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([25 x i8], [25 x i8]* @const.8, i32 0, i32 0), i64 24 }
+@go..C18 = internal constant [1 x %structField.0] zeroinitializer
+@const.9 = private constant [49 x i8] c"Incorrect arguments. Expecting a key and a value\00", align 1
+@string..d = weak constant %_type.0 { i64 16, i64 8, i32 -1998952806, i8 0, i8 8, i8 8, i8 24, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.strequal..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C19, %uncommonType.0* @go..C22, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @string..p, i32 0, i32 0) }, comdat
 @runtime.strequal..f = external constant %functionDescriptor.0
-@const.5 = private constant [7 x i8] c"string\00", align 1
-@go..C8 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.5, i32 0, i32 0), i64 6 }
-@go..C9 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.5, i32 0, i32 0), i64 6 }
-@go..C10 = internal constant [1 x %method.0] zeroinitializer
-@go..C11 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C9, { i8*, i64 }* null, %IPST.26 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C10, i32 0, i32 0), i64 0, i64 0 } }
-@string..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -1918473815, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.176* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.176*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C12, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d }, comdat
-@const.6 = private constant [8 x i8] c"*string\00", align 1
-@go..C12 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.6, i32 0, i32 0), i64 7 }
-@const.7 = private constant [15 x i8] c"json:\22content\22\00", align 1
-@go..C13 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([15 x i8], [15 x i8]* @const.7, i32 0, i32 0), i64 14 }
-@const.8 = private constant [5 x i8] c"TxID\00", align 1
-@go..C14 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.8, i32 0, i32 0), i64 4 }
-@const.9 = private constant [12 x i8] c"json:\22txID\22\00", align 1
-@go..C15 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([12 x i8], [12 x i8]* @const.9, i32 0, i32 0), i64 11 }
-@go..C16 = internal constant [2 x %structField.0] [%structField.0 { { i8*, i64 }* @go..C7, { i8*, i64 }* null, %_type.0* @string..d, { i8*, i64 }* @go..C13, i64 0 }, %structField.0 { { i8*, i64 }* @go..C14, { i8*, i64 }* null, %_type.0* @string..d, { i8*, i64 }* @go..C15, i64 32 }]
-@type..map_6string_7_6_7uint8 = weak constant %MapType.0 { %_type.0 { i64 8, i64 8, i32 -1734320687, i8 0, i8 8, i8 8, i8 53, %__go_descriptor.176* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C17, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @type..struct_4_4x_5topbits_b_68x_7uint8_ckeys_b_68x_7string_cvalues_b_68x_7_6_7uint8_coverflow_b_2_4void_5_5, i32 0, i32 0), %__go_descriptor.177* bitcast (%functionDescriptor.0* @runtime.strhash..f to %__go_descriptor.177*), i8 16, i8 24, i16 336, i32 12 }, comdat
-@const.28 = private constant [19 x i8] c"map[string][]uint8\00", align 1
-@go..C17 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([19 x i8], [19 x i8]* @const.28, i32 0, i32 0), i64 18 }
-@type.._6_7uint8 = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 264632103, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.176* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C18, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d }, comdat
-@const.29 = private constant [8 x i8] c"[]uint8\00", align 1
-@go..C18 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.29, i32 0, i32 0), i64 7 }
-@uint8..d = weak constant %_type.0 { i64 1, i64 0, i32 264632089, i8 8, i8 1, i8 1, i8 -120, %__go_descriptor.176* bitcast (%functionDescriptor.0* @runtime.memequal8..f to %__go_descriptor.176*), i8* null, { i8*, i64 }* @go..C19, %uncommonType.0* @go..C22, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @uint8..p, i32 0, i32 0) }, comdat
-@runtime.memequal8..f = external constant %functionDescriptor.0
-@const.30 = private constant [6 x i8] c"uint8\00", align 1
-@go..C19 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([6 x i8], [6 x i8]* @const.30, i32 0, i32 0), i64 5 }
-@go..C20 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([6 x i8], [6 x i8]* @const.30, i32 0, i32 0), i64 5 }
+@const.11 = private constant [7 x i8] c"string\00", align 1
+@go..C19 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.11, i32 0, i32 0), i64 6 }
+@go..C20 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.11, i32 0, i32 0), i64 6 }
 @go..C21 = internal constant [1 x %method.0] zeroinitializer
-@go..C22 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C20, { i8*, i64 }* null, %IPST.26 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C21, i32 0, i32 0), i64 0, i64 0 } }
-@uint8..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -60853863, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.176* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.176*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C23, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d }, comdat
-@const.31 = private constant [7 x i8] c"*uint8\00", align 1
-@go..C23 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.31, i32 0, i32 0), i64 6 }
-@type..struct_4_4x_5topbits_b_68x_7uint8_ckeys_b_68x_7string_cvalues_b_68x_7_6_7uint8_coverflow_b_2_4void_5_5 = weak constant %StructType.0 { %_type.0 { i64 336, i64 336, i32 307502916, i8 0, i8 8, i8 8, i8 25, %__go_descriptor.176* null, i8* getelementptr inbounds ([6 x i8], [6 x i8]* @gcbits..kvkfjsejca, i32 0, i32 0), { i8*, i64 }* @go..C24, %uncommonType.0* null, %_type.0* null }, %IPST.28 { %structField.0* getelementptr inbounds ([4 x %structField.0], [4 x %structField.0]* @go..C34, i32 0, i32 0), i64 4, i64 4 } }, comdat
+@go..C22 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C20, { i8*, i64 }* null, %IPST.73 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C21, i32 0, i32 0), i64 0, i64 0 } }
+@string..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -1918473815, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C23, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d }, comdat
+@const.12 = private constant [8 x i8] c"*string\00", align 1
+@go..C23 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.12, i32 0, i32 0), i64 7 }
+@runtime.writeBarrier = external local_unnamed_addr externally_initialized global { i8, [3 x i8], i8, i8, i64 }
+@const.13 = private constant [27 x i8] c"Failed to create asset: %s\00", align 1
+@const.15 = private constant %IPST.0 zeroinitializer
+@const.19 = private constant [11 x i8] c"SetRecord1\00", align 1
+@const.21 = private constant [10 x i8] c"GetRecord\00", align 1
+@const.23 = private constant [10 x i8] c"SetRecord\00", align 1
+@const.25 = private constant %IPST.49 zeroinitializer
+@const.26 = private constant [22 x i8] c"_implicit_org_Org1MSP\00", align 1
+@const.28 = private constant [24 x i8] c"Failed to set asset: %s\00", align 1
+@main.SetRecord1..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (void ({ { i8*, i64 }, %error.0 }*, i8*, i8*, i8*, %IPST.4*)* @main.SetRecord1 to i64) }
+@const.30 = private constant [37 x i8] c"Incorrect arguments. Expecting a key\00", align 1
+@const.32 = private constant [39 x i8] c"Failed to get asset: %s with error: %s\00", align 1
+@const.34 = private constant [20 x i8] c"Asset not found: %s\00", align 1
+@main.GetRecord..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (void ({ { i8*, i64 }, %error.0 }*, i8*, i8*, i8*, %IPST.4*)* @main.GetRecord to i64) }
+@const.36 = private constant [60 x i8] c"Incorrect arguments. Expecting no data when using transient\00", align 1
+@const.38 = private constant [24 x i8] c"Failed to get transient\00", align 1
+@const.40 = private constant [9 x i8] c"keyvalue\00", align 1
+@type..map_6string_7_6_7uint8 = weak constant %MapType.0 { %_type.0 { i64 8, i64 8, i32 -1734320687, i8 0, i8 8, i8 8, i8 53, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C24, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @type..struct_4_4x_5topbits_b_68x_7uint8_ckeys_b_68x_7string_cvalues_b_68x_7_6_7uint8_coverflow_b_2_4void_5_5, i32 0, i32 0), %__go_descriptor.280* bitcast (%functionDescriptor.0* @runtime.strhash..f to %__go_descriptor.280*), i8 16, i8 24, i16 336, i32 12 }, comdat
+@const.42 = private constant [19 x i8] c"map[string][]uint8\00", align 1
+@go..C24 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([19 x i8], [19 x i8]* @const.42, i32 0, i32 0), i64 18 }
+@type.._6_7uint8 = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 264632103, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C25, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d }, comdat
+@const.43 = private constant [8 x i8] c"[]uint8\00", align 1
+@go..C25 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.43, i32 0, i32 0), i64 7 }
+@uint8..d = weak constant %_type.0 { i64 1, i64 0, i32 264632089, i8 8, i8 1, i8 1, i8 -120, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal8..f to %__go_descriptor.279*), i8* null, { i8*, i64 }* @go..C26, %uncommonType.0* @go..C29, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @uint8..p, i32 0, i32 0) }, comdat
+@runtime.memequal8..f = external constant %functionDescriptor.0
+@const.44 = private constant [6 x i8] c"uint8\00", align 1
+@go..C26 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([6 x i8], [6 x i8]* @const.44, i32 0, i32 0), i64 5 }
+@go..C27 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([6 x i8], [6 x i8]* @const.44, i32 0, i32 0), i64 5 }
+@go..C28 = internal constant [1 x %method.0] zeroinitializer
+@go..C29 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C27, { i8*, i64 }* null, %IPST.73 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C28, i32 0, i32 0), i64 0, i64 0 } }
+@uint8..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 -60853863, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C30, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d }, comdat
+@const.45 = private constant [7 x i8] c"*uint8\00", align 1
+@go..C30 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.45, i32 0, i32 0), i64 6 }
+@type..struct_4_4x_5topbits_b_68x_7uint8_ckeys_b_68x_7string_cvalues_b_68x_7_6_7uint8_coverflow_b_2_4void_5_5 = weak constant %StructType.0 { %_type.0 { i64 336, i64 336, i32 307502916, i8 0, i8 8, i8 8, i8 25, %__go_descriptor.279* null, i8* getelementptr inbounds ([6 x i8], [6 x i8]* @gcbits..kvkfjsejca, i32 0, i32 0), { i8*, i64 }* @go..C31, %uncommonType.0* null, %_type.0* null }, %IPST.75 { %structField.0* getelementptr inbounds ([4 x %structField.0], [4 x %structField.0]* @go..C41, i32 0, i32 0), i64 4, i64 4 } }, comdat
 @gcbits..kvkfjsejca = weak constant [6 x i8] c"\AA\AA\92$I\02", comdat
-@const.32 = private constant [75 x i8] c"struct { topbits [8]uint8; keys [8]string; values [8][]uint8; overflow * }\00", align 1
-@go..C24 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([75 x i8], [75 x i8]* @const.32, i32 0, i32 0), i64 74 }
-@const.33 = private constant [8 x i8] c"topbits\00", align 1
-@go..C25 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.33, i32 0, i32 0), i64 7 }
-@type.._68x_7uint8 = weak constant %ArrayType.0 { %_type.0 { i64 8, i64 0, i32 529264193, i8 8, i8 1, i8 1, i8 -111, %__go_descriptor.176* null, i8* null, { i8*, i64 }* @go..C26, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), i64 8 }, comdat
-@const.34 = private constant [9 x i8] c"[8]uint8\00", align 1
-@go..C26 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.34, i32 0, i32 0), i64 8 }
-@const.35 = private constant [5 x i8] c"keys\00", align 1
-@go..C27 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.35, i32 0, i32 0), i64 4 }
-@type.._68x_7string = weak constant %ArrayType.0 { %_type.0 { i64 128, i64 120, i32 297061699, i8 0, i8 8, i8 8, i8 17, %__go_descriptor.176* null, i8* getelementptr inbounds ([2 x i8], [2 x i8]* @gcbits..vkva, i32 0, i32 0), { i8*, i64 }* @go..C28, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7string, i32 0, i32 0), i64 8 }, comdat
+@const.46 = private constant [75 x i8] c"struct { topbits [8]uint8; keys [8]string; values [8][]uint8; overflow * }\00", align 1
+@go..C31 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([75 x i8], [75 x i8]* @const.46, i32 0, i32 0), i64 74 }
+@const.47 = private constant [8 x i8] c"topbits\00", align 1
+@go..C32 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([8 x i8], [8 x i8]* @const.47, i32 0, i32 0), i64 7 }
+@type.._68x_7uint8 = weak constant %ArrayType.0 { %_type.0 { i64 8, i64 0, i32 529264193, i8 8, i8 1, i8 1, i8 -111, %__go_descriptor.279* null, i8* null, { i8*, i64 }* @go..C33, %uncommonType.0* null, %_type.0* null }, %_type.0* @uint8..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), i64 8 }, comdat
+@const.48 = private constant [9 x i8] c"[8]uint8\00", align 1
+@go..C33 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.48, i32 0, i32 0), i64 8 }
+@const.49 = private constant [5 x i8] c"keys\00", align 1
+@go..C34 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.49, i32 0, i32 0), i64 4 }
+@type.._68x_7string = weak constant %ArrayType.0 { %_type.0 { i64 128, i64 120, i32 297061699, i8 0, i8 8, i8 8, i8 17, %__go_descriptor.279* null, i8* getelementptr inbounds ([2 x i8], [2 x i8]* @gcbits..vkva, i32 0, i32 0), { i8*, i64 }* @go..C35, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7string, i32 0, i32 0), i64 8 }, comdat
 @gcbits..vkva = weak constant [2 x i8] c"UU", comdat
-@const.36 = private constant [10 x i8] c"[8]string\00", align 1
-@go..C28 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([10 x i8], [10 x i8]* @const.36, i32 0, i32 0), i64 9 }
-@type.._6_7string = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 -1998952792, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.176* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C29, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d }, comdat
-@const.37 = private constant [9 x i8] c"[]string\00", align 1
-@go..C29 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.37, i32 0, i32 0), i64 8 }
-@const.38 = private constant [7 x i8] c"values\00", align 1
-@go..C30 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.38, i32 0, i32 0), i64 6 }
-@type.._68x_7_6_7uint8 = weak constant %ArrayType.0 { %_type.0 { i64 192, i64 176, i32 529264221, i8 0, i8 8, i8 8, i8 17, %__go_descriptor.176* null, i8* getelementptr inbounds ([3 x i8], [3 x i8]* @gcbits..jsejc, i32 0, i32 0), { i8*, i64 }* @go..C31, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7_6_7uint8, i32 0, i32 0), i64 8 }, comdat
+@const.50 = private constant [10 x i8] c"[8]string\00", align 1
+@go..C35 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([10 x i8], [10 x i8]* @const.50, i32 0, i32 0), i64 9 }
+@type.._6_7string = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 -1998952792, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C36, %uncommonType.0* null, %_type.0* null }, %_type.0* @string..d }, comdat
+@const.51 = private constant [9 x i8] c"[]string\00", align 1
+@go..C36 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.51, i32 0, i32 0), i64 8 }
+@const.52 = private constant [7 x i8] c"values\00", align 1
+@go..C37 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([7 x i8], [7 x i8]* @const.52, i32 0, i32 0), i64 6 }
+@type.._68x_7_6_7uint8 = weak constant %ArrayType.0 { %_type.0 { i64 192, i64 176, i32 529264221, i8 0, i8 8, i8 8, i8 17, %__go_descriptor.279* null, i8* getelementptr inbounds ([3 x i8], [3 x i8]* @gcbits..jsejc, i32 0, i32 0), { i8*, i64 }* @go..C38, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0), %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7_6_7uint8, i32 0, i32 0), i64 8 }, comdat
 @gcbits..jsejc = weak constant [3 x i8] c"I\92$", comdat
-@const.39 = private constant [11 x i8] c"[8][]uint8\00", align 1
-@go..C31 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([11 x i8], [11 x i8]* @const.39, i32 0, i32 0), i64 10 }
-@type.._6_7_6_7uint8 = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 264632117, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.176* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C32, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0) }, comdat
-@const.40 = private constant [10 x i8] c"[][]uint8\00", align 1
-@go..C32 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([10 x i8], [10 x i8]* @const.40, i32 0, i32 0), i64 9 }
-@const.41 = private constant [9 x i8] c"overflow\00", align 1
-@go..C33 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.41, i32 0, i32 0), i64 8 }
+@const.53 = private constant [11 x i8] c"[8][]uint8\00", align 1
+@go..C38 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([11 x i8], [11 x i8]* @const.53, i32 0, i32 0), i64 10 }
+@type.._6_7_6_7uint8 = weak constant %SliceType.0 { %_type.0 { i64 24, i64 8, i32 264632117, i8 0, i8 8, i8 8, i8 23, %__go_descriptor.279* null, i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C39, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%SliceType.0, %SliceType.0* @type.._6_7uint8, i32 0, i32 0) }, comdat
+@const.54 = private constant [10 x i8] c"[][]uint8\00", align 1
+@go..C39 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([10 x i8], [10 x i8]* @const.54, i32 0, i32 0), i64 9 }
+@const.55 = private constant [9 x i8] c"overflow\00", align 1
+@go..C40 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.55, i32 0, i32 0), i64 8 }
 @unsafe.Pointer..d = external constant %_type.0
-@go..C34 = internal constant [4 x %structField.0] [%structField.0 { { i8*, i64 }* @go..C25, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7uint8, i32 0, i32 0), { i8*, i64 }* null, i64 0 }, %structField.0 { { i8*, i64 }* @go..C27, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7string, i32 0, i32 0), { i8*, i64 }* null, i64 16 }, %structField.0 { { i8*, i64 }* @go..C30, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7_6_7uint8, i32 0, i32 0), { i8*, i64 }* null, i64 272 }, %structField.0 { { i8*, i64 }* @go..C33, { i8*, i64 }* null, %_type.0* @unsafe.Pointer..d, { i8*, i64 }* null, i64 656 }]
+@go..C41 = internal constant [4 x %structField.0] [%structField.0 { { i8*, i64 }* @go..C32, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7uint8, i32 0, i32 0), { i8*, i64 }* null, i64 0 }, %structField.0 { { i8*, i64 }* @go..C34, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7string, i32 0, i32 0), { i8*, i64 }* null, i64 16 }, %structField.0 { { i8*, i64 }* @go..C37, { i8*, i64 }* null, %_type.0* getelementptr inbounds (%ArrayType.0, %ArrayType.0* @type.._68x_7_6_7uint8, i32 0, i32 0), { i8*, i64 }* null, i64 272 }, %structField.0 { { i8*, i64 }* @go..C40, { i8*, i64 }* null, %_type.0* @unsafe.Pointer..d, { i8*, i64 }* null, i64 656 }]
 @runtime.strhash..f = external constant %functionDescriptor.0
-@const.48 = private constant [1175 x i8] c"0w\AF\0C\92t\08\02A\E1\C1\07\E6\D6\18\E6path\09command-line-arguments\0Adep\09github.com/golang/protobuf\09v1.5.2\09h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=\0Adep\09github.com/hyperledger/fabric-chaincode-go\09v0.0.0-20220720122508-9207360bbddd\09h1:AIa0b7UPrt8e1YN4/68vhNnPxy/Mrgq9d2bYJ6O/KTE=\0Adep\09github.com/hyperledger/fabric-protos-go\09v0.0.0-20220827195505-ce4c067a561d\09h1:Dk7Z9MjzZmz+pkpC7KbH6c3A9PEN9youAIjlMJw58ro=\0Adep\09golang.org/x/net\09v0.0.0-20220708220712-1185a9018129\09h1:vucSRfWwTsoXro7P+3Cjlr6flUMtzCwzlvkxEQtHHB0=\0Adep\09golang.org/x/sys\09v0.0.0-20220715151400-c0bba94af5f8\09h1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ=\0Adep\09golang.org/x/text\09v0.3.7\09h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=\0Adep\09google.golang.org/genproto\09v0.0.0-20220718134204-073382fd740c\09h1:xDUAhRezFnKF6wopxkOfdWYvz2XCiRQzndyDdpwFgbc=\0Adep\09google.golang.org/grpc\09v1.48.0\09h1:rQOsyJ/8+ufEDJd/Gdsz7HG220Mh9HAhFHRGnIjda0w=\0Adep\09google.golang.org/protobuf\09v1.28.0\09h1:w43yiav+6bVFTBQFZX0r7ipe9JQ1QsbMgHwbBziscLw=\0Abuild\09-compiler=gccgo\0Abuild\09CGO_ENABLED=1\0Abuild\09CGO_CFLAGS=\0Abuild\09CGO_CPPFLAGS=\0Abuild\09CGO_CXXFLAGS=\0Abuild\09CGO_LDFLAGS=\0Abuild\09GOARCH=amd64\0Abuild\09GOEXPERIMENT=fieldtrack\0Abuild\09GOOS=linux\0Abuild\09GOAMD64=v1\0A\F92C1\86\18 r\00\82B\10A\16\D8\F2\00", align 1
+@const.56 = private constant [21 x i8] c"key must be keyvalue\00", align 1
+@main_0SetRecord_0keyValueTransientInput..d = constant %StructType.0 { %_type.0 { i64 32, i64 24, i32 98809642, i8 0, i8 8, i8 8, i8 25, %__go_descriptor.279* bitcast (%functionDescriptor.0* @main_0SetRecord_0keyValueTransientInput..eq..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..fa, i32 0, i32 0), { i8*, i64 }* @go..C42, %uncommonType.0* @go..C46, %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main_0SetRecord_0keyValueTransientInput..p, i32 0, i32 0) }, %IPST.75 { %structField.0* getelementptr inbounds ([2 x %structField.0], [2 x %structField.0]* @go..C52, i32 0, i32 0), i64 2, i64 2 } }
+@main_0SetRecord_0keyValueTransientInput..eq..f = constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main_0SetRecord_0keyValueTransientInput..eq to i64) }
+@gcbits..fa = weak constant [1 x i8] c"\05", comdat
+@const.58 = private constant [46 x i8] c"\09main\09main.\09SetRecord$\09keyValueTransientInput\00", align 1
+@go..C42 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([46 x i8], [46 x i8]* @const.58, i32 0, i32 0), i64 45 }
+@const.59 = private constant [23 x i8] c"keyValueTransientInput\00", align 1
+@go..C43 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([23 x i8], [23 x i8]* @const.59, i32 0, i32 0), i64 22 }
+@go..C44 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([5 x i8], [5 x i8]* @const.2, i32 0, i32 0), i64 4 }
+@go..C45 = internal constant [1 x %method.0] zeroinitializer
+@go..C46 = internal constant %uncommonType.0 { { i8*, i64 }* @go..C43, { i8*, i64 }* @go..C44, %IPST.73 { %method.0* getelementptr inbounds ([1 x %method.0], [1 x %method.0]* @go..C45, i32 0, i32 0), i64 0, i64 0 } }
+@main_0SetRecord_0keyValueTransientInput..p = weak constant %PtrType.0 { %_type.0 { i64 8, i64 8, i32 1580954281, i8 8, i8 8, i8 8, i8 54, %__go_descriptor.279* bitcast (%functionDescriptor.0* @runtime.memequal64..f to %__go_descriptor.279*), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @gcbits..ba, i32 0, i32 0), { i8*, i64 }* @go..C47, %uncommonType.0* null, %_type.0* null }, %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @main_0SetRecord_0keyValueTransientInput..d, i32 0, i32 0) }, comdat
+@const.60 = private constant [47 x i8] c"*\09main\09main.\09SetRecord$\09keyValueTransientInput\00", align 1
+@go..C47 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([47 x i8], [47 x i8]* @const.60, i32 0, i32 0), i64 46 }
+@const.61 = private constant [4 x i8] c"Key\00", align 1
+@go..C48 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([4 x i8], [4 x i8]* @const.61, i32 0, i32 0), i64 3 }
+@const.62 = private constant [11 x i8] c"json:\22key\22\00", align 1
+@go..C49 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([11 x i8], [11 x i8]* @const.62, i32 0, i32 0), i64 10 }
+@const.63 = private constant [6 x i8] c"Value\00", align 1
+@go..C50 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([6 x i8], [6 x i8]* @const.63, i32 0, i32 0), i64 5 }
+@const.64 = private constant [13 x i8] c"json:\22value\22\00", align 1
+@go..C51 = internal constant { i8*, i64 } { i8* getelementptr inbounds ([13 x i8], [13 x i8]* @const.64, i32 0, i32 0), i64 12 }
+@go..C52 = internal constant [2 x %structField.0] [%structField.0 { { i8*, i64 }* @go..C48, { i8*, i64 }* null, %_type.0* @string..d, { i8*, i64 }* @go..C49, i64 0 }, %structField.0 { { i8*, i64 }* @go..C50, { i8*, i64 }* null, %_type.0* @string..d, { i8*, i64 }* @go..C51, i64 32 }]
+@const.65 = private constant [22 x i8] c"Failed to decode JSON\00", align 1
+@const.67 = private constant [20 x i8] c"Failed to set asset\00", align 1
+@main.SetRecord..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (void ({ { i8*, i64 }, %error.0 }*, i8*, i8*, i8*, %IPST.4*)* @main.SetRecord to i64) }
+@pimt..interface_4Init_bfunc_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9_cInvoke_bfunc_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9_5..main.SimpleAsset = internal constant { %_type.0*, void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)*, void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* } { %_type.0* getelementptr inbounds (%PtrType.0, %PtrType.0* @main.SimpleAsset..p, i32 0, i32 0), void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* @main.SimpleAsset.Init, void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* @main.SimpleAsset.Invoke }
+@const.69 = private constant [30 x i8] c"Error starting  chaincode: %s\00", align 1
+@const.71 = private constant [1175 x i8] c"0w\AF\0C\92t\08\02A\E1\C1\07\E6\D6\18\E6path\09command-line-arguments\0Adep\09github.com/golang/protobuf\09v1.5.2\09h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=\0Adep\09github.com/hyperledger/fabric-chaincode-go\09v0.0.0-20220720122508-9207360bbddd\09h1:AIa0b7UPrt8e1YN4/68vhNnPxy/Mrgq9d2bYJ6O/KTE=\0Adep\09github.com/hyperledger/fabric-protos-go\09v0.0.0-20220827195505-ce4c067a561d\09h1:Dk7Z9MjzZmz+pkpC7KbH6c3A9PEN9youAIjlMJw58ro=\0Adep\09golang.org/x/net\09v0.0.0-20220708220712-1185a9018129\09h1:vucSRfWwTsoXro7P+3Cjlr6flUMtzCwzlvkxEQtHHB0=\0Adep\09golang.org/x/sys\09v0.0.0-20220715151400-c0bba94af5f8\09h1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ=\0Adep\09golang.org/x/text\09v0.3.7\09h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=\0Adep\09google.golang.org/genproto\09v0.0.0-20220718134204-073382fd740c\09h1:xDUAhRezFnKF6wopxkOfdWYvz2XCiRQzndyDdpwFgbc=\0Adep\09google.golang.org/grpc\09v1.48.0\09h1:rQOsyJ/8+ufEDJd/Gdsz7HG220Mh9HAhFHRGnIjda0w=\0Adep\09google.golang.org/protobuf\09v1.28.0\09h1:w43yiav+6bVFTBQFZX0r7ipe9JQ1QsbMgHwbBziscLw=\0Abuild\09-compiler=gccgo\0Abuild\09CGO_ENABLED=1\0Abuild\09CGO_CFLAGS=\0Abuild\09CGO_CPPFLAGS=\0Abuild\09CGO_CXXFLAGS=\0Abuild\09CGO_LDFLAGS=\0Abuild\09GOARCH=amd64\0Abuild\09GOEXPERIMENT=fieldtrack\0Abuild\09GOOS=linux\0Abuild\09GOAMD64=v1\0A\F92C1\86\18 r\00\82B\10A\16\D8\F2\00", align 1
 @main.main..init0..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (void (i8*)* @main.main..init0 to i64) }
 @main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq to i64) }
+@main._628_7uint8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._628_7uint8..eq to i64) }
 @main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq to i64) }
 @main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq to i64) }
 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq to i64) }
 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq to i64) }
 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq to i64) }
+@main._68_7uint8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._68_7uint8..eq to i64) }
+@main._614_7int8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._614_7int8..eq to i64) }
+@main._696_7int8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._696_7int8..eq to i64) }
 @main._632_7uintptr..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._632_7uintptr..eq to i64) }
 @main._6256_7uint64..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._6256_7uint64..eq to i64) }
 @main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq to i64) }
@@ -21439,7 +22078,7 @@ $type.._6_7_6_7uint8 = comdat any
 @main._62_7int32..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._62_7int32..eq to i64) }
 @main._664_7uint8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._664_7uint8..eq to i64) }
 @main._6256_7uint8..eq..f = local_unnamed_addr constant %functionDescriptor.0 { i64 ptrtoint (i8 (i8*, i8*, i8*)* @main._6256_7uint8..eq to i64) }
-@main..types = constant { i64, [7 x i8*] } { i64 7, [7 x i8*] [i8* bitcast (%PtrType.0* @main.SimpleAsset..p to i8*), i8* bitcast (%PtrType.0* @string..p to i8*), i8* bitcast (%PtrType.0* @uint8..p to i8*), i8* bitcast (%SliceType.0* @type.._6_7uint8 to i8*), i8* bitcast (%SliceType.0* @type.._6_7string to i8*), i8* bitcast (%SliceType.0* @type.._6_7_6_7uint8 to i8*), i8* bitcast (%MapType.0* @type..map_6string_7_6_7uint8 to i8*)] }
+@main..types = constant { i64, [11 x i8*] } { i64 11, [11 x i8*] [i8* bitcast (%FuncType.0* @type..func_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 to i8*), i8* bitcast (%FuncType.0* @type..func_8_2main_0SimpleAsset_3github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9 to i8*), i8* bitcast (%PtrType.0* @type.._2_2main_0SimpleAsset to i8*), i8* bitcast (%PtrType.0* @main.SimpleAsset..p to i8*), i8* bitcast (%PtrType.0* @string..p to i8*), i8* bitcast (%PtrType.0* @uint8..p to i8*), i8* bitcast (%SliceType.0* @type.._6_7uint8 to i8*), i8* bitcast (%SliceType.0* @type.._6_7string to i8*), i8* bitcast (%SliceType.0* @type.._6_7_6_7uint8 to i8*), i8* bitcast (%MapType.0* @type..map_6string_7_6_7uint8 to i8*), i8* bitcast (%PtrType.0* @main_0SetRecord_0keyValueTransientInput..p to i8*)] }
 @bufio..types = external externally_initialized global { i64, [1 x i8*] }
 @bytes..types = external externally_initialized global { i64, [1 x i8*] }
 @compress_1flate..types = external externally_initialized global { i64, [1 x i8*] }
@@ -21670,9 +22309,9 @@ $type.._6_7_6_7uint8 = comdat any
 @sync_1atomic..types = external externally_initialized global { i64, [1 x i8*] }
 @unicode_1utf16..types = external externally_initialized global { i64, [1 x i8*] }
 @unicode_1utf8..types = external externally_initialized global { i64, [1 x i8*] }
-@go..typelists = internal constant [231 x { i64, [1 x i8*] }*] [{ i64, [1 x i8*] }* @bufio..types, { i64, [1 x i8*] }* @bytes..types, { i64, [1 x i8*] }* @compress_1flate..types, { i64, [1 x i8*] }* @compress_1gzip..types, { i64, [1 x i8*] }* @context..types, { i64, [1 x i8*] }* @crypto..types, { i64, [1 x i8*] }* @crypto_1cipher..types, { i64, [1 x i8*] }* @crypto_1dsa..types, { i64, [1 x i8*] }* @crypto_1ecdsa..types, { i64, [1 x i8*] }* @crypto_1ed25519_1internal_1edwards25519..types, { i64, [1 x i8*] }* @crypto_1ed25519_1internal_1edwards25519_1field..types, { i64, [1 x i8*] }* @crypto_1elliptic..types, { i64, [1 x i8*] }* @crypto_1elliptic_1internal_1fiat..types, { i64, [1 x i8*] }* @crypto_1elliptic_1internal_1nistec..types, { i64, [1 x i8*] }* @crypto_1internal_1randutil..types, { i64, [1 x i8*] }* @crypto_1md5..types, { i64, [1 x i8*] }* @crypto_1rand..types, { i64, [1 x i8*] }* @crypto_1rsa..types, { i64, [1 x i8*] }* @crypto_1sha1..types, { i64, [1 x i8*] }* @crypto_1sha256..types, { i64, [1 x i8*] }* @crypto_1sha512..types, { i64, [1 x i8*] }* @crypto_1tls..types, { i64, [1 x i8*] }* @crypto_1x509..types, { i64, [1 x i8*] }* @crypto_1x509_1pkix..types, { i64, [1 x i8*] }* @encoding_1asn1..types, { i64, [1 x i8*] }* @encoding_1base64..types, { i64, [1 x i8*] }* @encoding_1binary..types, { i64, [1 x i8*] }* @encoding_1hex..types, { i64, [1 x i8*] }* @encoding_1json..types, { i64, [1 x i8*] }* @encoding_1pem..types, { i64, [1 x i8*] }* @errors..types, { i64, [1 x i8*] }* @flag..types, { i64, [1 x i8*] }* @fmt..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1jsonpb..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1proto..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1any..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1duration..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1empty..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1timestamp..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1common..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1queryresult..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1rwset..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1msp..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer..types, { i64, [1 x i8*] }* @go_1token..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1chacha20..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1chacha20poly1305..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1cryptobyte..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1curve25519..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1curve25519_1internal_1field..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1dns_1dnsmessage..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http2..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http2_1hpack..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http_1httpguts..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http_1httpproxy..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1idna..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1internal_1timeseries..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1trace..types, { i64, [1 x i8*] }* @golang_0org_1x_1sys_1unix..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1secure_1bidirule..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1transform..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1unicode_1bidi..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1unicode_1norm..types, { i64, [1 x i8*] }* @google_0golang_0org_1genproto_1googleapis_1rpc_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1base..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1roundrobin..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1binarylog_1grpc__binarylog__v1..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1codes..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1connectivity..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1credentials..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1encoding..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1encoding_1proto..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1grpclog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1backoff..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1balancer_1gracefulswitch..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1balancerload..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1binarylog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1channelz..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1credentials..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1envconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpclog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcrand..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1dns..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1passthrough..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1unix..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1serviceconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1syscall..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1transport..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1resolver..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1protojson..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1protowire..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1descfmt..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1descopts..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1detrand..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1json..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1tag..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1text..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1errors..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1filedesc..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1filetype..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1impl..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1order..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1proto..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protoreflect..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protoregistry..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1descriptorpb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1anypb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1durationpb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1emptypb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1timestamppb..types, { i64, [1 x i8*] }* @hash_1crc32..types, { i64, [1 x i8*] }* @html..types, { i64, [1 x i8*] }* @html_1template..types, { i64, [1 x i8*] }* @internal_1cpu..types, { i64, [1 x i8*] }* @internal_1intern..types, { i64, [1 x i8*] }* @internal_1oserror..types, { i64, [1 x i8*] }* @internal_1poll..types, { i64, [1 x i8*] }* @internal_1reflectlite..types, { i64, [1 x i8*] }* @internal_1testlog..types, { i64, [1 x i8*] }* @io..types, { i64, [1 x i8*] }* @io_1fs..types, { i64, [1 x i8*] }* @io_1ioutil..types, { i64, [1 x i8*] }* @log..types, { i64, [1 x i8*] }* @math..types, { i64, [1 x i8*] }* @math_1big..types, { i64, [1 x i8*] }* @math_1rand..types, { i64, [1 x i8*] }* @mime..types, { i64, [1 x i8*] }* @mime_1multipart..types, { i64, [1 x i8*] }* @mime_1quotedprintable..types, { i64, [1 x i8*] }* @net..types, { i64, [1 x i8*] }* @net_1http..types, { i64, [1 x i8*] }* @net_1http_1httputil..types, { i64, [1 x i8*] }* @net_1http_1internal..types, { i64, [1 x i8*] }* @net_1netip..types, { i64, [1 x i8*] }* @net_1textproto..types, { i64, [1 x i8*] }* @os..types, { i64, [1 x i8*] }* @path..types, { i64, [1 x i8*] }* @path_1filepath..types, { i64, [1 x i8*] }* @reflect..types, { i64, [1 x i8*] }* @regexp..types, { i64, [1 x i8*] }* @regexp_1syntax..types, { i64, [1 x i8*] }* @runtime..types, { i64, [1 x i8*] }* @sort..types, { i64, [1 x i8*] }* @strconv..types, { i64, [1 x i8*] }* @sync..types, { i64, [1 x i8*] }* @syscall..types, { i64, [1 x i8*] }* @text_1tabwriter..types, { i64, [1 x i8*] }* @text_1template..types, { i64, [1 x i8*] }* @text_1template_1parse..types, { i64, [1 x i8*] }* @time..types, { i64, [1 x i8*] }* @unicode..types, { i64, [1 x i8*] }* @container_1list..types, { i64, [1 x i8*] }* @crypto_1aes..types, { i64, [1 x i8*] }* @crypto_1des..types, { i64, [1 x i8*] }* @crypto_1ed25519..types, { i64, [1 x i8*] }* @crypto_1hmac..types, { i64, [1 x i8*] }* @crypto_1internal_1subtle..types, { i64, [1 x i8*] }* @crypto_1rc4..types, { i64, [1 x i8*] }* @crypto_1subtle..types, { i64, [1 x i8*] }* @encoding..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_1internal..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1cryptobyte_1asn1..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1hkdf..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1internal_1poly1305..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1internal_1subtle..types, { i64, [1 x i8*] }* @golang_0org_1x_1sys_1internal_1unsafeheader..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1attributes..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1backoff..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1grpclb_1state..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1channelz..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1credentials_1insecure..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1buffer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcsync..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcutil..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1metadata..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1pretty..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1transport_1networktype..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1keepalive..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1metadata..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1peer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1serviceconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1stats..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1tap..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1prototext..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1defval..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1messageset..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1flags..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1genid..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1pragma..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1set..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1strs..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1version..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protodesc..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1runtime_1protoiface..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1runtime_1protoimpl..types, { i64, [1 x i8*] }* @hash..types, { i64, [1 x i8*] }* @hash_1fnv..types, { i64, [1 x i8*] }* @internal_1abi..types, { i64, [1 x i8*] }* @internal_1bytealg..types, { i64, [1 x i8*] }* @internal_1fmtsort..types, { i64, [1 x i8*] }* @internal_1goarch..types, { i64, [1 x i8*] }* @internal_1godebug..types, { i64, [1 x i8*] }* @internal_1goexperiment..types, { i64, [1 x i8*] }* @internal_1goos..types, { i64, [1 x i8*] }* @internal_1itoa..types, { i64, [1 x i8*] }* @internal_1nettrace..types, { i64, [1 x i8*] }* @internal_1race..types, { i64, [1 x i8*] }* @internal_1singleflight..types, { i64, [1 x i8*] }* @internal_1syscall_1execenv..types, { i64, [1 x i8*] }* @internal_1syscall_1unix..types, { i64, [1 x i8*] }* @internal_1unsafeheader..types, { i64, [1 x i8*] }* @math_1bits..types, { i64, [1 x i8*] }* @net_1http_1httptrace..types, { i64, [1 x i8*] }* @net_1http_1internal_1ascii..types, { i64, [1 x i8*] }* @net_1url..types, { i64, [1 x i8*] }* @runtime_1internal_1atomic..types, { i64, [1 x i8*] }* @runtime_1internal_1math..types, { i64, [1 x i8*] }* @runtime_1internal_1sys..types, { i64, [1 x i8*] }* @strings..types, { i64, [1 x i8*] }* @sync_1atomic..types, { i64, [1 x i8*] }* @unicode_1utf16..types, { i64, [1 x i8*] }* @unicode_1utf8..types, { i64, [1 x i8*] }* bitcast ({ i64, [7 x i8*] }* @main..types to { i64, [1 x i8*] }*)]
+@go..typelists = internal constant [231 x { i64, [1 x i8*] }*] [{ i64, [1 x i8*] }* @bufio..types, { i64, [1 x i8*] }* @bytes..types, { i64, [1 x i8*] }* @compress_1flate..types, { i64, [1 x i8*] }* @compress_1gzip..types, { i64, [1 x i8*] }* @context..types, { i64, [1 x i8*] }* @crypto..types, { i64, [1 x i8*] }* @crypto_1cipher..types, { i64, [1 x i8*] }* @crypto_1dsa..types, { i64, [1 x i8*] }* @crypto_1ecdsa..types, { i64, [1 x i8*] }* @crypto_1ed25519_1internal_1edwards25519..types, { i64, [1 x i8*] }* @crypto_1ed25519_1internal_1edwards25519_1field..types, { i64, [1 x i8*] }* @crypto_1elliptic..types, { i64, [1 x i8*] }* @crypto_1elliptic_1internal_1fiat..types, { i64, [1 x i8*] }* @crypto_1elliptic_1internal_1nistec..types, { i64, [1 x i8*] }* @crypto_1internal_1randutil..types, { i64, [1 x i8*] }* @crypto_1md5..types, { i64, [1 x i8*] }* @crypto_1rand..types, { i64, [1 x i8*] }* @crypto_1rsa..types, { i64, [1 x i8*] }* @crypto_1sha1..types, { i64, [1 x i8*] }* @crypto_1sha256..types, { i64, [1 x i8*] }* @crypto_1sha512..types, { i64, [1 x i8*] }* @crypto_1tls..types, { i64, [1 x i8*] }* @crypto_1x509..types, { i64, [1 x i8*] }* @crypto_1x509_1pkix..types, { i64, [1 x i8*] }* @encoding_1asn1..types, { i64, [1 x i8*] }* @encoding_1base64..types, { i64, [1 x i8*] }* @encoding_1binary..types, { i64, [1 x i8*] }* @encoding_1hex..types, { i64, [1 x i8*] }* @encoding_1json..types, { i64, [1 x i8*] }* @encoding_1pem..types, { i64, [1 x i8*] }* @errors..types, { i64, [1 x i8*] }* @flag..types, { i64, [1 x i8*] }* @fmt..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1jsonpb..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1proto..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1any..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1duration..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1empty..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes_1timestamp..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1common..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1queryresult..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1rwset..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1msp..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer..types, { i64, [1 x i8*] }* @go_1token..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1chacha20..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1chacha20poly1305..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1cryptobyte..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1curve25519..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1curve25519_1internal_1field..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1dns_1dnsmessage..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http2..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http2_1hpack..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http_1httpguts..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1http_1httpproxy..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1idna..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1internal_1timeseries..types, { i64, [1 x i8*] }* @golang_0org_1x_1net_1trace..types, { i64, [1 x i8*] }* @golang_0org_1x_1sys_1unix..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1secure_1bidirule..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1transform..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1unicode_1bidi..types, { i64, [1 x i8*] }* @golang_0org_1x_1text_1unicode_1norm..types, { i64, [1 x i8*] }* @google_0golang_0org_1genproto_1googleapis_1rpc_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1base..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1roundrobin..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1binarylog_1grpc__binarylog__v1..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1codes..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1connectivity..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1credentials..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1encoding..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1encoding_1proto..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1grpclog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1backoff..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1balancer_1gracefulswitch..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1balancerload..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1binarylog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1channelz..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1credentials..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1envconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpclog..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcrand..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1dns..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1passthrough..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver_1unix..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1serviceconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1syscall..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1transport..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1resolver..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1protojson..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1protowire..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1descfmt..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1descopts..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1detrand..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1json..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1tag..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1text..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1errors..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1filedesc..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1filetype..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1impl..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1order..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1proto..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protoreflect..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protoregistry..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1descriptorpb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1anypb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1durationpb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1emptypb..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1types_1known_1timestamppb..types, { i64, [1 x i8*] }* @hash_1crc32..types, { i64, [1 x i8*] }* @html..types, { i64, [1 x i8*] }* @html_1template..types, { i64, [1 x i8*] }* @internal_1cpu..types, { i64, [1 x i8*] }* @internal_1intern..types, { i64, [1 x i8*] }* @internal_1oserror..types, { i64, [1 x i8*] }* @internal_1poll..types, { i64, [1 x i8*] }* @internal_1reflectlite..types, { i64, [1 x i8*] }* @internal_1testlog..types, { i64, [1 x i8*] }* @io..types, { i64, [1 x i8*] }* @io_1fs..types, { i64, [1 x i8*] }* @io_1ioutil..types, { i64, [1 x i8*] }* @log..types, { i64, [1 x i8*] }* @math..types, { i64, [1 x i8*] }* @math_1big..types, { i64, [1 x i8*] }* @math_1rand..types, { i64, [1 x i8*] }* @mime..types, { i64, [1 x i8*] }* @mime_1multipart..types, { i64, [1 x i8*] }* @mime_1quotedprintable..types, { i64, [1 x i8*] }* @net..types, { i64, [1 x i8*] }* @net_1http..types, { i64, [1 x i8*] }* @net_1http_1httputil..types, { i64, [1 x i8*] }* @net_1http_1internal..types, { i64, [1 x i8*] }* @net_1netip..types, { i64, [1 x i8*] }* @net_1textproto..types, { i64, [1 x i8*] }* @os..types, { i64, [1 x i8*] }* @path..types, { i64, [1 x i8*] }* @path_1filepath..types, { i64, [1 x i8*] }* @reflect..types, { i64, [1 x i8*] }* @regexp..types, { i64, [1 x i8*] }* @regexp_1syntax..types, { i64, [1 x i8*] }* @runtime..types, { i64, [1 x i8*] }* @sort..types, { i64, [1 x i8*] }* @strconv..types, { i64, [1 x i8*] }* @sync..types, { i64, [1 x i8*] }* @syscall..types, { i64, [1 x i8*] }* @text_1tabwriter..types, { i64, [1 x i8*] }* @text_1template..types, { i64, [1 x i8*] }* @text_1template_1parse..types, { i64, [1 x i8*] }* @time..types, { i64, [1 x i8*] }* @unicode..types, { i64, [1 x i8*] }* @container_1list..types, { i64, [1 x i8*] }* @crypto_1aes..types, { i64, [1 x i8*] }* @crypto_1des..types, { i64, [1 x i8*] }* @crypto_1ed25519..types, { i64, [1 x i8*] }* @crypto_1hmac..types, { i64, [1 x i8*] }* @crypto_1internal_1subtle..types, { i64, [1 x i8*] }* @crypto_1rc4..types, { i64, [1 x i8*] }* @crypto_1subtle..types, { i64, [1 x i8*] }* @encoding..types, { i64, [1 x i8*] }* @github_0com_1golang_1protobuf_1ptypes..types, { i64, [1 x i8*] }* @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_1internal..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1cryptobyte_1asn1..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1hkdf..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1internal_1poly1305..types, { i64, [1 x i8*] }* @golang_0org_1x_1crypto_1internal_1subtle..types, { i64, [1 x i8*] }* @golang_0org_1x_1sys_1internal_1unsafeheader..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1attributes..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1backoff..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1balancer_1grpclb_1state..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1channelz..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1credentials_1insecure..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1buffer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcsync..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1grpcutil..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1metadata..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1pretty..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1resolver..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1internal_1transport_1networktype..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1keepalive..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1metadata..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1peer..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1serviceconfig..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1stats..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1status..types, { i64, [1 x i8*] }* @google_0golang_0org_1grpc_1tap..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1encoding_1prototext..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1defval..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1encoding_1messageset..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1flags..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1genid..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1pragma..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1set..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1strs..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1internal_1version..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1reflect_1protodesc..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1runtime_1protoiface..types, { i64, [1 x i8*] }* @google_0golang_0org_1protobuf_1runtime_1protoimpl..types, { i64, [1 x i8*] }* @hash..types, { i64, [1 x i8*] }* @hash_1fnv..types, { i64, [1 x i8*] }* @internal_1abi..types, { i64, [1 x i8*] }* @internal_1bytealg..types, { i64, [1 x i8*] }* @internal_1fmtsort..types, { i64, [1 x i8*] }* @internal_1goarch..types, { i64, [1 x i8*] }* @internal_1godebug..types, { i64, [1 x i8*] }* @internal_1goexperiment..types, { i64, [1 x i8*] }* @internal_1goos..types, { i64, [1 x i8*] }* @internal_1itoa..types, { i64, [1 x i8*] }* @internal_1nettrace..types, { i64, [1 x i8*] }* @internal_1race..types, { i64, [1 x i8*] }* @internal_1singleflight..types, { i64, [1 x i8*] }* @internal_1syscall_1execenv..types, { i64, [1 x i8*] }* @internal_1syscall_1unix..types, { i64, [1 x i8*] }* @internal_1unsafeheader..types, { i64, [1 x i8*] }* @math_1bits..types, { i64, [1 x i8*] }* @net_1http_1httptrace..types, { i64, [1 x i8*] }* @net_1http_1internal_1ascii..types, { i64, [1 x i8*] }* @net_1url..types, { i64, [1 x i8*] }* @runtime_1internal_1atomic..types, { i64, [1 x i8*] }* @runtime_1internal_1math..types, { i64, [1 x i8*] }* @runtime_1internal_1sys..types, { i64, [1 x i8*] }* @strings..types, { i64, [1 x i8*] }* @sync_1atomic..types, { i64, [1 x i8*] }* @unicode_1utf16..types, { i64, [1 x i8*] }* @unicode_1utf8..types, { i64, [1 x i8*] }* bitcast ({ i64, [11 x i8*] }* @main..types to { i64, [1 x i8*] }*)]
 
-define void @__go_init_main(i8* nest nocapture readnone %nest.39) local_unnamed_addr #0 !dbg !495 {
+define void @__go_init_main(i8* nest nocapture readnone %nest.44) local_unnamed_addr #0 !dbg !495 {
 entry:
   call void @runtime.registerTypeDescriptors(i8* nest undef, i64 231, i8* bitcast ([231 x { i64, [1 x i8*] }*]* @go..typelists to i8*)), !dbg !500
   call void @internal_1cpu..import(i8* nest undef)
@@ -21830,731 +22469,1854 @@ entry:
   call void @google_0golang_0org_1grpc..import(i8* nest undef)
   call void @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer..import(i8* nest undef)
   call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim..import(i8* nest undef)
-  call void @main.main..init0(i8* nest undef), !dbg !502
+  call void @runtime.setmodinfo(i8* nest undef, i8* getelementptr inbounds ([1175 x i8], [1175 x i8]* @const.71, i64 0, i64 0), i64 1174), !dbg !502
   ret void
 }
 
-define i8 @main.SimpleAsset..eq(i8* nest nocapture readnone %nest.10, i8* readonly %key1, i8* readonly %key2) #0 !dbg !505 {
+define void @main.SimpleAsset.Init(%Response.0* nocapture writeonly sret(%Response.0) %sret.formal.0, i8* nest nocapture readnone %nest.0, %SimpleAsset.0* nocapture readnone %t, i8* nocapture readonly %stub.chunk0, i8* %stub.chunk1) #0 !dbg !507 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !508, metadata !DIExpression()), !dbg !509
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !510, metadata !DIExpression()), !dbg !509
-  call void @llvm.dbg.value(metadata i8 0, metadata !511, metadata !DIExpression()), !dbg !509
-  %icmp.63 = icmp eq i8* %key1, null, !dbg !512
-  br i1 %icmp.63, label %then.50, label %else.50, !make.implicit !499
+  %tmp.1 = alloca %IPST.49, align 8
+  %sret.actual.0 = alloca %IPST.4, align 8
+  %sret.actual.1 = alloca %Response.0, align 8
+  %sret.actual.2 = alloca { i8**, i64, i64 }, align 8
+  %tmpv.8 = alloca { i8*, i64 }, align 8, !go_addrtaken !499
+  %tmpv.9 = alloca [1 x { %_type.0*, i8* }], align 8
+  %sret.actual.5 = alloca %Response.0, align 8
+  %sret.actual.6 = alloca %Response.0, align 8
+  call void @llvm.dbg.value(metadata %SimpleAsset.0* undef, metadata !2027, metadata !DIExpression()), !dbg !2028
+  call void @llvm.dbg.value(metadata i8* %stub.chunk0, metadata !2029, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2028
+  call void @llvm.dbg.value(metadata i8* %stub.chunk1, metadata !2029, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2028
+  %field.1 = getelementptr inbounds i8, i8* %stub.chunk0, i64 216, !dbg !2030
+  %0 = bitcast i8* %field.1 to void (%IPST.4*, i8*, i8*)**, !dbg !2030
+  %.field.ld.0 = load void (%IPST.4*, i8*, i8*)*, void (%IPST.4*, i8*, i8*)** %0, align 8, !dbg !2030
+  call void %.field.ld.0(%IPST.4* nonnull sret(%IPST.4) "go_sret" %sret.actual.0, i8* nest undef, i8* %stub.chunk1), !dbg !2030
+  %args.sroa.0.0.cast.75.sroa_idx = getelementptr inbounds %IPST.4, %IPST.4* %sret.actual.0, i64 0, i32 0
+  %args.sroa.0.0.copyload = load { i8*, i64 }*, { i8*, i64 }** %args.sroa.0.0.cast.75.sroa_idx, align 8
+  call void @llvm.dbg.value(metadata { i8*, i64 }* %args.sroa.0.0.copyload, metadata !2032, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2028
+  %args.sroa.8.0.cast.75.sroa_idx15 = getelementptr inbounds %IPST.4, %IPST.4* %sret.actual.0, i64 0, i32 1
+  %args.sroa.8.0.copyload = load i64, i64* %args.sroa.8.0.cast.75.sroa_idx15, align 8
+  call void @llvm.dbg.value(metadata i64 %args.sroa.8.0.copyload, metadata !2032, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2028
+  call void @llvm.dbg.value(metadata i64 undef, metadata !2032, metadata !DIExpression(DW_OP_LLVM_fragment, 128, 64)), !dbg !2028
+  %icmp.0.not = icmp eq i64 %args.sroa.8.0.copyload, 2, !dbg !2033
+  br i1 %icmp.0.not, label %fallthrough.2, label %then.0
 
-then.50:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !512
-  unreachable
+common.ret:                                       ; preds = %fallthrough.5, %else.3, %then.0
+  %sret.actual.5.sink = phi %Response.0* [ %sret.actual.5, %fallthrough.5 ], [ %sret.actual.6, %else.3 ], [ %sret.actual.1, %then.0 ]
+  %cast.113 = bitcast %Response.0* %sret.actual.5.sink to i8*
+  %cast.116 = bitcast %Response.0* %sret.formal.0 to i8*, !dbg !2034
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(80) %cast.116, i8* noundef nonnull align 8 dereferenceable(80) %cast.113, i64 80, i1 false), !dbg !2034
+  ret void, !dbg !2034
 
-else.50:                                          ; preds = %entry
-  %tmpv.127.sroa.0.0.cast.560.sroa_idx = bitcast i8* %key1 to i8**
-  %tmpv.127.sroa.0.0.copyload = load i8*, i8** %tmpv.127.sroa.0.0.cast.560.sroa_idx, align 8
-  %icmp.64 = icmp eq i8* %key2, null, !dbg !512
-  br i1 %icmp.64, label %then.51, label %else.51, !make.implicit !499
+then.0:                                           ; preds = %entry
+  call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Error(%Response.0* nonnull sret(%Response.0) "go_sret" %sret.actual.1, i8* nest undef, i8* getelementptr inbounds ([49 x i8], [49 x i8]* @const.9, i64 0, i64 0), i64 48), !dbg !2035
+  br label %common.ret
 
-then.51:                                          ; preds = %else.50
-  call void @runtime.panicmem(i8* nest undef), !dbg !512
-  unreachable
+fallthrough.2:                                    ; preds = %entry
+  %field.9 = getelementptr inbounds i8, i8* %stub.chunk0, i64 272, !dbg !2036
+  %1 = bitcast i8* %field.9 to { i8*, i8* } (i8*, i8*, i8*, i64, %IPST.0*)**, !dbg !2036
+  %.field.ld.1 = load { i8*, i8* } (i8*, i8*, i8*, i64, %IPST.0*)*, { i8*, i8* } (i8*, i8*, i8*, i64, %IPST.0*)** %1, align 8, !dbg !2036
+  %field0.1 = getelementptr { i8*, i64 }, { i8*, i64 }* %args.sroa.0.0.copyload, i64 1, i32 0, !dbg !2037
+  %ld.2 = load i8*, i8** %field0.1, align 8, !dbg !2037
+  %field1.1 = getelementptr { i8*, i64 }, { i8*, i64 }* %args.sroa.0.0.copyload, i64 1, i32 1, !dbg !2037
+  %ld.3 = load i64, i64* %field1.1, align 8, !dbg !2037
+  call void @runtime.stringtoslicebyte({ i8**, i64, i64 }* nonnull sret({ i8**, i64, i64 }) "go_sret" %sret.actual.2, i8* nest undef, i8* null, i8* %ld.2, i64 %ld.3), !dbg !2037
+  %cast.85 = bitcast { i8**, i64, i64 }* %sret.actual.2 to %IPST.0*, !dbg !2037
+  %field0.2 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.sroa.0.0.copyload, i64 0, i32 0, !dbg !2036
+  %ld.4 = load i8*, i8** %field0.2, align 8, !dbg !2036
+  %field1.2 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.sroa.0.0.copyload, i64 0, i32 1, !dbg !2036
+  %ld.5 = load i64, i64* %field1.2, align 8, !dbg !2036
+  %call.0 = call { i8*, i8* } %.field.ld.1(i8* nest undef, i8* %stub.chunk1, i8* %ld.4, i64 %ld.5, %IPST.0* nonnull byval(%IPST.0) %cast.85), !dbg !2036
+  %call.0.fca.0.extract = extractvalue { i8*, i8* } %call.0, 0, !dbg !2036
+  call void @llvm.dbg.value(metadata i8* %call.0.fca.0.extract, metadata !2038, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2028
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2038, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2028
+  %icmp.8.not = icmp eq i8* %call.0.fca.0.extract, null, !dbg !2039
+  br i1 %icmp.8.not, label %else.3, label %fallthrough.4
 
-else.51:                                          ; preds = %else.50
-  %tmpv.127.sroa.3.0.cast.560.sroa_idx6 = getelementptr inbounds i8, i8* %key1, i64 8
-  %0 = bitcast i8* %tmpv.127.sroa.3.0.cast.560.sroa_idx6 to i64*
-  %tmpv.127.sroa.3.0.copyload = load i64, i64* %0, align 8
-  %tmpv.129.sroa.0.0.cast.563.sroa_idx = bitcast i8* %key2 to i8**
-  %tmpv.129.sroa.0.0.copyload = load i8*, i8** %tmpv.129.sroa.0.0.cast.563.sroa_idx, align 8
-  %tmpv.129.sroa.3.0.cast.563.sroa_idx4 = getelementptr inbounds i8, i8* %key2, i64 8
-  %1 = bitcast i8* %tmpv.129.sroa.3.0.cast.563.sroa_idx4 to i64*
-  %tmpv.129.sroa.3.0.copyload = load i64, i64* %1, align 8
-  %icmp.65 = icmp eq i64 %tmpv.127.sroa.3.0.copyload, %tmpv.129.sroa.3.0.copyload, !dbg !512
-  br i1 %icmp.65, label %then.52, label %common.ret
+else.3:                                           ; preds = %fallthrough.2
+  call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Success(%Response.0* nonnull sret(%Response.0) "go_sret" %sret.actual.6, i8* nest undef, %IPST.0* nonnull byval(%IPST.0) @const.15), !dbg !2040
+  br label %common.ret
 
-then.52:                                          ; preds = %else.51
-  %icmp.66 = icmp eq i8* %tmpv.127.sroa.0.0.copyload, %tmpv.129.sroa.0.0.copyload, !dbg !512
-  br i1 %icmp.66, label %else.55, label %fallthrough.52
+fallthrough.4:                                    ; preds = %fallthrough.2
+  %call.1 = call i8* @runtime.newobject(i8* nest undef, %_type.0* nonnull @string..d), !dbg !2041
+  %cast.95 = bitcast { i8*, i64 }* %tmpv.8 to i8*
+  %cast.96 = bitcast { i8*, i64 }* %args.sroa.0.0.copyload to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %cast.95, i8* noundef nonnull align 8 dereferenceable(16) %cast.96, i64 16, i1 false)
+  %deref.ld.0 = load i32, i32* bitcast ({ i8, [3 x i8], i8, i8, i64 }* @runtime.writeBarrier to i32*), align 8, !dbg !2041
+  %icmp.7 = icmp eq i32 %deref.ld.0, 0, !dbg !2041
+  br i1 %icmp.7, label %then.5, label %else.5
 
-fallthrough.52:                                   ; preds = %then.52
-  %call.28 = call i32 @memcmp(i8* %tmpv.127.sroa.0.0.copyload, i8* %tmpv.129.sroa.0.0.copyload, i64 %tmpv.127.sroa.3.0.copyload), !dbg !512
-  %icmp.67 = icmp eq i32 %call.28, 0, !dbg !512
-  br i1 %icmp.67, label %else.55, label %common.ret
+then.5:                                           ; preds = %fallthrough.4
+  call void @llvm.memmove.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %call.1, i8* noundef nonnull align 8 dereferenceable(16) %cast.96, i64 16, i1 false), !dbg !2041
+  br label %fallthrough.5
 
-common.ret:                                       ; preds = %else.55, %else.51, %fallthrough.57.thread, %fallthrough.57, %fallthrough.52
-  %common.ret.op = phi i8 [ 0, %fallthrough.52 ], [ 1, %fallthrough.57.thread ], [ 0, %fallthrough.57 ], [ 0, %else.51 ], [ 0, %else.55 ]
-  ret i8 %common.ret.op, !dbg !512
+fallthrough.5:                                    ; preds = %else.5, %then.5
+  %tmp.0.sroa.0.0.cast.104.sroa_idx = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.9, i64 0, i64 0, i32 0, !dbg !2041
+  store %_type.0* @string..d, %_type.0** %tmp.0.sroa.0.0.cast.104.sroa_idx, align 8, !dbg !2041
+  %tmp.0.sroa.2.0.cast.104.sroa_idx28 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.9, i64 0, i64 0, i32 1, !dbg !2041
+  store i8* %call.1, i8** %tmp.0.sroa.2.0.cast.104.sroa_idx28, align 8, !dbg !2041
+  %cast.106 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.9, i64 0, i64 0, !dbg !2041
+  %field.18 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.1, i64 0, i32 0, !dbg !2041
+  store { %_type.0*, i8* }* %cast.106, { %_type.0*, i8* }** %field.18, align 8, !dbg !2041
+  %field.19 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.1, i64 0, i32 1, !dbg !2041
+  %2 = bitcast i64* %field.19 to <2 x i64>*, !dbg !2041
+  store <2 x i64> <i64 1, i64 1>, <2 x i64>* %2, align 8, !dbg !2041
+  %call.2 = call { i8*, i64 } @fmt.Sprintf(i8* nest undef, i8* getelementptr inbounds ([27 x i8], [27 x i8]* @const.13, i64 0, i64 0), i64 26, %IPST.49* nonnull byval(%IPST.49) %tmp.1), !dbg !2041
+  %call.2.fca.0.extract = extractvalue { i8*, i64 } %call.2, 0, !dbg !2041
+  %call.2.fca.1.extract = extractvalue { i8*, i64 } %call.2, 1, !dbg !2041
+  call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Error(%Response.0* nonnull sret(%Response.0) "go_sret" %sret.actual.5, i8* nest undef, i8* %call.2.fca.0.extract, i64 %call.2.fca.1.extract), !dbg !2042
+  br label %common.ret
 
-else.55:                                          ; preds = %then.52, %fallthrough.52
-  %tmpv.133.sroa.0.0.cast.566.sroa_idx = getelementptr inbounds i8, i8* %key1, i64 16
-  %2 = bitcast i8* %tmpv.133.sroa.0.0.cast.566.sroa_idx to i8**
-  %tmpv.133.sroa.0.0.copyload = load i8*, i8** %2, align 8
-  %tmpv.133.sroa.3.0.cast.566.sroa_idx3 = getelementptr inbounds i8, i8* %key1, i64 24
-  %3 = bitcast i8* %tmpv.133.sroa.3.0.cast.566.sroa_idx3 to i64*
-  %tmpv.133.sroa.3.0.copyload = load i64, i64* %3, align 8
-  %tmpv.135.sroa.0.0.cast.569.sroa_idx = getelementptr inbounds i8, i8* %key2, i64 16
-  %4 = bitcast i8* %tmpv.135.sroa.0.0.cast.569.sroa_idx to i8**
-  %tmpv.135.sroa.0.0.copyload = load i8*, i8** %4, align 8
-  %tmpv.135.sroa.3.0.cast.569.sroa_idx1 = getelementptr inbounds i8, i8* %key2, i64 24
-  %5 = bitcast i8* %tmpv.135.sroa.3.0.cast.569.sroa_idx1 to i64*
-  %tmpv.135.sroa.3.0.copyload = load i64, i64* %5, align 8
-  %icmp.71 = icmp eq i64 %tmpv.133.sroa.3.0.copyload, %tmpv.135.sroa.3.0.copyload, !dbg !512
-  br i1 %icmp.71, label %then.57, label %common.ret
+else.5:                                           ; preds = %fallthrough.4
+  call void @runtime.typedmemmove(i8* nest undef, %_type.0* nonnull @string..d, i8* nonnull %call.1, i8* nonnull %cast.95), !dbg !2041
+  br label %fallthrough.5
+}
 
-then.57:                                          ; preds = %else.55
-  %icmp.72 = icmp eq i8* %tmpv.133.sroa.0.0.copyload, %tmpv.135.sroa.0.0.copyload, !dbg !512
-  br i1 %icmp.72, label %fallthrough.57.thread, label %fallthrough.57
+define void @main.SimpleAsset.Invoke(%Response.0* nocapture writeonly sret(%Response.0) %sret.formal.1, i8* nest nocapture readnone %nest.1, %SimpleAsset.0* nocapture readnone %t, i8* nocapture readonly %stub.chunk0, i8* %stub.chunk1) #0 !dbg !2043 {
+entry:
+  %args = alloca %IPST.4, align 8
+  %sret.actual.7 = alloca { { i8*, i64 }, %IPST.4 }, align 8
+  %sret.actual.8 = alloca { { i8*, i64 }, %error.0 }, align 8
+  %sret.actual.9 = alloca { { i8*, i64 }, %error.0 }, align 8
+  %sret.actual.10 = alloca { { i8*, i64 }, %error.0 }, align 8
+  %sret.actual.12 = alloca %Response.0, align 8
+  %sret.actual.13 = alloca { i8**, i64, i64 }, align 8
+  %sret.actual.14 = alloca %Response.0, align 8
+  call void @llvm.dbg.value(metadata %SimpleAsset.0* undef, metadata !2044, metadata !DIExpression()), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* %stub.chunk0, metadata !2046, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* %stub.chunk1, metadata !2046, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  %0 = bitcast %IPST.4* %args to i8*
+  call void @llvm.lifetime.start.p0i8(i64 24, i8* nonnull %0)
+  %field.23 = getelementptr inbounds i8, i8* %stub.chunk0, i64 80, !dbg !2047
+  %1 = bitcast i8* %field.23 to void ({ { i8*, i64 }, %IPST.4 }*, i8*, i8*)**, !dbg !2047
+  %.field.ld.2 = load void ({ { i8*, i64 }, %IPST.4 }*, i8*, i8*)*, void ({ { i8*, i64 }, %IPST.4 }*, i8*, i8*)** %1, align 8, !dbg !2047
+  call void %.field.ld.2({ { i8*, i64 }, %IPST.4 }* nonnull sret({ { i8*, i64 }, %IPST.4 }) "go_sret" %sret.actual.7, i8* nest undef, i8* %stub.chunk1), !dbg !2047
+  %tmpv.14.sroa.0.0.cast.129.sroa_idx = getelementptr inbounds { { i8*, i64 }, %IPST.4 }, { { i8*, i64 }, %IPST.4 }* %sret.actual.7, i64 0, i32 0, i32 0, !dbg !2047
+  %tmpv.14.sroa.0.0.copyload = load i8*, i8** %tmpv.14.sroa.0.0.cast.129.sroa_idx, align 8, !dbg !2047
+  %tmpv.14.sroa.2.0.cast.129.sroa_idx63 = getelementptr inbounds { { i8*, i64 }, %IPST.4 }, { { i8*, i64 }, %IPST.4 }* %sret.actual.7, i64 0, i32 0, i32 1, !dbg !2047
+  %tmpv.14.sroa.2.0.copyload = load i64, i64* %tmpv.14.sroa.2.0.cast.129.sroa_idx63, align 8, !dbg !2047
+  %tmpv.14.sroa.3.0.cast.129.sroa_idx = getelementptr inbounds { { i8*, i64 }, %IPST.4 }, { { i8*, i64 }, %IPST.4 }* %sret.actual.7, i64 0, i32 1, !dbg !2047
+  %tmpv.14.sroa.3.0.cast.129.sroa_cast = bitcast %IPST.4* %tmpv.14.sroa.3.0.cast.129.sroa_idx to i8*, !dbg !2047
+  %args103 = bitcast %IPST.4* %args to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(24) %args103, i8* noundef nonnull align 8 dereferenceable(24) %tmpv.14.sroa.3.0.cast.129.sroa_cast, i64 24, i1 false), !dbg !2047
+  call void @llvm.dbg.value(metadata i8* %tmpv.14.sroa.0.0.copyload, metadata !2049, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i64 %tmpv.14.sroa.2.0.copyload, metadata !2049, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.declare(metadata %IPST.4* %args, metadata !2050, metadata !DIExpression()), !dbg !2051
+  call void @llvm.dbg.value(metadata i8* null, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i64 0, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* null, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* null, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  switch i64 %tmpv.14.sroa.2.0.copyload, label %else.15 [
+    i64 10, label %then.6
+    i64 9, label %then.9
+  ]
 
-fallthrough.57:                                   ; preds = %then.57
-  %call.29 = call i32 @memcmp(i8* %tmpv.133.sroa.0.0.copyload, i8* %tmpv.135.sroa.0.0.copyload, i64 %tmpv.133.sroa.3.0.copyload), !dbg !512
-  %icmp.73 = icmp eq i32 %call.29, 0, !dbg !512
-  br i1 %icmp.73, label %fallthrough.57.thread, label %common.ret
+then.6:                                           ; preds = %entry
+  %icmp.18 = icmp eq i8* %tmpv.14.sroa.0.0.copyload, getelementptr inbounds ([11 x i8], [11 x i8]* @const.19, i64 0, i64 0), !dbg !2054
+  br i1 %icmp.18, label %then.8, label %fallthrough.6
 
-fallthrough.57.thread:                            ; preds = %then.57, %fallthrough.57
+fallthrough.6:                                    ; preds = %then.6
+  %call.5 = call i32 @memcmp(i8* noundef nonnull dereferenceable(10) %tmpv.14.sroa.0.0.copyload, i8* noundef nonnull dereferenceable(10) getelementptr inbounds ([11 x i8], [11 x i8]* @const.19, i64 0, i64 0), i64 10), !dbg !2054
+  %icmp.19 = icmp eq i32 %call.5, 0, !dbg !2054
+  br i1 %icmp.19, label %then.8, label %else.15
+
+then.8:                                           ; preds = %then.6, %fallthrough.6
+  call void @main.SetRecord1({ { i8*, i64 }, %error.0 }* nonnull sret({ { i8*, i64 }, %error.0 }) "go_sret" %sret.actual.8, i8* nest undef, i8* nonnull %stub.chunk0, i8* %stub.chunk1, %IPST.4* nonnull byval(%IPST.4) %args), !dbg !2055
+  %tmpv.18.sroa.0.sroa.0.0.tmpv.18.sroa.0.0.cast.143.sroa_cast.sroa_idx = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.8, i64 0, i32 0, i32 0, !dbg !2055
+  %tmpv.18.sroa.0.sroa.0.0.copyload = load i8*, i8** %tmpv.18.sroa.0.sroa.0.0.tmpv.18.sroa.0.0.cast.143.sroa_cast.sroa_idx, align 8, !dbg !2055
+  call void @llvm.dbg.value(metadata i8* %tmpv.18.sroa.0.sroa.0.0.copyload, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i64 undef, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  br label %fallthrough.8
+
+fallthrough.8:                                    ; preds = %then.14, %then.11, %then.8
+  %sret.actual.10.sink107 = phi { { i8*, i64 }, %error.0 }* [ %sret.actual.10, %then.14 ], [ %sret.actual.9, %then.11 ], [ %sret.actual.8, %then.8 ]
+  %result.sroa.0.0 = phi i8* [ %tmpv.30.sroa.0.sroa.0.0.copyload, %then.14 ], [ %tmpv.24.sroa.0.sroa.0.0.copyload, %then.11 ], [ %tmpv.18.sroa.0.sroa.0.0.copyload, %then.8 ]
+  %tmpv.30.sroa.0.sroa.2.0.tmpv.30.sroa.0.0.cast.175.sroa_cast.sroa_idx48 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.10.sink107, i64 0, i32 0, i32 1, !dbg !2056
+  %tmpv.30.sroa.0.sroa.2.0.copyload = load i64, i64* %tmpv.30.sroa.0.sroa.2.0.tmpv.30.sroa.0.0.cast.175.sroa_cast.sroa_idx48, align 8, !dbg !2056
+  %tmpv.30.sroa.2.0.cast.175.sroa_idx21 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.10.sink107, i64 0, i32 1, i32 0, !dbg !2056
+  %tmpv.30.sroa.2.0.copyload = load { %_type.0*, { i8*, i64 } (i8*, i8*)* }*, { %_type.0*, { i8*, i64 } (i8*, i8*)* }** %tmpv.30.sroa.2.0.cast.175.sroa_idx21, align 8, !dbg !2056
+  call void @llvm.dbg.value(metadata i64 %tmpv.30.sroa.0.sroa.2.0.copyload, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* %result.sroa.0.0, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.30.sroa.2.0.copyload, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  %icmp.21.not = icmp eq { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.30.sroa.2.0.copyload, null, !dbg !2057
+  br i1 %icmp.21.not, label %else.15, label %then.15
+
+then.9:                                           ; preds = %entry
+  %icmp.14 = icmp eq i8* %tmpv.14.sroa.0.0.copyload, getelementptr inbounds ([10 x i8], [10 x i8]* @const.21, i64 0, i64 0), !dbg !2058
+  br i1 %icmp.14, label %then.11, label %fallthrough.9
+
+fallthrough.9:                                    ; preds = %then.9
+  %call.4 = call i32 @memcmp(i8* noundef nonnull dereferenceable(9) %tmpv.14.sroa.0.0.copyload, i8* noundef nonnull dereferenceable(9) getelementptr inbounds ([10 x i8], [10 x i8]* @const.21, i64 0, i64 0), i64 9), !dbg !2058
+  %icmp.15 = icmp eq i32 %call.4, 0, !dbg !2058
+  br i1 %icmp.15, label %then.11, label %then.12
+
+then.11:                                          ; preds = %then.9, %fallthrough.9
+  call void @main.GetRecord({ { i8*, i64 }, %error.0 }* nonnull sret({ { i8*, i64 }, %error.0 }) "go_sret" %sret.actual.9, i8* nest undef, i8* nonnull %stub.chunk0, i8* %stub.chunk1, %IPST.4* nonnull byval(%IPST.4) %args), !dbg !2059
+  %tmpv.24.sroa.0.sroa.0.0.tmpv.24.sroa.0.0.cast.159.sroa_cast.sroa_idx = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.9, i64 0, i32 0, i32 0, !dbg !2059
+  %tmpv.24.sroa.0.sroa.0.0.copyload = load i8*, i8** %tmpv.24.sroa.0.sroa.0.0.tmpv.24.sroa.0.0.cast.159.sroa_cast.sroa_idx, align 8, !dbg !2059
+  call void @llvm.dbg.value(metadata i8* %tmpv.24.sroa.0.sroa.0.0.copyload, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i64 undef, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  br label %fallthrough.8
+
+then.12:                                          ; preds = %fallthrough.9
+  %icmp.10 = icmp eq i8* %tmpv.14.sroa.0.0.copyload, getelementptr inbounds ([10 x i8], [10 x i8]* @const.23, i64 0, i64 0), !dbg !2060
+  br i1 %icmp.10, label %then.14, label %fallthrough.12
+
+fallthrough.12:                                   ; preds = %then.12
+  %call.3 = call i32 @memcmp(i8* noundef nonnull dereferenceable(9) %tmpv.14.sroa.0.0.copyload, i8* noundef nonnull dereferenceable(9) getelementptr inbounds ([10 x i8], [10 x i8]* @const.23, i64 0, i64 0), i64 9), !dbg !2060
+  %icmp.11 = icmp eq i32 %call.3, 0, !dbg !2060
+  br i1 %icmp.11, label %then.14, label %else.15
+
+then.14:                                          ; preds = %then.12, %fallthrough.12
+  call void @main.SetRecord({ { i8*, i64 }, %error.0 }* nonnull sret({ { i8*, i64 }, %error.0 }) "go_sret" %sret.actual.10, i8* nest undef, i8* nonnull %stub.chunk0, i8* %stub.chunk1, %IPST.4* nonnull byval(%IPST.4) %args), !dbg !2061
+  %tmpv.30.sroa.0.sroa.0.0.tmpv.30.sroa.0.0.cast.175.sroa_cast.sroa_idx = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.10, i64 0, i32 0, i32 0, !dbg !2061
+  %tmpv.30.sroa.0.sroa.0.0.copyload = load i8*, i8** %tmpv.30.sroa.0.sroa.0.0.tmpv.30.sroa.0.0.cast.175.sroa_cast.sroa_idx, align 8, !dbg !2061
+  call void @llvm.dbg.value(metadata i8* %tmpv.30.sroa.0.sroa.0.0.copyload, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i64 %tmpv.30.sroa.0.sroa.2.0.copyload, metadata !2052, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.30.sroa.2.0.copyload, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2045
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  br label %fallthrough.8
+
+common.ret:                                       ; preds = %else.15, %then.15
+  ret void, !dbg !2056
+
+then.15:                                          ; preds = %fallthrough.8
+  %tmpv.30.sroa.3.0.cast.175.sroa_idx22 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.actual.10.sink107, i64 0, i32 1, i32 1, !dbg !2056
+  %tmpv.30.sroa.3.0.copyload = load i8*, i8** %tmpv.30.sroa.3.0.cast.175.sroa_idx22, align 8, !dbg !2056
+  call void @llvm.dbg.value(metadata i8* %tmpv.30.sroa.3.0.copyload, metadata !2053, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2045
+  %field.55 = getelementptr inbounds { %_type.0*, { i8*, i64 } (i8*, i8*)* }, { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.30.sroa.2.0.copyload, i64 0, i32 1, !dbg !2062
+  %.field.ld.3 = load { i8*, i64 } (i8*, i8*)*, { i8*, i64 } (i8*, i8*)** %field.55, align 8, !dbg !2062
+  %call.6 = call { i8*, i64 } %.field.ld.3(i8* nest undef, i8* %tmpv.30.sroa.3.0.copyload), !dbg !2062
+  %call.6.fca.0.extract = extractvalue { i8*, i64 } %call.6, 0, !dbg !2062
+  %call.6.fca.1.extract = extractvalue { i8*, i64 } %call.6, 1, !dbg !2062
+  call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Error(%Response.0* nonnull sret(%Response.0) "go_sret" %sret.actual.12, i8* nest undef, i8* %call.6.fca.0.extract, i64 %call.6.fca.1.extract), !dbg !2063
+  %cast.193 = bitcast %Response.0* %sret.actual.12 to i8*
+  %cast.196 = bitcast %Response.0* %sret.formal.1 to i8*, !dbg !2064
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(80) %cast.196, i8* noundef nonnull align 8 dereferenceable(80) %cast.193, i64 80, i1 false), !dbg !2064
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2064
+  br label %common.ret
+
+else.15:                                          ; preds = %entry, %fallthrough.6, %fallthrough.12, %fallthrough.8
+  %result.sroa.8.080 = phi i64 [ %tmpv.30.sroa.0.sroa.2.0.copyload, %fallthrough.8 ], [ 0, %fallthrough.12 ], [ 0, %fallthrough.6 ], [ 0, %entry ]
+  %result.sroa.0.079 = phi i8* [ %result.sroa.0.0, %fallthrough.8 ], [ null, %fallthrough.12 ], [ null, %fallthrough.6 ], [ null, %entry ]
+  call void @runtime.stringtoslicebyte({ i8**, i64, i64 }* nonnull sret({ i8**, i64, i64 }) "go_sret" %sret.actual.13, i8* nest undef, i8* null, i8* %result.sroa.0.079, i64 %result.sroa.8.080), !dbg !2065
+  %cast.201 = bitcast { i8**, i64, i64 }* %sret.actual.13 to %IPST.0*, !dbg !2065
+  call void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Success(%Response.0* nonnull sret(%Response.0) "go_sret" %sret.actual.14, i8* nest undef, %IPST.0* nonnull byval(%IPST.0) %cast.201), !dbg !2066
+  %cast.203 = bitcast %Response.0* %sret.actual.14 to i8*
+  %cast.206 = bitcast %Response.0* %sret.formal.1 to i8*, !dbg !2067
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(80) %cast.206, i8* noundef nonnull align 8 dereferenceable(80) %cast.203, i64 80, i1 false), !dbg !2067
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2067
   br label %common.ret
 }
 
-; Function Attrs: noreturn
-declare void @runtime.panicmem(i8*) local_unnamed_addr #1
+; Function Attrs: argmemonly mustprogress nofree nounwind willreturn
+declare void @llvm.memcpy.p0i8.p0i8.i64(i8* noalias nocapture writeonly, i8* noalias nocapture readonly, i64, i1 immarg) #1
 
-define void @main.main..init0(i8* nest nocapture readnone %nest.5) #0 !dbg !513 {
+declare void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Error(%Response.0*, i8*, i8*, i64) local_unnamed_addr #0
+
+declare void @runtime.stringtoslicebyte({ i8**, i64, i64 }*, i8*, i8*, i8*, i64) local_unnamed_addr #0
+
+declare noalias nonnull i8* @runtime.newobject(i8*, %_type.0*) local_unnamed_addr #0
+
+; Function Attrs: cold
+declare void @runtime.typedmemmove(i8*, %_type.0*, i8*, i8*) local_unnamed_addr #2
+
+declare { i8*, i64 } @fmt.Sprintf(i8*, i8*, i64, %IPST.49*) local_unnamed_addr #0
+
+declare void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Success(%Response.0*, i8*, %IPST.0*) local_unnamed_addr #0
+
+; Function Attrs: argmemonly mustprogress nofree nosync nounwind willreturn
+declare void @llvm.lifetime.start.p0i8(i64 immarg, i8* nocapture) #3
+
+; Function Attrs: argmemonly mustprogress nofree nosync nounwind willreturn
+declare void @llvm.lifetime.end.p0i8(i64 immarg, i8* nocapture) #3
+
+; Function Attrs: mustprogress nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #4
+
+; Function Attrs: argmemonly mustprogress nofree nounwind readonly willreturn
+declare i32 @memcmp(i8* nocapture, i8* nocapture, i64) local_unnamed_addr #5
+
+define void @main.SetRecord1({ { i8*, i64 }, %error.0 }* nocapture writeonly sret({ { i8*, i64 }, %error.0 }) %sret.formal.2, i8* nest nocapture readnone %nest.2, i8* nocapture readonly %stub.chunk0, i8* %stub.chunk1, %IPST.4* nocapture readonly byval(%IPST.4) %args) #0 !dbg !2068 {
 entry:
-  call void @runtime.setmodinfo(i8* nest undef, i8* getelementptr inbounds ([1175 x i8], [1175 x i8]* @const.48, i64 0, i64 0), i64 1174), !dbg !514
+  %tmp.4 = alloca %IPST.49, align 8
+  call void @llvm.dbg.declare(metadata %IPST.4* %args, metadata !2071, metadata !DIExpression()), !dbg !2072
+  %sret.actual.16 = alloca { i8**, i64, i64 }, align 8
+  %tmpv.55 = alloca { i8*, i64 }, align 8, !go_addrtaken !499
+  %tmpv.56 = alloca [1 x { %_type.0*, i8* }], align 8
+  call void @llvm.dbg.value(metadata i8* %stub.chunk0, metadata !2073, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* %stub.chunk1, metadata !2073, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  %field.60 = getelementptr inbounds %IPST.4, %IPST.4* %args, i64 0, i32 1, !dbg !2076
+  %args.field.ld.10 = load i64, i64* %field.60, align 8, !dbg !2076
+  %icmp.22.not = icmp eq i64 %args.field.ld.10, 2, !dbg !2078
+  br i1 %icmp.22.not, label %fallthrough.18, label %then.16
+
+common.ret:                                       ; preds = %fallthrough.22, %fallthrough.21, %then.16
+  ret void, !dbg !2079
+
+then.16:                                          ; preds = %entry
+  %call.7 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([49 x i8], [49 x i8]* @const.9, i64 0, i64 0), i64 48, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2080
+  %call.7.fca.0.extract = extractvalue { i8*, i8* } %call.7, 0, !dbg !2080
+  %call.7.fca.1.extract = extractvalue { i8*, i8* } %call.7, 1, !dbg !2080
+  call void @llvm.dbg.value(metadata i8* %call.7.fca.0.extract, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* %call.7.fca.1.extract, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  %sret.formal.26566 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.2 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.26566, i8 0, i64 16, i1 false), !dbg !2081
+  %tmp.2.sroa.2.0.cast.224.sroa_idx38 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.2, i64 0, i32 1, !dbg !2081
+  %tmp.2.sroa.2.0.cast.224.sroa_cast = bitcast %error.0* %tmp.2.sroa.2.0.cast.224.sroa_idx38 to i8**, !dbg !2081
+  store i8* %call.7.fca.0.extract, i8** %tmp.2.sroa.2.0.cast.224.sroa_cast, align 8, !dbg !2081
+  %tmp.2.sroa.3.0.cast.224.sroa_idx39 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.2, i64 0, i32 1, i32 1, !dbg !2081
+  store i8* %call.7.fca.1.extract, i8** %tmp.2.sroa.3.0.cast.224.sroa_idx39, align 8, !dbg !2081
+  br label %common.ret
+
+fallthrough.18:                                   ; preds = %entry
+  %field.66 = getelementptr inbounds i8, i8* %stub.chunk0, i64 264, !dbg !2082
+  %0 = bitcast i8* %field.66 to { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)**, !dbg !2082
+  %.field.ld.4 = load { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)*, { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)** %0, align 8, !dbg !2082
+  %field.68 = getelementptr inbounds %IPST.4, %IPST.4* %args, i64 0, i32 0, !dbg !2083
+  %args.field.ld.15 = load { i8*, i64 }*, { i8*, i64 }** %field.68, align 8, !dbg !2083
+  %field0.13 = getelementptr { i8*, i64 }, { i8*, i64 }* %args.field.ld.15, i64 1, i32 0, !dbg !2084
+  %ld.22 = load i8*, i8** %field0.13, align 8, !dbg !2084
+  %field1.13 = getelementptr { i8*, i64 }, { i8*, i64 }* %args.field.ld.15, i64 1, i32 1, !dbg !2084
+  %ld.23 = load i64, i64* %field1.13, align 8, !dbg !2084
+  call void @runtime.stringtoslicebyte({ i8**, i64, i64 }* nonnull sret({ i8**, i64, i64 }) "go_sret" %sret.actual.16, i8* nest undef, i8* null, i8* %ld.22, i64 %ld.23), !dbg !2084
+  %cast.228 = bitcast { i8**, i64, i64 }* %sret.actual.16 to %IPST.0*, !dbg !2084
+  %field0.15 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.field.ld.15, i64 0, i32 0, !dbg !2082
+  %ld.26 = load i8*, i8** %field0.15, align 8, !dbg !2082
+  %field1.15 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.field.ld.15, i64 0, i32 1, !dbg !2082
+  %ld.27 = load i64, i64* %field1.15, align 8, !dbg !2082
+  %call.8 = call { i8*, i8* } %.field.ld.4(i8* nest undef, i8* %stub.chunk1, i8* getelementptr inbounds ([22 x i8], [22 x i8]* @const.26, i64 0, i64 0), i64 21, i8* %ld.26, i64 %ld.27, %IPST.0* nonnull byval(%IPST.0) %cast.228), !dbg !2082
+  %call.8.fca.0.extract = extractvalue { i8*, i8* } %call.8, 0, !dbg !2082
+  call void @llvm.dbg.value(metadata i8* %call.8.fca.0.extract, metadata !2085, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2085, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  %icmp.30.not = icmp eq i8* %call.8.fca.0.extract, null, !dbg !2086
+  br i1 %icmp.30.not, label %fallthrough.22, label %fallthrough.20
+
+fallthrough.20:                                   ; preds = %fallthrough.18
+  %1 = bitcast { i8*, i64 }* %args.field.ld.15 to i8*
+  %call.9 = call i8* @runtime.newobject(i8* nest undef, %_type.0* nonnull @string..d), !dbg !2087
+  %cast.236 = bitcast { i8*, i64 }* %tmpv.55 to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %cast.236, i8* noundef nonnull align 8 dereferenceable(16) %1, i64 16, i1 false)
+  %deref.ld.1 = load i32, i32* bitcast ({ i8, [3 x i8], i8, i8, i64 }* @runtime.writeBarrier to i32*), align 8, !dbg !2087
+  %icmp.29 = icmp eq i32 %deref.ld.1, 0, !dbg !2087
+  br i1 %icmp.29, label %then.21, label %else.21
+
+then.21:                                          ; preds = %fallthrough.20
+  call void @llvm.memmove.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %call.9, i8* noundef nonnull align 8 dereferenceable(16) %1, i64 16, i1 false), !dbg !2087
+  br label %fallthrough.21
+
+fallthrough.21:                                   ; preds = %else.21, %then.21
+  %tmp.3.sroa.0.0.cast.245.sroa_idx = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.56, i64 0, i64 0, i32 0, !dbg !2087
+  store %_type.0* @string..d, %_type.0** %tmp.3.sroa.0.0.cast.245.sroa_idx, align 8, !dbg !2087
+  %tmp.3.sroa.2.0.cast.245.sroa_idx44 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.56, i64 0, i64 0, i32 1, !dbg !2087
+  store i8* %call.9, i8** %tmp.3.sroa.2.0.cast.245.sroa_idx44, align 8, !dbg !2087
+  %cast.247 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.56, i64 0, i64 0, !dbg !2087
+  %field.75 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.4, i64 0, i32 0, !dbg !2087
+  store { %_type.0*, i8* }* %cast.247, { %_type.0*, i8* }** %field.75, align 8, !dbg !2087
+  %field.76 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.4, i64 0, i32 1, !dbg !2087
+  %2 = bitcast i64* %field.76 to <2 x i64>*, !dbg !2087
+  store <2 x i64> <i64 1, i64 1>, <2 x i64>* %2, align 8, !dbg !2087
+  %call.10 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([24 x i8], [24 x i8]* @const.28, i64 0, i64 0), i64 23, %IPST.49* nonnull byval(%IPST.49) %tmp.4), !dbg !2087
+  %call.10.fca.0.extract = extractvalue { i8*, i8* } %call.10, 0, !dbg !2087
+  %call.10.fca.1.extract = extractvalue { i8*, i8* } %call.10, 1, !dbg !2087
+  call void @llvm.dbg.value(metadata i8* %call.10.fca.0.extract, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* %call.10.fca.1.extract, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  %sret.formal.26768 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.2 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.26768, i8 0, i64 16, i1 false), !dbg !2088
+  %tmp.5.sroa.2.0.cast.260.sroa_idx46 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.2, i64 0, i32 1, !dbg !2088
+  %tmp.5.sroa.2.0.cast.260.sroa_cast = bitcast %error.0* %tmp.5.sroa.2.0.cast.260.sroa_idx46 to i8**, !dbg !2088
+  store i8* %call.10.fca.0.extract, i8** %tmp.5.sroa.2.0.cast.260.sroa_cast, align 8, !dbg !2088
+  %tmp.5.sroa.3.0.cast.260.sroa_idx47 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.2, i64 0, i32 1, i32 1, !dbg !2088
+  store i8* %call.10.fca.1.extract, i8** %tmp.5.sroa.3.0.cast.260.sroa_idx47, align 8, !dbg !2088
+  br label %common.ret
+
+else.21:                                          ; preds = %fallthrough.20
+  call void @runtime.typedmemmove(i8* nest undef, %_type.0* nonnull @string..d, i8* nonnull %call.9, i8* nonnull %cast.236), !dbg !2087
+  br label %fallthrough.21
+
+fallthrough.22:                                   ; preds = %fallthrough.18
+  %ptroff.6 = getelementptr { i8*, i64 }, { i8*, i64 }* %args.field.ld.15, i64 1, !dbg !2089
+  %cast.264 = bitcast { i8*, i64 }* %ptroff.6 to i8*
+  call void @llvm.dbg.value(metadata i8* null, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2074
+  call void @llvm.dbg.value(metadata i8* null, metadata !2075, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2074
+  %tmp.6.sroa.0.0.cast.274.sroa_cast = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.2 to i8*, !dbg !2090
+  call void @llvm.memmove.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %tmp.6.sroa.0.0.cast.274.sroa_cast, i8* noundef nonnull align 8 dereferenceable(16) %cast.264, i64 16, i1 false), !dbg !2090
+  %tmp.6.sroa.2.0.cast.274.sroa_idx52 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.2, i64 0, i32 1, !dbg !2090
+  %3 = bitcast %error.0* %tmp.6.sroa.2.0.cast.274.sroa_idx52 to i8*, !dbg !2090
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %3, i8 0, i64 16, i1 false), !dbg !2090
+  br label %common.ret
+}
+
+define void @main.GetRecord({ { i8*, i64 }, %error.0 }* nocapture writeonly sret({ { i8*, i64 }, %error.0 }) %sret.formal.3, i8* nest nocapture readnone %nest.3, i8* nocapture readonly %stub.chunk0, i8* %stub.chunk1, %IPST.4* nocapture readonly byval(%IPST.4) %args) #0 !dbg !2091 {
+entry:
+  %tmp.13 = alloca %IPST.49, align 8
+  %tmp.10 = alloca %IPST.49, align 8
+  call void @llvm.dbg.declare(metadata %IPST.4* %args, metadata !2092, metadata !DIExpression()), !dbg !2093
+  %sret.actual.20 = alloca { %IPST.0, %error.0 }, align 8
+  %tmpv.74 = alloca { i8*, i64 }, align 8, !go_addrtaken !499
+  %tmpv.75 = alloca [2 x { %_type.0*, i8* }], align 8
+  %tmpv.82 = alloca { i8*, i64 }, align 8, !go_addrtaken !499
+  %tmpv.83 = alloca [1 x { %_type.0*, i8* }], align 8
+  call void @llvm.dbg.value(metadata i8* %stub.chunk0, metadata !2094, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %stub.chunk1, metadata !2094, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 undef, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %field.88 = getelementptr inbounds %IPST.4, %IPST.4* %args, i64 0, i32 1, !dbg !2098
+  %args.field.ld.23 = load i64, i64* %field.88, align 8, !dbg !2098
+  %icmp.33.not = icmp eq i64 %args.field.ld.23, 1, !dbg !2100
+  br i1 %icmp.33.not, label %fallthrough.24, label %then.23
+
+common.ret:                                       ; preds = %fallthrough.31, %else.29, %else.28, %then.23
+  ret void, !dbg !2101
+
+then.23:                                          ; preds = %entry
+  %call.11 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([37 x i8], [37 x i8]* @const.30, i64 0, i64 0), i64 36, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2102
+  %call.11.fca.0.extract = extractvalue { i8*, i8* } %call.11, 0, !dbg !2102
+  %call.11.fca.1.extract = extractvalue { i8*, i8* } %call.11, 1, !dbg !2102
+  call void @llvm.dbg.value(metadata i8* null, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 0, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.11.fca.0.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.11.fca.1.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %tmp.7.sroa.3.0.cast.293.sroa_idx96 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, !dbg !2103
+  %tmp.7.sroa.3.0.cast.293.sroa_cast = bitcast %error.0* %tmp.7.sroa.3.0.cast.293.sroa_idx96 to i8**, !dbg !2103
+  %0 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.3 to i8*, !dbg !2103
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %0, i8 0, i64 16, i1 false), !dbg !2103
+  store i8* %call.11.fca.0.extract, i8** %tmp.7.sroa.3.0.cast.293.sroa_cast, align 8, !dbg !2103
+  %tmp.7.sroa.4.0.cast.293.sroa_idx97 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, i32 1, !dbg !2103
+  store i8* %call.11.fca.1.extract, i8** %tmp.7.sroa.4.0.cast.293.sroa_idx97, align 8, !dbg !2103
+  br label %common.ret
+
+fallthrough.24:                                   ; preds = %entry
+  %field.92 = getelementptr inbounds i8, i8* %stub.chunk0, i64 96, !dbg !2104
+  %1 = bitcast i8* %field.92 to void ({ %IPST.0, %error.0 }*, i8*, i8*, i8*, i64, i8*, i64)**, !dbg !2104
+  %.field.ld.5 = load void ({ %IPST.0, %error.0 }*, i8*, i8*, i8*, i64, i8*, i64)*, void ({ %IPST.0, %error.0 }*, i8*, i8*, i8*, i64, i8*, i64)** %1, align 8, !dbg !2104
+  %field.94 = getelementptr inbounds %IPST.4, %IPST.4* %args, i64 0, i32 0, !dbg !2105
+  %args.field.ld.26 = load { i8*, i64 }*, { i8*, i64 }** %field.94, align 8, !dbg !2105
+  %field0.20 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.field.ld.26, i64 0, i32 0, !dbg !2104
+  %ld.34 = load i8*, i8** %field0.20, align 8, !dbg !2104
+  %field1.20 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %args.field.ld.26, i64 0, i32 1, !dbg !2104
+  %ld.35 = load i64, i64* %field1.20, align 8, !dbg !2104
+  call void %.field.ld.5({ %IPST.0, %error.0 }* nonnull sret({ %IPST.0, %error.0 }) "go_sret" %sret.actual.20, i8* nest undef, i8* %stub.chunk1, i8* getelementptr inbounds ([22 x i8], [22 x i8]* @const.26, i64 0, i64 0), i64 21, i8* %ld.34, i64 %ld.35), !dbg !2104
+  %tmpv.65.sroa.0.sroa.0.0.tmpv.65.sroa.0.0.cast.298.sroa_cast.sroa_idx = getelementptr inbounds { %IPST.0, %error.0 }, { %IPST.0, %error.0 }* %sret.actual.20, i64 0, i32 0, i32 0, !dbg !2104
+  %tmpv.65.sroa.0.sroa.0.0.copyload = load i8*, i8** %tmpv.65.sroa.0.sroa.0.0.tmpv.65.sroa.0.0.cast.298.sroa_cast.sroa_idx, align 8, !dbg !2104
+  %tmpv.65.sroa.0.sroa.2.0.tmpv.65.sroa.0.0.cast.298.sroa_cast.sroa_idx41 = getelementptr inbounds { %IPST.0, %error.0 }, { %IPST.0, %error.0 }* %sret.actual.20, i64 0, i32 0, i32 1, !dbg !2104
+  %tmpv.65.sroa.0.sroa.2.0.copyload = load i64, i64* %tmpv.65.sroa.0.sroa.2.0.tmpv.65.sroa.0.0.cast.298.sroa_cast.sroa_idx41, align 8, !dbg !2104
+  %tmpv.65.sroa.2.0.cast.298.sroa_idx23 = getelementptr inbounds { %IPST.0, %error.0 }, { %IPST.0, %error.0 }* %sret.actual.20, i64 0, i32 1, i32 0, !dbg !2104
+  %tmpv.65.sroa.2.0.copyload = load { %_type.0*, { i8*, i64 } (i8*, i8*)* }*, { %_type.0*, { i8*, i64 } (i8*, i8*)* }** %tmpv.65.sroa.2.0.cast.298.sroa_idx23, align 8, !dbg !2104
+  %tmpv.65.sroa.3.0.cast.298.sroa_idx24 = getelementptr inbounds { %IPST.0, %error.0 }, { %IPST.0, %error.0 }* %sret.actual.20, i64 0, i32 1, i32 1, !dbg !2104
+  %tmpv.65.sroa.3.0.copyload = load i8*, i8** %tmpv.65.sroa.3.0.cast.298.sroa_idx24, align 8, !dbg !2104
+  call void @llvm.dbg.value(metadata i8* %tmpv.65.sroa.0.sroa.0.0.copyload, metadata !2106, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 %tmpv.65.sroa.0.sroa.2.0.copyload, metadata !2106, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 undef, metadata !2106, metadata !DIExpression(DW_OP_LLVM_fragment, 128, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.65.sroa.2.0.copyload, metadata !2107, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %tmpv.65.sroa.3.0.copyload, metadata !2107, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %icmp.40.not = icmp eq { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.65.sroa.2.0.copyload, null, !dbg !2108
+  %2 = bitcast { i8*, i64 }* %args.field.ld.26 to i8*
+  br i1 %icmp.40.not, label %else.25, label %fallthrough.26
+
+else.25:                                          ; preds = %fallthrough.24
+  %icmp.44 = icmp eq i8* %tmpv.65.sroa.0.sroa.0.0.copyload, null, !dbg !2109
+  br i1 %icmp.44, label %fallthrough.30, label %else.29
+
+fallthrough.26:                                   ; preds = %fallthrough.24
+  %call.12 = call i8* @runtime.newobject(i8* nest undef, %_type.0* nonnull @string..d), !dbg !2110
+  %cast.309 = bitcast { i8*, i64 }* %tmpv.74 to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %cast.309, i8* noundef nonnull align 8 dereferenceable(16) %2, i64 16, i1 false)
+  %deref.ld.2 = load i32, i32* bitcast ({ i8, [3 x i8], i8, i8, i64 }* @runtime.writeBarrier to i32*), align 8, !dbg !2110
+  %icmp.38 = icmp eq i32 %deref.ld.2, 0, !dbg !2110
+  br i1 %icmp.38, label %then.27, label %else.27
+
+then.27:                                          ; preds = %fallthrough.26
+  call void @llvm.memmove.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %call.12, i8* noundef nonnull align 8 dereferenceable(16) %2, i64 16, i1 false), !dbg !2110
+  br label %else.28
+
+else.27:                                          ; preds = %fallthrough.26
+  call void @runtime.typedmemmove(i8* nest undef, %_type.0* nonnull @string..d, i8* nonnull %call.12, i8* nonnull %cast.309), !dbg !2110
+  br label %else.28
+
+else.28:                                          ; preds = %then.27, %else.27
+  %field.102 = getelementptr inbounds { %_type.0*, { i8*, i64 } (i8*, i8*)* }, { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.65.sroa.2.0.copyload, i64 0, i32 0, !dbg !2111
+  %.field.ld.6 = load %_type.0*, %_type.0** %field.102, align 8, !dbg !2111
+  %tmp.8.sroa.0.0.cast.320.sroa_idx = getelementptr inbounds [2 x { %_type.0*, i8* }], [2 x { %_type.0*, i8* }]* %tmpv.75, i64 0, i64 0, i32 0, !dbg !2110
+  store %_type.0* @string..d, %_type.0** %tmp.8.sroa.0.0.cast.320.sroa_idx, align 8, !dbg !2110
+  %tmp.8.sroa.2.0.cast.320.sroa_idx98 = getelementptr inbounds [2 x { %_type.0*, i8* }], [2 x { %_type.0*, i8* }]* %tmpv.75, i64 0, i64 0, i32 1, !dbg !2110
+  store i8* %call.12, i8** %tmp.8.sroa.2.0.cast.320.sroa_idx98, align 8, !dbg !2110
+  %tmp.9.sroa.0.0.cast.322.sroa_idx = getelementptr inbounds [2 x { %_type.0*, i8* }], [2 x { %_type.0*, i8* }]* %tmpv.75, i64 0, i64 1, i32 0, !dbg !2110
+  store %_type.0* %.field.ld.6, %_type.0** %tmp.9.sroa.0.0.cast.322.sroa_idx, align 8, !dbg !2110
+  %tmp.9.sroa.2.0.cast.322.sroa_idx99 = getelementptr inbounds [2 x { %_type.0*, i8* }], [2 x { %_type.0*, i8* }]* %tmpv.75, i64 0, i64 1, i32 1, !dbg !2110
+  store i8* %tmpv.65.sroa.3.0.copyload, i8** %tmp.9.sroa.2.0.cast.322.sroa_idx99, align 8, !dbg !2110
+  %cast.324 = getelementptr inbounds [2 x { %_type.0*, i8* }], [2 x { %_type.0*, i8* }]* %tmpv.75, i64 0, i64 0, !dbg !2110
+  %field.108 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.10, i64 0, i32 0, !dbg !2110
+  store { %_type.0*, i8* }* %cast.324, { %_type.0*, i8* }** %field.108, align 8, !dbg !2110
+  %field.109 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.10, i64 0, i32 1, !dbg !2110
+  %3 = bitcast i64* %field.109 to <2 x i64>*, !dbg !2110
+  store <2 x i64> <i64 2, i64 2>, <2 x i64>* %3, align 8, !dbg !2110
+  %call.13 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([39 x i8], [39 x i8]* @const.32, i64 0, i64 0), i64 38, %IPST.49* nonnull byval(%IPST.49) %tmp.10), !dbg !2110
+  %call.13.fca.0.extract = extractvalue { i8*, i8* } %call.13, 0, !dbg !2110
+  %call.13.fca.1.extract = extractvalue { i8*, i8* } %call.13, 1, !dbg !2110
+  call void @llvm.dbg.value(metadata i8* null, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 0, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.13.fca.0.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.13.fca.1.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %tmp.11.sroa.3.0.cast.337.sroa_idx101 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, !dbg !2112
+  %tmp.11.sroa.3.0.cast.337.sroa_cast = bitcast %error.0* %tmp.11.sroa.3.0.cast.337.sroa_idx101 to i8**, !dbg !2112
+  %4 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.3 to i8*, !dbg !2112
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %4, i8 0, i64 16, i1 false), !dbg !2112
+  store i8* %call.13.fca.0.extract, i8** %tmp.11.sroa.3.0.cast.337.sroa_cast, align 8, !dbg !2112
+  %tmp.11.sroa.4.0.cast.337.sroa_idx102 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, i32 1, !dbg !2112
+  store i8* %call.13.fca.1.extract, i8** %tmp.11.sroa.4.0.cast.337.sroa_idx102, align 8, !dbg !2112
+  br label %common.ret
+
+else.29:                                          ; preds = %else.25
+  %call.16 = call { i8*, i64 } @runtime.slicebytetostring(i8* nest undef, i8* null, i8* nonnull %tmpv.65.sroa.0.sroa.0.0.copyload, i64 %tmpv.65.sroa.0.sroa.2.0.copyload), !dbg !2113
+  %call.16.fca.0.extract = extractvalue { i8*, i64 } %call.16, 0, !dbg !2113
+  %call.16.fca.1.extract = extractvalue { i8*, i64 } %call.16, 1, !dbg !2113
+  call void @llvm.dbg.value(metadata i8* %call.16.fca.0.extract, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 %call.16.fca.1.extract, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* null, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* null, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %tmp.15.sroa.0.0.cast.382.sroa_idx = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 0, i32 0, !dbg !2114
+  store i8* %call.16.fca.0.extract, i8** %tmp.15.sroa.0.0.cast.382.sroa_idx, align 8, !dbg !2114
+  %tmp.15.sroa.2.0.cast.382.sroa_idx107 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 0, i32 1, !dbg !2114
+  store i64 %call.16.fca.1.extract, i64* %tmp.15.sroa.2.0.cast.382.sroa_idx107, align 8, !dbg !2114
+  %tmp.15.sroa.3.0.cast.382.sroa_idx108 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, !dbg !2114
+  %5 = bitcast %error.0* %tmp.15.sroa.3.0.cast.382.sroa_idx108 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %5, i8 0, i64 16, i1 false), !dbg !2114
+  br label %common.ret
+
+fallthrough.30:                                   ; preds = %else.25
+  %call.14 = call i8* @runtime.newobject(i8* nest undef, %_type.0* nonnull @string..d), !dbg !2115
+  %cast.342 = bitcast { i8*, i64 }* %tmpv.82 to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %cast.342, i8* noundef nonnull align 8 dereferenceable(16) %2, i64 16, i1 false)
+  %deref.ld.3 = load i32, i32* bitcast ({ i8, [3 x i8], i8, i8, i64 }* @runtime.writeBarrier to i32*), align 8, !dbg !2115
+  %icmp.43 = icmp eq i32 %deref.ld.3, 0, !dbg !2115
+  br i1 %icmp.43, label %then.31, label %else.31
+
+then.31:                                          ; preds = %fallthrough.30
+  call void @llvm.memmove.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %call.14, i8* noundef nonnull align 8 dereferenceable(16) %2, i64 16, i1 false), !dbg !2115
+  br label %fallthrough.31
+
+fallthrough.31:                                   ; preds = %else.31, %then.31
+  %tmp.12.sroa.0.0.cast.351.sroa_idx = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.83, i64 0, i64 0, i32 0, !dbg !2115
+  store %_type.0* @string..d, %_type.0** %tmp.12.sroa.0.0.cast.351.sroa_idx, align 8, !dbg !2115
+  %tmp.12.sroa.2.0.cast.351.sroa_idx103 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.83, i64 0, i64 0, i32 1, !dbg !2115
+  store i8* %call.14, i8** %tmp.12.sroa.2.0.cast.351.sroa_idx103, align 8, !dbg !2115
+  %cast.353 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.83, i64 0, i64 0, !dbg !2115
+  %field.119 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.13, i64 0, i32 0, !dbg !2115
+  store { %_type.0*, i8* }* %cast.353, { %_type.0*, i8* }** %field.119, align 8, !dbg !2115
+  %field.120 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.13, i64 0, i32 1, !dbg !2115
+  %6 = bitcast i64* %field.120 to <2 x i64>*, !dbg !2115
+  store <2 x i64> <i64 1, i64 1>, <2 x i64>* %6, align 8, !dbg !2115
+  %call.15 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([20 x i8], [20 x i8]* @const.34, i64 0, i64 0), i64 19, %IPST.49* nonnull byval(%IPST.49) %tmp.13), !dbg !2115
+  %call.15.fca.0.extract = extractvalue { i8*, i8* } %call.15, 0, !dbg !2115
+  %call.15.fca.1.extract = extractvalue { i8*, i8* } %call.15, 1, !dbg !2115
+  call void @llvm.dbg.value(metadata i8* null, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i64 0, metadata !2096, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.15.fca.0.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2095
+  call void @llvm.dbg.value(metadata i8* %call.15.fca.1.extract, metadata !2097, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2095
+  %tmp.14.sroa.3.0.cast.366.sroa_idx105 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, !dbg !2116
+  %tmp.14.sroa.3.0.cast.366.sroa_cast = bitcast %error.0* %tmp.14.sroa.3.0.cast.366.sroa_idx105 to i8**, !dbg !2116
+  %7 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.3 to i8*, !dbg !2116
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %7, i8 0, i64 16, i1 false), !dbg !2116
+  store i8* %call.15.fca.0.extract, i8** %tmp.14.sroa.3.0.cast.366.sroa_cast, align 8, !dbg !2116
+  %tmp.14.sroa.4.0.cast.366.sroa_idx106 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.3, i64 0, i32 1, i32 1, !dbg !2116
+  store i8* %call.15.fca.1.extract, i8** %tmp.14.sroa.4.0.cast.366.sroa_idx106, align 8, !dbg !2116
+  br label %common.ret
+
+else.31:                                          ; preds = %fallthrough.30
+  call void @runtime.typedmemmove(i8* nest undef, %_type.0* nonnull @string..d, i8* nonnull %call.14, i8* nonnull %cast.342), !dbg !2115
+  br label %fallthrough.31
+}
+
+define void @main.SetRecord({ { i8*, i64 }, %error.0 }* nocapture writeonly sret({ { i8*, i64 }, %error.0 }) %sret.formal.4, i8* nest nocapture readnone %nest.4, i8* nocapture readonly %stub.chunk0, i8* %stub.chunk1, %IPST.4* nocapture readonly byval(%IPST.4) %args) #0 !dbg !2117 {
+entry:
+  call void @llvm.dbg.declare(metadata %IPST.4* %args, metadata !2118, metadata !DIExpression()), !dbg !2119
+  %keyValueAsBytes = alloca %IPST.0, align 8
+  %sret.actual.25 = alloca { { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }, align 8
+  %sret.actual.31 = alloca { i8**, i64, i64 }, align 8
+  call void @llvm.dbg.value(metadata i8* %stub.chunk0, metadata !2120, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %stub.chunk1, metadata !2120, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %0 = bitcast %IPST.0* %keyValueAsBytes to i8*
+  call void @llvm.lifetime.start.p0i8(i64 24, i8* nonnull %0)
+  %field.131 = getelementptr inbounds %IPST.4, %IPST.4* %args, i64 0, i32 1, !dbg !2123
+  %args.field.ld.33 = load i64, i64* %field.131, align 8, !dbg !2123
+  %icmp.45.not = icmp eq i64 %args.field.ld.33, 0, !dbg !2125
+  br i1 %icmp.45.not, label %else.32, label %then.32
+
+common.ret:                                       ; preds = %else.36, %then.36, %then.35, %then.34, %then.33, %then.32
+  ret void, !dbg !2126
+
+then.32:                                          ; preds = %entry
+  %call.17 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([60 x i8], [60 x i8]* @const.36, i64 0, i64 0), i64 59, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2127
+  %call.17.fca.0.extract = extractvalue { i8*, i8* } %call.17, 0, !dbg !2127
+  %call.17.fca.1.extract = extractvalue { i8*, i8* } %call.17, 1, !dbg !2127
+  call void @llvm.dbg.value(metadata i8* %call.17.fca.0.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %call.17.fca.1.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4152153 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4152153, i8 0, i64 16, i1 false), !dbg !2128
+  %tmp.16.sroa.2.0.cast.401.sroa_idx82 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2128
+  %tmp.16.sroa.2.0.cast.401.sroa_cast = bitcast %error.0* %tmp.16.sroa.2.0.cast.401.sroa_idx82 to i8**, !dbg !2128
+  store i8* %call.17.fca.0.extract, i8** %tmp.16.sroa.2.0.cast.401.sroa_cast, align 8, !dbg !2128
+  %tmp.16.sroa.3.0.cast.401.sroa_idx83 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, i32 1, !dbg !2128
+  store i8* %call.17.fca.1.extract, i8** %tmp.16.sroa.3.0.cast.401.sroa_idx83, align 8, !dbg !2128
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2128
+  br label %common.ret
+
+else.32:                                          ; preds = %entry
+  %field.133 = getelementptr inbounds i8, i8* %stub.chunk0, i64 224, !dbg !2129
+  %1 = bitcast i8* %field.133 to void ({ { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }*, i8*, i8*)**, !dbg !2129
+  %.field.ld.7 = load void ({ { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }*, i8*, i8*)*, void ({ { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }*, i8*, i8*)** %1, align 8, !dbg !2129
+  call void %.field.ld.7({ { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }* nonnull sret({ { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }) "go_sret" %sret.actual.25, i8* nest undef, i8* %stub.chunk1), !dbg !2129
+  %tmpv.90.sroa.2.sroa.0.0.tmpv.90.sroa.2.0.cast.404.sroa_cast.sroa_idx = getelementptr inbounds { { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }, { { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }* %sret.actual.25, i64 0, i32 1, i32 0, !dbg !2129
+  %tmpv.90.sroa.2.sroa.0.0.copyload = load { %_type.0*, { i8*, i64 } (i8*, i8*)* }*, { %_type.0*, { i8*, i64 } (i8*, i8*)* }** %tmpv.90.sroa.2.sroa.0.0.tmpv.90.sroa.2.0.cast.404.sroa_cast.sroa_idx, align 8, !dbg !2129
+  call void @llvm.dbg.value(metadata { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }* undef, metadata !2130, metadata !DIExpression()), !dbg !2121
+  call void @llvm.dbg.value(metadata { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.90.sroa.2.sroa.0.0.copyload, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %icmp.46.not = icmp eq { %_type.0*, { i8*, i64 } (i8*, i8*)* }* %tmpv.90.sroa.2.sroa.0.0.copyload, null, !dbg !2132
+  br i1 %icmp.46.not, label %else.33, label %then.33
+
+then.33:                                          ; preds = %else.32
+  %call.18 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([24 x i8], [24 x i8]* @const.38, i64 0, i64 0), i64 23, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2133
+  %call.18.fca.0.extract = extractvalue { i8*, i8* } %call.18, 0, !dbg !2133
+  %call.18.fca.1.extract = extractvalue { i8*, i8* } %call.18, 1, !dbg !2133
+  call void @llvm.dbg.value(metadata i8* %call.18.fca.0.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %call.18.fca.1.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4154155 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4154155, i8 0, i64 16, i1 false), !dbg !2134
+  %tmp.17.sroa.2.0.cast.423.sroa_idx92 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2134
+  %tmp.17.sroa.2.0.cast.423.sroa_cast = bitcast %error.0* %tmp.17.sroa.2.0.cast.423.sroa_idx92 to i8**, !dbg !2134
+  store i8* %call.18.fca.0.extract, i8** %tmp.17.sroa.2.0.cast.423.sroa_cast, align 8, !dbg !2134
+  %tmp.17.sroa.3.0.cast.423.sroa_idx93 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, i32 1, !dbg !2134
+  store i8* %call.18.fca.1.extract, i8** %tmp.17.sroa.3.0.cast.423.sroa_idx93, align 8, !dbg !2134
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2134
+  br label %common.ret
+
+else.33:                                          ; preds = %else.32
+  %tmpv.90.sroa.0.0.cast.404.sroa_idx = getelementptr inbounds { { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }, { { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, %error.0 }* %sret.actual.25, i64 0, i32 0, !dbg !2129
+  %tmpv.90.sroa.0.0.copyload = load { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }** %tmpv.90.sroa.0.0.cast.404.sroa_idx, align 8, !dbg !2129
+  call void @llvm.dbg.value(metadata { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }* %tmpv.90.sroa.0.0.copyload, metadata !2130, metadata !DIExpression()), !dbg !2121
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(24) %0, i8 0, i64 24, i1 false)
+  call void @llvm.dbg.declare(metadata %IPST.0* %keyValueAsBytes, metadata !2135, metadata !DIExpression()), !dbg !2136
+  call void @llvm.dbg.value(metadata i8 0, metadata !2137, metadata !DIExpression()), !dbg !2121
+  %call.19 = call { i8*, i8 } @runtime.mapaccess2__faststr(i8* nest undef, %_type.0* getelementptr inbounds (%MapType.0, %MapType.0* @type..map_6string_7_6_7uint8, i64 0, i32 0), { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }* %tmpv.90.sroa.0.0.copyload, i8* getelementptr inbounds ([9 x i8], [9 x i8]* @const.40, i64 0, i64 0), i64 8), !dbg !2138
+  %call.19.fca.0.extract = extractvalue { i8*, i8 } %call.19, 0, !dbg !2138
+  %call.19.fca.1.extract = extractvalue { i8*, i8 } %call.19, 1, !dbg !2138
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(24) %0, i8* noundef nonnull align 8 dereferenceable(24) %call.19.fca.0.extract, i64 24, i1 false), !dbg !2138
+  call void @llvm.dbg.value(metadata i8 %call.19.fca.1.extract, metadata !2137, metadata !DIExpression()), !dbg !2121
+  %icmp.47.not = icmp eq i8 %call.19.fca.1.extract, 0, !dbg !2139
+  br i1 %icmp.47.not, label %then.34, label %else.34
+
+then.34:                                          ; preds = %else.33
+  %call.20 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([21 x i8], [21 x i8]* @const.56, i64 0, i64 0), i64 20, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2140
+  %call.20.fca.0.extract = extractvalue { i8*, i8* } %call.20, 0, !dbg !2140
+  %call.20.fca.1.extract = extractvalue { i8*, i8* } %call.20, 1, !dbg !2140
+  call void @llvm.dbg.value(metadata i8* %call.20.fca.0.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %call.20.fca.1.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4156157 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4156157, i8 0, i64 16, i1 false), !dbg !2141
+  %tmp.18.sroa.2.0.cast.471.sroa_idx101 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2141
+  %tmp.18.sroa.2.0.cast.471.sroa_cast = bitcast %error.0* %tmp.18.sroa.2.0.cast.471.sroa_idx101 to i8**, !dbg !2141
+  store i8* %call.20.fca.0.extract, i8** %tmp.18.sroa.2.0.cast.471.sroa_cast, align 8, !dbg !2141
+  %tmp.18.sroa.3.0.cast.471.sroa_idx102 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, i32 1, !dbg !2141
+  store i8* %call.20.fca.1.extract, i8** %tmp.18.sroa.3.0.cast.471.sroa_idx102, align 8, !dbg !2141
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2141
+  br label %common.ret
+
+else.34:                                          ; preds = %else.33
+  %call.21 = call i8* @runtime.newobject(i8* nest undef, %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @main_0SetRecord_0keyValueTransientInput..d, i64 0, i32 0)), !dbg !2142
+  call void @llvm.dbg.value(metadata i8* %call.21, metadata !2143, metadata !DIExpression()), !dbg !2121
+  %call.22 = call { i8*, i8* } @encoding_1json.Unmarshal(i8* nest undef, %IPST.0* nonnull byval(%IPST.0) %keyValueAsBytes, i8* bitcast (%PtrType.0* @main_0SetRecord_0keyValueTransientInput..p to i8*), i8* nonnull %call.21), !dbg !2149
+  %call.22.fca.0.extract = extractvalue { i8*, i8* } %call.22, 0, !dbg !2149
+  call void @llvm.dbg.value(metadata i8* %call.22.fca.0.extract, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %icmp.48.not = icmp eq i8* %call.22.fca.0.extract, null, !dbg !2150
+  br i1 %icmp.48.not, label %else.35, label %then.35
+
+then.35:                                          ; preds = %else.34
+  %call.23 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([22 x i8], [22 x i8]* @const.65, i64 0, i64 0), i64 21, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2151
+  %call.23.fca.0.extract = extractvalue { i8*, i8* } %call.23, 0, !dbg !2151
+  %call.23.fca.1.extract = extractvalue { i8*, i8* } %call.23, 1, !dbg !2151
+  call void @llvm.dbg.value(metadata i8* %call.23.fca.0.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %call.23.fca.1.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4158159 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4158159, i8 0, i64 16, i1 false), !dbg !2152
+  %tmp.20.sroa.2.0.cast.504.sroa_idx111 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2152
+  %tmp.20.sroa.2.0.cast.504.sroa_cast = bitcast %error.0* %tmp.20.sroa.2.0.cast.504.sroa_idx111 to i8**, !dbg !2152
+  store i8* %call.23.fca.0.extract, i8** %tmp.20.sroa.2.0.cast.504.sroa_cast, align 8, !dbg !2152
+  %tmp.20.sroa.3.0.cast.504.sroa_idx112 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, i32 1, !dbg !2152
+  store i8* %call.23.fca.1.extract, i8** %tmp.20.sroa.3.0.cast.504.sroa_idx112, align 8, !dbg !2152
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2152
+  br label %common.ret
+
+else.35:                                          ; preds = %else.34
+  call void @llvm.dbg.value(metadata i8* %call.21, metadata !2143, metadata !DIExpression()), !dbg !2121
+  %field.150 = getelementptr inbounds i8, i8* %stub.chunk0, i64 264, !dbg !2153
+  %2 = bitcast i8* %field.150 to { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)**, !dbg !2153
+  %.field.ld.8 = load { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)*, { i8*, i8* } (i8*, i8*, i8*, i64, i8*, i64, %IPST.0*)** %2, align 8, !dbg !2153
+  %field.153 = getelementptr inbounds i8, i8* %call.21, i64 16, !dbg !2154
+  %field0.30 = bitcast i8* %field.153 to i8**, !dbg !2155
+  %ld.52 = load i8*, i8** %field0.30, align 8, !dbg !2155
+  %field1.30 = getelementptr inbounds i8, i8* %call.21, i64 24, !dbg !2155
+  %3 = bitcast i8* %field1.30 to i64*, !dbg !2155
+  %ld.53 = load i64, i64* %3, align 8, !dbg !2155
+  call void @runtime.stringtoslicebyte({ i8**, i64, i64 }* nonnull sret({ i8**, i64, i64 }) "go_sret" %sret.actual.31, i8* nest undef, i8* null, i8* %ld.52, i64 %ld.53), !dbg !2155
+  %cast.509 = bitcast { i8**, i64, i64 }* %sret.actual.31 to %IPST.0*, !dbg !2155
+  %field0.32 = bitcast i8* %call.21 to i8**, !dbg !2153
+  %ld.56 = load i8*, i8** %field0.32, align 8, !dbg !2153
+  %field1.32 = getelementptr inbounds i8, i8* %call.21, i64 8, !dbg !2153
+  %4 = bitcast i8* %field1.32 to i64*, !dbg !2153
+  %ld.57 = load i64, i64* %4, align 8, !dbg !2153
+  %call.24 = call { i8*, i8* } %.field.ld.8(i8* nest undef, i8* %stub.chunk1, i8* getelementptr inbounds ([22 x i8], [22 x i8]* @const.26, i64 0, i64 0), i64 21, i8* %ld.56, i64 %ld.57, %IPST.0* nonnull byval(%IPST.0) %cast.509), !dbg !2153
+  %call.24.fca.0.extract = extractvalue { i8*, i8* } %call.24, 0, !dbg !2153
+  call void @llvm.dbg.value(metadata i8* %call.24.fca.0.extract, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2131, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %icmp.49.not = icmp eq i8* %call.24.fca.0.extract, null, !dbg !2156
+  br i1 %icmp.49.not, label %else.36, label %then.36
+
+then.36:                                          ; preds = %else.35
+  %call.25 = call { i8*, i8* } @fmt.Errorf(i8* nest undef, i8* getelementptr inbounds ([20 x i8], [20 x i8]* @const.67, i64 0, i64 0), i64 19, %IPST.49* nonnull byval(%IPST.49) @const.25), !dbg !2157
+  %call.25.fca.0.extract = extractvalue { i8*, i8* } %call.25, 0, !dbg !2157
+  %call.25.fca.1.extract = extractvalue { i8*, i8* } %call.25, 1, !dbg !2157
+  call void @llvm.dbg.value(metadata i8* %call.25.fca.0.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* %call.25.fca.1.extract, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4160161 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4160161, i8 0, i64 16, i1 false), !dbg !2158
+  %tmp.21.sroa.2.0.cast.531.sroa_idx120 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2158
+  %tmp.21.sroa.2.0.cast.531.sroa_cast = bitcast %error.0* %tmp.21.sroa.2.0.cast.531.sroa_idx120 to i8**, !dbg !2158
+  store i8* %call.25.fca.0.extract, i8** %tmp.21.sroa.2.0.cast.531.sroa_cast, align 8, !dbg !2158
+  %tmp.21.sroa.3.0.cast.531.sroa_idx121 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, i32 1, !dbg !2158
+  store i8* %call.25.fca.1.extract, i8** %tmp.21.sroa.3.0.cast.531.sroa_idx121, align 8, !dbg !2158
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2158
+  br label %common.ret
+
+else.36:                                          ; preds = %else.35
+  call void @llvm.dbg.value(metadata i8* null, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2121
+  call void @llvm.dbg.value(metadata i8* null, metadata !2122, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2121
+  %sret.formal.4163164 = bitcast { { i8*, i64 }, %error.0 }* %sret.formal.4 to i8*
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %sret.formal.4163164, i8* noundef nonnull align 8 dereferenceable(16) %field.153, i64 16, i1 false), !dbg !2159
+  %tmp.22.sroa.2.0.cast.545.sroa_idx130 = getelementptr inbounds { { i8*, i64 }, %error.0 }, { { i8*, i64 }, %error.0 }* %sret.formal.4, i64 0, i32 1, !dbg !2159
+  %5 = bitcast %error.0* %tmp.22.sroa.2.0.cast.545.sroa_idx130 to i8*, !dbg !2159
+  call void @llvm.memset.p0i8.i64(i8* noundef nonnull align 8 dereferenceable(16) %5, i8 0, i64 16, i1 false), !dbg !2159
+  call void @llvm.lifetime.end.p0i8(i64 24, i8* nonnull %0), !dbg !2159
+  br label %common.ret
+}
+
+declare { i8*, i8* } @fmt.Errorf(i8*, i8*, i64, %IPST.49*) local_unnamed_addr #0
+
+declare { i8*, i64 } @runtime.slicebytetostring(i8*, i8*, i8*, i64) local_unnamed_addr #0
+
+declare { i8*, i8 } @runtime.mapaccess2__faststr(i8*, %_type.0*, { i64, i8, i8, i16, i32, i8*, i8*, i64, i8* }*, i8*, i64) local_unnamed_addr #0
+
+define i8 @main_0SetRecord_0keyValueTransientInput..eq(i8* nest nocapture readnone %nest.11, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2160 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2161, metadata !DIExpression()), !dbg !2162
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2163, metadata !DIExpression()), !dbg !2162
+  call void @llvm.dbg.value(metadata i8 0, metadata !2164, metadata !DIExpression()), !dbg !2162
+  %icmp.56 = icmp eq i8* %key1, null, !dbg !2165
+  br i1 %icmp.56, label %then.43, label %else.43, !make.implicit !499
+
+then.43:                                          ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2165
+  unreachable
+
+else.43:                                          ; preds = %entry
+  %tmpv.127.sroa.0.0.cast.579.sroa_idx = bitcast i8* %key1 to i8**
+  %tmpv.127.sroa.0.0.copyload = load i8*, i8** %tmpv.127.sroa.0.0.cast.579.sroa_idx, align 8
+  %icmp.57 = icmp eq i8* %key2, null, !dbg !2165
+  br i1 %icmp.57, label %then.44, label %else.44, !make.implicit !499
+
+then.44:                                          ; preds = %else.43
+  call void @runtime.panicmem(i8* nest undef), !dbg !2165
+  unreachable
+
+else.44:                                          ; preds = %else.43
+  %tmpv.127.sroa.3.0.cast.579.sroa_idx6 = getelementptr inbounds i8, i8* %key1, i64 8
+  %0 = bitcast i8* %tmpv.127.sroa.3.0.cast.579.sroa_idx6 to i64*
+  %tmpv.127.sroa.3.0.copyload = load i64, i64* %0, align 8
+  %tmpv.129.sroa.0.0.cast.582.sroa_idx = bitcast i8* %key2 to i8**
+  %tmpv.129.sroa.0.0.copyload = load i8*, i8** %tmpv.129.sroa.0.0.cast.582.sroa_idx, align 8
+  %tmpv.129.sroa.3.0.cast.582.sroa_idx4 = getelementptr inbounds i8, i8* %key2, i64 8
+  %1 = bitcast i8* %tmpv.129.sroa.3.0.cast.582.sroa_idx4 to i64*
+  %tmpv.129.sroa.3.0.copyload = load i64, i64* %1, align 8
+  %icmp.58 = icmp eq i64 %tmpv.127.sroa.3.0.copyload, %tmpv.129.sroa.3.0.copyload, !dbg !2165
+  br i1 %icmp.58, label %then.45, label %common.ret
+
+then.45:                                          ; preds = %else.44
+  %icmp.59 = icmp eq i8* %tmpv.127.sroa.0.0.copyload, %tmpv.129.sroa.0.0.copyload, !dbg !2165
+  br i1 %icmp.59, label %else.48, label %fallthrough.45
+
+fallthrough.45:                                   ; preds = %then.45
+  %call.30 = call i32 @memcmp(i8* %tmpv.127.sroa.0.0.copyload, i8* %tmpv.129.sroa.0.0.copyload, i64 %tmpv.127.sroa.3.0.copyload), !dbg !2165
+  %icmp.60 = icmp eq i32 %call.30, 0, !dbg !2165
+  br i1 %icmp.60, label %else.48, label %common.ret
+
+common.ret:                                       ; preds = %else.48, %else.44, %fallthrough.50.thread, %fallthrough.50, %fallthrough.45
+  %common.ret.op = phi i8 [ 0, %fallthrough.45 ], [ 1, %fallthrough.50.thread ], [ 0, %fallthrough.50 ], [ 0, %else.44 ], [ 0, %else.48 ]
+  ret i8 %common.ret.op, !dbg !2165
+
+else.48:                                          ; preds = %then.45, %fallthrough.45
+  %tmpv.133.sroa.0.0.cast.585.sroa_idx = getelementptr inbounds i8, i8* %key1, i64 16
+  %2 = bitcast i8* %tmpv.133.sroa.0.0.cast.585.sroa_idx to i8**
+  %tmpv.133.sroa.0.0.copyload = load i8*, i8** %2, align 8
+  %tmpv.133.sroa.3.0.cast.585.sroa_idx3 = getelementptr inbounds i8, i8* %key1, i64 24
+  %3 = bitcast i8* %tmpv.133.sroa.3.0.cast.585.sroa_idx3 to i64*
+  %tmpv.133.sroa.3.0.copyload = load i64, i64* %3, align 8
+  %tmpv.135.sroa.0.0.cast.588.sroa_idx = getelementptr inbounds i8, i8* %key2, i64 16
+  %4 = bitcast i8* %tmpv.135.sroa.0.0.cast.588.sroa_idx to i8**
+  %tmpv.135.sroa.0.0.copyload = load i8*, i8** %4, align 8
+  %tmpv.135.sroa.3.0.cast.588.sroa_idx1 = getelementptr inbounds i8, i8* %key2, i64 24
+  %5 = bitcast i8* %tmpv.135.sroa.3.0.cast.588.sroa_idx1 to i64*
+  %tmpv.135.sroa.3.0.copyload = load i64, i64* %5, align 8
+  %icmp.64 = icmp eq i64 %tmpv.133.sroa.3.0.copyload, %tmpv.135.sroa.3.0.copyload, !dbg !2165
+  br i1 %icmp.64, label %then.50, label %common.ret
+
+then.50:                                          ; preds = %else.48
+  %icmp.65 = icmp eq i8* %tmpv.133.sroa.0.0.copyload, %tmpv.135.sroa.0.0.copyload, !dbg !2165
+  br i1 %icmp.65, label %fallthrough.50.thread, label %fallthrough.50
+
+fallthrough.50:                                   ; preds = %then.50
+  %call.31 = call i32 @memcmp(i8* %tmpv.133.sroa.0.0.copyload, i8* %tmpv.135.sroa.0.0.copyload, i64 %tmpv.133.sroa.3.0.copyload), !dbg !2165
+  %icmp.66 = icmp eq i32 %call.31, 0, !dbg !2165
+  br i1 %icmp.66, label %fallthrough.50.thread, label %common.ret
+
+fallthrough.50.thread:                            ; preds = %then.50, %fallthrough.50
+  br label %common.ret
+}
+
+declare { i8*, i8* } @encoding_1json.Unmarshal(i8*, %IPST.0*, i8*, i8*) local_unnamed_addr #0
+
+define void @main.main(i8* nest nocapture readnone %nest.5) local_unnamed_addr #0 !dbg !2166 {
+entry:
+  %tmp.25 = alloca %IPST.49, align 8
+  %tmpv.117 = alloca [1 x { %_type.0*, i8* }], align 8
+  %sret.actual.35 = alloca { i64, %error.0 }, align 8
+  %call.26 = call i8* @runtime.newobject(i8* nest undef, %_type.0* getelementptr inbounds (%StructType.0, %StructType.0* @main.SimpleAsset..d, i64 0, i32 0)), !dbg !2167
+  %call.27 = call { i8*, i8* } @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Start(i8* nest undef, i8* bitcast ({ %_type.0*, void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)*, void (%Response.0*, i8*, %SimpleAsset.0*, i8*, i8*)* }* @pimt..interface_4Init_bfunc_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9_cInvoke_bfunc_8github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_0ChaincodeStubInterface_9_8github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer_0Response_9_5..main.SimpleAsset to i8*), i8* nonnull %call.26), !dbg !2169
+  %call.27.fca.0.extract = extractvalue { i8*, i8* } %call.27, 0, !dbg !2169
+  call void @llvm.dbg.value(metadata i8* %call.27.fca.0.extract, metadata !2170, metadata !DIExpression(DW_OP_LLVM_fragment, 0, 64)), !dbg !2171
+  call void @llvm.dbg.value(metadata i8* undef, metadata !2170, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2171
+  %icmp.51.not = icmp eq i8* %call.27.fca.0.extract, null, !dbg !2172
+  br i1 %icmp.51.not, label %fallthrough.37, label %else.38
+
+fallthrough.37:                                   ; preds = %entry, %else.38
+  ret void
+
+else.38:                                          ; preds = %entry
+  %call.27.fca.1.extract = extractvalue { i8*, i8* } %call.27, 1, !dbg !2169
+  call void @llvm.dbg.value(metadata i8* %call.27.fca.1.extract, metadata !2170, metadata !DIExpression(DW_OP_LLVM_fragment, 64, 64)), !dbg !2171
+  %field.164 = bitcast i8* %call.27.fca.0.extract to %_type.0**, !dbg !2173
+  %.field.ld.9 = load %_type.0*, %_type.0** %field.164, align 8, !dbg !2173
+  %tmp.24.sroa.0.0.cast.561.sroa_idx = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.117, i64 0, i64 0, i32 0, !dbg !2174
+  store %_type.0* %.field.ld.9, %_type.0** %tmp.24.sroa.0.0.cast.561.sroa_idx, align 8, !dbg !2174
+  %tmp.24.sroa.2.0.cast.561.sroa_idx4 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.117, i64 0, i64 0, i32 1, !dbg !2174
+  store i8* %call.27.fca.1.extract, i8** %tmp.24.sroa.2.0.cast.561.sroa_idx4, align 8, !dbg !2174
+  %cast.563 = getelementptr inbounds [1 x { %_type.0*, i8* }], [1 x { %_type.0*, i8* }]* %tmpv.117, i64 0, i64 0, !dbg !2174
+  %field.168 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.25, i64 0, i32 0, !dbg !2174
+  store { %_type.0*, i8* }* %cast.563, { %_type.0*, i8* }** %field.168, align 8, !dbg !2174
+  %field.169 = getelementptr inbounds %IPST.49, %IPST.49* %tmp.25, i64 0, i32 1, !dbg !2174
+  %0 = bitcast i64* %field.169 to <2 x i64>*, !dbg !2174
+  store <2 x i64> <i64 1, i64 1>, <2 x i64>* %0, align 8, !dbg !2174
+  call void @fmt.Printf({ i64, %error.0 }* nonnull sret({ i64, %error.0 }) "go_sret" %sret.actual.35, i8* nest undef, i8* getelementptr inbounds ([30 x i8], [30 x i8]* @const.69, i64 0, i64 0), i64 29, %IPST.49* nonnull byval(%IPST.49) %tmp.25), !dbg !2174
+  br label %fallthrough.37
+}
+
+declare { i8*, i8* } @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim.Start(i8*, i8*, i8*) local_unnamed_addr #0
+
+declare void @fmt.Printf({ i64, %error.0 }*, i8*, i8*, i64, %IPST.49*) local_unnamed_addr #0
+
+define void @main.main..init0(i8* nest nocapture readnone %nest.6) #0 !dbg !503 {
+entry:
+  call void @runtime.setmodinfo(i8* nest undef, i8* getelementptr inbounds ([1175 x i8], [1175 x i8]* @const.71, i64 0, i64 0), i64 1174), !dbg !2175
   ret void
 }
 
 declare void @runtime.setmodinfo(i8*, i8*, i64) local_unnamed_addr #0
 
-; Function Attrs: argmemonly mustprogress nofree nounwind readonly willreturn
-declare i32 @memcmp(i8* nocapture, i8* nocapture, i64) local_unnamed_addr #2
+; Function Attrs: noreturn
+declare void @runtime.panicmem(i8*) local_unnamed_addr #6
 
-define i8 @main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq(i8* nest nocapture readnone %nest.11, i8* readonly %key1, i8* readonly %key2) #0 !dbg !515 {
+define i8 @main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq(i8* nest nocapture readnone %nest.12, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2176 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !516, metadata !DIExpression()), !dbg !517
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !518, metadata !DIExpression()), !dbg !517
-  call void @llvm.dbg.value(metadata i8 0, metadata !519, metadata !DIExpression()), !dbg !517
-  %icmp.75 = icmp eq i8* %key1, null, !dbg !520
-  br i1 %icmp.75, label %then.61, label %else.61, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2177, metadata !DIExpression()), !dbg !2178
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2179, metadata !DIExpression()), !dbg !2178
+  call void @llvm.dbg.value(metadata i8 0, metadata !2180, metadata !DIExpression()), !dbg !2178
+  %icmp.68 = icmp eq i8* %key1, null, !dbg !2181
+  br i1 %icmp.68, label %then.54, label %else.54, !make.implicit !499
 
-then.61:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !520
+then.54:                                          ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2181
   unreachable
 
-else.61:                                          ; preds = %entry
-  %icmp.76 = icmp eq i8* %key2, null, !dbg !520
-  br i1 %icmp.76, label %then.62, label %else.62, !make.implicit !499
+else.54:                                          ; preds = %entry
+  %icmp.69 = icmp eq i8* %key2, null, !dbg !2181
+  br i1 %icmp.69, label %then.55, label %else.55, !make.implicit !499
 
-then.62:                                          ; preds = %else.61
-  call void @runtime.panicmem(i8* nest undef), !dbg !520
+then.55:                                          ; preds = %else.54
+  call void @runtime.panicmem(i8* nest undef), !dbg !2181
   unreachable
 
-else.62:                                          ; preds = %else.61
-  %tmpv.141.sroa.0.0.cast.574.sroa_idx = bitcast i8* %key1 to i64*, !dbg !520
-  %tmpv.141.sroa.0.0.copyload = load i64, i64* %tmpv.141.sroa.0.0.cast.574.sroa_idx, align 8, !dbg !520
-  %tmpv.142.sroa.0.0.cast.579.sroa_idx = bitcast i8* %key2 to i64*, !dbg !520
-  %tmpv.142.sroa.0.0.copyload = load i64, i64* %tmpv.142.sroa.0.0.cast.579.sroa_idx, align 8, !dbg !520
-  %icmp.77.not = icmp eq i64 %tmpv.141.sroa.0.0.copyload, %tmpv.142.sroa.0.0.copyload, !dbg !520
-  br i1 %icmp.77.not, label %else.65, label %common.ret
+else.55:                                          ; preds = %else.54
+  %tmpv.141.sroa.0.0.cast.593.sroa_idx = bitcast i8* %key1 to i64*, !dbg !2181
+  %tmpv.141.sroa.0.0.copyload = load i64, i64* %tmpv.141.sroa.0.0.cast.593.sroa_idx, align 8, !dbg !2181
+  %tmpv.142.sroa.0.0.cast.598.sroa_idx = bitcast i8* %key2 to i64*, !dbg !2181
+  %tmpv.142.sroa.0.0.copyload = load i64, i64* %tmpv.142.sroa.0.0.cast.598.sroa_idx, align 8, !dbg !2181
+  %icmp.70.not = icmp eq i64 %tmpv.141.sroa.0.0.copyload, %tmpv.142.sroa.0.0.copyload, !dbg !2181
+  br i1 %icmp.70.not, label %else.58, label %common.ret
 
-common.ret:                                       ; preds = %else.65, %else.62
-  %common.ret.op = phi i8 [ 0, %else.62 ], [ %., %else.65 ]
-  ret i8 %common.ret.op, !dbg !520
+common.ret:                                       ; preds = %else.58, %else.55
+  %common.ret.op = phi i8 [ 0, %else.55 ], [ %., %else.58 ]
+  ret i8 %common.ret.op, !dbg !2181
 
-else.65:                                          ; preds = %else.62
-  %field.237 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !520
-  %0 = bitcast i8* %field.237 to i32*, !dbg !520
-  %.field.ld.14 = load i32, i32* %0, align 4, !dbg !520
-  %field.238 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !520
-  %1 = bitcast i8* %field.238 to i32*, !dbg !520
-  %.field.ld.15 = load i32, i32* %1, align 4, !dbg !520
-  %icmp.81.not = icmp eq i32 %.field.ld.14, %.field.ld.15, !dbg !520
-  %. = zext i1 %icmp.81.not to i8
+else.58:                                          ; preds = %else.55
+  %field.198 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !2181
+  %0 = bitcast i8* %field.198 to i32*, !dbg !2181
+  %.field.ld.10 = load i32, i32* %0, align 4, !dbg !2181
+  %field.199 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !2181
+  %1 = bitcast i8* %field.199 to i32*, !dbg !2181
+  %.field.ld.11 = load i32, i32* %1, align 4, !dbg !2181
+  %icmp.74.not = icmp eq i32 %.field.ld.10, %.field.ld.11, !dbg !2181
+  %. = zext i1 %icmp.74.not to i8
   br label %common.ret
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq(i8* nest nocapture readnone %nest.12, i8* readonly %key1, i8* readonly %key2) #3 !dbg !521 {
+define i8 @main._628_7uint8..eq(i8* nest nocapture readnone %nest.13, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2182 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !522, metadata !DIExpression()), !dbg !523
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !524, metadata !DIExpression()), !dbg !523
-  call void @llvm.dbg.value(metadata i8 0, metadata !525, metadata !DIExpression()), !dbg !523
-  %call.30 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !526
-  call void @llvm.dbg.value(metadata i8 %call.30, metadata !525, metadata !DIExpression()), !dbg !523
-  ret i8 %call.30, !dbg !526
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2183, metadata !DIExpression()), !dbg !2184
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2185, metadata !DIExpression()), !dbg !2184
+  call void @llvm.dbg.value(metadata i8 0, metadata !2186, metadata !DIExpression()), !dbg !2184
+  %call.32 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 28), !dbg !2187
+  call void @llvm.dbg.value(metadata i8 %call.32, metadata !2186, metadata !DIExpression()), !dbg !2184
+  ret i8 %call.32, !dbg !2187
 }
 
 ; Function Attrs: argmemonly nofree readonly
-declare i8 @runtime.memequal(i8*, i8*, i8*, i64) local_unnamed_addr #4
+declare i8 @runtime.memequal(i8*, i8*, i8*, i64) local_unnamed_addr #8
 
 ; Function Attrs: nofree readonly
-define i8 @main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq(i8* nest nocapture readnone %nest.13, i8* readonly %key1, i8* readonly %key2) #3 !dbg !527 {
+define i8 @main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq(i8* nest nocapture readnone %nest.14, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2188 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !528, metadata !DIExpression()), !dbg !529
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !530, metadata !DIExpression()), !dbg !529
-  call void @llvm.dbg.value(metadata i8 0, metadata !531, metadata !DIExpression()), !dbg !529
-  %call.31 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !532
-  call void @llvm.dbg.value(metadata i8 %call.31, metadata !531, metadata !DIExpression()), !dbg !529
-  ret i8 %call.31, !dbg !532
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2189, metadata !DIExpression()), !dbg !2190
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2191, metadata !DIExpression()), !dbg !2190
+  call void @llvm.dbg.value(metadata i8 0, metadata !2192, metadata !DIExpression()), !dbg !2190
+  %call.33 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !2193
+  call void @llvm.dbg.value(metadata i8 %call.33, metadata !2192, metadata !DIExpression()), !dbg !2190
+  ret i8 %call.33, !dbg !2193
 }
 
-define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq(i8* nest nocapture readnone %nest.14, i8* readonly %key1, i8* readonly %key2) #0 !dbg !533 {
+; Function Attrs: nofree readonly
+define i8 @main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq(i8* nest nocapture readnone %nest.15, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2194 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !534, metadata !DIExpression()), !dbg !535
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !536, metadata !DIExpression()), !dbg !535
-  call void @llvm.dbg.value(metadata i8 0, metadata !537, metadata !DIExpression()), !dbg !535
-  %icmp.83 = icmp eq i8* %key1, null, !dbg !538
-  br i1 %icmp.83, label %then.68, label %else.68, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2195, metadata !DIExpression()), !dbg !2196
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2197, metadata !DIExpression()), !dbg !2196
+  call void @llvm.dbg.value(metadata i8 0, metadata !2198, metadata !DIExpression()), !dbg !2196
+  %call.34 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !2199
+  call void @llvm.dbg.value(metadata i8 %call.34, metadata !2198, metadata !DIExpression()), !dbg !2196
+  ret i8 %call.34, !dbg !2199
+}
 
-then.68:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !538
+define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq(i8* nest nocapture readnone %nest.16, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2200 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2201, metadata !DIExpression()), !dbg !2202
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2203, metadata !DIExpression()), !dbg !2202
+  call void @llvm.dbg.value(metadata i8 0, metadata !2204, metadata !DIExpression()), !dbg !2202
+  %icmp.76 = icmp eq i8* %key1, null, !dbg !2205
+  br i1 %icmp.76, label %then.61, label %else.61, !make.implicit !499
+
+then.61:                                          ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2205
   unreachable
 
-else.68:                                          ; preds = %entry
-  %icmp.84 = icmp eq i8* %key2, null, !dbg !538
-  br i1 %icmp.84, label %then.69, label %else.69, !make.implicit !499
+else.61:                                          ; preds = %entry
+  %icmp.77 = icmp eq i8* %key2, null, !dbg !2205
+  br i1 %icmp.77, label %then.62, label %else.62, !make.implicit !499
 
-then.69:                                          ; preds = %else.68
-  call void @runtime.panicmem(i8* nest undef), !dbg !538
+then.62:                                          ; preds = %else.61
+  call void @runtime.panicmem(i8* nest undef), !dbg !2205
   unreachable
 
-else.69:                                          ; preds = %else.68
-  %field0.30 = bitcast i8* %key1 to i8**, !dbg !538
-  %ld.48 = load i8*, i8** %field0.30, align 8, !dbg !538
-  %field1.30 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !538
-  %0 = bitcast i8* %field1.30 to i8**, !dbg !538
-  %ld.49 = load i8*, i8** %0, align 8, !dbg !538
-  %field0.31 = bitcast i8* %key2 to i8**, !dbg !538
-  %ld.50 = load i8*, i8** %field0.31, align 8, !dbg !538
-  %field1.31 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !538
-  %1 = bitcast i8* %field1.31 to i8**, !dbg !538
-  %ld.51 = load i8*, i8** %1, align 8, !dbg !538
-  %call.32 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.48, i8* %ld.49, i8* %ld.50, i8* %ld.51), !dbg !538
-  %icmp.85.not = icmp eq i8 %call.32, 1, !dbg !538
-  br i1 %icmp.85.not, label %else.72, label %common.ret
+else.62:                                          ; preds = %else.61
+  %field0.40 = bitcast i8* %key1 to i8**, !dbg !2205
+  %ld.68 = load i8*, i8** %field0.40, align 8, !dbg !2205
+  %field1.40 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !2205
+  %0 = bitcast i8* %field1.40 to i8**, !dbg !2205
+  %ld.69 = load i8*, i8** %0, align 8, !dbg !2205
+  %field0.41 = bitcast i8* %key2 to i8**, !dbg !2205
+  %ld.70 = load i8*, i8** %field0.41, align 8, !dbg !2205
+  %field1.41 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !2205
+  %1 = bitcast i8* %field1.41 to i8**, !dbg !2205
+  %ld.71 = load i8*, i8** %1, align 8, !dbg !2205
+  %call.35 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.68, i8* %ld.69, i8* %ld.70, i8* %ld.71), !dbg !2205
+  %icmp.78.not = icmp eq i8 %call.35, 1, !dbg !2205
+  br i1 %icmp.78.not, label %else.65, label %common.ret
 
-common.ret:                                       ; preds = %else.72, %else.69
-  %common.ret.op = phi i8 [ 0, %else.69 ], [ %., %else.72 ]
-  ret i8 %common.ret.op, !dbg !538
+common.ret:                                       ; preds = %else.65, %else.62
+  %common.ret.op = phi i8 [ 0, %else.62 ], [ %., %else.65 ]
+  ret i8 %common.ret.op, !dbg !2205
 
-else.72:                                          ; preds = %else.69
-  %2 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !538
-  %.field.ld.16 = load i8, i8* %2, align 1, !dbg !538
-  %3 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !538
-  %.field.ld.17 = load i8, i8* %3, align 1, !dbg !538
-  %icmp.88.not = icmp eq i8 %.field.ld.16, %.field.ld.17, !dbg !538
-  %. = zext i1 %icmp.88.not to i8
+else.65:                                          ; preds = %else.62
+  %2 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !2205
+  %.field.ld.12 = load i8, i8* %2, align 1, !dbg !2205
+  %3 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !2205
+  %.field.ld.13 = load i8, i8* %3, align 1, !dbg !2205
+  %icmp.81.not = icmp eq i8 %.field.ld.12, %.field.ld.13, !dbg !2205
+  %. = zext i1 %icmp.81.not to i8
   br label %common.ret
 }
 
 declare i8 @runtime.ifaceeq(i8*, i8*, i8*, i8*, i8*) local_unnamed_addr #0
 
-define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq(i8* nest nocapture readnone %nest.15, i8* readonly %key1, i8* readonly %key2) #0 !dbg !539 {
+define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq(i8* nest nocapture readnone %nest.17, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2206 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !540, metadata !DIExpression()), !dbg !541
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !542, metadata !DIExpression()), !dbg !541
-  call void @llvm.dbg.value(metadata i8 0, metadata !543, metadata !DIExpression()), !dbg !541
-  %icmp.90 = icmp eq i8* %key1, null, !dbg !544
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2207, metadata !DIExpression()), !dbg !2208
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2209, metadata !DIExpression()), !dbg !2208
+  call void @llvm.dbg.value(metadata i8 0, metadata !2210, metadata !DIExpression()), !dbg !2208
+  %icmp.83 = icmp eq i8* %key1, null, !dbg !2211
+  br i1 %icmp.83, label %then.68, label %else.68, !make.implicit !499
+
+then.68:                                          ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2211
+  unreachable
+
+else.68:                                          ; preds = %entry
+  %icmp.84 = icmp eq i8* %key2, null, !dbg !2211
+  br i1 %icmp.84, label %then.69, label %else.69, !make.implicit !499
+
+then.69:                                          ; preds = %else.68
+  call void @runtime.panicmem(i8* nest undef), !dbg !2211
+  unreachable
+
+else.69:                                          ; preds = %else.68
+  %field0.42 = bitcast i8* %key1 to i8**, !dbg !2211
+  %ld.72 = load i8*, i8** %field0.42, align 8, !dbg !2211
+  %field1.42 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !2211
+  %0 = bitcast i8* %field1.42 to i8**, !dbg !2211
+  %ld.73 = load i8*, i8** %0, align 8, !dbg !2211
+  %field0.43 = bitcast i8* %key2 to i8**, !dbg !2211
+  %ld.74 = load i8*, i8** %field0.43, align 8, !dbg !2211
+  %field1.43 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !2211
+  %1 = bitcast i8* %field1.43 to i8**, !dbg !2211
+  %ld.75 = load i8*, i8** %1, align 8, !dbg !2211
+  %call.36 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.72, i8* %ld.73, i8* %ld.74, i8* %ld.75), !dbg !2211
+  %icmp.85.not = icmp eq i8 %call.36, 1, !dbg !2211
+  br i1 %icmp.85.not, label %else.72, label %common.ret
+
+common.ret:                                       ; preds = %else.72, %else.69
+  %common.ret.op = phi i8 [ 0, %else.69 ], [ %., %else.72 ]
+  ret i8 %common.ret.op, !dbg !2211
+
+else.72:                                          ; preds = %else.69
+  %field.206 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !2211
+  %field.207 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !2211
+  %field0.44 = bitcast i8* %field.206 to i8**, !dbg !2211
+  %ld.76 = load i8*, i8** %field0.44, align 8, !dbg !2211
+  %field1.44 = getelementptr inbounds i8, i8* %key1, i64 24, !dbg !2211
+  %2 = bitcast i8* %field1.44 to i8**, !dbg !2211
+  %ld.77 = load i8*, i8** %2, align 8, !dbg !2211
+  %field0.45 = bitcast i8* %field.207 to i8**, !dbg !2211
+  %ld.78 = load i8*, i8** %field0.45, align 8, !dbg !2211
+  %field1.45 = getelementptr inbounds i8, i8* %key2, i64 24, !dbg !2211
+  %3 = bitcast i8* %field1.45 to i8**, !dbg !2211
+  %ld.79 = load i8*, i8** %3, align 8, !dbg !2211
+  %call.37 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.76, i8* %ld.77, i8* %ld.78, i8* %ld.79), !dbg !2211
+  %icmp.88.not = icmp eq i8 %call.37, 1, !dbg !2211
+  %. = zext i1 %icmp.88.not to i8
+  br label %common.ret
+}
+
+define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq(i8* nest nocapture readnone %nest.18, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2212 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2213, metadata !DIExpression()), !dbg !2214
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2215, metadata !DIExpression()), !dbg !2214
+  call void @llvm.dbg.value(metadata i8 0, metadata !2216, metadata !DIExpression()), !dbg !2214
+  %icmp.90 = icmp eq i8* %key1, null, !dbg !2217
   br i1 %icmp.90, label %then.75, label %else.75, !make.implicit !499
 
 then.75:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !544
+  call void @runtime.panicmem(i8* nest undef), !dbg !2217
   unreachable
 
 else.75:                                          ; preds = %entry
-  %icmp.91 = icmp eq i8* %key2, null, !dbg !544
+  %icmp.91 = icmp eq i8* %key2, null, !dbg !2217
   br i1 %icmp.91, label %then.76, label %else.76, !make.implicit !499
 
 then.76:                                          ; preds = %else.75
-  call void @runtime.panicmem(i8* nest undef), !dbg !544
+  call void @runtime.panicmem(i8* nest undef), !dbg !2217
   unreachable
 
 else.76:                                          ; preds = %else.75
-  %field0.32 = bitcast i8* %key1 to i8**, !dbg !544
-  %ld.52 = load i8*, i8** %field0.32, align 8, !dbg !544
-  %field1.32 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !544
-  %0 = bitcast i8* %field1.32 to i8**, !dbg !544
-  %ld.53 = load i8*, i8** %0, align 8, !dbg !544
-  %field0.33 = bitcast i8* %key2 to i8**, !dbg !544
-  %ld.54 = load i8*, i8** %field0.33, align 8, !dbg !544
-  %field1.33 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !544
-  %1 = bitcast i8* %field1.33 to i8**, !dbg !544
-  %ld.55 = load i8*, i8** %1, align 8, !dbg !544
-  %call.33 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.52, i8* %ld.53, i8* %ld.54, i8* %ld.55), !dbg !544
-  %icmp.92.not = icmp eq i8 %call.33, 1, !dbg !544
-  br i1 %icmp.92.not, label %else.79, label %common.ret
-
-common.ret:                                       ; preds = %else.79, %else.76
-  %common.ret.op = phi i8 [ 0, %else.76 ], [ %., %else.79 ]
-  ret i8 %common.ret.op, !dbg !544
-
-else.79:                                          ; preds = %else.76
-  %field.245 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !544
-  %field.246 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !544
-  %field0.34 = bitcast i8* %field.245 to i8**, !dbg !544
-  %ld.56 = load i8*, i8** %field0.34, align 8, !dbg !544
-  %field1.34 = getelementptr inbounds i8, i8* %key1, i64 24, !dbg !544
-  %2 = bitcast i8* %field1.34 to i8**, !dbg !544
-  %ld.57 = load i8*, i8** %2, align 8, !dbg !544
-  %field0.35 = bitcast i8* %field.246 to i8**, !dbg !544
-  %ld.58 = load i8*, i8** %field0.35, align 8, !dbg !544
-  %field1.35 = getelementptr inbounds i8, i8* %key2, i64 24, !dbg !544
-  %3 = bitcast i8* %field1.35 to i8**, !dbg !544
-  %ld.59 = load i8*, i8** %3, align 8, !dbg !544
-  %call.34 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.56, i8* %ld.57, i8* %ld.58, i8* %ld.59), !dbg !544
-  %icmp.95.not = icmp eq i8 %call.34, 1, !dbg !544
-  %. = zext i1 %icmp.95.not to i8
-  br label %common.ret
-}
-
-define i8 @main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq(i8* nest nocapture readnone %nest.16, i8* readonly %key1, i8* readonly %key2) #0 !dbg !545 {
-entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !546, metadata !DIExpression()), !dbg !547
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !548, metadata !DIExpression()), !dbg !547
-  call void @llvm.dbg.value(metadata i8 0, metadata !549, metadata !DIExpression()), !dbg !547
-  %icmp.97 = icmp eq i8* %key1, null, !dbg !550
-  br i1 %icmp.97, label %then.82, label %else.82, !make.implicit !499
-
-then.82:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !550
-  unreachable
-
-else.82:                                          ; preds = %entry
-  %icmp.98 = icmp eq i8* %key2, null, !dbg !550
-  br i1 %icmp.98, label %then.83, label %else.83, !make.implicit !499
-
-then.83:                                          ; preds = %else.82
-  call void @runtime.panicmem(i8* nest undef), !dbg !550
-  unreachable
-
-else.83:                                          ; preds = %else.82
-  %field0.36 = bitcast i8* %key1 to i8**, !dbg !550
-  %ld.60 = load i8*, i8** %field0.36, align 8, !dbg !550
-  %field1.36 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !550
-  %0 = bitcast i8* %field1.36 to i8**, !dbg !550
-  %ld.61 = load i8*, i8** %0, align 8, !dbg !550
-  %field0.37 = bitcast i8* %key2 to i8**, !dbg !550
-  %ld.62 = load i8*, i8** %field0.37, align 8, !dbg !550
-  %field1.37 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !550
-  %1 = bitcast i8* %field1.37 to i8**, !dbg !550
-  %ld.63 = load i8*, i8** %1, align 8, !dbg !550
-  %call.35 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.60, i8* %ld.61, i8* %ld.62, i8* %ld.63), !dbg !550
-  %icmp.99.not = icmp eq i8 %call.35, 1, !dbg !550
-  %. = zext i1 %icmp.99.not to i8
-  ret i8 %., !dbg !550
+  %field0.46 = bitcast i8* %key1 to i8**, !dbg !2217
+  %ld.80 = load i8*, i8** %field0.46, align 8, !dbg !2217
+  %field1.46 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !2217
+  %0 = bitcast i8* %field1.46 to i8**, !dbg !2217
+  %ld.81 = load i8*, i8** %0, align 8, !dbg !2217
+  %field0.47 = bitcast i8* %key2 to i8**, !dbg !2217
+  %ld.82 = load i8*, i8** %field0.47, align 8, !dbg !2217
+  %field1.47 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !2217
+  %1 = bitcast i8* %field1.47 to i8**, !dbg !2217
+  %ld.83 = load i8*, i8** %1, align 8, !dbg !2217
+  %call.38 = call i8 @runtime.ifaceeq(i8* nest undef, i8* %ld.80, i8* %ld.81, i8* %ld.82, i8* %ld.83), !dbg !2217
+  %icmp.92.not = icmp eq i8 %call.38, 1, !dbg !2217
+  %. = zext i1 %icmp.92.not to i8
+  ret i8 %., !dbg !2217
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._632_7uintptr..eq(i8* nest nocapture readnone %nest.17, i8* readonly %key1, i8* readonly %key2) #3 !dbg !551 {
+define i8 @main._68_7uint8..eq(i8* nest nocapture readnone %nest.19, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2218 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !552, metadata !DIExpression()), !dbg !553
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !554, metadata !DIExpression()), !dbg !553
-  call void @llvm.dbg.value(metadata i8 0, metadata !555, metadata !DIExpression()), !dbg !553
-  %call.36 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 256), !dbg !556
-  call void @llvm.dbg.value(metadata i8 %call.36, metadata !555, metadata !DIExpression()), !dbg !553
-  ret i8 %call.36, !dbg !556
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2219, metadata !DIExpression()), !dbg !2220
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2221, metadata !DIExpression()), !dbg !2220
+  call void @llvm.dbg.value(metadata i8 0, metadata !2222, metadata !DIExpression()), !dbg !2220
+  %call.39 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !2223
+  call void @llvm.dbg.value(metadata i8 %call.39, metadata !2222, metadata !DIExpression()), !dbg !2220
+  ret i8 %call.39, !dbg !2223
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6256_7uint64..eq(i8* nest nocapture readnone %nest.18, i8* readonly %key1, i8* readonly %key2) #3 !dbg !557 {
+define i8 @main._614_7int8..eq(i8* nest nocapture readnone %nest.20, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2224 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !558, metadata !DIExpression()), !dbg !559
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !560, metadata !DIExpression()), !dbg !559
-  call void @llvm.dbg.value(metadata i8 0, metadata !561, metadata !DIExpression()), !dbg !559
-  %call.37 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 2048), !dbg !562
-  call void @llvm.dbg.value(metadata i8 %call.37, metadata !561, metadata !DIExpression()), !dbg !559
-  ret i8 %call.37, !dbg !562
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2225, metadata !DIExpression()), !dbg !2226
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2227, metadata !DIExpression()), !dbg !2226
+  call void @llvm.dbg.value(metadata i8 0, metadata !2228, metadata !DIExpression()), !dbg !2226
+  %call.40 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 14), !dbg !2229
+  call void @llvm.dbg.value(metadata i8 %call.40, metadata !2228, metadata !DIExpression()), !dbg !2226
+  ret i8 %call.40, !dbg !2229
 }
 
-define i8 @main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq(i8* nest nocapture readnone %nest.19, i8* readonly %key1, i8* readonly %key2) #0 !dbg !563 {
+; Function Attrs: nofree readonly
+define i8 @main._696_7int8..eq(i8* nest nocapture readnone %nest.21, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2230 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !564, metadata !DIExpression()), !dbg !565
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !566, metadata !DIExpression()), !dbg !565
-  call void @llvm.dbg.value(metadata i8 0, metadata !567, metadata !DIExpression()), !dbg !565
-  %cast.616 = bitcast i8* %key1 to [61 x { i32, i64, i64 }]*, !dbg !568
-  %cast.617 = bitcast i8* %key2 to [61 x { i32, i64, i64 }]*, !dbg !568
-  %icmp.102 = icmp eq i8* %key1, null
-  br i1 %icmp.102, label %then.87.split, label %entry.split, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2231, metadata !DIExpression()), !dbg !2232
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2233, metadata !DIExpression()), !dbg !2232
+  call void @llvm.dbg.value(metadata i8 0, metadata !2234, metadata !DIExpression()), !dbg !2232
+  %call.41 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 96), !dbg !2235
+  call void @llvm.dbg.value(metadata i8 %call.41, metadata !2234, metadata !DIExpression()), !dbg !2232
+  ret i8 %call.41, !dbg !2235
+}
+
+; Function Attrs: nofree readonly
+define i8 @main._632_7uintptr..eq(i8* nest nocapture readnone %nest.22, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2236 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2237, metadata !DIExpression()), !dbg !2238
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2239, metadata !DIExpression()), !dbg !2238
+  call void @llvm.dbg.value(metadata i8 0, metadata !2240, metadata !DIExpression()), !dbg !2238
+  %call.42 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 256), !dbg !2241
+  call void @llvm.dbg.value(metadata i8 %call.42, metadata !2240, metadata !DIExpression()), !dbg !2238
+  ret i8 %call.42, !dbg !2241
+}
+
+; Function Attrs: nofree readonly
+define i8 @main._6256_7uint64..eq(i8* nest nocapture readnone %nest.23, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2242 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2243, metadata !DIExpression()), !dbg !2244
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2245, metadata !DIExpression()), !dbg !2244
+  call void @llvm.dbg.value(metadata i8 0, metadata !2246, metadata !DIExpression()), !dbg !2244
+  %call.43 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 2048), !dbg !2247
+  call void @llvm.dbg.value(metadata i8 %call.43, metadata !2246, metadata !DIExpression()), !dbg !2244
+  ret i8 %call.43, !dbg !2247
+}
+
+define i8 @main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq(i8* nest nocapture readnone %nest.24, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2248 {
+entry:
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2249, metadata !DIExpression()), !dbg !2250
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2251, metadata !DIExpression()), !dbg !2250
+  call void @llvm.dbg.value(metadata i8 0, metadata !2252, metadata !DIExpression()), !dbg !2250
+  %cast.635 = bitcast i8* %key1 to [61 x { i32, i64, i64 }]*, !dbg !2253
+  %cast.636 = bitcast i8* %key2 to [61 x { i32, i64, i64 }]*, !dbg !2253
+  %icmp.95 = icmp eq i8* %key1, null
+  br i1 %icmp.95, label %then.80.split, label %entry.split, !make.implicit !499
 
 entry.split:                                      ; preds = %entry
-  %icmp.105 = icmp eq i8* %key2, null
-  br i1 %icmp.105, label %then.89.split, label %then.93, !make.implicit !499
+  %icmp.98 = icmp eq i8* %key2, null
+  br i1 %icmp.98, label %then.82.split, label %then.86, !make.implicit !499
 
-label.0:                                          ; preds = %then.93
-  %add.0 = add nuw nsw i64 %tmpv.179.018, 1, !dbg !568
-  %exitcond.not = icmp eq i64 %add.0, 61, !dbg !568
-  br i1 %exitcond.not, label %common.ret, label %then.93
+label.0:                                          ; preds = %then.86
+  %add.0 = add nuw nsw i64 %tmpv.183.018, 1, !dbg !2253
+  %exitcond.not = icmp eq i64 %add.0, 61, !dbg !2253
+  br i1 %exitcond.not, label %common.ret, label %then.86
 
-then.87.split:                                    ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !568
+then.80.split:                                    ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2253
   unreachable
 
-then.89.split:                                    ; preds = %entry.split
-  call void @runtime.panicmem(i8* nest undef), !dbg !568
+then.82.split:                                    ; preds = %entry.split
+  call void @runtime.panicmem(i8* nest undef), !dbg !2253
   unreachable
 
-common.ret:                                       ; preds = %label.0, %then.93
-  %common.ret.op = phi i8 [ 0, %then.93 ], [ 1, %label.0 ]
-  ret i8 %common.ret.op, !dbg !568
+common.ret:                                       ; preds = %label.0, %then.86
+  %common.ret.op = phi i8 [ 0, %then.86 ], [ 1, %label.0 ]
+  ret i8 %common.ret.op, !dbg !2253
 
-then.93:                                          ; preds = %entry.split, %label.0
-  %tmpv.179.018 = phi i64 [ %add.0, %label.0 ], [ 0, %entry.split ]
-  %tmpv.181.sroa.4.0.cast.620.sroa_idx7 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.616, i64 0, i64 %tmpv.179.018, i32 2, !dbg !568
-  %tmpv.181.sroa.4.0.copyload = load i64, i64* %tmpv.181.sroa.4.0.cast.620.sroa_idx7, align 8, !dbg !568
-  %tmpv.181.sroa.3.0.cast.620.sroa_idx6 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.616, i64 0, i64 %tmpv.179.018, i32 1, !dbg !568
-  %tmpv.181.sroa.3.0.copyload = load i64, i64* %tmpv.181.sroa.3.0.cast.620.sroa_idx6, align 8, !dbg !568
-  %tmpv.181.sroa.0.0.cast.620.sroa_idx = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.616, i64 0, i64 %tmpv.179.018, i32 0, !dbg !568
-  %tmpv.181.sroa.0.0.copyload = load i32, i32* %tmpv.181.sroa.0.0.cast.620.sroa_idx, align 8, !dbg !568
-  %tmpv.182.sroa.0.0.cast.625.sroa_idx = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.617, i64 0, i64 %tmpv.179.018, i32 0, !dbg !568
-  %tmpv.182.sroa.0.0.copyload = load i32, i32* %tmpv.182.sroa.0.0.cast.625.sroa_idx, align 8, !dbg !568
-  %tmpv.182.sroa.3.0.cast.625.sroa_idx4 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.617, i64 0, i64 %tmpv.179.018, i32 1, !dbg !568
-  %tmpv.182.sroa.3.0.copyload = load i64, i64* %tmpv.182.sroa.3.0.cast.625.sroa_idx4, align 8, !dbg !568
-  %tmpv.182.sroa.4.0.cast.625.sroa_idx5 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.617, i64 0, i64 %tmpv.179.018, i32 2, !dbg !568
-  %tmpv.182.sroa.4.0.copyload = load i64, i64* %tmpv.182.sroa.4.0.cast.625.sroa_idx5, align 8, !dbg !568
-  %icmp.106 = icmp eq i32 %tmpv.181.sroa.0.0.copyload, %tmpv.182.sroa.0.0.copyload, !dbg !568
-  %icmp.107 = icmp eq i64 %tmpv.181.sroa.3.0.copyload, %tmpv.182.sroa.3.0.copyload
-  %tmpv.188.0.in = select i1 %icmp.106, i1 %icmp.107, i1 false
-  %icmp.108 = icmp eq i64 %tmpv.181.sroa.4.0.copyload, %tmpv.182.sroa.4.0.copyload
-  %tmpv.189.0.in = select i1 %tmpv.188.0.in, i1 %icmp.108, i1 false
-  br i1 %tmpv.189.0.in, label %label.0, label %common.ret
+then.86:                                          ; preds = %entry.split, %label.0
+  %tmpv.183.018 = phi i64 [ %add.0, %label.0 ], [ 0, %entry.split ]
+  %tmpv.185.sroa.4.0.cast.639.sroa_idx7 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.635, i64 0, i64 %tmpv.183.018, i32 2, !dbg !2253
+  %tmpv.185.sroa.4.0.copyload = load i64, i64* %tmpv.185.sroa.4.0.cast.639.sroa_idx7, align 8, !dbg !2253
+  %tmpv.185.sroa.3.0.cast.639.sroa_idx6 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.635, i64 0, i64 %tmpv.183.018, i32 1, !dbg !2253
+  %tmpv.185.sroa.3.0.copyload = load i64, i64* %tmpv.185.sroa.3.0.cast.639.sroa_idx6, align 8, !dbg !2253
+  %tmpv.185.sroa.0.0.cast.639.sroa_idx = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.635, i64 0, i64 %tmpv.183.018, i32 0, !dbg !2253
+  %tmpv.185.sroa.0.0.copyload = load i32, i32* %tmpv.185.sroa.0.0.cast.639.sroa_idx, align 8, !dbg !2253
+  %tmpv.186.sroa.0.0.cast.644.sroa_idx = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.636, i64 0, i64 %tmpv.183.018, i32 0, !dbg !2253
+  %tmpv.186.sroa.0.0.copyload = load i32, i32* %tmpv.186.sroa.0.0.cast.644.sroa_idx, align 8, !dbg !2253
+  %tmpv.186.sroa.3.0.cast.644.sroa_idx4 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.636, i64 0, i64 %tmpv.183.018, i32 1, !dbg !2253
+  %tmpv.186.sroa.3.0.copyload = load i64, i64* %tmpv.186.sroa.3.0.cast.644.sroa_idx4, align 8, !dbg !2253
+  %tmpv.186.sroa.4.0.cast.644.sroa_idx5 = getelementptr [61 x { i32, i64, i64 }], [61 x { i32, i64, i64 }]* %cast.636, i64 0, i64 %tmpv.183.018, i32 2, !dbg !2253
+  %tmpv.186.sroa.4.0.copyload = load i64, i64* %tmpv.186.sroa.4.0.cast.644.sroa_idx5, align 8, !dbg !2253
+  %icmp.99 = icmp eq i32 %tmpv.185.sroa.0.0.copyload, %tmpv.186.sroa.0.0.copyload, !dbg !2253
+  %icmp.100 = icmp eq i64 %tmpv.185.sroa.3.0.copyload, %tmpv.186.sroa.3.0.copyload
+  %tmpv.192.0.in = select i1 %icmp.99, i1 %icmp.100, i1 false
+  %icmp.101 = icmp eq i64 %tmpv.185.sroa.4.0.copyload, %tmpv.186.sroa.4.0.copyload
+  %tmpv.193.0.in = select i1 %tmpv.192.0.in, i1 %icmp.101, i1 false
+  br i1 %tmpv.193.0.in, label %label.0, label %common.ret
 }
 
-define i8 @main.struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq(i8* nest nocapture readnone %nest.20, i8* readonly %key1, i8* readonly %key2) #0 !dbg !569 {
+define i8 @main.struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq(i8* nest nocapture readnone %nest.25, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2254 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !570, metadata !DIExpression()), !dbg !571
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !572, metadata !DIExpression()), !dbg !571
-  call void @llvm.dbg.value(metadata i8 0, metadata !573, metadata !DIExpression()), !dbg !571
-  %icmp.111 = icmp eq i8* %key1, null, !dbg !574
-  br i1 %icmp.111, label %then.94, label %else.94, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2255, metadata !DIExpression()), !dbg !2256
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2257, metadata !DIExpression()), !dbg !2256
+  call void @llvm.dbg.value(metadata i8 0, metadata !2258, metadata !DIExpression()), !dbg !2256
+  %icmp.104 = icmp eq i8* %key1, null, !dbg !2259
+  br i1 %icmp.104, label %then.87, label %else.87, !make.implicit !499
 
-then.94:                                          ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !574
+then.87:                                          ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2259
   unreachable
 
-else.94:                                          ; preds = %entry
-  %icmp.112 = icmp eq i8* %key2, null, !dbg !574
-  br i1 %icmp.112, label %then.95, label %else.95, !make.implicit !499
+else.87:                                          ; preds = %entry
+  %icmp.105 = icmp eq i8* %key2, null, !dbg !2259
+  br i1 %icmp.105, label %then.88, label %else.88, !make.implicit !499
 
-then.95:                                          ; preds = %else.94
-  call void @runtime.panicmem(i8* nest undef), !dbg !574
+then.88:                                          ; preds = %else.87
+  call void @runtime.panicmem(i8* nest undef), !dbg !2259
   unreachable
 
-else.95:                                          ; preds = %else.94
-  %field.255 = bitcast i8* %key1 to i32*, !dbg !574
-  %.field.ld.18 = load i32, i32* %field.255, align 4, !dbg !574
-  %field.256 = bitcast i8* %key2 to i32*, !dbg !574
-  %.field.ld.19 = load i32, i32* %field.256, align 4, !dbg !574
-  %icmp.113.not = icmp eq i32 %.field.ld.18, %.field.ld.19, !dbg !574
-  br i1 %icmp.113.not, label %else.98, label %common.ret
+else.88:                                          ; preds = %else.87
+  %field.216 = bitcast i8* %key1 to i32*, !dbg !2259
+  %.field.ld.14 = load i32, i32* %field.216, align 4, !dbg !2259
+  %field.217 = bitcast i8* %key2 to i32*, !dbg !2259
+  %.field.ld.15 = load i32, i32* %field.217, align 4, !dbg !2259
+  %icmp.106.not = icmp eq i32 %.field.ld.14, %.field.ld.15, !dbg !2259
+  br i1 %icmp.106.not, label %else.91, label %common.ret
 
-common.ret:                                       ; preds = %else.101, %else.98, %else.95
-  %common.ret.op = phi i8 [ 0, %else.95 ], [ 0, %else.98 ], [ %., %else.101 ]
-  ret i8 %common.ret.op, !dbg !574
+common.ret:                                       ; preds = %else.94, %else.91, %else.88
+  %common.ret.op = phi i8 [ 0, %else.88 ], [ 0, %else.91 ], [ %., %else.94 ]
+  ret i8 %common.ret.op, !dbg !2259
 
-else.98:                                          ; preds = %else.95
-  %field.257 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !574
-  %0 = bitcast i8* %field.257 to i64*, !dbg !574
-  %.field.ld.20 = load i64, i64* %0, align 8, !dbg !574
-  %field.258 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !574
-  %1 = bitcast i8* %field.258 to i64*, !dbg !574
-  %.field.ld.21 = load i64, i64* %1, align 8, !dbg !574
-  %icmp.116.not = icmp eq i64 %.field.ld.20, %.field.ld.21, !dbg !574
-  br i1 %icmp.116.not, label %else.101, label %common.ret
+else.91:                                          ; preds = %else.88
+  %field.218 = getelementptr inbounds i8, i8* %key1, i64 8, !dbg !2259
+  %0 = bitcast i8* %field.218 to i64*, !dbg !2259
+  %.field.ld.16 = load i64, i64* %0, align 8, !dbg !2259
+  %field.219 = getelementptr inbounds i8, i8* %key2, i64 8, !dbg !2259
+  %1 = bitcast i8* %field.219 to i64*, !dbg !2259
+  %.field.ld.17 = load i64, i64* %1, align 8, !dbg !2259
+  %icmp.109.not = icmp eq i64 %.field.ld.16, %.field.ld.17, !dbg !2259
+  br i1 %icmp.109.not, label %else.94, label %common.ret
 
-else.101:                                         ; preds = %else.98
-  %field.259 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !574
-  %2 = bitcast i8* %field.259 to i64*, !dbg !574
-  %.field.ld.22 = load i64, i64* %2, align 8, !dbg !574
-  %field.260 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !574
-  %3 = bitcast i8* %field.260 to i64*, !dbg !574
-  %.field.ld.23 = load i64, i64* %3, align 8, !dbg !574
-  %icmp.119.not = icmp eq i64 %.field.ld.22, %.field.ld.23, !dbg !574
-  %. = zext i1 %icmp.119.not to i8
+else.94:                                          ; preds = %else.91
+  %field.220 = getelementptr inbounds i8, i8* %key1, i64 16, !dbg !2259
+  %2 = bitcast i8* %field.220 to i64*, !dbg !2259
+  %.field.ld.18 = load i64, i64* %2, align 8, !dbg !2259
+  %field.221 = getelementptr inbounds i8, i8* %key2, i64 16, !dbg !2259
+  %3 = bitcast i8* %field.221 to i64*, !dbg !2259
+  %.field.ld.19 = load i64, i64* %3, align 8, !dbg !2259
+  %icmp.112.not = icmp eq i64 %.field.ld.18, %.field.ld.19, !dbg !2259
+  %. = zext i1 %icmp.112.not to i8
   br label %common.ret
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6122_7uintptr..eq(i8* nest nocapture readnone %nest.21, i8* readonly %key1, i8* readonly %key2) #3 !dbg !575 {
+define i8 @main._6122_7uintptr..eq(i8* nest nocapture readnone %nest.26, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2260 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !576, metadata !DIExpression()), !dbg !577
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !578, metadata !DIExpression()), !dbg !577
-  call void @llvm.dbg.value(metadata i8 0, metadata !579, metadata !DIExpression()), !dbg !577
-  %call.38 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 976), !dbg !580
-  call void @llvm.dbg.value(metadata i8 %call.38, metadata !579, metadata !DIExpression()), !dbg !577
-  ret i8 %call.38, !dbg !580
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2261, metadata !DIExpression()), !dbg !2262
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2263, metadata !DIExpression()), !dbg !2262
+  call void @llvm.dbg.value(metadata i8 0, metadata !2264, metadata !DIExpression()), !dbg !2262
+  %call.44 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 976), !dbg !2265
+  call void @llvm.dbg.value(metadata i8 %call.44, metadata !2264, metadata !DIExpression()), !dbg !2262
+  ret i8 %call.44, !dbg !2265
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._68_7uint64..eq(i8* nest nocapture readnone %nest.22, i8* readonly %key1, i8* readonly %key2) #3 !dbg !581 {
+define i8 @main._68_7uint64..eq(i8* nest nocapture readnone %nest.27, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2266 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !582, metadata !DIExpression()), !dbg !583
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !584, metadata !DIExpression()), !dbg !583
-  call void @llvm.dbg.value(metadata i8 0, metadata !585, metadata !DIExpression()), !dbg !583
-  %call.39 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 64), !dbg !586
-  call void @llvm.dbg.value(metadata i8 %call.39, metadata !585, metadata !DIExpression()), !dbg !583
-  ret i8 %call.39, !dbg !586
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2267, metadata !DIExpression()), !dbg !2268
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2269, metadata !DIExpression()), !dbg !2268
+  call void @llvm.dbg.value(metadata i8 0, metadata !2270, metadata !DIExpression()), !dbg !2268
+  %call.45 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 64), !dbg !2271
+  call void @llvm.dbg.value(metadata i8 %call.45, metadata !2270, metadata !DIExpression()), !dbg !2268
+  ret i8 %call.45, !dbg !2271
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6128_7uint8..eq(i8* nest nocapture readnone %nest.23, i8* readonly %key1, i8* readonly %key2) #3 !dbg !587 {
+define i8 @main._6128_7uint8..eq(i8* nest nocapture readnone %nest.28, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2272 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !588, metadata !DIExpression()), !dbg !589
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !590, metadata !DIExpression()), !dbg !589
-  call void @llvm.dbg.value(metadata i8 0, metadata !591, metadata !DIExpression()), !dbg !589
-  %call.40 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 128), !dbg !592
-  call void @llvm.dbg.value(metadata i8 %call.40, metadata !591, metadata !DIExpression()), !dbg !589
-  ret i8 %call.40, !dbg !592
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2273, metadata !DIExpression()), !dbg !2274
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2275, metadata !DIExpression()), !dbg !2274
+  call void @llvm.dbg.value(metadata i8 0, metadata !2276, metadata !DIExpression()), !dbg !2274
+  %call.46 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 128), !dbg !2277
+  call void @llvm.dbg.value(metadata i8 %call.46, metadata !2276, metadata !DIExpression()), !dbg !2274
+  ret i8 %call.46, !dbg !2277
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._64096_7uint8..eq(i8* nest nocapture readnone %nest.24, i8* readonly %key1, i8* readonly %key2) #3 !dbg !593 {
+define i8 @main._64096_7uint8..eq(i8* nest nocapture readnone %nest.29, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2278 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !594, metadata !DIExpression()), !dbg !595
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !596, metadata !DIExpression()), !dbg !595
-  call void @llvm.dbg.value(metadata i8 0, metadata !597, metadata !DIExpression()), !dbg !595
-  %call.41 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 4096), !dbg !598
-  call void @llvm.dbg.value(metadata i8 %call.41, metadata !597, metadata !DIExpression()), !dbg !595
-  ret i8 %call.41, !dbg !598
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2279, metadata !DIExpression()), !dbg !2280
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2281, metadata !DIExpression()), !dbg !2280
+  call void @llvm.dbg.value(metadata i8 0, metadata !2282, metadata !DIExpression()), !dbg !2280
+  %call.47 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 4096), !dbg !2283
+  call void @llvm.dbg.value(metadata i8 %call.47, metadata !2282, metadata !DIExpression()), !dbg !2280
+  ret i8 %call.47, !dbg !2283
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._668_7uint16..eq(i8* nest nocapture readnone %nest.25, i8* readonly %key1, i8* readonly %key2) #3 !dbg !599 {
+define i8 @main._668_7uint16..eq(i8* nest nocapture readnone %nest.30, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2284 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !600, metadata !DIExpression()), !dbg !601
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !602, metadata !DIExpression()), !dbg !601
-  call void @llvm.dbg.value(metadata i8 0, metadata !603, metadata !DIExpression()), !dbg !601
-  %call.42 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 136), !dbg !604
-  call void @llvm.dbg.value(metadata i8 %call.42, metadata !603, metadata !DIExpression()), !dbg !601
-  ret i8 %call.42, !dbg !604
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2285, metadata !DIExpression()), !dbg !2286
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2287, metadata !DIExpression()), !dbg !2286
+  call void @llvm.dbg.value(metadata i8 0, metadata !2288, metadata !DIExpression()), !dbg !2286
+  %call.48 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 136), !dbg !2289
+  call void @llvm.dbg.value(metadata i8 %call.48, metadata !2288, metadata !DIExpression()), !dbg !2286
+  ret i8 %call.48, !dbg !2289
 }
 
-define i8 @main._633_7float64..eq(i8* nest nocapture readnone %nest.26, i8* readonly %key1, i8* readonly %key2) #0 !dbg !605 {
+define i8 @main._633_7float64..eq(i8* nest nocapture readnone %nest.31, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2290 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !606, metadata !DIExpression()), !dbg !607
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !608, metadata !DIExpression()), !dbg !607
-  call void @llvm.dbg.value(metadata i8 0, metadata !609, metadata !DIExpression()), !dbg !607
-  %cast.636 = bitcast i8* %key1 to [33 x double]*, !dbg !610
-  %cast.637 = bitcast i8* %key2 to [33 x double]*, !dbg !610
-  %icmp.124 = icmp eq i8* %key1, null
-  br i1 %icmp.124, label %then.105.split, label %entry.split, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2291, metadata !DIExpression()), !dbg !2292
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2293, metadata !DIExpression()), !dbg !2292
+  call void @llvm.dbg.value(metadata i8 0, metadata !2294, metadata !DIExpression()), !dbg !2292
+  %icmp.117 = icmp eq i8* %key1, null
+  br i1 %icmp.117, label %then.98.split, label %entry.split, !make.implicit !499
 
 entry.split:                                      ; preds = %entry
-  %icmp.125 = icmp eq i8* %key2, null
-  br i1 %icmp.125, label %then.106.split, label %then.108, !make.implicit !499
+  %icmp.118 = icmp eq i8* %key2, null
+  br i1 %icmp.118, label %then.99.split, label %then.101.preheader, !make.implicit !499
 
-label.0:                                          ; preds = %then.108
-  %add.1 = add nuw nsw i64 %tmpv.206.011, 1, !dbg !610
-  %index.16.1 = getelementptr [33 x double], [33 x double]* %cast.636, i64 0, i64 %add.1, !dbg !610
-  %.index.ld.0.1 = load double, double* %index.16.1, align 8, !dbg !610
-  %index.17.1 = getelementptr [33 x double], [33 x double]* %cast.637, i64 0, i64 %add.1, !dbg !610
-  %.index.ld.1.1 = load double, double* %index.17.1, align 8, !dbg !610
-  %fcmp.0.1 = fcmp une double %.index.ld.0.1, %.index.ld.1.1, !dbg !610
+then.101.preheader:                               ; preds = %entry.split
+  %index.8 = bitcast i8* %key1 to double*, !dbg !2295
+  %.index.ld.0 = load double, double* %index.8, align 8, !dbg !2295
+  %index.9 = bitcast i8* %key2 to double*, !dbg !2295
+  %.index.ld.1 = load double, double* %index.9, align 8, !dbg !2295
+  %fcmp.0 = fcmp une double %.index.ld.0, %.index.ld.1, !dbg !2295
+  br i1 %fcmp.0, label %common.ret, label %label.0
+
+label.0:                                          ; preds = %then.101.preheader
+  %index.8.1 = getelementptr i8, i8* %key1, i64 8, !dbg !2295
+  %0 = bitcast i8* %index.8.1 to double*, !dbg !2295
+  %.index.ld.0.1 = load double, double* %0, align 8, !dbg !2295
+  %index.9.1 = getelementptr i8, i8* %key2, i64 8, !dbg !2295
+  %1 = bitcast i8* %index.9.1 to double*, !dbg !2295
+  %.index.ld.1.1 = load double, double* %1, align 8, !dbg !2295
+  %fcmp.0.1 = fcmp une double %.index.ld.0.1, %.index.ld.1.1, !dbg !2295
   br i1 %fcmp.0.1, label %common.ret, label %label.0.1
 
 label.0.1:                                        ; preds = %label.0
-  %add.1.1 = add nuw nsw i64 %tmpv.206.011, 2, !dbg !610
-  %index.16.2 = getelementptr [33 x double], [33 x double]* %cast.636, i64 0, i64 %add.1.1, !dbg !610
-  %.index.ld.0.2 = load double, double* %index.16.2, align 8, !dbg !610
-  %index.17.2 = getelementptr [33 x double], [33 x double]* %cast.637, i64 0, i64 %add.1.1, !dbg !610
-  %.index.ld.1.2 = load double, double* %index.17.2, align 8, !dbg !610
-  %fcmp.0.2 = fcmp une double %.index.ld.0.2, %.index.ld.1.2, !dbg !610
+  %index.8.2 = getelementptr i8, i8* %key1, i64 16, !dbg !2295
+  %2 = bitcast i8* %index.8.2 to double*, !dbg !2295
+  %.index.ld.0.2 = load double, double* %2, align 8, !dbg !2295
+  %index.9.2 = getelementptr i8, i8* %key2, i64 16, !dbg !2295
+  %3 = bitcast i8* %index.9.2 to double*, !dbg !2295
+  %.index.ld.1.2 = load double, double* %3, align 8, !dbg !2295
+  %fcmp.0.2 = fcmp une double %.index.ld.0.2, %.index.ld.1.2, !dbg !2295
   br i1 %fcmp.0.2, label %common.ret, label %label.0.2
 
 label.0.2:                                        ; preds = %label.0.1
-  %add.1.2 = add nuw nsw i64 %tmpv.206.011, 3, !dbg !610
-  %exitcond.not.2 = icmp eq i64 %add.1.2, 33, !dbg !610
-  br i1 %exitcond.not.2, label %common.ret, label %then.108
+  %index.8.3 = getelementptr i8, i8* %key1, i64 24, !dbg !2295
+  %4 = bitcast i8* %index.8.3 to double*, !dbg !2295
+  %.index.ld.0.3 = load double, double* %4, align 8, !dbg !2295
+  %index.9.3 = getelementptr i8, i8* %key2, i64 24, !dbg !2295
+  %5 = bitcast i8* %index.9.3 to double*, !dbg !2295
+  %.index.ld.1.3 = load double, double* %5, align 8, !dbg !2295
+  %fcmp.0.3 = fcmp une double %.index.ld.0.3, %.index.ld.1.3, !dbg !2295
+  br i1 %fcmp.0.3, label %common.ret, label %label.0.3
 
-then.105.split:                                   ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !610
+label.0.3:                                        ; preds = %label.0.2
+  %index.8.4 = getelementptr i8, i8* %key1, i64 32, !dbg !2295
+  %6 = bitcast i8* %index.8.4 to double*, !dbg !2295
+  %.index.ld.0.4 = load double, double* %6, align 8, !dbg !2295
+  %index.9.4 = getelementptr i8, i8* %key2, i64 32, !dbg !2295
+  %7 = bitcast i8* %index.9.4 to double*, !dbg !2295
+  %.index.ld.1.4 = load double, double* %7, align 8, !dbg !2295
+  %fcmp.0.4 = fcmp une double %.index.ld.0.4, %.index.ld.1.4, !dbg !2295
+  br i1 %fcmp.0.4, label %common.ret, label %label.0.4
+
+label.0.4:                                        ; preds = %label.0.3
+  %index.8.5 = getelementptr i8, i8* %key1, i64 40, !dbg !2295
+  %8 = bitcast i8* %index.8.5 to double*, !dbg !2295
+  %.index.ld.0.5 = load double, double* %8, align 8, !dbg !2295
+  %index.9.5 = getelementptr i8, i8* %key2, i64 40, !dbg !2295
+  %9 = bitcast i8* %index.9.5 to double*, !dbg !2295
+  %.index.ld.1.5 = load double, double* %9, align 8, !dbg !2295
+  %fcmp.0.5 = fcmp une double %.index.ld.0.5, %.index.ld.1.5, !dbg !2295
+  br i1 %fcmp.0.5, label %common.ret, label %label.0.5
+
+label.0.5:                                        ; preds = %label.0.4
+  %index.8.6 = getelementptr i8, i8* %key1, i64 48, !dbg !2295
+  %10 = bitcast i8* %index.8.6 to double*, !dbg !2295
+  %.index.ld.0.6 = load double, double* %10, align 8, !dbg !2295
+  %index.9.6 = getelementptr i8, i8* %key2, i64 48, !dbg !2295
+  %11 = bitcast i8* %index.9.6 to double*, !dbg !2295
+  %.index.ld.1.6 = load double, double* %11, align 8, !dbg !2295
+  %fcmp.0.6 = fcmp une double %.index.ld.0.6, %.index.ld.1.6, !dbg !2295
+  br i1 %fcmp.0.6, label %common.ret, label %label.0.6
+
+label.0.6:                                        ; preds = %label.0.5
+  %index.8.7 = getelementptr i8, i8* %key1, i64 56, !dbg !2295
+  %12 = bitcast i8* %index.8.7 to double*, !dbg !2295
+  %.index.ld.0.7 = load double, double* %12, align 8, !dbg !2295
+  %index.9.7 = getelementptr i8, i8* %key2, i64 56, !dbg !2295
+  %13 = bitcast i8* %index.9.7 to double*, !dbg !2295
+  %.index.ld.1.7 = load double, double* %13, align 8, !dbg !2295
+  %fcmp.0.7 = fcmp une double %.index.ld.0.7, %.index.ld.1.7, !dbg !2295
+  br i1 %fcmp.0.7, label %common.ret, label %label.0.7
+
+label.0.7:                                        ; preds = %label.0.6
+  %index.8.8 = getelementptr i8, i8* %key1, i64 64, !dbg !2295
+  %14 = bitcast i8* %index.8.8 to double*, !dbg !2295
+  %.index.ld.0.8 = load double, double* %14, align 8, !dbg !2295
+  %index.9.8 = getelementptr i8, i8* %key2, i64 64, !dbg !2295
+  %15 = bitcast i8* %index.9.8 to double*, !dbg !2295
+  %.index.ld.1.8 = load double, double* %15, align 8, !dbg !2295
+  %fcmp.0.8 = fcmp une double %.index.ld.0.8, %.index.ld.1.8, !dbg !2295
+  br i1 %fcmp.0.8, label %common.ret, label %label.0.8
+
+label.0.8:                                        ; preds = %label.0.7
+  %index.8.9 = getelementptr i8, i8* %key1, i64 72, !dbg !2295
+  %16 = bitcast i8* %index.8.9 to double*, !dbg !2295
+  %.index.ld.0.9 = load double, double* %16, align 8, !dbg !2295
+  %index.9.9 = getelementptr i8, i8* %key2, i64 72, !dbg !2295
+  %17 = bitcast i8* %index.9.9 to double*, !dbg !2295
+  %.index.ld.1.9 = load double, double* %17, align 8, !dbg !2295
+  %fcmp.0.9 = fcmp une double %.index.ld.0.9, %.index.ld.1.9, !dbg !2295
+  br i1 %fcmp.0.9, label %common.ret, label %label.0.9
+
+label.0.9:                                        ; preds = %label.0.8
+  %index.8.10 = getelementptr i8, i8* %key1, i64 80, !dbg !2295
+  %18 = bitcast i8* %index.8.10 to double*, !dbg !2295
+  %.index.ld.0.10 = load double, double* %18, align 8, !dbg !2295
+  %index.9.10 = getelementptr i8, i8* %key2, i64 80, !dbg !2295
+  %19 = bitcast i8* %index.9.10 to double*, !dbg !2295
+  %.index.ld.1.10 = load double, double* %19, align 8, !dbg !2295
+  %fcmp.0.10 = fcmp une double %.index.ld.0.10, %.index.ld.1.10, !dbg !2295
+  br i1 %fcmp.0.10, label %common.ret, label %label.0.10
+
+label.0.10:                                       ; preds = %label.0.9
+  %index.8.11 = getelementptr i8, i8* %key1, i64 88, !dbg !2295
+  %20 = bitcast i8* %index.8.11 to double*, !dbg !2295
+  %.index.ld.0.11 = load double, double* %20, align 8, !dbg !2295
+  %index.9.11 = getelementptr i8, i8* %key2, i64 88, !dbg !2295
+  %21 = bitcast i8* %index.9.11 to double*, !dbg !2295
+  %.index.ld.1.11 = load double, double* %21, align 8, !dbg !2295
+  %fcmp.0.11 = fcmp une double %.index.ld.0.11, %.index.ld.1.11, !dbg !2295
+  br i1 %fcmp.0.11, label %common.ret, label %label.0.11
+
+label.0.11:                                       ; preds = %label.0.10
+  %index.8.12 = getelementptr i8, i8* %key1, i64 96, !dbg !2295
+  %22 = bitcast i8* %index.8.12 to double*, !dbg !2295
+  %.index.ld.0.12 = load double, double* %22, align 8, !dbg !2295
+  %index.9.12 = getelementptr i8, i8* %key2, i64 96, !dbg !2295
+  %23 = bitcast i8* %index.9.12 to double*, !dbg !2295
+  %.index.ld.1.12 = load double, double* %23, align 8, !dbg !2295
+  %fcmp.0.12 = fcmp une double %.index.ld.0.12, %.index.ld.1.12, !dbg !2295
+  br i1 %fcmp.0.12, label %common.ret, label %label.0.12
+
+label.0.12:                                       ; preds = %label.0.11
+  %index.8.13 = getelementptr i8, i8* %key1, i64 104, !dbg !2295
+  %24 = bitcast i8* %index.8.13 to double*, !dbg !2295
+  %.index.ld.0.13 = load double, double* %24, align 8, !dbg !2295
+  %index.9.13 = getelementptr i8, i8* %key2, i64 104, !dbg !2295
+  %25 = bitcast i8* %index.9.13 to double*, !dbg !2295
+  %.index.ld.1.13 = load double, double* %25, align 8, !dbg !2295
+  %fcmp.0.13 = fcmp une double %.index.ld.0.13, %.index.ld.1.13, !dbg !2295
+  br i1 %fcmp.0.13, label %common.ret, label %label.0.13
+
+label.0.13:                                       ; preds = %label.0.12
+  %index.8.14 = getelementptr i8, i8* %key1, i64 112, !dbg !2295
+  %26 = bitcast i8* %index.8.14 to double*, !dbg !2295
+  %.index.ld.0.14 = load double, double* %26, align 8, !dbg !2295
+  %index.9.14 = getelementptr i8, i8* %key2, i64 112, !dbg !2295
+  %27 = bitcast i8* %index.9.14 to double*, !dbg !2295
+  %.index.ld.1.14 = load double, double* %27, align 8, !dbg !2295
+  %fcmp.0.14 = fcmp une double %.index.ld.0.14, %.index.ld.1.14, !dbg !2295
+  br i1 %fcmp.0.14, label %common.ret, label %label.0.14
+
+label.0.14:                                       ; preds = %label.0.13
+  %index.8.15 = getelementptr i8, i8* %key1, i64 120, !dbg !2295
+  %28 = bitcast i8* %index.8.15 to double*, !dbg !2295
+  %.index.ld.0.15 = load double, double* %28, align 8, !dbg !2295
+  %index.9.15 = getelementptr i8, i8* %key2, i64 120, !dbg !2295
+  %29 = bitcast i8* %index.9.15 to double*, !dbg !2295
+  %.index.ld.1.15 = load double, double* %29, align 8, !dbg !2295
+  %fcmp.0.15 = fcmp une double %.index.ld.0.15, %.index.ld.1.15, !dbg !2295
+  br i1 %fcmp.0.15, label %common.ret, label %label.0.15
+
+label.0.15:                                       ; preds = %label.0.14
+  %index.8.16 = getelementptr i8, i8* %key1, i64 128, !dbg !2295
+  %30 = bitcast i8* %index.8.16 to double*, !dbg !2295
+  %.index.ld.0.16 = load double, double* %30, align 8, !dbg !2295
+  %index.9.16 = getelementptr i8, i8* %key2, i64 128, !dbg !2295
+  %31 = bitcast i8* %index.9.16 to double*, !dbg !2295
+  %.index.ld.1.16 = load double, double* %31, align 8, !dbg !2295
+  %fcmp.0.16 = fcmp une double %.index.ld.0.16, %.index.ld.1.16, !dbg !2295
+  br i1 %fcmp.0.16, label %common.ret, label %label.0.16
+
+label.0.16:                                       ; preds = %label.0.15
+  %index.8.17 = getelementptr i8, i8* %key1, i64 136, !dbg !2295
+  %32 = bitcast i8* %index.8.17 to double*, !dbg !2295
+  %.index.ld.0.17 = load double, double* %32, align 8, !dbg !2295
+  %index.9.17 = getelementptr i8, i8* %key2, i64 136, !dbg !2295
+  %33 = bitcast i8* %index.9.17 to double*, !dbg !2295
+  %.index.ld.1.17 = load double, double* %33, align 8, !dbg !2295
+  %fcmp.0.17 = fcmp une double %.index.ld.0.17, %.index.ld.1.17, !dbg !2295
+  br i1 %fcmp.0.17, label %common.ret, label %label.0.17
+
+label.0.17:                                       ; preds = %label.0.16
+  %index.8.18 = getelementptr i8, i8* %key1, i64 144, !dbg !2295
+  %34 = bitcast i8* %index.8.18 to double*, !dbg !2295
+  %.index.ld.0.18 = load double, double* %34, align 8, !dbg !2295
+  %index.9.18 = getelementptr i8, i8* %key2, i64 144, !dbg !2295
+  %35 = bitcast i8* %index.9.18 to double*, !dbg !2295
+  %.index.ld.1.18 = load double, double* %35, align 8, !dbg !2295
+  %fcmp.0.18 = fcmp une double %.index.ld.0.18, %.index.ld.1.18, !dbg !2295
+  br i1 %fcmp.0.18, label %common.ret, label %label.0.18
+
+label.0.18:                                       ; preds = %label.0.17
+  %index.8.19 = getelementptr i8, i8* %key1, i64 152, !dbg !2295
+  %36 = bitcast i8* %index.8.19 to double*, !dbg !2295
+  %.index.ld.0.19 = load double, double* %36, align 8, !dbg !2295
+  %index.9.19 = getelementptr i8, i8* %key2, i64 152, !dbg !2295
+  %37 = bitcast i8* %index.9.19 to double*, !dbg !2295
+  %.index.ld.1.19 = load double, double* %37, align 8, !dbg !2295
+  %fcmp.0.19 = fcmp une double %.index.ld.0.19, %.index.ld.1.19, !dbg !2295
+  br i1 %fcmp.0.19, label %common.ret, label %label.0.19
+
+label.0.19:                                       ; preds = %label.0.18
+  %index.8.20 = getelementptr i8, i8* %key1, i64 160, !dbg !2295
+  %38 = bitcast i8* %index.8.20 to double*, !dbg !2295
+  %.index.ld.0.20 = load double, double* %38, align 8, !dbg !2295
+  %index.9.20 = getelementptr i8, i8* %key2, i64 160, !dbg !2295
+  %39 = bitcast i8* %index.9.20 to double*, !dbg !2295
+  %.index.ld.1.20 = load double, double* %39, align 8, !dbg !2295
+  %fcmp.0.20 = fcmp une double %.index.ld.0.20, %.index.ld.1.20, !dbg !2295
+  br i1 %fcmp.0.20, label %common.ret, label %label.0.20
+
+label.0.20:                                       ; preds = %label.0.19
+  %index.8.21 = getelementptr i8, i8* %key1, i64 168, !dbg !2295
+  %40 = bitcast i8* %index.8.21 to double*, !dbg !2295
+  %.index.ld.0.21 = load double, double* %40, align 8, !dbg !2295
+  %index.9.21 = getelementptr i8, i8* %key2, i64 168, !dbg !2295
+  %41 = bitcast i8* %index.9.21 to double*, !dbg !2295
+  %.index.ld.1.21 = load double, double* %41, align 8, !dbg !2295
+  %fcmp.0.21 = fcmp une double %.index.ld.0.21, %.index.ld.1.21, !dbg !2295
+  br i1 %fcmp.0.21, label %common.ret, label %label.0.21
+
+label.0.21:                                       ; preds = %label.0.20
+  %index.8.22 = getelementptr i8, i8* %key1, i64 176, !dbg !2295
+  %42 = bitcast i8* %index.8.22 to double*, !dbg !2295
+  %.index.ld.0.22 = load double, double* %42, align 8, !dbg !2295
+  %index.9.22 = getelementptr i8, i8* %key2, i64 176, !dbg !2295
+  %43 = bitcast i8* %index.9.22 to double*, !dbg !2295
+  %.index.ld.1.22 = load double, double* %43, align 8, !dbg !2295
+  %fcmp.0.22 = fcmp une double %.index.ld.0.22, %.index.ld.1.22, !dbg !2295
+  br i1 %fcmp.0.22, label %common.ret, label %label.0.22
+
+label.0.22:                                       ; preds = %label.0.21
+  %index.8.23 = getelementptr i8, i8* %key1, i64 184, !dbg !2295
+  %44 = bitcast i8* %index.8.23 to double*, !dbg !2295
+  %.index.ld.0.23 = load double, double* %44, align 8, !dbg !2295
+  %index.9.23 = getelementptr i8, i8* %key2, i64 184, !dbg !2295
+  %45 = bitcast i8* %index.9.23 to double*, !dbg !2295
+  %.index.ld.1.23 = load double, double* %45, align 8, !dbg !2295
+  %fcmp.0.23 = fcmp une double %.index.ld.0.23, %.index.ld.1.23, !dbg !2295
+  br i1 %fcmp.0.23, label %common.ret, label %label.0.23
+
+label.0.23:                                       ; preds = %label.0.22
+  %index.8.24 = getelementptr i8, i8* %key1, i64 192, !dbg !2295
+  %46 = bitcast i8* %index.8.24 to double*, !dbg !2295
+  %.index.ld.0.24 = load double, double* %46, align 8, !dbg !2295
+  %index.9.24 = getelementptr i8, i8* %key2, i64 192, !dbg !2295
+  %47 = bitcast i8* %index.9.24 to double*, !dbg !2295
+  %.index.ld.1.24 = load double, double* %47, align 8, !dbg !2295
+  %fcmp.0.24 = fcmp une double %.index.ld.0.24, %.index.ld.1.24, !dbg !2295
+  br i1 %fcmp.0.24, label %common.ret, label %label.0.24
+
+label.0.24:                                       ; preds = %label.0.23
+  %index.8.25 = getelementptr i8, i8* %key1, i64 200, !dbg !2295
+  %48 = bitcast i8* %index.8.25 to double*, !dbg !2295
+  %.index.ld.0.25 = load double, double* %48, align 8, !dbg !2295
+  %index.9.25 = getelementptr i8, i8* %key2, i64 200, !dbg !2295
+  %49 = bitcast i8* %index.9.25 to double*, !dbg !2295
+  %.index.ld.1.25 = load double, double* %49, align 8, !dbg !2295
+  %fcmp.0.25 = fcmp une double %.index.ld.0.25, %.index.ld.1.25, !dbg !2295
+  br i1 %fcmp.0.25, label %common.ret, label %label.0.25
+
+label.0.25:                                       ; preds = %label.0.24
+  %index.8.26 = getelementptr i8, i8* %key1, i64 208, !dbg !2295
+  %50 = bitcast i8* %index.8.26 to double*, !dbg !2295
+  %.index.ld.0.26 = load double, double* %50, align 8, !dbg !2295
+  %index.9.26 = getelementptr i8, i8* %key2, i64 208, !dbg !2295
+  %51 = bitcast i8* %index.9.26 to double*, !dbg !2295
+  %.index.ld.1.26 = load double, double* %51, align 8, !dbg !2295
+  %fcmp.0.26 = fcmp une double %.index.ld.0.26, %.index.ld.1.26, !dbg !2295
+  br i1 %fcmp.0.26, label %common.ret, label %label.0.26
+
+label.0.26:                                       ; preds = %label.0.25
+  %index.8.27 = getelementptr i8, i8* %key1, i64 216, !dbg !2295
+  %52 = bitcast i8* %index.8.27 to double*, !dbg !2295
+  %.index.ld.0.27 = load double, double* %52, align 8, !dbg !2295
+  %index.9.27 = getelementptr i8, i8* %key2, i64 216, !dbg !2295
+  %53 = bitcast i8* %index.9.27 to double*, !dbg !2295
+  %.index.ld.1.27 = load double, double* %53, align 8, !dbg !2295
+  %fcmp.0.27 = fcmp une double %.index.ld.0.27, %.index.ld.1.27, !dbg !2295
+  br i1 %fcmp.0.27, label %common.ret, label %label.0.27
+
+label.0.27:                                       ; preds = %label.0.26
+  %index.8.28 = getelementptr i8, i8* %key1, i64 224, !dbg !2295
+  %54 = bitcast i8* %index.8.28 to double*, !dbg !2295
+  %.index.ld.0.28 = load double, double* %54, align 8, !dbg !2295
+  %index.9.28 = getelementptr i8, i8* %key2, i64 224, !dbg !2295
+  %55 = bitcast i8* %index.9.28 to double*, !dbg !2295
+  %.index.ld.1.28 = load double, double* %55, align 8, !dbg !2295
+  %fcmp.0.28 = fcmp une double %.index.ld.0.28, %.index.ld.1.28, !dbg !2295
+  br i1 %fcmp.0.28, label %common.ret, label %label.0.28
+
+label.0.28:                                       ; preds = %label.0.27
+  %index.8.29 = getelementptr i8, i8* %key1, i64 232, !dbg !2295
+  %56 = bitcast i8* %index.8.29 to double*, !dbg !2295
+  %.index.ld.0.29 = load double, double* %56, align 8, !dbg !2295
+  %index.9.29 = getelementptr i8, i8* %key2, i64 232, !dbg !2295
+  %57 = bitcast i8* %index.9.29 to double*, !dbg !2295
+  %.index.ld.1.29 = load double, double* %57, align 8, !dbg !2295
+  %fcmp.0.29 = fcmp une double %.index.ld.0.29, %.index.ld.1.29, !dbg !2295
+  br i1 %fcmp.0.29, label %common.ret, label %label.0.29
+
+label.0.29:                                       ; preds = %label.0.28
+  %index.8.30 = getelementptr i8, i8* %key1, i64 240, !dbg !2295
+  %58 = bitcast i8* %index.8.30 to double*, !dbg !2295
+  %.index.ld.0.30 = load double, double* %58, align 8, !dbg !2295
+  %index.9.30 = getelementptr i8, i8* %key2, i64 240, !dbg !2295
+  %59 = bitcast i8* %index.9.30 to double*, !dbg !2295
+  %.index.ld.1.30 = load double, double* %59, align 8, !dbg !2295
+  %fcmp.0.30 = fcmp une double %.index.ld.0.30, %.index.ld.1.30, !dbg !2295
+  br i1 %fcmp.0.30, label %common.ret, label %label.0.30
+
+label.0.30:                                       ; preds = %label.0.29
+  %index.8.31 = getelementptr i8, i8* %key1, i64 248, !dbg !2295
+  %60 = bitcast i8* %index.8.31 to double*, !dbg !2295
+  %.index.ld.0.31 = load double, double* %60, align 8, !dbg !2295
+  %index.9.31 = getelementptr i8, i8* %key2, i64 248, !dbg !2295
+  %61 = bitcast i8* %index.9.31 to double*, !dbg !2295
+  %.index.ld.1.31 = load double, double* %61, align 8, !dbg !2295
+  %fcmp.0.31 = fcmp une double %.index.ld.0.31, %.index.ld.1.31, !dbg !2295
+  br i1 %fcmp.0.31, label %common.ret, label %label.0.31
+
+label.0.31:                                       ; preds = %label.0.30
+  %index.8.32 = getelementptr i8, i8* %key1, i64 256, !dbg !2295
+  %62 = bitcast i8* %index.8.32 to double*, !dbg !2295
+  %.index.ld.0.32 = load double, double* %62, align 8, !dbg !2295
+  %index.9.32 = getelementptr i8, i8* %key2, i64 256, !dbg !2295
+  %63 = bitcast i8* %index.9.32 to double*, !dbg !2295
+  %.index.ld.1.32 = load double, double* %63, align 8, !dbg !2295
+  %fcmp.0.32 = fcmp une double %.index.ld.0.32, %.index.ld.1.32, !dbg !2295
+  br i1 %fcmp.0.32, label %common.ret, label %label.0.32
+
+label.0.32:                                       ; preds = %label.0.31
+  br label %common.ret
+
+then.98.split:                                    ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2295
   unreachable
 
-then.106.split:                                   ; preds = %entry.split
-  call void @runtime.panicmem(i8* nest undef), !dbg !610
+then.99.split:                                    ; preds = %entry.split
+  call void @runtime.panicmem(i8* nest undef), !dbg !2295
   unreachable
 
-common.ret:                                       ; preds = %label.0.2, %label.0.1, %label.0, %then.108
-  %common.ret.op = phi i8 [ 0, %then.108 ], [ 0, %label.0 ], [ 0, %label.0.1 ], [ 1, %label.0.2 ]
-  ret i8 %common.ret.op, !dbg !610
-
-then.108:                                         ; preds = %entry.split, %label.0.2
-  %tmpv.206.011 = phi i64 [ %add.1.2, %label.0.2 ], [ 0, %entry.split ]
-  %index.16 = getelementptr [33 x double], [33 x double]* %cast.636, i64 0, i64 %tmpv.206.011, !dbg !610
-  %.index.ld.0 = load double, double* %index.16, align 8, !dbg !610
-  %index.17 = getelementptr [33 x double], [33 x double]* %cast.637, i64 0, i64 %tmpv.206.011, !dbg !610
-  %.index.ld.1 = load double, double* %index.17, align 8, !dbg !610
-  %fcmp.0 = fcmp une double %.index.ld.0, %.index.ld.1, !dbg !610
-  br i1 %fcmp.0, label %common.ret, label %label.0
+common.ret:                                       ; preds = %label.0.32, %label.0.31, %label.0.30, %label.0.29, %label.0.28, %label.0.27, %label.0.26, %label.0.25, %label.0.24, %label.0.23, %label.0.22, %label.0.21, %label.0.20, %label.0.19, %label.0.18, %label.0.17, %label.0.16, %label.0.15, %label.0.14, %label.0.13, %label.0.12, %label.0.11, %label.0.10, %label.0.9, %label.0.8, %label.0.7, %label.0.6, %label.0.5, %label.0.4, %label.0.3, %label.0.2, %label.0.1, %label.0, %then.101.preheader
+  %common.ret.op = phi i8 [ 0, %then.101.preheader ], [ 0, %label.0 ], [ 0, %label.0.1 ], [ 0, %label.0.2 ], [ 0, %label.0.3 ], [ 0, %label.0.4 ], [ 0, %label.0.5 ], [ 0, %label.0.6 ], [ 0, %label.0.7 ], [ 0, %label.0.8 ], [ 0, %label.0.9 ], [ 0, %label.0.10 ], [ 0, %label.0.11 ], [ 0, %label.0.12 ], [ 0, %label.0.13 ], [ 0, %label.0.14 ], [ 0, %label.0.15 ], [ 0, %label.0.16 ], [ 0, %label.0.17 ], [ 0, %label.0.18 ], [ 0, %label.0.19 ], [ 0, %label.0.20 ], [ 0, %label.0.21 ], [ 0, %label.0.22 ], [ 0, %label.0.23 ], [ 0, %label.0.24 ], [ 0, %label.0.25 ], [ 0, %label.0.26 ], [ 0, %label.0.27 ], [ 0, %label.0.28 ], [ 0, %label.0.29 ], [ 0, %label.0.30 ], [ 0, %label.0.31 ], [ 1, %label.0.32 ]
+  ret i8 %common.ret.op, !dbg !2295
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._665_7uint32..eq(i8* nest nocapture readnone %nest.27, i8* readonly %key1, i8* readonly %key2) #3 !dbg !611 {
+define i8 @main._665_7uint32..eq(i8* nest nocapture readnone %nest.32, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2296 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !612, metadata !DIExpression()), !dbg !613
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !614, metadata !DIExpression()), !dbg !613
-  call void @llvm.dbg.value(metadata i8 0, metadata !615, metadata !DIExpression()), !dbg !613
-  %call.43 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 260), !dbg !616
-  call void @llvm.dbg.value(metadata i8 %call.43, metadata !615, metadata !DIExpression()), !dbg !613
-  ret i8 %call.43, !dbg !616
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2297, metadata !DIExpression()), !dbg !2298
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2299, metadata !DIExpression()), !dbg !2298
+  call void @llvm.dbg.value(metadata i8 0, metadata !2300, metadata !DIExpression()), !dbg !2298
+  %call.49 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 260), !dbg !2301
+  call void @llvm.dbg.value(metadata i8 %call.49, metadata !2300, metadata !DIExpression()), !dbg !2298
+  ret i8 %call.49, !dbg !2301
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._64_7uintptr..eq(i8* nest nocapture readnone %nest.28, i8* readonly %key1, i8* readonly %key2) #3 !dbg !617 {
+define i8 @main._64_7uintptr..eq(i8* nest nocapture readnone %nest.33, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2302 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !618, metadata !DIExpression()), !dbg !619
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !620, metadata !DIExpression()), !dbg !619
-  call void @llvm.dbg.value(metadata i8 0, metadata !621, metadata !DIExpression()), !dbg !619
-  %call.44 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 32), !dbg !622
-  call void @llvm.dbg.value(metadata i8 %call.44, metadata !621, metadata !DIExpression()), !dbg !619
-  ret i8 %call.44, !dbg !622
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2303, metadata !DIExpression()), !dbg !2304
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2305, metadata !DIExpression()), !dbg !2304
+  call void @llvm.dbg.value(metadata i8 0, metadata !2306, metadata !DIExpression()), !dbg !2304
+  %call.50 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 32), !dbg !2307
+  call void @llvm.dbg.value(metadata i8 %call.50, metadata !2306, metadata !DIExpression()), !dbg !2304
+  ret i8 %call.50, !dbg !2307
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._65_7uint..eq(i8* nest nocapture readnone %nest.29, i8* readonly %key1, i8* readonly %key2) #3 !dbg !623 {
+define i8 @main._65_7uint..eq(i8* nest nocapture readnone %nest.34, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2308 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !624, metadata !DIExpression()), !dbg !625
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !626, metadata !DIExpression()), !dbg !625
-  call void @llvm.dbg.value(metadata i8 0, metadata !627, metadata !DIExpression()), !dbg !625
-  %call.45 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 40), !dbg !628
-  call void @llvm.dbg.value(metadata i8 %call.45, metadata !627, metadata !DIExpression()), !dbg !625
-  ret i8 %call.45, !dbg !628
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2309, metadata !DIExpression()), !dbg !2310
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2311, metadata !DIExpression()), !dbg !2310
+  call void @llvm.dbg.value(metadata i8 0, metadata !2312, metadata !DIExpression()), !dbg !2310
+  %call.51 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 40), !dbg !2313
+  call void @llvm.dbg.value(metadata i8 %call.51, metadata !2312, metadata !DIExpression()), !dbg !2310
+  ret i8 %call.51, !dbg !2313
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6512_7uint8..eq(i8* nest nocapture readnone %nest.30, i8* readonly %key1, i8* readonly %key2) #3 !dbg !629 {
+define i8 @main._6512_7uint8..eq(i8* nest nocapture readnone %nest.35, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2314 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !630, metadata !DIExpression()), !dbg !631
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !632, metadata !DIExpression()), !dbg !631
-  call void @llvm.dbg.value(metadata i8 0, metadata !633, metadata !DIExpression()), !dbg !631
-  %call.46 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 512), !dbg !634
-  call void @llvm.dbg.value(metadata i8 %call.46, metadata !633, metadata !DIExpression()), !dbg !631
-  ret i8 %call.46, !dbg !634
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2315, metadata !DIExpression()), !dbg !2316
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2317, metadata !DIExpression()), !dbg !2316
+  call void @llvm.dbg.value(metadata i8 0, metadata !2318, metadata !DIExpression()), !dbg !2316
+  %call.52 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 512), !dbg !2319
+  call void @llvm.dbg.value(metadata i8 %call.52, metadata !2318, metadata !DIExpression()), !dbg !2316
+  ret i8 %call.52, !dbg !2319
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6249_7uint8..eq(i8* nest nocapture readnone %nest.31, i8* readonly %key1, i8* readonly %key2) #3 !dbg !635 {
+define i8 @main._6249_7uint8..eq(i8* nest nocapture readnone %nest.36, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2320 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !636, metadata !DIExpression()), !dbg !637
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !638, metadata !DIExpression()), !dbg !637
-  call void @llvm.dbg.value(metadata i8 0, metadata !639, metadata !DIExpression()), !dbg !637
-  %call.47 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 249), !dbg !640
-  call void @llvm.dbg.value(metadata i8 %call.47, metadata !639, metadata !DIExpression()), !dbg !637
-  ret i8 %call.47, !dbg !640
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2321, metadata !DIExpression()), !dbg !2322
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2323, metadata !DIExpression()), !dbg !2322
+  call void @llvm.dbg.value(metadata i8 0, metadata !2324, metadata !DIExpression()), !dbg !2322
+  %call.53 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 249), !dbg !2325
+  call void @llvm.dbg.value(metadata i8 %call.53, metadata !2324, metadata !DIExpression()), !dbg !2322
+  ret i8 %call.53, !dbg !2325
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6129_7uint8..eq(i8* nest nocapture readnone %nest.32, i8* readonly %key1, i8* readonly %key2) #3 !dbg !641 {
+define i8 @main._6129_7uint8..eq(i8* nest nocapture readnone %nest.37, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2326 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !642, metadata !DIExpression()), !dbg !643
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !644, metadata !DIExpression()), !dbg !643
-  call void @llvm.dbg.value(metadata i8 0, metadata !645, metadata !DIExpression()), !dbg !643
-  %call.48 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 129), !dbg !646
-  call void @llvm.dbg.value(metadata i8 %call.48, metadata !645, metadata !DIExpression()), !dbg !643
-  ret i8 %call.48, !dbg !646
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2327, metadata !DIExpression()), !dbg !2328
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2329, metadata !DIExpression()), !dbg !2328
+  call void @llvm.dbg.value(metadata i8 0, metadata !2330, metadata !DIExpression()), !dbg !2328
+  %call.54 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 129), !dbg !2331
+  call void @llvm.dbg.value(metadata i8 %call.54, metadata !2330, metadata !DIExpression()), !dbg !2328
+  ret i8 %call.54, !dbg !2331
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._632_7uint8..eq(i8* nest nocapture readnone %nest.33, i8* readonly %key1, i8* readonly %key2) #3 !dbg !647 {
+define i8 @main._632_7uint8..eq(i8* nest nocapture readnone %nest.38, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2332 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !648, metadata !DIExpression()), !dbg !649
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !650, metadata !DIExpression()), !dbg !649
-  call void @llvm.dbg.value(metadata i8 0, metadata !651, metadata !DIExpression()), !dbg !649
-  %call.49 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 32), !dbg !652
-  call void @llvm.dbg.value(metadata i8 %call.49, metadata !651, metadata !DIExpression()), !dbg !649
-  ret i8 %call.49, !dbg !652
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2333, metadata !DIExpression()), !dbg !2334
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2335, metadata !DIExpression()), !dbg !2334
+  call void @llvm.dbg.value(metadata i8 0, metadata !2336, metadata !DIExpression()), !dbg !2334
+  %call.55 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 32), !dbg !2337
+  call void @llvm.dbg.value(metadata i8 %call.55, metadata !2336, metadata !DIExpression()), !dbg !2334
+  ret i8 %call.55, !dbg !2337
 }
 
-define i8 @main._627_7string..eq(i8* nest nocapture readnone %nest.34, i8* readonly %key1, i8* readonly %key2) #0 !dbg !653 {
+define i8 @main._627_7string..eq(i8* nest nocapture readnone %nest.39, i8* readonly %key1, i8* readonly %key2) #0 !dbg !2338 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !654, metadata !DIExpression()), !dbg !655
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !656, metadata !DIExpression()), !dbg !655
-  call void @llvm.dbg.value(metadata i8 0, metadata !657, metadata !DIExpression()), !dbg !655
-  %cast.640 = bitcast i8* %key1 to [27 x { i8*, i64 }]*, !dbg !658
-  %cast.641 = bitcast i8* %key2 to [27 x { i8*, i64 }]*, !dbg !658
-  %icmp.131 = icmp eq i8* %key1, null
-  br i1 %icmp.131, label %then.111.split, label %entry.split, !make.implicit !499
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2339, metadata !DIExpression()), !dbg !2340
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2341, metadata !DIExpression()), !dbg !2340
+  call void @llvm.dbg.value(metadata i8 0, metadata !2342, metadata !DIExpression()), !dbg !2340
+  %cast.659 = bitcast i8* %key1 to [27 x { i8*, i64 }]*, !dbg !2343
+  %cast.660 = bitcast i8* %key2 to [27 x { i8*, i64 }]*, !dbg !2343
+  %icmp.124 = icmp eq i8* %key1, null
+  br i1 %icmp.124, label %then.104.split, label %entry.split, !make.implicit !499
 
 entry.split:                                      ; preds = %entry
-  %icmp.132 = icmp eq i8* %key2, null
-  br i1 %icmp.132, label %then.112.split, label %then.116, !make.implicit !499
+  %icmp.125 = icmp eq i8* %key2, null
+  br i1 %icmp.125, label %then.105.split, label %then.109, !make.implicit !499
 
-then.111.split:                                   ; preds = %entry
-  call void @runtime.panicmem(i8* nest undef), !dbg !658
+then.104.split:                                   ; preds = %entry
+  call void @runtime.panicmem(i8* nest undef), !dbg !2343
   unreachable
 
-then.112.split:                                   ; preds = %entry.split
-  call void @runtime.panicmem(i8* nest undef), !dbg !658
+then.105.split:                                   ; preds = %entry.split
+  call void @runtime.panicmem(i8* nest undef), !dbg !2343
   unreachable
 
-then.113:                                         ; preds = %then.116
-  %icmp.134 = icmp eq i8* %tmpv.222.sroa.0.0.copyload, %tmpv.224.sroa.0.0.copyload, !dbg !658
-  br i1 %icmp.134, label %else.115, label %fallthrough.113
+then.106:                                         ; preds = %then.109
+  %icmp.127 = icmp eq i8* %tmpv.226.sroa.0.0.copyload, %tmpv.228.sroa.0.0.copyload, !dbg !2343
+  br i1 %icmp.127, label %else.108, label %fallthrough.106
 
-fallthrough.113:                                  ; preds = %then.113
-  %call.50 = call i32 @memcmp(i8* %tmpv.222.sroa.0.0.copyload, i8* %tmpv.224.sroa.0.0.copyload, i64 %tmpv.222.sroa.3.0.copyload), !dbg !658
-  %icmp.135 = icmp eq i32 %call.50, 0, !dbg !658
-  br i1 %icmp.135, label %else.115, label %common.ret
+fallthrough.106:                                  ; preds = %then.106
+  %call.56 = call i32 @memcmp(i8* %tmpv.226.sroa.0.0.copyload, i8* %tmpv.228.sroa.0.0.copyload, i64 %tmpv.226.sroa.3.0.copyload), !dbg !2343
+  %icmp.128 = icmp eq i32 %call.56, 0, !dbg !2343
+  br i1 %icmp.128, label %else.108, label %common.ret
 
-common.ret:                                       ; preds = %then.116, %else.115, %fallthrough.113
-  %common.ret.op = phi i8 [ 0, %fallthrough.113 ], [ 1, %else.115 ], [ 0, %then.116 ]
-  ret i8 %common.ret.op, !dbg !658
+common.ret:                                       ; preds = %then.109, %else.108, %fallthrough.106
+  %common.ret.op = phi i8 [ 0, %fallthrough.106 ], [ 1, %else.108 ], [ 0, %then.109 ]
+  ret i8 %common.ret.op, !dbg !2343
 
-else.115:                                         ; preds = %then.113, %fallthrough.113
-  %add.2 = add nuw nsw i64 %tmpv.220.019, 1, !dbg !658
-  %exitcond.not = icmp eq i64 %add.2, 27, !dbg !658
-  br i1 %exitcond.not, label %common.ret, label %then.116
+else.108:                                         ; preds = %then.106, %fallthrough.106
+  %add.2 = add nuw nsw i64 %tmpv.224.019, 1, !dbg !2343
+  %exitcond.not = icmp eq i64 %add.2, 27, !dbg !2343
+  br i1 %exitcond.not, label %common.ret, label %then.109
 
-then.116:                                         ; preds = %entry.split, %else.115
-  %tmpv.220.019 = phi i64 [ %add.2, %else.115 ], [ 0, %entry.split ]
-  %tmpv.222.sroa.0.0.cast.644.sroa_idx = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.640, i64 0, i64 %tmpv.220.019, i32 0
-  %tmpv.222.sroa.0.0.copyload = load i8*, i8** %tmpv.222.sroa.0.0.cast.644.sroa_idx, align 8
-  %tmpv.222.sroa.3.0.cast.644.sroa_idx3 = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.640, i64 0, i64 %tmpv.220.019, i32 1
-  %tmpv.222.sroa.3.0.copyload = load i64, i64* %tmpv.222.sroa.3.0.cast.644.sroa_idx3, align 8
-  %tmpv.224.sroa.0.0.cast.647.sroa_idx = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.641, i64 0, i64 %tmpv.220.019, i32 0
-  %tmpv.224.sroa.0.0.copyload = load i8*, i8** %tmpv.224.sroa.0.0.cast.647.sroa_idx, align 8
-  %tmpv.224.sroa.3.0.cast.647.sroa_idx1 = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.641, i64 0, i64 %tmpv.220.019, i32 1
-  %tmpv.224.sroa.3.0.copyload = load i64, i64* %tmpv.224.sroa.3.0.cast.647.sroa_idx1, align 8
-  %icmp.133 = icmp eq i64 %tmpv.222.sroa.3.0.copyload, %tmpv.224.sroa.3.0.copyload, !dbg !658
-  br i1 %icmp.133, label %then.113, label %common.ret
+then.109:                                         ; preds = %entry.split, %else.108
+  %tmpv.224.019 = phi i64 [ %add.2, %else.108 ], [ 0, %entry.split ]
+  %tmpv.226.sroa.0.0.cast.663.sroa_idx = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.659, i64 0, i64 %tmpv.224.019, i32 0
+  %tmpv.226.sroa.0.0.copyload = load i8*, i8** %tmpv.226.sroa.0.0.cast.663.sroa_idx, align 8
+  %tmpv.226.sroa.3.0.cast.663.sroa_idx3 = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.659, i64 0, i64 %tmpv.224.019, i32 1
+  %tmpv.226.sroa.3.0.copyload = load i64, i64* %tmpv.226.sroa.3.0.cast.663.sroa_idx3, align 8
+  %tmpv.228.sroa.0.0.cast.666.sroa_idx = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.660, i64 0, i64 %tmpv.224.019, i32 0
+  %tmpv.228.sroa.0.0.copyload = load i8*, i8** %tmpv.228.sroa.0.0.cast.666.sroa_idx, align 8
+  %tmpv.228.sroa.3.0.cast.666.sroa_idx1 = getelementptr [27 x { i8*, i64 }], [27 x { i8*, i64 }]* %cast.660, i64 0, i64 %tmpv.224.019, i32 1
+  %tmpv.228.sroa.3.0.copyload = load i64, i64* %tmpv.228.sroa.3.0.cast.666.sroa_idx1, align 8
+  %icmp.126 = icmp eq i64 %tmpv.226.sroa.3.0.copyload, %tmpv.228.sroa.3.0.copyload, !dbg !2343
+  br i1 %icmp.126, label %then.106, label %common.ret
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._61024_7uint8..eq(i8* nest nocapture readnone %nest.35, i8* readonly %key1, i8* readonly %key2) #3 !dbg !659 {
+define i8 @main._61024_7uint8..eq(i8* nest nocapture readnone %nest.40, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2344 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !660, metadata !DIExpression()), !dbg !661
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !662, metadata !DIExpression()), !dbg !661
-  call void @llvm.dbg.value(metadata i8 0, metadata !663, metadata !DIExpression()), !dbg !661
-  %call.51 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 1024), !dbg !664
-  call void @llvm.dbg.value(metadata i8 %call.51, metadata !663, metadata !DIExpression()), !dbg !661
-  ret i8 %call.51, !dbg !664
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2345, metadata !DIExpression()), !dbg !2346
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2347, metadata !DIExpression()), !dbg !2346
+  call void @llvm.dbg.value(metadata i8 0, metadata !2348, metadata !DIExpression()), !dbg !2346
+  %call.57 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 1024), !dbg !2349
+  call void @llvm.dbg.value(metadata i8 %call.57, metadata !2348, metadata !DIExpression()), !dbg !2346
+  ret i8 %call.57, !dbg !2349
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._62_7int32..eq(i8* nest nocapture readnone %nest.36, i8* readonly %key1, i8* readonly %key2) #3 !dbg !665 {
+define i8 @main._62_7int32..eq(i8* nest nocapture readnone %nest.41, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2350 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !666, metadata !DIExpression()), !dbg !667
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !668, metadata !DIExpression()), !dbg !667
-  call void @llvm.dbg.value(metadata i8 0, metadata !669, metadata !DIExpression()), !dbg !667
-  %call.52 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !670
-  call void @llvm.dbg.value(metadata i8 %call.52, metadata !669, metadata !DIExpression()), !dbg !667
-  ret i8 %call.52, !dbg !670
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2351, metadata !DIExpression()), !dbg !2352
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2353, metadata !DIExpression()), !dbg !2352
+  call void @llvm.dbg.value(metadata i8 0, metadata !2354, metadata !DIExpression()), !dbg !2352
+  %call.58 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 8), !dbg !2355
+  call void @llvm.dbg.value(metadata i8 %call.58, metadata !2354, metadata !DIExpression()), !dbg !2352
+  ret i8 %call.58, !dbg !2355
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._664_7uint8..eq(i8* nest nocapture readnone %nest.37, i8* readonly %key1, i8* readonly %key2) #3 !dbg !671 {
+define i8 @main._664_7uint8..eq(i8* nest nocapture readnone %nest.42, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2356 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !672, metadata !DIExpression()), !dbg !673
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !674, metadata !DIExpression()), !dbg !673
-  call void @llvm.dbg.value(metadata i8 0, metadata !675, metadata !DIExpression()), !dbg !673
-  %call.53 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 64), !dbg !676
-  call void @llvm.dbg.value(metadata i8 %call.53, metadata !675, metadata !DIExpression()), !dbg !673
-  ret i8 %call.53, !dbg !676
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2357, metadata !DIExpression()), !dbg !2358
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2359, metadata !DIExpression()), !dbg !2358
+  call void @llvm.dbg.value(metadata i8 0, metadata !2360, metadata !DIExpression()), !dbg !2358
+  %call.59 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 64), !dbg !2361
+  call void @llvm.dbg.value(metadata i8 %call.59, metadata !2360, metadata !DIExpression()), !dbg !2358
+  ret i8 %call.59, !dbg !2361
 }
 
 ; Function Attrs: nofree readonly
-define i8 @main._6256_7uint8..eq(i8* nest nocapture readnone %nest.38, i8* readonly %key1, i8* readonly %key2) #3 !dbg !677 {
+define i8 @main._6256_7uint8..eq(i8* nest nocapture readnone %nest.43, i8* readonly %key1, i8* readonly %key2) #7 !dbg !2362 {
 entry:
-  call void @llvm.dbg.value(metadata i8* %key1, metadata !678, metadata !DIExpression()), !dbg !679
-  call void @llvm.dbg.value(metadata i8* %key2, metadata !680, metadata !DIExpression()), !dbg !679
-  call void @llvm.dbg.value(metadata i8 0, metadata !681, metadata !DIExpression()), !dbg !679
-  %call.54 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 256), !dbg !682
-  call void @llvm.dbg.value(metadata i8 %call.54, metadata !681, metadata !DIExpression()), !dbg !679
-  ret i8 %call.54, !dbg !682
+  call void @llvm.dbg.value(metadata i8* %key1, metadata !2363, metadata !DIExpression()), !dbg !2364
+  call void @llvm.dbg.value(metadata i8* %key2, metadata !2365, metadata !DIExpression()), !dbg !2364
+  call void @llvm.dbg.value(metadata i8 0, metadata !2366, metadata !DIExpression()), !dbg !2364
+  %call.60 = call i8 @runtime.memequal(i8* nest undef, i8* %key1, i8* %key2, i64 256), !dbg !2367
+  call void @llvm.dbg.value(metadata i8 %call.60, metadata !2366, metadata !DIExpression()), !dbg !2364
+  ret i8 %call.60, !dbg !2367
 }
 
 declare void @runtime.registerTypeDescriptors(i8*, i64, i8*) local_unnamed_addr #0
@@ -22870,14 +24632,25 @@ declare void @github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer..import(i8*
 declare void @github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim..import(i8*) local_unnamed_addr #0
 
 ; Function Attrs: mustprogress nofree nosync nounwind readnone speculatable willreturn
-declare void @llvm.dbg.value(metadata, metadata, metadata) #5
+declare void @llvm.dbg.value(metadata, metadata, metadata) #4
+
+; Function Attrs: argmemonly nofree nounwind willreturn writeonly
+declare void @llvm.memset.p0i8.i64(i8* nocapture writeonly, i8, i64, i1 immarg) #9
+
+; Function Attrs: argmemonly nofree nounwind willreturn
+declare void @llvm.memmove.p0i8.p0i8.i64(i8* nocapture writeonly, i8* nocapture readonly, i64, i1 immarg) #10
 
 attributes #0 = { "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
-attributes #1 = { noreturn "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
-attributes #2 = { argmemonly mustprogress nofree nounwind readonly willreturn "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
-attributes #3 = { nofree readonly "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
-attributes #4 = { argmemonly nofree readonly "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
-attributes #5 = { mustprogress nofree nosync nounwind readnone speculatable willreturn }
+attributes #1 = { argmemonly mustprogress nofree nounwind willreturn }
+attributes #2 = { cold "disable-tail-calls"="true" "frame-pointer"="none" "gc-leaf-function" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
+attributes #3 = { argmemonly mustprogress nofree nosync nounwind willreturn }
+attributes #4 = { mustprogress nofree nosync nounwind readnone speculatable willreturn }
+attributes #5 = { argmemonly mustprogress nofree nounwind readonly willreturn "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
+attributes #6 = { noreturn "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
+attributes #7 = { nofree readonly "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
+attributes #8 = { argmemonly nofree readonly "disable-tail-calls"="true" "frame-pointer"="none" "null-pointer-is-valid"="true" "split-stack" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" }
+attributes #9 = { argmemonly nofree nounwind willreturn writeonly }
+attributes #10 = { argmemonly nofree nounwind willreturn }
 
 !llvm.module.flags = !{!0, !1, !2}
 !llvm.dbg.cu = !{!3}
@@ -22886,13 +24659,13 @@ attributes #5 = { mustprogress nofree nosync nounwind readnone speculatable will
 !1 = !{i32 2, !"Debug Info Version", i32 3}
 !2 = !{i32 2, !"Dwarf Version", i32 4}
 !3 = distinct !DICompileUnit(language: DW_LANG_Go, file: !4, producer: "llvm-goc", isOptimized: true, runtimeVersion: 0, emissionKind: FullDebug, globals: !5)
-!4 = !DIFile(filename: "./113.go", directory: "/home/ming/go/src/chaincode_repo/github/113")
+!4 = !DIFile(filename: "/tmp/go-build./79.go", directory: "/home/ming/go/src/chaincode_repo/github/79")
 !5 = !{!6, !23, !35, !37, !39, !41, !43, !45, !47, !49, !51, !53, !55, !57, !59, !61, !63, !65, !67, !69, !71, !73, !75, !77, !79, !81, !83, !85, !87, !89, !91, !93, !95, !97, !99, !101, !103, !105, !107, !109, !111, !113, !115, !117, !119, !121, !123, !125, !127, !129, !131, !133, !135, !137, !139, !141, !143, !145, !147, !149, !151, !153, !155, !157, !159, !161, !163, !165, !167, !169, !171, !173, !175, !177, !179, !181, !183, !185, !187, !189, !191, !193, !195, !197, !199, !201, !203, !205, !207, !209, !211, !213, !215, !217, !219, !221, !223, !225, !227, !229, !231, !233, !235, !237, !239, !241, !243, !245, !247, !249, !251, !253, !255, !257, !259, !261, !263, !265, !267, !269, !271, !273, !275, !277, !279, !281, !283, !285, !287, !289, !291, !293, !295, !297, !299, !301, !303, !305, !307, !309, !311, !313, !315, !317, !319, !321, !323, !325, !327, !329, !331, !333, !335, !337, !339, !341, !343, !345, !347, !349, !351, !353, !355, !357, !359, !361, !363, !365, !367, !369, !371, !373, !375, !377, !379, !381, !383, !385, !387, !389, !391, !393, !395, !397, !399, !401, !403, !405, !407, !409, !411, !413, !415, !417, !419, !421, !423, !425, !427, !429, !431, !433, !435, !437, !439, !441, !443, !445, !447, !449, !451, !453, !455, !457, !459, !461, !463, !465, !467, !469, !471, !473, !475, !477, !479, !481, !483, !485, !487, !489, !491, !493}
 !6 = !DIGlobalVariableExpression(var: !7, expr: !DIExpression())
 !7 = distinct !DIGlobalVariable(name: "runtime.writeBarrier", linkageName: "runtime.writeBarrier", scope: !3, file: !8, line: 1, type: !9, isLocal: false, isDefinition: true)
-!8 = !DIFile(filename: "<built-in>", directory: "")
+!8 = !DIFile(filename: "go-build<built-in>", directory: "")
 !9 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{bool,[3]uint8,bool,bool,uint64}", file: !10, size: 128, align: 8, elements: !11)
-!10 = !DIFile(filename: "", directory: "")
+!10 = !DIFile(filename: "go-build", directory: "/tmp")
 !11 = !{!12, !14, !19, !20, !21}
 !12 = !DIDerivedType(tag: DW_TAG_member, name: "enabled", file: !10, line: 1, baseType: !13, size: 8, align: 8)
 !13 = !DIBasicType(name: "bool", size: 8, encoding: DW_ATE_unsigned)
@@ -23378,190 +25151,1875 @@ attributes #5 = { mustprogress nofree nosync nounwind readnone speculatable will
 !493 = !DIGlobalVariableExpression(var: !494, expr: !DIExpression())
 !494 = distinct !DIGlobalVariable(name: "main..types", linkageName: "main..types", scope: !3, file: !10, type: !25, isLocal: false, isDefinition: true)
 !495 = distinct !DISubprogram(name: "__go_init_main", scope: null, file: !496, line: 1, type: !497, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!496 = !DIFile(filename: "113.go", directory: ".")
+!496 = !DIFile(filename: "79.go", directory: "/tmp/go-build.")
 !497 = !DISubroutineType(types: !498)
 !498 = !{!32}
 !499 = !{}
 !500 = !DILocation(line: 1, column: 1, scope: !501)
 !501 = !DILexicalBlockFile(scope: !495, file: !8, discriminator: 0)
-!502 = !DILocation(line: 5, column: 1, scope: !503)
-!503 = !DILexicalBlockFile(scope: !495, file: !504, discriminator: 0)
-!504 = !DIFile(filename: "_gomod_.go", directory: "/tmp/go-build/b001")
-!505 = distinct !DISubprogram(name: "main.SimpleAsset..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!506 = !DISubroutineType(types: !507)
-!507 = !{!13, !31, !31}
-!508 = !DILocalVariable(name: "key1", arg: 1, scope: !505, file: !8, line: 1, type: !31)
-!509 = !DILocation(line: 0, scope: !505)
-!510 = !DILocalVariable(name: "key2", arg: 2, scope: !505, file: !8, line: 1, type: !31)
-!511 = !DILocalVariable(name: "$ret12", scope: !505, file: !8, line: 1, type: !13)
-!512 = !DILocation(line: 1, column: 1, scope: !505)
-!513 = distinct !DISubprogram(name: "main.main..init0", scope: null, file: !504, line: 5, type: !497, scopeLine: 5, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!514 = !DILocation(line: 5, column: 15, scope: !513)
-!515 = distinct !DISubprogram(name: "main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!516 = !DILocalVariable(name: "key1", arg: 1, scope: !515, file: !8, line: 1, type: !31)
-!517 = !DILocation(line: 0, scope: !515)
-!518 = !DILocalVariable(name: "key2", arg: 2, scope: !515, file: !8, line: 1, type: !31)
-!519 = !DILocalVariable(name: "$ret13", scope: !515, file: !8, line: 1, type: !13)
-!520 = !DILocation(line: 1, column: 1, scope: !515)
-!521 = distinct !DISubprogram(name: "main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!522 = !DILocalVariable(name: "key1", arg: 1, scope: !521, file: !8, line: 1, type: !31)
-!523 = !DILocation(line: 0, scope: !521)
-!524 = !DILocalVariable(name: "key2", arg: 2, scope: !521, file: !8, line: 1, type: !31)
-!525 = !DILocalVariable(name: "$ret14", scope: !521, file: !8, line: 1, type: !13)
-!526 = !DILocation(line: 1, column: 1, scope: !521)
-!527 = distinct !DISubprogram(name: "main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!528 = !DILocalVariable(name: "key1", arg: 1, scope: !527, file: !8, line: 1, type: !31)
-!529 = !DILocation(line: 0, scope: !527)
-!530 = !DILocalVariable(name: "key2", arg: 2, scope: !527, file: !8, line: 1, type: !31)
-!531 = !DILocalVariable(name: "$ret15", scope: !527, file: !8, line: 1, type: !13)
-!532 = !DILocation(line: 1, column: 1, scope: !527)
-!533 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!534 = !DILocalVariable(name: "key1", arg: 1, scope: !533, file: !8, line: 1, type: !31)
-!535 = !DILocation(line: 0, scope: !533)
-!536 = !DILocalVariable(name: "key2", arg: 2, scope: !533, file: !8, line: 1, type: !31)
-!537 = !DILocalVariable(name: "$ret16", scope: !533, file: !8, line: 1, type: !13)
-!538 = !DILocation(line: 1, column: 1, scope: !533)
-!539 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!540 = !DILocalVariable(name: "key1", arg: 1, scope: !539, file: !8, line: 1, type: !31)
-!541 = !DILocation(line: 0, scope: !539)
-!542 = !DILocalVariable(name: "key2", arg: 2, scope: !539, file: !8, line: 1, type: !31)
-!543 = !DILocalVariable(name: "$ret17", scope: !539, file: !8, line: 1, type: !13)
-!544 = !DILocation(line: 1, column: 1, scope: !539)
-!545 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!546 = !DILocalVariable(name: "key1", arg: 1, scope: !545, file: !8, line: 1, type: !31)
-!547 = !DILocation(line: 0, scope: !545)
-!548 = !DILocalVariable(name: "key2", arg: 2, scope: !545, file: !8, line: 1, type: !31)
-!549 = !DILocalVariable(name: "$ret18", scope: !545, file: !8, line: 1, type: !13)
-!550 = !DILocation(line: 1, column: 1, scope: !545)
-!551 = distinct !DISubprogram(name: "main._632_7uintptr..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!552 = !DILocalVariable(name: "key1", arg: 1, scope: !551, file: !8, line: 1, type: !31)
-!553 = !DILocation(line: 0, scope: !551)
-!554 = !DILocalVariable(name: "key2", arg: 2, scope: !551, file: !8, line: 1, type: !31)
-!555 = !DILocalVariable(name: "$ret19", scope: !551, file: !8, line: 1, type: !13)
-!556 = !DILocation(line: 1, column: 1, scope: !551)
-!557 = distinct !DISubprogram(name: "main._6256_7uint64..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!558 = !DILocalVariable(name: "key1", arg: 1, scope: !557, file: !8, line: 1, type: !31)
-!559 = !DILocation(line: 0, scope: !557)
-!560 = !DILocalVariable(name: "key2", arg: 2, scope: !557, file: !8, line: 1, type: !31)
-!561 = !DILocalVariable(name: "$ret20", scope: !557, file: !8, line: 1, type: !13)
-!562 = !DILocation(line: 1, column: 1, scope: !557)
-!563 = distinct !DISubprogram(name: "main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!564 = !DILocalVariable(name: "key1", arg: 1, scope: !563, file: !8, line: 1, type: !31)
-!565 = !DILocation(line: 0, scope: !563)
-!566 = !DILocalVariable(name: "key2", arg: 2, scope: !563, file: !8, line: 1, type: !31)
-!567 = !DILocalVariable(name: "$ret21", scope: !563, file: !8, line: 1, type: !13)
-!568 = !DILocation(line: 1, column: 1, scope: !563)
-!569 = distinct !DISubprogram(name: "main.struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!570 = !DILocalVariable(name: "key1", arg: 1, scope: !569, file: !8, line: 1, type: !31)
-!571 = !DILocation(line: 0, scope: !569)
-!572 = !DILocalVariable(name: "key2", arg: 2, scope: !569, file: !8, line: 1, type: !31)
-!573 = !DILocalVariable(name: "$ret22", scope: !569, file: !8, line: 1, type: !13)
-!574 = !DILocation(line: 1, column: 1, scope: !569)
-!575 = distinct !DISubprogram(name: "main._6122_7uintptr..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!576 = !DILocalVariable(name: "key1", arg: 1, scope: !575, file: !8, line: 1, type: !31)
-!577 = !DILocation(line: 0, scope: !575)
-!578 = !DILocalVariable(name: "key2", arg: 2, scope: !575, file: !8, line: 1, type: !31)
-!579 = !DILocalVariable(name: "$ret23", scope: !575, file: !8, line: 1, type: !13)
-!580 = !DILocation(line: 1, column: 1, scope: !575)
-!581 = distinct !DISubprogram(name: "main._68_7uint64..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!582 = !DILocalVariable(name: "key1", arg: 1, scope: !581, file: !8, line: 1, type: !31)
-!583 = !DILocation(line: 0, scope: !581)
-!584 = !DILocalVariable(name: "key2", arg: 2, scope: !581, file: !8, line: 1, type: !31)
-!585 = !DILocalVariable(name: "$ret24", scope: !581, file: !8, line: 1, type: !13)
-!586 = !DILocation(line: 1, column: 1, scope: !581)
-!587 = distinct !DISubprogram(name: "main._6128_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!588 = !DILocalVariable(name: "key1", arg: 1, scope: !587, file: !8, line: 1, type: !31)
-!589 = !DILocation(line: 0, scope: !587)
-!590 = !DILocalVariable(name: "key2", arg: 2, scope: !587, file: !8, line: 1, type: !31)
-!591 = !DILocalVariable(name: "$ret25", scope: !587, file: !8, line: 1, type: !13)
-!592 = !DILocation(line: 1, column: 1, scope: !587)
-!593 = distinct !DISubprogram(name: "main._64096_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!594 = !DILocalVariable(name: "key1", arg: 1, scope: !593, file: !8, line: 1, type: !31)
-!595 = !DILocation(line: 0, scope: !593)
-!596 = !DILocalVariable(name: "key2", arg: 2, scope: !593, file: !8, line: 1, type: !31)
-!597 = !DILocalVariable(name: "$ret26", scope: !593, file: !8, line: 1, type: !13)
-!598 = !DILocation(line: 1, column: 1, scope: !593)
-!599 = distinct !DISubprogram(name: "main._668_7uint16..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!600 = !DILocalVariable(name: "key1", arg: 1, scope: !599, file: !8, line: 1, type: !31)
-!601 = !DILocation(line: 0, scope: !599)
-!602 = !DILocalVariable(name: "key2", arg: 2, scope: !599, file: !8, line: 1, type: !31)
-!603 = !DILocalVariable(name: "$ret27", scope: !599, file: !8, line: 1, type: !13)
-!604 = !DILocation(line: 1, column: 1, scope: !599)
-!605 = distinct !DISubprogram(name: "main._633_7float64..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!606 = !DILocalVariable(name: "key1", arg: 1, scope: !605, file: !8, line: 1, type: !31)
-!607 = !DILocation(line: 0, scope: !605)
-!608 = !DILocalVariable(name: "key2", arg: 2, scope: !605, file: !8, line: 1, type: !31)
-!609 = !DILocalVariable(name: "$ret28", scope: !605, file: !8, line: 1, type: !13)
-!610 = !DILocation(line: 1, column: 1, scope: !605)
-!611 = distinct !DISubprogram(name: "main._665_7uint32..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!612 = !DILocalVariable(name: "key1", arg: 1, scope: !611, file: !8, line: 1, type: !31)
-!613 = !DILocation(line: 0, scope: !611)
-!614 = !DILocalVariable(name: "key2", arg: 2, scope: !611, file: !8, line: 1, type: !31)
-!615 = !DILocalVariable(name: "$ret29", scope: !611, file: !8, line: 1, type: !13)
-!616 = !DILocation(line: 1, column: 1, scope: !611)
-!617 = distinct !DISubprogram(name: "main._64_7uintptr..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!618 = !DILocalVariable(name: "key1", arg: 1, scope: !617, file: !8, line: 1, type: !31)
-!619 = !DILocation(line: 0, scope: !617)
-!620 = !DILocalVariable(name: "key2", arg: 2, scope: !617, file: !8, line: 1, type: !31)
-!621 = !DILocalVariable(name: "$ret30", scope: !617, file: !8, line: 1, type: !13)
-!622 = !DILocation(line: 1, column: 1, scope: !617)
-!623 = distinct !DISubprogram(name: "main._65_7uint..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!624 = !DILocalVariable(name: "key1", arg: 1, scope: !623, file: !8, line: 1, type: !31)
-!625 = !DILocation(line: 0, scope: !623)
-!626 = !DILocalVariable(name: "key2", arg: 2, scope: !623, file: !8, line: 1, type: !31)
-!627 = !DILocalVariable(name: "$ret31", scope: !623, file: !8, line: 1, type: !13)
-!628 = !DILocation(line: 1, column: 1, scope: !623)
-!629 = distinct !DISubprogram(name: "main._6512_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!630 = !DILocalVariable(name: "key1", arg: 1, scope: !629, file: !8, line: 1, type: !31)
-!631 = !DILocation(line: 0, scope: !629)
-!632 = !DILocalVariable(name: "key2", arg: 2, scope: !629, file: !8, line: 1, type: !31)
-!633 = !DILocalVariable(name: "$ret32", scope: !629, file: !8, line: 1, type: !13)
-!634 = !DILocation(line: 1, column: 1, scope: !629)
-!635 = distinct !DISubprogram(name: "main._6249_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!636 = !DILocalVariable(name: "key1", arg: 1, scope: !635, file: !8, line: 1, type: !31)
-!637 = !DILocation(line: 0, scope: !635)
-!638 = !DILocalVariable(name: "key2", arg: 2, scope: !635, file: !8, line: 1, type: !31)
-!639 = !DILocalVariable(name: "$ret33", scope: !635, file: !8, line: 1, type: !13)
-!640 = !DILocation(line: 1, column: 1, scope: !635)
-!641 = distinct !DISubprogram(name: "main._6129_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!642 = !DILocalVariable(name: "key1", arg: 1, scope: !641, file: !8, line: 1, type: !31)
-!643 = !DILocation(line: 0, scope: !641)
-!644 = !DILocalVariable(name: "key2", arg: 2, scope: !641, file: !8, line: 1, type: !31)
-!645 = !DILocalVariable(name: "$ret34", scope: !641, file: !8, line: 1, type: !13)
-!646 = !DILocation(line: 1, column: 1, scope: !641)
-!647 = distinct !DISubprogram(name: "main._632_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!648 = !DILocalVariable(name: "key1", arg: 1, scope: !647, file: !8, line: 1, type: !31)
-!649 = !DILocation(line: 0, scope: !647)
-!650 = !DILocalVariable(name: "key2", arg: 2, scope: !647, file: !8, line: 1, type: !31)
-!651 = !DILocalVariable(name: "$ret35", scope: !647, file: !8, line: 1, type: !13)
-!652 = !DILocation(line: 1, column: 1, scope: !647)
-!653 = distinct !DISubprogram(name: "main._627_7string..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!654 = !DILocalVariable(name: "key1", arg: 1, scope: !653, file: !8, line: 1, type: !31)
-!655 = !DILocation(line: 0, scope: !653)
-!656 = !DILocalVariable(name: "key2", arg: 2, scope: !653, file: !8, line: 1, type: !31)
-!657 = !DILocalVariable(name: "$ret36", scope: !653, file: !8, line: 1, type: !13)
-!658 = !DILocation(line: 1, column: 1, scope: !653)
-!659 = distinct !DISubprogram(name: "main._61024_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!660 = !DILocalVariable(name: "key1", arg: 1, scope: !659, file: !8, line: 1, type: !31)
-!661 = !DILocation(line: 0, scope: !659)
-!662 = !DILocalVariable(name: "key2", arg: 2, scope: !659, file: !8, line: 1, type: !31)
-!663 = !DILocalVariable(name: "$ret37", scope: !659, file: !8, line: 1, type: !13)
-!664 = !DILocation(line: 1, column: 1, scope: !659)
-!665 = distinct !DISubprogram(name: "main._62_7int32..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!666 = !DILocalVariable(name: "key1", arg: 1, scope: !665, file: !8, line: 1, type: !31)
-!667 = !DILocation(line: 0, scope: !665)
-!668 = !DILocalVariable(name: "key2", arg: 2, scope: !665, file: !8, line: 1, type: !31)
-!669 = !DILocalVariable(name: "$ret38", scope: !665, file: !8, line: 1, type: !13)
-!670 = !DILocation(line: 1, column: 1, scope: !665)
-!671 = distinct !DISubprogram(name: "main._664_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!672 = !DILocalVariable(name: "key1", arg: 1, scope: !671, file: !8, line: 1, type: !31)
-!673 = !DILocation(line: 0, scope: !671)
-!674 = !DILocalVariable(name: "key2", arg: 2, scope: !671, file: !8, line: 1, type: !31)
-!675 = !DILocalVariable(name: "$ret39", scope: !671, file: !8, line: 1, type: !13)
-!676 = !DILocation(line: 1, column: 1, scope: !671)
-!677 = distinct !DISubprogram(name: "main._6256_7uint8..eq", scope: null, file: !8, line: 1, type: !506, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
-!678 = !DILocalVariable(name: "key1", arg: 1, scope: !677, file: !8, line: 1, type: !31)
-!679 = !DILocation(line: 0, scope: !677)
-!680 = !DILocalVariable(name: "key2", arg: 2, scope: !677, file: !8, line: 1, type: !31)
-!681 = !DILocalVariable(name: "$ret40", scope: !677, file: !8, line: 1, type: !13)
-!682 = !DILocation(line: 1, column: 1, scope: !677)
+!502 = !DILocation(line: 5, column: 15, scope: !503, inlinedAt: !505)
+!503 = distinct !DISubprogram(name: "main.main..init0", scope: null, file: !504, line: 5, type: !497, scopeLine: 5, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!504 = !DIFile(filename: "_gomod_.go", directory: "/tmp/go-build/tmp/go-build2797527668/b001")
+!505 = distinct !DILocation(line: 5, column: 1, scope: !506)
+!506 = !DILexicalBlockFile(scope: !495, file: !504, discriminator: 0)
+!507 = distinct !DISubprogram(name: "main.SimpleAsset.Init", scope: null, file: !496, line: 18, type: !508, scopeLine: 18, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!508 = !DISubroutineType(types: !509)
+!509 = !{!510, !530, !530, !532}
+!510 = !DICompositeType(tag: DW_TAG_structure_type, name: "Response", file: !496, line: 7, size: 640, align: 8, elements: !511)
+!511 = !{!512, !514, !520, !526, !528, !529}
+!512 = !DIDerivedType(tag: DW_TAG_member, name: "Status", file: !496, line: 7, baseType: !513, size: 32, align: 32)
+!513 = !DIBasicType(name: "int32", size: 32, encoding: DW_ATE_signed)
+!514 = !DIDerivedType(tag: DW_TAG_member, name: "Message", file: !496, line: 7, baseType: !515, size: 128, align: 64, offset: 64)
+!515 = !DICompositeType(tag: DW_TAG_structure_type, name: "string", file: !8, line: 1, size: 128, align: 8, elements: !516)
+!516 = !{!517, !519}
+!517 = !DIDerivedType(tag: DW_TAG_member, name: "__data", file: !8, line: 1, baseType: !518, size: 64, align: 64)
+!518 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !16, size: 64)
+!519 = !DIDerivedType(tag: DW_TAG_member, name: "__length", file: !8, line: 1, baseType: !28, size: 64, align: 64, offset: 64)
+!520 = !DIDerivedType(tag: DW_TAG_member, name: "Payload", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 192)
+!521 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*uint8,int,int}", file: !10, size: 192, align: 8, elements: !522)
+!522 = !{!523, !524, !525}
+!523 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !518, size: 64, align: 64)
+!524 = !DIDerivedType(tag: DW_TAG_member, name: "__count", file: !10, line: 1, baseType: !28, size: 64, align: 64, offset: 64)
+!525 = !DIDerivedType(tag: DW_TAG_member, name: "__capacity", file: !10, line: 1, baseType: !28, size: 64, align: 64, offset: 128)
+!526 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_NoUnkeyedLiteral", file: !496, line: 7, baseType: !527, align: 8, offset: 384)
+!527 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_channel", file: !8, line: 1, align: 1, elements: !499)
+!528 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_unrecognized", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 384)
+!529 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_sizecache", file: !496, line: 7, baseType: !513, size: 32, align: 32, offset: 576)
+!530 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !531, size: 64)
+!531 = !DICompositeType(tag: DW_TAG_structure_type, name: "SimpleAsset", file: !496, line: 12, align: 1, elements: !499)
+!532 = !DICompositeType(tag: DW_TAG_structure_type, name: "ChaincodeStubInterface", file: !496, line: 7, size: 128, align: 8, elements: !533)
+!533 = !{!534, !878}
+!534 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !535, size: 64, align: 64)
+!535 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !536, size: 64)
+!536 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,string,struct{*string,int,int})struct{string,error},*func(*void,string,string)error,*func(*void,string)error,*func(*void)struct{*struct{*uint8,int,int},int,int},*func(*void)struct{struct{*uint8,int,int},error},*func(*void)struct{struct{*uint8,int,int},error},*func(*void)string,*func(*void)struct{struct{*uint8,int,int},error},*func(*void)Values,*func(*void)struct{string,struct{*string,int,int}},*func(*void,string)struct{HistoryQueryIteratorInterface,error},*func(*void,string,string)struct{struct{*uint8,int,int},error},*func(*void,string,string,struct{*string,int,int})struct{StateQueryIteratorInterface,error},*func(*void,string,string,string)struct{StateQueryIteratorInterface,error},*func(*void,string,string)struct{struct{*uint8,int,int},error},*func(*void,string,string)struct{StateQueryIteratorInterface,error},*func(*void,string,string)struct{struct{*uint8,int,int},error},*func(*void,string)struct{StateQueryIteratorInterface,error},*func(*void,string,int32,string)struct{StateQueryIteratorInterface,*QueryResponseMetadata,error},*func(*void)struct{*SignedProposal,error},*func(*void,string)struct{struct{*uint8,int,int},error},*func(*void,string,struct{*string,int,int})struct{StateQueryIteratorInterface,error},*func(*void,string,struct{*string,int,int},int32,string)struct{StateQueryIteratorInterface,*QueryResponseMetadata,error},*func(*void,string,string)struct{StateQueryIteratorInterface,error},*func(*void,string,string,int32,string)struct{StateQueryIteratorInterface,*QueryResponseMetadata,error},*func(*void,string)struct{struct{*uint8,int,int},error},*func(*void)struct{*string,int,int},*func(*void)struct{Values,error},*func(*void)string,*func(*void)struct{*Timestamp,error},*func(*void,string,struct{*struct{*uint8,int,int},int,int},string)Response,*func(*void,string,string)error,*func(*void,string,string,struct{*uint8,int,int})error,*func(*void,string,struct{*uint8,int,int})error,*func(*void,string,struct{*uint8,int,int})error,*func(*void,string,string,struct{*uint8,int,int})error,*func(*void,string,struct{*uint8,int,int})error,*func(*void,string)struct{string,struct{*string,int,int},error}}", file: !10, size: 2496, align: 8, elements: !537)
+!537 = !{!538, !579, !602, !606, !610, !618, !626, !627, !628, !629, !646, !653, !1895, !1899, !1926, !1930, !1931, !1935, !1936, !1940, !1955, !1967, !1971, !1975, !1979, !1980, !1984, !1985, !1989, !1996, !1997, !2004, !2008, !2009, !2013, !2017, !2018, !2019, !2020}
+!538 = !DIDerivedType(tag: DW_TAG_member, name: "__type_descriptor", file: !10, line: 7, baseType: !539, size: 64, align: 64)
+!539 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !540, size: 64)
+!540 = !DICompositeType(tag: DW_TAG_structure_type, name: "_type", file: !8, line: 1, size: 512, align: 8, elements: !541)
+!541 = !{!542, !544, !545, !547, !548, !549, !550, !551, !559, !560, !562, !578}
+!542 = !DIDerivedType(tag: DW_TAG_member, name: "size", file: !8, line: 1, baseType: !543, size: 64, align: 64)
+!543 = !DIBasicType(name: "uintptr", size: 64, encoding: DW_ATE_unsigned)
+!544 = !DIDerivedType(tag: DW_TAG_member, name: "ptrdata", file: !8, line: 1, baseType: !543, size: 64, align: 64, offset: 64)
+!545 = !DIDerivedType(tag: DW_TAG_member, name: "hash", file: !8, line: 1, baseType: !546, size: 32, align: 32, offset: 128)
+!546 = !DIBasicType(name: "uint32", size: 32, encoding: DW_ATE_unsigned)
+!547 = !DIDerivedType(tag: DW_TAG_member, name: "tflag", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 160)
+!548 = !DIDerivedType(tag: DW_TAG_member, name: "align", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 168)
+!549 = !DIDerivedType(tag: DW_TAG_member, name: "fieldAlign", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 176)
+!550 = !DIDerivedType(tag: DW_TAG_member, name: "kind", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 184)
+!551 = !DIDerivedType(tag: DW_TAG_member, name: "equal", file: !8, line: 1, baseType: !552, size: 64, align: 64, offset: 192)
+!552 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !553, size: 64)
+!553 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !8, line: 1, size: 64, align: 8, elements: !554)
+!554 = !{!555}
+!555 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !8, line: 1, baseType: !556, size: 64, align: 64)
+!556 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !557, size: 64)
+!557 = !DISubroutineType(types: !558)
+!558 = !{!13, !31, !31}
+!559 = !DIDerivedType(tag: DW_TAG_member, name: "gcdata", file: !8, line: 1, baseType: !518, size: 64, align: 64, offset: 256)
+!560 = !DIDerivedType(tag: DW_TAG_member, name: "string", file: !8, line: 1, baseType: !561, size: 64, align: 64, offset: 320)
+!561 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !515, size: 64)
+!562 = !DIDerivedType(tag: DW_TAG_member, name: "uncommonType", file: !8, line: 1, baseType: !563, size: 64, align: 64, offset: 384)
+!563 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !564, size: 64)
+!564 = !DICompositeType(tag: DW_TAG_structure_type, name: "uncommonType", file: !8, line: 1, size: 320, align: 8, elements: !565)
+!565 = !{!566, !567, !568}
+!566 = !DIDerivedType(tag: DW_TAG_member, name: "name", file: !8, line: 1, baseType: !561, size: 64, align: 64)
+!567 = !DIDerivedType(tag: DW_TAG_member, name: "pkgPath", file: !8, line: 1, baseType: !561, size: 64, align: 64, offset: 64)
+!568 = !DIDerivedType(tag: DW_TAG_member, name: "methods", file: !8, line: 1, baseType: !569, size: 192, align: 64, offset: 128)
+!569 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*method,int,int}", file: !10, size: 192, align: 8, elements: !570)
+!570 = !{!571, !524, !525}
+!571 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !572, size: 64, align: 64)
+!572 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !573, size: 64)
+!573 = !DICompositeType(tag: DW_TAG_structure_type, name: "method", file: !8, line: 1, size: 320, align: 8, elements: !574)
+!574 = !{!566, !567, !575, !576, !577}
+!575 = !DIDerivedType(tag: DW_TAG_member, name: "mtyp", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 128)
+!576 = !DIDerivedType(tag: DW_TAG_member, name: "typ", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 192)
+!577 = !DIDerivedType(tag: DW_TAG_member, name: "tfn", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 256)
+!578 = !DIDerivedType(tag: DW_TAG_member, name: "ptrToThis", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 448)
+!579 = !DIDerivedType(tag: DW_TAG_member, name: "CreateCompositeKey", file: !10, line: 7, baseType: !580, size: 64, align: 64, offset: 64)
+!580 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !581, size: 64)
+!581 = !DISubroutineType(types: !582)
+!582 = !{!583, !31, !515, !599}
+!583 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{string,error}", file: !10, size: 256, align: 8, elements: !584)
+!584 = !{!585, !586}
+!585 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !515, size: 128, align: 64)
+!586 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !587, size: 128, align: 64, offset: 128)
+!587 = !DICompositeType(tag: DW_TAG_structure_type, name: "error", file: !8, line: 1, size: 128, align: 8, elements: !588)
+!588 = !{!589, !598}
+!589 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !8, line: 1, baseType: !590, size: 64, align: 64)
+!590 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !591, size: 64)
+!591 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)string}", file: !10, size: 128, align: 8, elements: !592)
+!592 = !{!593, !594}
+!593 = !DIDerivedType(tag: DW_TAG_member, name: "__type_descriptor", file: !10, line: 1, baseType: !539, size: 64, align: 64)
+!594 = !DIDerivedType(tag: DW_TAG_member, name: "Error", file: !10, line: 1, baseType: !595, size: 64, align: 64, offset: 64)
+!595 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !596, size: 64)
+!596 = !DISubroutineType(types: !597)
+!597 = !{!515, !31}
+!598 = !DIDerivedType(tag: DW_TAG_member, name: "__object", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 64)
+!599 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*string,int,int}", file: !10, size: 192, align: 8, elements: !600)
+!600 = !{!601, !524, !525}
+!601 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !561, size: 64, align: 64)
+!602 = !DIDerivedType(tag: DW_TAG_member, name: "DelPrivateData", file: !10, line: 7, baseType: !603, size: 64, align: 64, offset: 128)
+!603 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !604, size: 64)
+!604 = !DISubroutineType(types: !605)
+!605 = !{!587, !31, !515, !515}
+!606 = !DIDerivedType(tag: DW_TAG_member, name: "DelState", file: !10, line: 7, baseType: !607, size: 64, align: 64, offset: 192)
+!607 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !608, size: 64)
+!608 = !DISubroutineType(types: !609)
+!609 = !{!587, !31, !515}
+!610 = !DIDerivedType(tag: DW_TAG_member, name: "GetArgs", file: !10, line: 7, baseType: !611, size: 64, align: 64, offset: 256)
+!611 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !612, size: 64)
+!612 = !DISubroutineType(types: !613)
+!613 = !{!614, !31}
+!614 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*struct{*uint8,int,int},int,int}", file: !10, size: 192, align: 8, elements: !615)
+!615 = !{!616, !524, !525}
+!616 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !617, size: 64, align: 64)
+!617 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !521, size: 64)
+!618 = !DIDerivedType(tag: DW_TAG_member, name: "GetArgsSlice", file: !10, line: 7, baseType: !619, size: 64, align: 64, offset: 320)
+!619 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !620, size: 64)
+!620 = !DISubroutineType(types: !621)
+!621 = !{!622, !31}
+!622 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{struct{*uint8,int,int},error}", file: !10, size: 320, align: 8, elements: !623)
+!623 = !{!624, !625}
+!624 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 8, baseType: !521, size: 192, align: 64)
+!625 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 8, baseType: !587, size: 128, align: 64, offset: 192)
+!626 = !DIDerivedType(tag: DW_TAG_member, name: "GetBinding", file: !10, line: 7, baseType: !619, size: 64, align: 64, offset: 384)
+!627 = !DIDerivedType(tag: DW_TAG_member, name: "GetChannelID", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 448)
+!628 = !DIDerivedType(tag: DW_TAG_member, name: "GetCreator", file: !10, line: 7, baseType: !619, size: 64, align: 64, offset: 512)
+!629 = !DIDerivedType(tag: DW_TAG_member, name: "GetDecorations", file: !10, line: 7, baseType: !630, size: 64, align: 64, offset: 576)
+!630 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !631, size: 64)
+!631 = !DISubroutineType(types: !632)
+!632 = !{!633, !31}
+!633 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !634, size: 64)
+!634 = !DICompositeType(tag: DW_TAG_structure_type, name: "runtime.hmap", file: !8, line: 1, size: 384, align: 8, elements: !635)
+!635 = !{!636, !637, !638, !639, !641, !642, !643, !644, !645}
+!636 = !DIDerivedType(tag: DW_TAG_member, name: "count", file: !8, line: 1, baseType: !28, size: 64, align: 64)
+!637 = !DIDerivedType(tag: DW_TAG_member, name: "flags", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 64)
+!638 = !DIDerivedType(tag: DW_TAG_member, name: "B", file: !8, line: 1, baseType: !16, size: 8, align: 8, offset: 72)
+!639 = !DIDerivedType(tag: DW_TAG_member, name: "noverflow", file: !8, line: 1, baseType: !640, size: 16, align: 16, offset: 80)
+!640 = !DIBasicType(name: "uint16", size: 16, encoding: DW_ATE_unsigned)
+!641 = !DIDerivedType(tag: DW_TAG_member, name: "hash0", file: !8, line: 1, baseType: !546, size: 32, align: 32, offset: 96)
+!642 = !DIDerivedType(tag: DW_TAG_member, name: "buckets", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 128)
+!643 = !DIDerivedType(tag: DW_TAG_member, name: "oldbuckets", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 192)
+!644 = !DIDerivedType(tag: DW_TAG_member, name: "nevacuate", file: !8, line: 1, baseType: !543, size: 64, align: 64, offset: 256)
+!645 = !DIDerivedType(tag: DW_TAG_member, name: "extra", file: !8, line: 1, baseType: !31, size: 64, align: 64, offset: 320)
+!646 = !DIDerivedType(tag: DW_TAG_member, name: "GetFunctionAndParameters", file: !10, line: 7, baseType: !647, size: 64, align: 64, offset: 640)
+!647 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !648, size: 64)
+!648 = !DISubroutineType(types: !649)
+!649 = !{!650, !31}
+!650 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{string,struct{*string,int,int}}", file: !10, size: 320, align: 8, elements: !651)
+!651 = !{!585, !652}
+!652 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !599, size: 192, align: 64, offset: 128)
+!653 = !DIDerivedType(tag: DW_TAG_member, name: "GetHistoryForKey", file: !10, line: 7, baseType: !654, size: 64, align: 64, offset: 704)
+!654 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !655, size: 64)
+!655 = !DISubroutineType(types: !656)
+!656 = !{!657, !31, !515}
+!657 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{HistoryQueryIteratorInterface,error}", file: !10, size: 256, align: 8, elements: !658)
+!658 = !{!659, !586}
+!659 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !660, size: 128, align: 64)
+!660 = !DICompositeType(tag: DW_TAG_structure_type, name: "HistoryQueryIteratorInterface", file: !496, line: 7, size: 128, align: 8, elements: !661)
+!661 = !{!662, !878}
+!662 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !663, size: 64, align: 64)
+!663 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !664, size: 64)
+!664 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)error,*func(*void)bool,*func(*void)struct{*KeyModification,error}}", file: !10, size: 256, align: 8, elements: !665)
+!665 = !{!538, !666, !670, !674}
+!666 = !DIDerivedType(tag: DW_TAG_member, name: "Close", file: !10, line: 7, baseType: !667, size: 64, align: 64, offset: 64)
+!667 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !668, size: 64)
+!668 = !DISubroutineType(types: !669)
+!669 = !{!587, !31}
+!670 = !DIDerivedType(tag: DW_TAG_member, name: "HasNext", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 128)
+!671 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !672, size: 64)
+!672 = !DISubroutineType(types: !673)
+!673 = !{!13, !31}
+!674 = !DIDerivedType(tag: DW_TAG_member, name: "Next", file: !10, line: 7, baseType: !675, size: 64, align: 64, offset: 192)
+!675 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !676, size: 64)
+!676 = !DISubroutineType(types: !677)
+!677 = !{!678, !31}
+!678 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*KeyModification,error}", file: !10, size: 192, align: 8, elements: !679)
+!679 = !{!680, !1378}
+!680 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !681, size: 64, align: 64)
+!681 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !682, size: 64)
+!682 = !DICompositeType(tag: DW_TAG_structure_type, name: "KeyModification", file: !496, line: 7, size: 704, align: 8, elements: !683)
+!683 = !{!684, !685, !686, !1891, !1892, !1893, !1894}
+!684 = !DIDerivedType(tag: DW_TAG_member, name: "TxId", file: !496, line: 7, baseType: !515, size: 128, align: 64)
+!685 = !DIDerivedType(tag: DW_TAG_member, name: "Value", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 128)
+!686 = !DIDerivedType(tag: DW_TAG_member, name: "Timestamp", file: !496, line: 7, baseType: !687, size: 64, align: 64, offset: 320)
+!687 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !688, size: 64)
+!688 = !DICompositeType(tag: DW_TAG_structure_type, name: "Timestamp", file: !496, line: 7, size: 448, align: 8, elements: !689)
+!689 = !{!690, !1886, !1887, !1888, !1890}
+!690 = !DIDerivedType(tag: DW_TAG_member, name: "state", file: !496, line: 7, baseType: !691, size: 64, align: 64)
+!691 = !DICompositeType(tag: DW_TAG_structure_type, name: "MessageState", file: !496, line: 7, size: 64, align: 8, elements: !692)
+!692 = !{!693, !695, !704, !710}
+!693 = !DIDerivedType(tag: DW_TAG_member, name: "NoUnkeyedLiterals", file: !496, line: 7, baseType: !694, align: 8)
+!694 = !DICompositeType(tag: DW_TAG_structure_type, name: "NoUnkeyedLiterals", file: !496, line: 7, align: 1, elements: !499)
+!695 = !DIDerivedType(tag: DW_TAG_member, name: "DoNotCompare", file: !496, line: 7, baseType: !696, align: 64)
+!696 = !DICompositeType(tag: DW_TAG_array_type, baseType: !697, align: 8, elements: !702)
+!697 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !698, size: 64)
+!698 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !699)
+!699 = !{!700}
+!700 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !701, size: 64, align: 64)
+!701 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !497, size: 64)
+!702 = !{!703}
+!703 = !DISubrange(count: 0, lowerBound: 0)
+!704 = !DIDerivedType(tag: DW_TAG_member, name: "DoNotCopy", file: !496, line: 7, baseType: !705, align: 32)
+!705 = !DICompositeType(tag: DW_TAG_array_type, baseType: !706, align: 4, elements: !702)
+!706 = !DICompositeType(tag: DW_TAG_structure_type, name: "Mutex", file: !496, line: 7, size: 64, align: 4, elements: !707)
+!707 = !{!708, !709}
+!708 = !DIDerivedType(tag: DW_TAG_member, name: "state", file: !496, line: 7, baseType: !513, size: 32, align: 32)
+!709 = !DIDerivedType(tag: DW_TAG_member, name: "sema", file: !496, line: 7, baseType: !546, size: 32, align: 32, offset: 32)
+!710 = !DIDerivedType(tag: DW_TAG_member, name: "atomicMessageInfo", file: !496, line: 7, baseType: !711, size: 64, align: 64)
+!711 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !712, size: 64)
+!712 = !DICompositeType(tag: DW_TAG_structure_type, name: "MessageInfo", file: !496, line: 7, size: 2624, align: 8, elements: !713)
+!713 = !{!714, !879, !1678, !1686, !1691, !1692, !1693, !1788}
+!714 = !DIDerivedType(tag: DW_TAG_member, name: "GoReflectType", file: !496, line: 7, baseType: !715, size: 128, align: 64)
+!715 = !DICompositeType(tag: DW_TAG_structure_type, name: "Type", file: !496, line: 4, size: 128, align: 8, elements: !716)
+!716 = !{!717, !878}
+!717 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 4, baseType: !718, size: 64, align: 64)
+!718 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !719, size: 64)
+!719 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)int,*func(*void,Type)bool,*func(*void)int,*func(*void)ChanDir,*func(*void)bool,*func(*void,Type)bool,*func(*void)Type,*func(*void,int)StructField,*func(*void)int,*func(*void,struct{*int,int,int})StructField,*func(*void,string)struct{StructField,bool},*func(*void,*__go_descriptor)struct{StructField,bool},*func(*void,Type)bool,*func(*void,int)Type,*func(*void)bool,*func(*void)Type,*func(*void)Kind,*func(*void)int,*func(*void,int)Method,*func(*void,string)struct{Method,bool},*func(*void)string,*func(*void)int,*func(*void)int,*func(*void)int,*func(*void)int,*func(*void,int)Type,*func(*void)string,*func(*void)uintptr,*func(*void)string,*func(*void)*.reflect.rtype,*func(*void)string,*func(*void)*.reflect.uncommonType}", file: !10, size: 2112, align: 8, elements: !720)
+!720 = !{!721, !722, !726, !730, !731, !736, !737, !738, !742, !763, !764, !768, !776, !787, !788, !792, !793, !794, !799, !800, !849, !857, !858, !859, !860, !861, !862, !863, !864, !868, !869, !873, !874}
+!721 = !DIDerivedType(tag: DW_TAG_member, name: "__type_descriptor", file: !10, line: 4, baseType: !539, size: 64, align: 64)
+!722 = !DIDerivedType(tag: DW_TAG_member, name: "Align", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 64)
+!723 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !724, size: 64)
+!724 = !DISubroutineType(types: !725)
+!725 = !{!28, !31}
+!726 = !DIDerivedType(tag: DW_TAG_member, name: "AssignableTo", file: !10, line: 4, baseType: !727, size: 64, align: 64, offset: 128)
+!727 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !728, size: 64)
+!728 = !DISubroutineType(types: !729)
+!729 = !{!13, !31, !715}
+!730 = !DIDerivedType(tag: DW_TAG_member, name: "Bits", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 192)
+!731 = !DIDerivedType(tag: DW_TAG_member, name: "ChanDir", file: !10, line: 4, baseType: !732, size: 64, align: 64, offset: 256)
+!732 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !733, size: 64)
+!733 = !DISubroutineType(types: !734)
+!734 = !{!735, !31}
+!735 = !DIBasicType(name: "ChanDir", size: 64, encoding: DW_ATE_signed)
+!736 = !DIDerivedType(tag: DW_TAG_member, name: "Comparable", file: !10, line: 4, baseType: !671, size: 64, align: 64, offset: 320)
+!737 = !DIDerivedType(tag: DW_TAG_member, name: "ConvertibleTo", file: !10, line: 4, baseType: !727, size: 64, align: 64, offset: 384)
+!738 = !DIDerivedType(tag: DW_TAG_member, name: "Elem", file: !10, line: 4, baseType: !739, size: 64, align: 64, offset: 448)
+!739 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !740, size: 64)
+!740 = !DISubroutineType(types: !741)
+!741 = !{!715, !31}
+!742 = !DIDerivedType(tag: DW_TAG_member, name: "Field", file: !10, line: 4, baseType: !743, size: 64, align: 64, offset: 512)
+!743 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !744, size: 64)
+!744 = !DISubroutineType(types: !745)
+!745 = !{!746, !31, !28}
+!746 = !DICompositeType(tag: DW_TAG_structure_type, name: "StructField", file: !496, line: 4, size: 832, align: 8, elements: !747)
+!747 = !{!748, !749, !750, !751, !756, !757, !762}
+!748 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !496, line: 4, baseType: !515, size: 128, align: 64)
+!749 = !DIDerivedType(tag: DW_TAG_member, name: "PkgPath", file: !496, line: 4, baseType: !515, size: 128, align: 64, offset: 128)
+!750 = !DIDerivedType(tag: DW_TAG_member, name: "Type", file: !496, line: 4, baseType: !715, size: 128, align: 64, offset: 256)
+!751 = !DIDerivedType(tag: DW_TAG_member, name: "Tag", file: !496, line: 4, baseType: !752, size: 128, align: 64, offset: 384)
+!752 = !DICompositeType(tag: DW_TAG_structure_type, name: "StructTag", file: !496, line: 4, size: 128, align: 8, elements: !753)
+!753 = !{!754, !755}
+!754 = !DIDerivedType(tag: DW_TAG_member, name: "__data", file: !496, line: 1, baseType: !518, size: 64, align: 64)
+!755 = !DIDerivedType(tag: DW_TAG_member, name: "__length", file: !496, line: 1, baseType: !28, size: 64, align: 64, offset: 64)
+!756 = !DIDerivedType(tag: DW_TAG_member, name: "Offset", file: !496, line: 4, baseType: !543, size: 64, align: 64, offset: 512)
+!757 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !496, line: 4, baseType: !758, size: 192, align: 64, offset: 576)
+!758 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*int,int,int}", file: !10, size: 192, align: 8, elements: !759)
+!759 = !{!760, !524, !525}
+!760 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !761, size: 64, align: 64)
+!761 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !28, size: 64)
+!762 = !DIDerivedType(tag: DW_TAG_member, name: "Anonymous", file: !496, line: 4, baseType: !13, size: 8, align: 8, offset: 768)
+!763 = !DIDerivedType(tag: DW_TAG_member, name: "FieldAlign", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 576)
+!764 = !DIDerivedType(tag: DW_TAG_member, name: "FieldByIndex", file: !10, line: 4, baseType: !765, size: 64, align: 64, offset: 640)
+!765 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !766, size: 64)
+!766 = !DISubroutineType(types: !767)
+!767 = !{!746, !31, !758}
+!768 = !DIDerivedType(tag: DW_TAG_member, name: "FieldByName", file: !10, line: 4, baseType: !769, size: 64, align: 64, offset: 704)
+!769 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !770, size: 64)
+!770 = !DISubroutineType(types: !771)
+!771 = !{!772, !31, !515}
+!772 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{StructField,bool}", file: !10, size: 896, align: 8, elements: !773)
+!773 = !{!774, !775}
+!774 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 4, baseType: !746, size: 832, align: 64)
+!775 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 4, baseType: !13, size: 8, align: 8, offset: 832)
+!776 = !DIDerivedType(tag: DW_TAG_member, name: "FieldByNameFunc", file: !10, line: 4, baseType: !777, size: 64, align: 64, offset: 768)
+!777 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !778, size: 64)
+!778 = !DISubroutineType(types: !779)
+!779 = !{!772, !31, !780}
+!780 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !781, size: 64)
+!781 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 4, size: 64, align: 8, elements: !782)
+!782 = !{!783}
+!783 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 4, baseType: !784, size: 64, align: 64)
+!784 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !785, size: 64)
+!785 = !DISubroutineType(types: !786)
+!786 = !{!13, !515}
+!787 = !DIDerivedType(tag: DW_TAG_member, name: "Implements", file: !10, line: 4, baseType: !727, size: 64, align: 64, offset: 832)
+!788 = !DIDerivedType(tag: DW_TAG_member, name: "In", file: !10, line: 4, baseType: !789, size: 64, align: 64, offset: 896)
+!789 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !790, size: 64)
+!790 = !DISubroutineType(types: !791)
+!791 = !{!715, !31, !28}
+!792 = !DIDerivedType(tag: DW_TAG_member, name: "IsVariadic", file: !10, line: 4, baseType: !671, size: 64, align: 64, offset: 960)
+!793 = !DIDerivedType(tag: DW_TAG_member, name: "Key", file: !10, line: 4, baseType: !739, size: 64, align: 64, offset: 1024)
+!794 = !DIDerivedType(tag: DW_TAG_member, name: "Kind", file: !10, line: 4, baseType: !795, size: 64, align: 64, offset: 1088)
+!795 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !796, size: 64)
+!796 = !DISubroutineType(types: !797)
+!797 = !{!798, !31}
+!798 = !DIBasicType(name: "Kind", size: 64, encoding: DW_ATE_unsigned)
+!799 = !DIDerivedType(tag: DW_TAG_member, name: "Len", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 1152)
+!800 = !DIDerivedType(tag: DW_TAG_member, name: "Method", file: !10, line: 4, baseType: !801, size: 64, align: 64, offset: 1216)
+!801 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !802, size: 64)
+!802 = !DISubroutineType(types: !803)
+!803 = !{!804, !31, !28}
+!804 = !DICompositeType(tag: DW_TAG_structure_type, name: "Method", file: !496, line: 4, size: 640, align: 8, elements: !805)
+!805 = !{!748, !749, !750, !806, !848}
+!806 = !DIDerivedType(tag: DW_TAG_member, name: "Func", file: !496, line: 4, baseType: !807, size: 192, align: 64, offset: 384)
+!807 = !DICompositeType(tag: DW_TAG_structure_type, name: "Value", file: !496, line: 4, size: 192, align: 8, elements: !808)
+!808 = !{!809, !845, !846}
+!809 = !DIDerivedType(tag: DW_TAG_member, name: "typ", file: !496, line: 4, baseType: !810, size: 64, align: 64)
+!810 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !811, size: 64)
+!811 = !DICompositeType(tag: DW_TAG_structure_type, name: ".reflect.rtype", file: !496, line: 4, size: 512, align: 8, elements: !812)
+!812 = !{!813, !814, !815, !816, !818, !819, !820, !821, !826, !827, !828, !844}
+!813 = !DIDerivedType(tag: DW_TAG_member, name: "size", file: !496, line: 4, baseType: !543, size: 64, align: 64)
+!814 = !DIDerivedType(tag: DW_TAG_member, name: "ptrdata", file: !496, line: 4, baseType: !543, size: 64, align: 64, offset: 64)
+!815 = !DIDerivedType(tag: DW_TAG_member, name: "hash", file: !496, line: 4, baseType: !546, size: 32, align: 32, offset: 128)
+!816 = !DIDerivedType(tag: DW_TAG_member, name: "tflag", file: !496, line: 4, baseType: !817, size: 8, align: 8, offset: 160)
+!817 = !DIBasicType(name: ".reflect.tflag", size: 8, encoding: DW_ATE_unsigned)
+!818 = !DIDerivedType(tag: DW_TAG_member, name: "align", file: !496, line: 4, baseType: !16, size: 8, align: 8, offset: 168)
+!819 = !DIDerivedType(tag: DW_TAG_member, name: "fieldAlign", file: !496, line: 4, baseType: !16, size: 8, align: 8, offset: 176)
+!820 = !DIDerivedType(tag: DW_TAG_member, name: "kind", file: !496, line: 4, baseType: !16, size: 8, align: 8, offset: 184)
+!821 = !DIDerivedType(tag: DW_TAG_member, name: "equal", file: !496, line: 4, baseType: !822, size: 64, align: 64, offset: 192)
+!822 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !823, size: 64)
+!823 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 4, size: 64, align: 8, elements: !824)
+!824 = !{!825}
+!825 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 4, baseType: !556, size: 64, align: 64)
+!826 = !DIDerivedType(tag: DW_TAG_member, name: "gcdata", file: !496, line: 4, baseType: !518, size: 64, align: 64, offset: 256)
+!827 = !DIDerivedType(tag: DW_TAG_member, name: "string", file: !496, line: 4, baseType: !561, size: 64, align: 64, offset: 320)
+!828 = !DIDerivedType(tag: DW_TAG_member, name: "uncommonType", file: !496, line: 4, baseType: !829, size: 64, align: 64, offset: 384)
+!829 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !830, size: 64)
+!830 = !DICompositeType(tag: DW_TAG_structure_type, name: ".reflect.uncommonType", file: !496, line: 4, size: 320, align: 8, elements: !831)
+!831 = !{!832, !833, !834}
+!832 = !DIDerivedType(tag: DW_TAG_member, name: "name", file: !496, line: 4, baseType: !561, size: 64, align: 64)
+!833 = !DIDerivedType(tag: DW_TAG_member, name: "pkgPath", file: !496, line: 4, baseType: !561, size: 64, align: 64, offset: 64)
+!834 = !DIDerivedType(tag: DW_TAG_member, name: "methods", file: !496, line: 4, baseType: !835, size: 192, align: 64, offset: 128)
+!835 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*.reflect.method,int,int}", file: !10, size: 192, align: 8, elements: !836)
+!836 = !{!837, !524, !525}
+!837 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !838, size: 64, align: 64)
+!838 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !839, size: 64)
+!839 = !DICompositeType(tag: DW_TAG_structure_type, name: ".reflect.method", file: !496, line: 4, size: 320, align: 8, elements: !840)
+!840 = !{!832, !833, !841, !842, !843}
+!841 = !DIDerivedType(tag: DW_TAG_member, name: "mtyp", file: !496, line: 4, baseType: !31, size: 64, align: 64, offset: 128)
+!842 = !DIDerivedType(tag: DW_TAG_member, name: "typ", file: !496, line: 4, baseType: !31, size: 64, align: 64, offset: 192)
+!843 = !DIDerivedType(tag: DW_TAG_member, name: "tfn", file: !496, line: 4, baseType: !31, size: 64, align: 64, offset: 256)
+!844 = !DIDerivedType(tag: DW_TAG_member, name: "ptrToThis", file: !496, line: 4, baseType: !31, size: 64, align: 64, offset: 448)
+!845 = !DIDerivedType(tag: DW_TAG_member, name: "ptr", file: !496, line: 4, baseType: !31, size: 64, align: 64, offset: 64)
+!846 = !DIDerivedType(tag: DW_TAG_member, name: "flag", file: !496, line: 4, baseType: !847, size: 64, align: 64, offset: 128)
+!847 = !DIBasicType(name: ".reflect.flag", size: 64, encoding: DW_ATE_unsigned)
+!848 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !496, line: 4, baseType: !28, size: 64, align: 64, offset: 576)
+!849 = !DIDerivedType(tag: DW_TAG_member, name: "MethodByName", file: !10, line: 4, baseType: !850, size: 64, align: 64, offset: 1280)
+!850 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !851, size: 64)
+!851 = !DISubroutineType(types: !852)
+!852 = !{!853, !31, !515}
+!853 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{Method,bool}", file: !10, size: 704, align: 8, elements: !854)
+!854 = !{!855, !856}
+!855 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 4, baseType: !804, size: 640, align: 64)
+!856 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 4, baseType: !13, size: 8, align: 8, offset: 640)
+!857 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 4, baseType: !595, size: 64, align: 64, offset: 1344)
+!858 = !DIDerivedType(tag: DW_TAG_member, name: "NumField", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 1408)
+!859 = !DIDerivedType(tag: DW_TAG_member, name: "NumIn", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 1472)
+!860 = !DIDerivedType(tag: DW_TAG_member, name: "NumMethod", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 1536)
+!861 = !DIDerivedType(tag: DW_TAG_member, name: "NumOut", file: !10, line: 4, baseType: !723, size: 64, align: 64, offset: 1600)
+!862 = !DIDerivedType(tag: DW_TAG_member, name: "Out", file: !10, line: 4, baseType: !789, size: 64, align: 64, offset: 1664)
+!863 = !DIDerivedType(tag: DW_TAG_member, name: "PkgPath", file: !10, line: 4, baseType: !595, size: 64, align: 64, offset: 1728)
+!864 = !DIDerivedType(tag: DW_TAG_member, name: "Size", file: !10, line: 4, baseType: !865, size: 64, align: 64, offset: 1792)
+!865 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !866, size: 64)
+!866 = !DISubroutineType(types: !867)
+!867 = !{!543, !31}
+!868 = !DIDerivedType(tag: DW_TAG_member, name: "String", file: !10, line: 4, baseType: !595, size: 64, align: 64, offset: 1856)
+!869 = !DIDerivedType(tag: DW_TAG_member, name: "common", file: !10, line: 4, baseType: !870, size: 64, align: 64, offset: 1920)
+!870 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !871, size: 64)
+!871 = !DISubroutineType(types: !872)
+!872 = !{!810, !31}
+!873 = !DIDerivedType(tag: DW_TAG_member, name: "rawString", file: !10, line: 4, baseType: !595, size: 64, align: 64, offset: 1984)
+!874 = !DIDerivedType(tag: DW_TAG_member, name: "uncommon", file: !10, line: 4, baseType: !875, size: 64, align: 64, offset: 2048)
+!875 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !876, size: 64)
+!876 = !DISubroutineType(types: !877)
+!877 = !{!829, !31}
+!878 = !DIDerivedType(tag: DW_TAG_member, name: "__object", file: !496, line: 1, baseType: !31, size: 64, align: 64, offset: 64)
+!879 = !DIDerivedType(tag: DW_TAG_member, name: "Desc", file: !496, line: 7, baseType: !880, size: 128, align: 64, offset: 128)
+!880 = !DICompositeType(tag: DW_TAG_structure_type, name: "MessageDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !881)
+!881 = !{!882, !878}
+!882 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !883, size: 64, align: 64)
+!883 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !884, size: 64)
+!884 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)EnumDescriptors,*func(*void,int)ProtoMessage,*func(*void)FieldRanges,*func(*void)ExtensionDescriptors,*func(*void)FieldDescriptors,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)bool,*func(*void)MessageDescriptors,*func(*void)Name,*func(*void)OneofDescriptors,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,MessageDescriptor)void,*func(*void)FieldNumbers,*func(*void)Names,*func(*void)FieldRanges,*func(*void)Syntax}", file: !10, size: 1408, align: 8, elements: !885)
+!885 = !{!538, !886, !1604, !1608, !1627, !1628, !1629, !1630, !1631, !1632, !1633, !1634, !1635, !1653, !1654, !1655, !1656, !1657, !1661, !1675, !1676, !1677}
+!886 = !DIDerivedType(tag: DW_TAG_member, name: "Enums", file: !10, line: 7, baseType: !887, size: 64, align: 64, offset: 64)
+!887 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !888, size: 64)
+!888 = !DISubroutineType(types: !889)
+!889 = !{!890, !31}
+!890 = !DICompositeType(tag: DW_TAG_structure_type, name: "EnumDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !891)
+!891 = !{!892, !878}
+!892 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !893, size: 64, align: 64)
+!893 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !894, size: 64)
+!894 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)EnumDescriptor,*func(*void,int)EnumDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !895)
+!895 = !{!538, !896, !1600, !1048, !1049}
+!896 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !897, size: 64, align: 64, offset: 64)
+!897 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !898, size: 64)
+!898 = !DISubroutineType(types: !899)
+!899 = !{!900, !31, !917}
+!900 = !DICompositeType(tag: DW_TAG_structure_type, name: "EnumDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !901)
+!901 = !{!902, !878}
+!902 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !903, size: 64, align: 64)
+!903 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !904, size: 64)
+!904 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,EnumDescriptor)void,*func(*void)Names,*func(*void)EnumRanges,*func(*void)Syntax,*func(*void)EnumValueDescriptors}", file: !10, size: 896, align: 8, elements: !905)
+!905 = !{!538, !906, !911, !912, !913, !918, !1534, !1025, !1221, !1535, !1539, !1557, !1229, !1578}
+!906 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 64)
+!907 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !908, size: 64)
+!908 = !DISubroutineType(types: !909)
+!909 = !{!910, !31}
+!910 = !DICompositeType(tag: DW_TAG_structure_type, name: "FullName", file: !496, line: 7, size: 128, align: 8, elements: !753)
+!911 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 128)
+!912 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 192)
+!913 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 256)
+!914 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !915, size: 64)
+!915 = !DISubroutineType(types: !916)
+!916 = !{!917, !31}
+!917 = !DICompositeType(tag: DW_TAG_structure_type, name: "Name", file: !496, line: 7, size: 128, align: 8, elements: !753)
+!918 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !919, size: 64, align: 64, offset: 320)
+!919 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !920, size: 64)
+!920 = !DISubroutineType(types: !921)
+!921 = !{!922, !31}
+!922 = !DICompositeType(tag: DW_TAG_structure_type, name: "ProtoMessage", file: !496, line: 7, size: 128, align: 8, elements: !923)
+!923 = !{!924, !878}
+!924 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !925, size: 64, align: 64)
+!925 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !926, size: 64)
+!926 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)Message}", file: !10, size: 128, align: 8, elements: !927)
+!927 = !{!538, !928}
+!928 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoReflect", file: !10, line: 7, baseType: !929, size: 64, align: 64, offset: 64)
+!929 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !930, size: 64)
+!930 = !DISubroutineType(types: !931)
+!931 = !{!932, !31}
+!932 = !DICompositeType(tag: DW_TAG_structure_type, name: "Message", file: !496, line: 7, size: 128, align: 8, elements: !933)
+!933 = !{!934, !878}
+!934 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !935, size: 64, align: 64)
+!935 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !936, size: 64)
+!936 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,FieldDescriptor)void,*func(*void)MessageDescriptor,*func(*void,FieldDescriptor)Value,*func(*void)RawFields,*func(*void,FieldDescriptor)bool,*func(*void)ProtoMessage,*func(*void)bool,*func(*void,FieldDescriptor)Value,*func(*void)Message,*func(*void,FieldDescriptor)Value,*func(*void)*struct{NoUnkeyedLiterals,uint64,*__go_descriptor,*__go_descriptor,*__go_descriptor,*__go_descriptor,*__go_descriptor},*func(*void,*__go_descriptor)void,*func(*void,FieldDescriptor,Value)void,*func(*void,RawFields)void,*func(*void)MessageType,*func(*void,OneofDescriptor)FieldDescriptor}", file: !10, size: 1088, align: 8, elements: !937)
+!937 = !{!538, !938, !1300, !1301, !1305, !1312, !1316, !1317, !1318, !1319, !1320, !1321, !1498, !1509, !1513, !1517, !1530}
+!938 = !DIDerivedType(tag: DW_TAG_member, name: "Clear", file: !10, line: 7, baseType: !939, size: 64, align: 64, offset: 64)
+!939 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !940, size: 64)
+!940 = !DISubroutineType(types: !941)
+!941 = !{!32, !31, !942}
+!942 = !DICompositeType(tag: DW_TAG_structure_type, name: "FieldDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !943)
+!943 = !{!944, !878}
+!944 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !945, size: 64, align: 64)
+!945 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !946, size: 64)
+!946 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)Cardinality,*func(*void)MessageDescriptor,*func(*void)OneofDescriptor,*func(*void)Value,*func(*void)EnumValueDescriptor,*func(*void)EnumDescriptor,*func(*void)FullName,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)int,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)string,*func(*void)Kind,*func(*void)FieldDescriptor,*func(*void)FieldDescriptor,*func(*void)MessageDescriptor,*func(*void)Name,*func(*void)Number,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,FieldDescriptor)void,*func(*void)Syntax,*func(*void)string}", file: !10, size: 2112, align: 8, elements: !947)
+!947 = !{!538, !948, !953, !957, !1230, !1239, !1260, !1264, !1265, !1266, !1267, !1268, !1269, !1270, !1271, !1272, !1273, !1274, !1275, !1276, !1277, !1282, !1286, !1287, !1288, !1289, !1293, !1294, !1295, !1296, !1297, !1298, !1299}
+!948 = !DIDerivedType(tag: DW_TAG_member, name: "Cardinality", file: !10, line: 7, baseType: !949, size: 64, align: 64, offset: 64)
+!949 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !950, size: 64)
+!950 = !DISubroutineType(types: !951)
+!951 = !{!952, !31}
+!952 = !DIBasicType(name: "Cardinality", size: 8, encoding: DW_ATE_signed)
+!953 = !DIDerivedType(tag: DW_TAG_member, name: "ContainingMessage", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 128)
+!954 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !955, size: 64)
+!955 = !DISubroutineType(types: !956)
+!956 = !{!880, !31}
+!957 = !DIDerivedType(tag: DW_TAG_member, name: "ContainingOneof", file: !10, line: 7, baseType: !958, size: 64, align: 64, offset: 192)
+!958 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !959, size: 64)
+!959 = !DISubroutineType(types: !960)
+!960 = !{!961, !31}
+!961 = !DICompositeType(tag: DW_TAG_structure_type, name: "OneofDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !962)
+!962 = !{!963, !878}
+!963 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !964, size: 64, align: 64)
+!964 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !965, size: 64)
+!965 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FieldDescriptors,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)bool,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,OneofDescriptor)void,*func(*void)Syntax}", file: !10, size: 832, align: 8, elements: !966)
+!966 = !{!538, !967, !1007, !1008, !1009, !1010, !1011, !1012, !1013, !1223, !1224, !1225, !1229}
+!967 = !DIDerivedType(tag: DW_TAG_member, name: "Fields", file: !10, line: 7, baseType: !968, size: 64, align: 64, offset: 64)
+!968 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !969, size: 64)
+!969 = !DISubroutineType(types: !970)
+!970 = !{!971, !31}
+!971 = !DICompositeType(tag: DW_TAG_structure_type, name: "FieldDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !972)
+!972 = !{!973, !878}
+!973 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !974, size: 64, align: 64)
+!974 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !975, size: 64)
+!975 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,string)FieldDescriptor,*func(*void,Name)FieldDescriptor,*func(*void,Number)FieldDescriptor,*func(*void,string)FieldDescriptor,*func(*void,int)FieldDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 512, align: 8, elements: !976)
+!976 = !{!538, !977, !981, !985, !990, !991, !995, !996}
+!977 = !DIDerivedType(tag: DW_TAG_member, name: "ByJSONName", file: !10, line: 7, baseType: !978, size: 64, align: 64, offset: 64)
+!978 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !979, size: 64)
+!979 = !DISubroutineType(types: !980)
+!980 = !{!942, !31, !515}
+!981 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !982, size: 64, align: 64, offset: 128)
+!982 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !983, size: 64)
+!983 = !DISubroutineType(types: !984)
+!984 = !{!942, !31, !917}
+!985 = !DIDerivedType(tag: DW_TAG_member, name: "ByNumber", file: !10, line: 7, baseType: !986, size: 64, align: 64, offset: 192)
+!986 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !987, size: 64)
+!987 = !DISubroutineType(types: !988)
+!988 = !{!942, !31, !989}
+!989 = !DIBasicType(name: "Number", size: 32, encoding: DW_ATE_signed)
+!990 = !DIDerivedType(tag: DW_TAG_member, name: "ByTextName", file: !10, line: 7, baseType: !978, size: 64, align: 64, offset: 256)
+!991 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !992, size: 64, align: 64, offset: 320)
+!992 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !993, size: 64)
+!993 = !DISubroutineType(types: !994)
+!994 = !{!942, !31, !28}
+!995 = !DIDerivedType(tag: DW_TAG_member, name: "Len", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 384)
+!996 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 448)
+!997 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !998, size: 64)
+!998 = !DISubroutineType(types: !999)
+!999 = !{!32, !31, !1000}
+!1000 = !DICompositeType(tag: DW_TAG_structure_type, name: "DoNotImplement", file: !496, line: 7, size: 128, align: 8, elements: !1001)
+!1001 = !{!1002, !878}
+!1002 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1003, size: 64, align: 64)
+!1003 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1004, size: 64)
+!1004 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,DoNotImplement)void}", file: !10, size: 128, align: 8, elements: !1005)
+!1005 = !{!538, !1006}
+!1006 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 64)
+!1007 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 128)
+!1008 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 192)
+!1009 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 256)
+!1010 = !DIDerivedType(tag: DW_TAG_member, name: "IsSynthetic", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 320)
+!1011 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 384)
+!1012 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 448)
+!1013 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 512)
+!1014 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1015, size: 64)
+!1015 = !DISubroutineType(types: !1016)
+!1016 = !{!1017, !31}
+!1017 = !DICompositeType(tag: DW_TAG_structure_type, name: "Descriptor", file: !496, line: 7, size: 128, align: 8, elements: !1018)
+!1018 = !{!1019, !878}
+!1019 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1020, size: 64, align: 64)
+!1020 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1021, size: 64)
+!1021 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void)Syntax}", file: !10, size: 640, align: 8, elements: !1022)
+!1022 = !{!538, !906, !911, !912, !913, !1023, !1024, !1025, !1221, !1222}
+!1023 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 320)
+!1024 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 384)
+!1025 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 448)
+!1026 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1027, size: 64)
+!1027 = !DISubroutineType(types: !1028)
+!1028 = !{!1029, !31}
+!1029 = !DICompositeType(tag: DW_TAG_structure_type, name: "FileDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !1030)
+!1030 = !{!1031, !878}
+!1031 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1032, size: 64, align: 64)
+!1032 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1033, size: 64)
+!1033 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)EnumDescriptors,*func(*void)ExtensionDescriptors,*func(*void)FullName,*func(*void)FileImports,*func(*void)int,*func(*void)bool,*func(*void)MessageDescriptors,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)FullName,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void)string,*func(*void,DoNotImplement)void,*func(*void,FileDescriptor)void,*func(*void)ServiceDescriptors,*func(*void)SourceLocations,*func(*void)Syntax}", file: !10, size: 1216, align: 8, elements: !1034)
+!1034 = !{!538, !1035, !1036, !1050, !1051, !1072, !1073, !1074, !1092, !1093, !1094, !1095, !1096, !1097, !1098, !1099, !1103, !1179, !1220}
+!1035 = !DIDerivedType(tag: DW_TAG_member, name: "Enums", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 64)
+!1036 = !DIDerivedType(tag: DW_TAG_member, name: "Extensions", file: !10, line: 7, baseType: !1037, size: 64, align: 64, offset: 128)
+!1037 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1038, size: 64)
+!1038 = !DISubroutineType(types: !1039)
+!1039 = !{!1040, !31}
+!1040 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExtensionDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1041)
+!1041 = !{!1042, !878}
+!1042 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1043, size: 64, align: 64)
+!1043 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1044, size: 64)
+!1044 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)FieldDescriptor,*func(*void,int)FieldDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1045)
+!1045 = !{!538, !1046, !1047, !1048, !1049}
+!1046 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !982, size: 64, align: 64, offset: 64)
+!1047 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !992, size: 64, align: 64, offset: 128)
+!1048 = !DIDerivedType(tag: DW_TAG_member, name: "Len", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 192)
+!1049 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 256)
+!1050 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 192)
+!1051 = !DIDerivedType(tag: DW_TAG_member, name: "Imports", file: !10, line: 7, baseType: !1052, size: 64, align: 64, offset: 256)
+!1052 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1053, size: 64)
+!1053 = !DISubroutineType(types: !1054)
+!1054 = !{!1055, !31}
+!1055 = !DICompositeType(tag: DW_TAG_structure_type, name: "FileImports", file: !496, line: 7, size: 128, align: 8, elements: !1056)
+!1056 = !{!1057, !878}
+!1057 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1058, size: 64, align: 64)
+!1058 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1059, size: 64)
+!1059 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,int)FileImport,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 256, align: 8, elements: !1060)
+!1060 = !{!538, !1061, !1070, !1071}
+!1061 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1062, size: 64, align: 64, offset: 64)
+!1062 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1063, size: 64)
+!1063 = !DISubroutineType(types: !1064)
+!1064 = !{!1065, !31, !28}
+!1065 = !DICompositeType(tag: DW_TAG_structure_type, name: "FileImport", file: !496, line: 7, size: 192, align: 8, elements: !1066)
+!1066 = !{!1067, !1068, !1069}
+!1067 = !DIDerivedType(tag: DW_TAG_member, name: "FileDescriptor", file: !496, line: 7, baseType: !1029, size: 128, align: 64)
+!1068 = !DIDerivedType(tag: DW_TAG_member, name: "IsPublic", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 128)
+!1069 = !DIDerivedType(tag: DW_TAG_member, name: "IsWeak", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 136)
+!1070 = !DIDerivedType(tag: DW_TAG_member, name: "Len", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 128)
+!1071 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 192)
+!1072 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 320)
+!1073 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 384)
+!1074 = !DIDerivedType(tag: DW_TAG_member, name: "Messages", file: !10, line: 7, baseType: !1075, size: 64, align: 64, offset: 448)
+!1075 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1076, size: 64)
+!1076 = !DISubroutineType(types: !1077)
+!1077 = !{!1078, !31}
+!1078 = !DICompositeType(tag: DW_TAG_structure_type, name: "MessageDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1079)
+!1079 = !{!1080, !878}
+!1080 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1081, size: 64, align: 64)
+!1081 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1082, size: 64)
+!1082 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)MessageDescriptor,*func(*void,int)MessageDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1083)
+!1083 = !{!538, !1084, !1088, !1048, !1049}
+!1084 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !1085, size: 64, align: 64, offset: 64)
+!1085 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1086, size: 64)
+!1086 = !DISubroutineType(types: !1087)
+!1087 = !{!880, !31, !917}
+!1088 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1089, size: 64, align: 64, offset: 128)
+!1089 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1090, size: 64)
+!1090 = !DISubroutineType(types: !1091)
+!1091 = !{!880, !31, !28}
+!1092 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 512)
+!1093 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 576)
+!1094 = !DIDerivedType(tag: DW_TAG_member, name: "Package", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 640)
+!1095 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 704)
+!1096 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 768)
+!1097 = !DIDerivedType(tag: DW_TAG_member, name: "Path", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 832)
+!1098 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 896)
+!1099 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1100, size: 64, align: 64, offset: 960)
+!1100 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1101, size: 64)
+!1101 = !DISubroutineType(types: !1102)
+!1102 = !{!32, !31, !1029}
+!1103 = !DIDerivedType(tag: DW_TAG_member, name: "Services", file: !10, line: 7, baseType: !1104, size: 64, align: 64, offset: 1024)
+!1104 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1105, size: 64)
+!1105 = !DISubroutineType(types: !1106)
+!1106 = !{!1107, !31}
+!1107 = !DICompositeType(tag: DW_TAG_structure_type, name: "ServiceDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1108)
+!1108 = !{!1109, !878}
+!1109 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1110, size: 64, align: 64)
+!1110 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1111, size: 64)
+!1111 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)ServiceDescriptor,*func(*void,int)ServiceDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1112)
+!1112 = !{!538, !1113, !1175, !1048, !1049}
+!1113 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !1114, size: 64, align: 64, offset: 64)
+!1114 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1115, size: 64)
+!1115 = !DISubroutineType(types: !1116)
+!1116 = !{!1117, !31, !917}
+!1117 = !DICompositeType(tag: DW_TAG_structure_type, name: "ServiceDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !1118)
+!1118 = !{!1119, !878}
+!1119 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1120, size: 64, align: 64)
+!1120 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1121, size: 64)
+!1121 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)MethodDescriptors,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,ServiceDescriptor)void,*func(*void)Syntax}", file: !10, size: 768, align: 8, elements: !1122)
+!1122 = !{!538, !906, !911, !912, !1123, !1165, !1166, !1167, !1168, !1169, !1170, !1174}
+!1123 = !DIDerivedType(tag: DW_TAG_member, name: "Methods", file: !10, line: 7, baseType: !1124, size: 64, align: 64, offset: 256)
+!1124 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1125, size: 64)
+!1125 = !DISubroutineType(types: !1126)
+!1126 = !{!1127, !31}
+!1127 = !DICompositeType(tag: DW_TAG_structure_type, name: "MethodDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1128)
+!1128 = !{!1129, !878}
+!1129 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1130, size: 64, align: 64)
+!1130 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1131, size: 64)
+!1131 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)MethodDescriptor,*func(*void,int)MethodDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1132)
+!1132 = !{!538, !1133, !1161, !1048, !1049}
+!1133 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !1134, size: 64, align: 64, offset: 64)
+!1134 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1135, size: 64)
+!1135 = !DISubroutineType(types: !1136)
+!1136 = !{!1137, !31, !917}
+!1137 = !DICompositeType(tag: DW_TAG_structure_type, name: "MethodDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !1138)
+!1138 = !{!1139, !878}
+!1139 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1140, size: 64, align: 64)
+!1140 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1141, size: 64)
+!1141 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FullName,*func(*void)int,*func(*void)MessageDescriptor,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)Name,*func(*void)ProtoMessage,*func(*void)MessageDescriptor,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,MethodDescriptor)void,*func(*void)Syntax}", file: !10, size: 960, align: 8, elements: !1142)
+!1142 = !{!538, !906, !911, !1143, !1009, !1144, !1145, !1146, !1147, !1148, !1149, !1150, !1151, !1152, !1156}
+!1143 = !DIDerivedType(tag: DW_TAG_member, name: "Input", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 192)
+!1144 = !DIDerivedType(tag: DW_TAG_member, name: "IsStreamingClient", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 320)
+!1145 = !DIDerivedType(tag: DW_TAG_member, name: "IsStreamingServer", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 384)
+!1146 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 448)
+!1147 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 512)
+!1148 = !DIDerivedType(tag: DW_TAG_member, name: "Output", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 576)
+!1149 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 640)
+!1150 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 704)
+!1151 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 768)
+!1152 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1153, size: 64, align: 64, offset: 832)
+!1153 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1154, size: 64)
+!1154 = !DISubroutineType(types: !1155)
+!1155 = !{!32, !31, !1137}
+!1156 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 896)
+!1157 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1158, size: 64)
+!1158 = !DISubroutineType(types: !1159)
+!1159 = !{!1160, !31}
+!1160 = !DIBasicType(name: "Syntax", size: 8, encoding: DW_ATE_signed)
+!1161 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1162, size: 64, align: 64, offset: 128)
+!1162 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1163, size: 64)
+!1163 = !DISubroutineType(types: !1164)
+!1164 = !{!1137, !31, !28}
+!1165 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 320)
+!1166 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 384)
+!1167 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 448)
+!1168 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 512)
+!1169 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 576)
+!1170 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1171, size: 64, align: 64, offset: 640)
+!1171 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1172, size: 64)
+!1172 = !DISubroutineType(types: !1173)
+!1173 = !{!32, !31, !1117}
+!1174 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 704)
+!1175 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1176, size: 64, align: 64, offset: 128)
+!1176 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1177, size: 64)
+!1177 = !DISubroutineType(types: !1178)
+!1178 = !{!1117, !31, !28}
+!1179 = !DIDerivedType(tag: DW_TAG_member, name: "SourceLocations", file: !10, line: 7, baseType: !1180, size: 64, align: 64, offset: 1088)
+!1180 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1181, size: 64)
+!1181 = !DISubroutineType(types: !1182)
+!1182 = !{!1183, !31}
+!1183 = !DICompositeType(tag: DW_TAG_structure_type, name: "SourceLocations", file: !496, line: 7, size: 128, align: 8, elements: !1184)
+!1184 = !{!1185, !878}
+!1185 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1186, size: 64, align: 64)
+!1186 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1187, size: 64)
+!1187 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Descriptor)SourceLocation,*func(*void,SourcePath)SourceLocation,*func(*void,int)SourceLocation,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 384, align: 8, elements: !1188)
+!1188 = !{!538, !1189, !1210, !1214, !1218, !1219}
+!1189 = !DIDerivedType(tag: DW_TAG_member, name: "ByDescriptor", file: !10, line: 7, baseType: !1190, size: 64, align: 64, offset: 64)
+!1190 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1191, size: 64)
+!1191 = !DISubroutineType(types: !1192)
+!1192 = !{!1193, !31, !1017}
+!1193 = !DICompositeType(tag: DW_TAG_structure_type, name: "SourceLocation", file: !496, line: 7, size: 960, align: 8, elements: !1194)
+!1194 = !{!1195, !1202, !1203, !1204, !1205, !1206, !1207, !1208, !1209}
+!1195 = !DIDerivedType(tag: DW_TAG_member, name: "Path", file: !496, line: 7, baseType: !1196, size: 192, align: 64)
+!1196 = !DICompositeType(tag: DW_TAG_structure_type, name: "SourcePath", file: !496, line: 7, size: 192, align: 8, elements: !1197)
+!1197 = !{!1198, !1200, !1201}
+!1198 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !496, line: 1, baseType: !1199, size: 64, align: 64)
+!1199 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !513, size: 64)
+!1200 = !DIDerivedType(tag: DW_TAG_member, name: "__count", file: !496, line: 1, baseType: !28, size: 64, align: 64, offset: 64)
+!1201 = !DIDerivedType(tag: DW_TAG_member, name: "__capacity", file: !496, line: 1, baseType: !28, size: 64, align: 64, offset: 128)
+!1202 = !DIDerivedType(tag: DW_TAG_member, name: "StartLine", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 192)
+!1203 = !DIDerivedType(tag: DW_TAG_member, name: "StartColumn", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 256)
+!1204 = !DIDerivedType(tag: DW_TAG_member, name: "EndLine", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 320)
+!1205 = !DIDerivedType(tag: DW_TAG_member, name: "EndColumn", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 384)
+!1206 = !DIDerivedType(tag: DW_TAG_member, name: "LeadingDetachedComments", file: !496, line: 7, baseType: !599, size: 192, align: 64, offset: 448)
+!1207 = !DIDerivedType(tag: DW_TAG_member, name: "LeadingComments", file: !496, line: 7, baseType: !515, size: 128, align: 64, offset: 640)
+!1208 = !DIDerivedType(tag: DW_TAG_member, name: "TrailingComments", file: !496, line: 7, baseType: !515, size: 128, align: 64, offset: 768)
+!1209 = !DIDerivedType(tag: DW_TAG_member, name: "Next", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 896)
+!1210 = !DIDerivedType(tag: DW_TAG_member, name: "ByPath", file: !10, line: 7, baseType: !1211, size: 64, align: 64, offset: 128)
+!1211 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1212, size: 64)
+!1212 = !DISubroutineType(types: !1213)
+!1213 = !{!1193, !31, !1196}
+!1214 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1215, size: 64, align: 64, offset: 192)
+!1215 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1216, size: 64)
+!1216 = !DISubroutineType(types: !1217)
+!1217 = !{!1193, !31, !28}
+!1218 = !DIDerivedType(tag: DW_TAG_member, name: "Len", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 256)
+!1219 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 320)
+!1220 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 1152)
+!1221 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 512)
+!1222 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 576)
+!1223 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 576)
+!1224 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 640)
+!1225 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1226, size: 64, align: 64, offset: 704)
+!1226 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1227, size: 64)
+!1227 = !DISubroutineType(types: !1228)
+!1228 = !{!32, !31, !961}
+!1229 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 768)
+!1230 = !DIDerivedType(tag: DW_TAG_member, name: "Default", file: !10, line: 7, baseType: !1231, size: 64, align: 64, offset: 256)
+!1231 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1232, size: 64)
+!1232 = !DISubroutineType(types: !1233)
+!1233 = !{!1234, !31}
+!1234 = !DICompositeType(tag: DW_TAG_structure_type, name: "Value", file: !496, line: 7, size: 192, align: 8, elements: !1235)
+!1235 = !{!695, !1236, !1237, !1238}
+!1236 = !DIDerivedType(tag: DW_TAG_member, name: "typ", file: !496, line: 7, baseType: !31, size: 64, align: 64)
+!1237 = !DIDerivedType(tag: DW_TAG_member, name: "ptr", file: !496, line: 7, baseType: !31, size: 64, align: 64, offset: 64)
+!1238 = !DIDerivedType(tag: DW_TAG_member, name: "num", file: !496, line: 7, baseType: !22, size: 64, align: 64, offset: 128)
+!1239 = !DIDerivedType(tag: DW_TAG_member, name: "DefaultEnumValue", file: !10, line: 7, baseType: !1240, size: 64, align: 64, offset: 320)
+!1240 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1241, size: 64)
+!1241 = !DISubroutineType(types: !1242)
+!1242 = !{!1243, !31}
+!1243 = !DICompositeType(tag: DW_TAG_structure_type, name: "EnumValueDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !1244)
+!1244 = !{!1245, !878}
+!1245 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1246, size: 64, align: 64)
+!1246 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1247, size: 64)
+!1247 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)FullName,*func(*void)int,*func(*void)bool,*func(*void)Name,*func(*void)EnumNumber,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,EnumValueDescriptor)void,*func(*void)Syntax}", file: !10, size: 768, align: 8, elements: !1248)
+!1248 = !{!538, !906, !911, !912, !913, !1249, !1166, !1254, !1255, !1169, !1256, !1174}
+!1249 = !DIDerivedType(tag: DW_TAG_member, name: "Number", file: !10, line: 7, baseType: !1250, size: 64, align: 64, offset: 320)
+!1250 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1251, size: 64)
+!1251 = !DISubroutineType(types: !1252)
+!1252 = !{!1253, !31}
+!1253 = !DIBasicType(name: "EnumNumber", size: 32, encoding: DW_ATE_signed)
+!1254 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 448)
+!1255 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 512)
+!1256 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1257, size: 64, align: 64, offset: 640)
+!1257 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1258, size: 64)
+!1258 = !DISubroutineType(types: !1259)
+!1259 = !{!32, !31, !1243}
+!1260 = !DIDerivedType(tag: DW_TAG_member, name: "Enum", file: !10, line: 7, baseType: !1261, size: 64, align: 64, offset: 384)
+!1261 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1262, size: 64)
+!1262 = !DISubroutineType(types: !1263)
+!1263 = !{!900, !31}
+!1264 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 448)
+!1265 = !DIDerivedType(tag: DW_TAG_member, name: "HasDefault", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 512)
+!1266 = !DIDerivedType(tag: DW_TAG_member, name: "HasJSONName", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 576)
+!1267 = !DIDerivedType(tag: DW_TAG_member, name: "HasOptionalKeyword", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 640)
+!1268 = !DIDerivedType(tag: DW_TAG_member, name: "HasPresence", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 704)
+!1269 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 768)
+!1270 = !DIDerivedType(tag: DW_TAG_member, name: "IsExtension", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 832)
+!1271 = !DIDerivedType(tag: DW_TAG_member, name: "IsList", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 896)
+!1272 = !DIDerivedType(tag: DW_TAG_member, name: "IsMap", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 960)
+!1273 = !DIDerivedType(tag: DW_TAG_member, name: "IsPacked", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1024)
+!1274 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1088)
+!1275 = !DIDerivedType(tag: DW_TAG_member, name: "IsWeak", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1152)
+!1276 = !DIDerivedType(tag: DW_TAG_member, name: "JSONName", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 1216)
+!1277 = !DIDerivedType(tag: DW_TAG_member, name: "Kind", file: !10, line: 7, baseType: !1278, size: 64, align: 64, offset: 1280)
+!1278 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1279, size: 64)
+!1279 = !DISubroutineType(types: !1280)
+!1280 = !{!1281, !31}
+!1281 = !DIBasicType(name: "Kind", size: 8, encoding: DW_ATE_signed)
+!1282 = !DIDerivedType(tag: DW_TAG_member, name: "MapKey", file: !10, line: 7, baseType: !1283, size: 64, align: 64, offset: 1344)
+!1283 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1284, size: 64)
+!1284 = !DISubroutineType(types: !1285)
+!1285 = !{!942, !31}
+!1286 = !DIDerivedType(tag: DW_TAG_member, name: "MapValue", file: !10, line: 7, baseType: !1283, size: 64, align: 64, offset: 1408)
+!1287 = !DIDerivedType(tag: DW_TAG_member, name: "Message", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 1472)
+!1288 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 1536)
+!1289 = !DIDerivedType(tag: DW_TAG_member, name: "Number", file: !10, line: 7, baseType: !1290, size: 64, align: 64, offset: 1600)
+!1290 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1291, size: 64)
+!1291 = !DISubroutineType(types: !1292)
+!1292 = !{!989, !31}
+!1293 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 1664)
+!1294 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 1728)
+!1295 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 1792)
+!1296 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 1856)
+!1297 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 1920)
+!1298 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 1984)
+!1299 = !DIDerivedType(tag: DW_TAG_member, name: "TextName", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 2048)
+!1300 = !DIDerivedType(tag: DW_TAG_member, name: "Descriptor", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 128)
+!1301 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1302, size: 64, align: 64, offset: 192)
+!1302 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1303, size: 64)
+!1303 = !DISubroutineType(types: !1304)
+!1304 = !{!1234, !31, !942}
+!1305 = !DIDerivedType(tag: DW_TAG_member, name: "GetUnknown", file: !10, line: 7, baseType: !1306, size: 64, align: 64, offset: 256)
+!1306 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1307, size: 64)
+!1307 = !DISubroutineType(types: !1308)
+!1308 = !{!1309, !31}
+!1309 = !DICompositeType(tag: DW_TAG_structure_type, name: "RawFields", file: !496, line: 7, size: 192, align: 8, elements: !1310)
+!1310 = !{!1311, !1200, !1201}
+!1311 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !496, line: 1, baseType: !518, size: 64, align: 64)
+!1312 = !DIDerivedType(tag: DW_TAG_member, name: "Has", file: !10, line: 7, baseType: !1313, size: 64, align: 64, offset: 320)
+!1313 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1314, size: 64)
+!1314 = !DISubroutineType(types: !1315)
+!1315 = !{!13, !31, !942}
+!1316 = !DIDerivedType(tag: DW_TAG_member, name: "Interface", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 384)
+!1317 = !DIDerivedType(tag: DW_TAG_member, name: "IsValid", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 448)
+!1318 = !DIDerivedType(tag: DW_TAG_member, name: "Mutable", file: !10, line: 7, baseType: !1302, size: 64, align: 64, offset: 512)
+!1319 = !DIDerivedType(tag: DW_TAG_member, name: "New", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 576)
+!1320 = !DIDerivedType(tag: DW_TAG_member, name: "NewField", file: !10, line: 7, baseType: !1302, size: 64, align: 64, offset: 640)
+!1321 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoMethods", file: !10, line: 7, baseType: !1322, size: 64, align: 64, offset: 704)
+!1322 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1323, size: 64)
+!1323 = !DISubroutineType(types: !1324)
+!1324 = !{!1325, !31}
+!1325 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1326, size: 64)
+!1326 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,uint64,*__go_descriptor,*__go_descriptor,*__go_descriptor,*__go_descriptor,*__go_descriptor}", file: !10, size: 384, align: 8, elements: !1327)
+!1327 = !{!1328, !1329, !1330, !1345, !1364, !1470, !1482}
+!1328 = !DIDerivedType(tag: DW_TAG_member, name: "NoUnkeyedLiterals", file: !10, line: 7, baseType: !694, align: 8)
+!1329 = !DIDerivedType(tag: DW_TAG_member, name: "Flags", file: !10, line: 7, baseType: !22, size: 64, align: 64)
+!1330 = !DIDerivedType(tag: DW_TAG_member, name: "Size", file: !10, line: 7, baseType: !1331, size: 64, align: 64, offset: 64)
+!1331 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1332, size: 64)
+!1332 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1333)
+!1333 = !{!1334}
+!1334 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1335, size: 64, align: 64)
+!1335 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1336, size: 64)
+!1336 = !DISubroutineType(types: !1337)
+!1337 = !{!1338, !1341}
+!1338 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,int}", file: !10, size: 64, align: 8, elements: !1339)
+!1339 = !{!1328, !1340}
+!1340 = !DIDerivedType(tag: DW_TAG_member, name: "Size", file: !10, line: 7, baseType: !28, size: 64, align: 64)
+!1341 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,Message,uint8}", file: !10, size: 192, align: 8, elements: !1342)
+!1342 = !{!1328, !1343, !1344}
+!1343 = !DIDerivedType(tag: DW_TAG_member, name: "Message", file: !10, line: 7, baseType: !932, size: 128, align: 64)
+!1344 = !DIDerivedType(tag: DW_TAG_member, name: "Flags", file: !10, line: 7, baseType: !16, size: 8, align: 8, offset: 128)
+!1345 = !DIDerivedType(tag: DW_TAG_member, name: "Marshal", file: !10, line: 7, baseType: !1346, size: 64, align: 64, offset: 128)
+!1346 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1347, size: 64)
+!1347 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1348)
+!1348 = !{!1349}
+!1349 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1350, size: 64, align: 64)
+!1350 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1351, size: 64)
+!1351 = !DISubroutineType(types: !1352)
+!1352 = !{!1353, !1360}
+!1353 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{struct{NoUnkeyedLiterals,struct{*uint8,int,int}},error}", file: !10, size: 320, align: 8, elements: !1354)
+!1354 = !{!1355, !1359}
+!1355 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1356, size: 192, align: 64)
+!1356 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,struct{*uint8,int,int}}", file: !10, size: 192, align: 8, elements: !1357)
+!1357 = !{!1328, !1358}
+!1358 = !DIDerivedType(tag: DW_TAG_member, name: "Buf", file: !10, line: 7, baseType: !521, size: 192, align: 64)
+!1359 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !587, size: 128, align: 64, offset: 192)
+!1360 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,Message,struct{*uint8,int,int},uint8}", file: !10, size: 384, align: 8, elements: !1361)
+!1361 = !{!1328, !1343, !1362, !1363}
+!1362 = !DIDerivedType(tag: DW_TAG_member, name: "Buf", file: !10, line: 7, baseType: !521, size: 192, align: 64, offset: 128)
+!1363 = !DIDerivedType(tag: DW_TAG_member, name: "Flags", file: !10, line: 7, baseType: !16, size: 8, align: 8, offset: 320)
+!1364 = !DIDerivedType(tag: DW_TAG_member, name: "Unmarshal", file: !10, line: 7, baseType: !1365, size: 64, align: 64, offset: 192)
+!1365 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1366, size: 64)
+!1366 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1367)
+!1367 = !{!1368}
+!1368 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1369, size: 64, align: 64)
+!1369 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1370, size: 64)
+!1370 = !DISubroutineType(types: !1371)
+!1371 = !{!1372, !1379}
+!1372 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{struct{NoUnkeyedLiterals,uint8},error}", file: !10, size: 192, align: 8, elements: !1373)
+!1373 = !{!1374, !1378}
+!1374 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1375, size: 8, align: 8)
+!1375 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,uint8}", file: !10, size: 8, align: 1, elements: !1376)
+!1376 = !{!1328, !1377}
+!1377 = !DIDerivedType(tag: DW_TAG_member, name: "Flags", file: !10, line: 7, baseType: !16, size: 8, align: 8)
+!1378 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !587, size: 128, align: 64, offset: 64)
+!1379 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,Message,struct{*uint8,int,int},uint8,struct{*struct{*_type,*func(*void,FullName)struct{ExtensionType,error},*func(*void,FullName,Number)struct{ExtensionType,error}},*void},int}", file: !10, size: 576, align: 8, elements: !1380)
+!1380 = !{!1328, !1343, !1362, !1363, !1381, !1469}
+!1381 = !DIDerivedType(tag: DW_TAG_member, name: "Resolver", file: !10, line: 7, baseType: !1382, size: 128, align: 64, offset: 384)
+!1382 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*struct{*_type,*func(*void,FullName)struct{ExtensionType,error},*func(*void,FullName,Number)struct{ExtensionType,error}},*void}", file: !10, size: 128, align: 8, elements: !1383)
+!1383 = !{!1384, !1468}
+!1384 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !10, line: 7, baseType: !1385, size: 64, align: 64)
+!1385 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1386, size: 64)
+!1386 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,FullName)struct{ExtensionType,error},*func(*void,FullName,Number)struct{ExtensionType,error}}", file: !10, size: 192, align: 8, elements: !1387)
+!1387 = !{!538, !1388, !1464}
+!1388 = !DIDerivedType(tag: DW_TAG_member, name: "FindExtensionByName", file: !10, line: 7, baseType: !1389, size: 64, align: 64, offset: 64)
+!1389 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1390, size: 64)
+!1390 = !DISubroutineType(types: !1391)
+!1391 = !{!1392, !31, !910}
+!1392 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{ExtensionType,error}", file: !10, size: 256, align: 8, elements: !1393)
+!1393 = !{!1394, !586}
+!1394 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1395, size: 128, align: 64)
+!1395 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExtensionType", file: !496, line: 7, size: 128, align: 8, elements: !1396)
+!1396 = !{!1397, !878}
+!1397 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1398, size: 64, align: 64)
+!1398 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1399, size: 64)
+!1399 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Value)any,*func(*void,any)bool,*func(*void,Value)bool,*func(*void)Value,*func(*void)ExtensionTypeDescriptor,*func(*void,any)Value,*func(*void)Value}", file: !10, size: 512, align: 8, elements: !1400)
+!1400 = !{!538, !1401, !1408, !1412, !1416, !1417, !1459, !1463}
+!1401 = !DIDerivedType(tag: DW_TAG_member, name: "InterfaceOf", file: !10, line: 7, baseType: !1402, size: 64, align: 64, offset: 64)
+!1402 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1403, size: 64)
+!1403 = !DISubroutineType(types: !1404)
+!1404 = !{!1405, !31, !1234}
+!1405 = !DICompositeType(tag: DW_TAG_structure_type, name: "any", file: !496, line: 8, size: 128, align: 8, elements: !1406)
+!1406 = !{!1407, !878}
+!1407 = !DIDerivedType(tag: DW_TAG_member, name: "__type_descriptor", file: !496, line: 1, baseType: !539, size: 64, align: 64)
+!1408 = !DIDerivedType(tag: DW_TAG_member, name: "IsValidInterface", file: !10, line: 7, baseType: !1409, size: 64, align: 64, offset: 128)
+!1409 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1410, size: 64)
+!1410 = !DISubroutineType(types: !1411)
+!1411 = !{!13, !31, !1405}
+!1412 = !DIDerivedType(tag: DW_TAG_member, name: "IsValidValue", file: !10, line: 7, baseType: !1413, size: 64, align: 64, offset: 192)
+!1413 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1414, size: 64)
+!1414 = !DISubroutineType(types: !1415)
+!1415 = !{!13, !31, !1234}
+!1416 = !DIDerivedType(tag: DW_TAG_member, name: "New", file: !10, line: 7, baseType: !1231, size: 64, align: 64, offset: 256)
+!1417 = !DIDerivedType(tag: DW_TAG_member, name: "TypeDescriptor", file: !10, line: 7, baseType: !1418, size: 64, align: 64, offset: 320)
+!1418 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1419, size: 64)
+!1419 = !DISubroutineType(types: !1420)
+!1420 = !{!1421, !31}
+!1421 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExtensionTypeDescriptor", file: !496, line: 7, size: 128, align: 8, elements: !1422)
+!1422 = !{!1423, !878}
+!1423 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1424, size: 64, align: 64)
+!1424 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1425, size: 64)
+!1425 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)Cardinality,*func(*void)MessageDescriptor,*func(*void)OneofDescriptor,*func(*void)Value,*func(*void)EnumValueDescriptor,*func(*void)FieldDescriptor,*func(*void)EnumDescriptor,*func(*void)FullName,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)int,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)bool,*func(*void)string,*func(*void)Kind,*func(*void)FieldDescriptor,*func(*void)FieldDescriptor,*func(*void)MessageDescriptor,*func(*void)Name,*func(*void)Number,*func(*void)ProtoMessage,*func(*void)Descriptor,*func(*void)FileDescriptor,*func(*void,DoNotImplement)void,*func(*void,FieldDescriptor)void,*func(*void)Syntax,*func(*void)string,*func(*void)ExtensionType}", file: !10, size: 2240, align: 8, elements: !1426)
+!1426 = !{!538, !948, !953, !957, !1230, !1239, !1427, !1428, !1429, !1430, !1431, !1432, !1433, !1434, !1435, !1436, !1437, !1438, !1439, !1440, !1441, !1442, !1443, !1444, !1445, !1446, !1447, !1448, !1449, !1450, !1451, !1452, !1453, !1454, !1455}
+!1427 = !DIDerivedType(tag: DW_TAG_member, name: "Descriptor", file: !10, line: 7, baseType: !1283, size: 64, align: 64, offset: 384)
+!1428 = !DIDerivedType(tag: DW_TAG_member, name: "Enum", file: !10, line: 7, baseType: !1261, size: 64, align: 64, offset: 448)
+!1429 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 512)
+!1430 = !DIDerivedType(tag: DW_TAG_member, name: "HasDefault", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 576)
+!1431 = !DIDerivedType(tag: DW_TAG_member, name: "HasJSONName", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 640)
+!1432 = !DIDerivedType(tag: DW_TAG_member, name: "HasOptionalKeyword", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 704)
+!1433 = !DIDerivedType(tag: DW_TAG_member, name: "HasPresence", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 768)
+!1434 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 832)
+!1435 = !DIDerivedType(tag: DW_TAG_member, name: "IsExtension", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 896)
+!1436 = !DIDerivedType(tag: DW_TAG_member, name: "IsList", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 960)
+!1437 = !DIDerivedType(tag: DW_TAG_member, name: "IsMap", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1024)
+!1438 = !DIDerivedType(tag: DW_TAG_member, name: "IsPacked", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1088)
+!1439 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1152)
+!1440 = !DIDerivedType(tag: DW_TAG_member, name: "IsWeak", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 1216)
+!1441 = !DIDerivedType(tag: DW_TAG_member, name: "JSONName", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 1280)
+!1442 = !DIDerivedType(tag: DW_TAG_member, name: "Kind", file: !10, line: 7, baseType: !1278, size: 64, align: 64, offset: 1344)
+!1443 = !DIDerivedType(tag: DW_TAG_member, name: "MapKey", file: !10, line: 7, baseType: !1283, size: 64, align: 64, offset: 1408)
+!1444 = !DIDerivedType(tag: DW_TAG_member, name: "MapValue", file: !10, line: 7, baseType: !1283, size: 64, align: 64, offset: 1472)
+!1445 = !DIDerivedType(tag: DW_TAG_member, name: "Message", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 1536)
+!1446 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 1600)
+!1447 = !DIDerivedType(tag: DW_TAG_member, name: "Number", file: !10, line: 7, baseType: !1290, size: 64, align: 64, offset: 1664)
+!1448 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 1728)
+!1449 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 1792)
+!1450 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 1856)
+!1451 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 1920)
+!1452 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !939, size: 64, align: 64, offset: 1984)
+!1453 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 2048)
+!1454 = !DIDerivedType(tag: DW_TAG_member, name: "TextName", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 2112)
+!1455 = !DIDerivedType(tag: DW_TAG_member, name: "Type", file: !10, line: 7, baseType: !1456, size: 64, align: 64, offset: 2176)
+!1456 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1457, size: 64)
+!1457 = !DISubroutineType(types: !1458)
+!1458 = !{!1395, !31}
+!1459 = !DIDerivedType(tag: DW_TAG_member, name: "ValueOf", file: !10, line: 7, baseType: !1460, size: 64, align: 64, offset: 384)
+!1460 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1461, size: 64)
+!1461 = !DISubroutineType(types: !1462)
+!1462 = !{!1234, !31, !1405}
+!1463 = !DIDerivedType(tag: DW_TAG_member, name: "Zero", file: !10, line: 7, baseType: !1231, size: 64, align: 64, offset: 448)
+!1464 = !DIDerivedType(tag: DW_TAG_member, name: "FindExtensionByNumber", file: !10, line: 7, baseType: !1465, size: 64, align: 64, offset: 128)
+!1465 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1466, size: 64)
+!1466 = !DISubroutineType(types: !1467)
+!1467 = !{!1392, !31, !910, !989}
+!1468 = !DIDerivedType(tag: DW_TAG_member, name: "__object", file: !10, line: 1, baseType: !31, size: 64, align: 64, offset: 64)
+!1469 = !DIDerivedType(tag: DW_TAG_member, name: "Depth", file: !10, line: 7, baseType: !28, size: 64, align: 64, offset: 512)
+!1470 = !DIDerivedType(tag: DW_TAG_member, name: "Merge", file: !10, line: 7, baseType: !1471, size: 64, align: 64, offset: 256)
+!1471 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1472, size: 64)
+!1472 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1473)
+!1473 = !{!1474}
+!1474 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1475, size: 64, align: 64)
+!1475 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1476, size: 64)
+!1476 = !DISubroutineType(types: !1477)
+!1477 = !{!1375, !1478}
+!1478 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,Message,Message}", file: !10, size: 256, align: 8, elements: !1479)
+!1479 = !{!1328, !1480, !1481}
+!1480 = !DIDerivedType(tag: DW_TAG_member, name: "Source", file: !10, line: 7, baseType: !932, size: 128, align: 64)
+!1481 = !DIDerivedType(tag: DW_TAG_member, name: "Destination", file: !10, line: 7, baseType: !932, size: 128, align: 64, offset: 128)
+!1482 = !DIDerivedType(tag: DW_TAG_member, name: "CheckInitialized", file: !10, line: 7, baseType: !1483, size: 64, align: 64, offset: 320)
+!1483 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1484, size: 64)
+!1484 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1485)
+!1485 = !{!1486}
+!1486 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1487, size: 64, align: 64)
+!1487 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1488, size: 64)
+!1488 = !DISubroutineType(types: !1489)
+!1489 = !{!1490, !1496}
+!1490 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{struct{NoUnkeyedLiterals},error}", file: !10, size: 128, align: 8, elements: !1491)
+!1491 = !{!1492, !1495}
+!1492 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1493, align: 8)
+!1493 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals}", file: !10, align: 1, elements: !1494)
+!1494 = !{!1328}
+!1495 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !587, size: 128, align: 64)
+!1496 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{NoUnkeyedLiterals,Message}", file: !10, size: 128, align: 8, elements: !1497)
+!1497 = !{!1328, !1343}
+!1498 = !DIDerivedType(tag: DW_TAG_member, name: "Range", file: !10, line: 7, baseType: !1499, size: 64, align: 64, offset: 768)
+!1499 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1500, size: 64)
+!1500 = !DISubroutineType(types: !1501)
+!1501 = !{!32, !31, !1502}
+!1502 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1503, size: 64)
+!1503 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1504)
+!1504 = !{!1505}
+!1505 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1506, size: 64, align: 64)
+!1506 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1507, size: 64)
+!1507 = !DISubroutineType(types: !1508)
+!1508 = !{!13, !942, !1234}
+!1509 = !DIDerivedType(tag: DW_TAG_member, name: "Set", file: !10, line: 7, baseType: !1510, size: 64, align: 64, offset: 832)
+!1510 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1511, size: 64)
+!1511 = !DISubroutineType(types: !1512)
+!1512 = !{!32, !31, !942, !1234}
+!1513 = !DIDerivedType(tag: DW_TAG_member, name: "SetUnknown", file: !10, line: 7, baseType: !1514, size: 64, align: 64, offset: 896)
+!1514 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1515, size: 64)
+!1515 = !DISubroutineType(types: !1516)
+!1516 = !{!32, !31, !1309}
+!1517 = !DIDerivedType(tag: DW_TAG_member, name: "Type", file: !10, line: 7, baseType: !1518, size: 64, align: 64, offset: 960)
+!1518 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1519, size: 64)
+!1519 = !DISubroutineType(types: !1520)
+!1520 = !{!1521, !31}
+!1521 = !DICompositeType(tag: DW_TAG_structure_type, name: "MessageType", file: !496, line: 7, size: 128, align: 8, elements: !1522)
+!1522 = !{!1523, !878}
+!1523 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1524, size: 64, align: 64)
+!1524 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1525, size: 64)
+!1525 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)MessageDescriptor,*func(*void)Message,*func(*void)Message}", file: !10, size: 256, align: 8, elements: !1526)
+!1526 = !{!538, !1527, !1528, !1529}
+!1527 = !DIDerivedType(tag: DW_TAG_member, name: "Descriptor", file: !10, line: 7, baseType: !954, size: 64, align: 64, offset: 64)
+!1528 = !DIDerivedType(tag: DW_TAG_member, name: "New", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 128)
+!1529 = !DIDerivedType(tag: DW_TAG_member, name: "Zero", file: !10, line: 7, baseType: !31, size: 64, align: 64, offset: 192)
+!1530 = !DIDerivedType(tag: DW_TAG_member, name: "WhichOneof", file: !10, line: 7, baseType: !1531, size: 64, align: 64, offset: 1024)
+!1531 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1532, size: 64)
+!1532 = !DISubroutineType(types: !1533)
+!1533 = !{!942, !31, !961}
+!1534 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 384)
+!1535 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1536, size: 64, align: 64, offset: 576)
+!1536 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1537, size: 64)
+!1537 = !DISubroutineType(types: !1538)
+!1538 = !{!32, !31, !900}
+!1539 = !DIDerivedType(tag: DW_TAG_member, name: "ReservedNames", file: !10, line: 7, baseType: !1540, size: 64, align: 64, offset: 640)
+!1540 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1541, size: 64)
+!1541 = !DISubroutineType(types: !1542)
+!1542 = !{!1543, !31}
+!1543 = !DICompositeType(tag: DW_TAG_structure_type, name: "Names", file: !496, line: 7, size: 128, align: 8, elements: !1544)
+!1544 = !{!1545, !878}
+!1545 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1546, size: 64, align: 64)
+!1546 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1547, size: 64)
+!1547 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,int)Name,*func(*void,Name)bool,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1548)
+!1548 = !{!538, !1549, !1553, !1048, !1049}
+!1549 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1550, size: 64, align: 64, offset: 64)
+!1550 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1551, size: 64)
+!1551 = !DISubroutineType(types: !1552)
+!1552 = !{!917, !31, !28}
+!1553 = !DIDerivedType(tag: DW_TAG_member, name: "Has", file: !10, line: 7, baseType: !1554, size: 64, align: 64, offset: 128)
+!1554 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1555, size: 64)
+!1555 = !DISubroutineType(types: !1556)
+!1556 = !{!13, !31, !917}
+!1557 = !DIDerivedType(tag: DW_TAG_member, name: "ReservedRanges", file: !10, line: 7, baseType: !1558, size: 64, align: 64, offset: 704)
+!1558 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1559, size: 64)
+!1559 = !DISubroutineType(types: !1560)
+!1560 = !{!1561, !31}
+!1561 = !DICompositeType(tag: DW_TAG_structure_type, name: "EnumRanges", file: !496, line: 7, size: 128, align: 8, elements: !1562)
+!1562 = !{!1563, !878}
+!1563 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1564, size: 64, align: 64)
+!1564 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1565, size: 64)
+!1565 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,int)[2]EnumNumber,*func(*void,EnumNumber)bool,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1566)
+!1566 = !{!538, !1567, !1574, !1048, !1049}
+!1567 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1568, size: 64, align: 64, offset: 64)
+!1568 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1569, size: 64)
+!1569 = !DISubroutineType(types: !1570)
+!1570 = !{!1571, !31, !28}
+!1571 = !DICompositeType(tag: DW_TAG_array_type, baseType: !1253, size: 64, align: 4, elements: !1572)
+!1572 = !{!1573}
+!1573 = !DISubrange(count: 2, lowerBound: 0)
+!1574 = !DIDerivedType(tag: DW_TAG_member, name: "Has", file: !10, line: 7, baseType: !1575, size: 64, align: 64, offset: 128)
+!1575 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1576, size: 64)
+!1576 = !DISubroutineType(types: !1577)
+!1577 = !{!13, !31, !1253}
+!1578 = !DIDerivedType(tag: DW_TAG_member, name: "Values", file: !10, line: 7, baseType: !1579, size: 64, align: 64, offset: 832)
+!1579 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1580, size: 64)
+!1580 = !DISubroutineType(types: !1581)
+!1581 = !{!1582, !31}
+!1582 = !DICompositeType(tag: DW_TAG_structure_type, name: "EnumValueDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1583)
+!1583 = !{!1584, !878}
+!1584 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1585, size: 64, align: 64)
+!1585 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1586, size: 64)
+!1586 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)EnumValueDescriptor,*func(*void,EnumNumber)EnumValueDescriptor,*func(*void,int)EnumValueDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 384, align: 8, elements: !1587)
+!1587 = !{!538, !1588, !1592, !1596, !1218, !1219}
+!1588 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !1589, size: 64, align: 64, offset: 64)
+!1589 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1590, size: 64)
+!1590 = !DISubroutineType(types: !1591)
+!1591 = !{!1243, !31, !917}
+!1592 = !DIDerivedType(tag: DW_TAG_member, name: "ByNumber", file: !10, line: 7, baseType: !1593, size: 64, align: 64, offset: 128)
+!1593 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1594, size: 64)
+!1594 = !DISubroutineType(types: !1595)
+!1595 = !{!1243, !31, !1253}
+!1596 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1597, size: 64, align: 64, offset: 192)
+!1597 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1598, size: 64)
+!1598 = !DISubroutineType(types: !1599)
+!1599 = !{!1243, !31, !28}
+!1600 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1601, size: 64, align: 64, offset: 128)
+!1601 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1602, size: 64)
+!1602 = !DISubroutineType(types: !1603)
+!1603 = !{!900, !31, !28}
+!1604 = !DIDerivedType(tag: DW_TAG_member, name: "ExtensionRangeOptions", file: !10, line: 7, baseType: !1605, size: 64, align: 64, offset: 128)
+!1605 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1606, size: 64)
+!1606 = !DISubroutineType(types: !1607)
+!1607 = !{!922, !31, !28}
+!1608 = !DIDerivedType(tag: DW_TAG_member, name: "ExtensionRanges", file: !10, line: 7, baseType: !1609, size: 64, align: 64, offset: 192)
+!1609 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1610, size: 64)
+!1610 = !DISubroutineType(types: !1611)
+!1611 = !{!1612, !31}
+!1612 = !DICompositeType(tag: DW_TAG_structure_type, name: "FieldRanges", file: !496, line: 7, size: 128, align: 8, elements: !1613)
+!1613 = !{!1614, !878}
+!1614 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1615, size: 64, align: 64)
+!1615 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1616, size: 64)
+!1616 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,int)[2]Number,*func(*void,Number)bool,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1617)
+!1617 = !{!538, !1618, !1623, !1048, !1049}
+!1618 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1619, size: 64, align: 64, offset: 64)
+!1619 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1620, size: 64)
+!1620 = !DISubroutineType(types: !1621)
+!1621 = !{!1622, !31, !28}
+!1622 = !DICompositeType(tag: DW_TAG_array_type, baseType: !989, size: 64, align: 4, elements: !1572)
+!1623 = !DIDerivedType(tag: DW_TAG_member, name: "Has", file: !10, line: 7, baseType: !1624, size: 64, align: 64, offset: 128)
+!1624 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1625, size: 64)
+!1625 = !DISubroutineType(types: !1626)
+!1626 = !{!13, !31, !989}
+!1627 = !DIDerivedType(tag: DW_TAG_member, name: "Extensions", file: !10, line: 7, baseType: !1037, size: 64, align: 64, offset: 256)
+!1628 = !DIDerivedType(tag: DW_TAG_member, name: "Fields", file: !10, line: 7, baseType: !968, size: 64, align: 64, offset: 320)
+!1629 = !DIDerivedType(tag: DW_TAG_member, name: "FullName", file: !10, line: 7, baseType: !907, size: 64, align: 64, offset: 384)
+!1630 = !DIDerivedType(tag: DW_TAG_member, name: "Index", file: !10, line: 7, baseType: !723, size: 64, align: 64, offset: 448)
+!1631 = !DIDerivedType(tag: DW_TAG_member, name: "IsMapEntry", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 512)
+!1632 = !DIDerivedType(tag: DW_TAG_member, name: "IsPlaceholder", file: !10, line: 7, baseType: !671, size: 64, align: 64, offset: 576)
+!1633 = !DIDerivedType(tag: DW_TAG_member, name: "Messages", file: !10, line: 7, baseType: !1075, size: 64, align: 64, offset: 640)
+!1634 = !DIDerivedType(tag: DW_TAG_member, name: "Name", file: !10, line: 7, baseType: !914, size: 64, align: 64, offset: 704)
+!1635 = !DIDerivedType(tag: DW_TAG_member, name: "Oneofs", file: !10, line: 7, baseType: !1636, size: 64, align: 64, offset: 768)
+!1636 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1637, size: 64)
+!1637 = !DISubroutineType(types: !1638)
+!1638 = !{!1639, !31}
+!1639 = !DICompositeType(tag: DW_TAG_structure_type, name: "OneofDescriptors", file: !496, line: 7, size: 128, align: 8, elements: !1640)
+!1640 = !{!1641, !878}
+!1641 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1642, size: 64, align: 64)
+!1642 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1643, size: 64)
+!1643 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,Name)OneofDescriptor,*func(*void,int)OneofDescriptor,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1644)
+!1644 = !{!538, !1645, !1649, !1048, !1049}
+!1645 = !DIDerivedType(tag: DW_TAG_member, name: "ByName", file: !10, line: 7, baseType: !1646, size: 64, align: 64, offset: 64)
+!1646 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1647, size: 64)
+!1647 = !DISubroutineType(types: !1648)
+!1648 = !{!961, !31, !917}
+!1649 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1650, size: 64, align: 64, offset: 128)
+!1650 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1651, size: 64)
+!1651 = !DISubroutineType(types: !1652)
+!1652 = !{!961, !31, !28}
+!1653 = !DIDerivedType(tag: DW_TAG_member, name: "Options", file: !10, line: 7, baseType: !919, size: 64, align: 64, offset: 832)
+!1654 = !DIDerivedType(tag: DW_TAG_member, name: "Parent", file: !10, line: 7, baseType: !1014, size: 64, align: 64, offset: 896)
+!1655 = !DIDerivedType(tag: DW_TAG_member, name: "ParentFile", file: !10, line: 7, baseType: !1026, size: 64, align: 64, offset: 960)
+!1656 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoInternal", file: !10, line: 7, baseType: !997, size: 64, align: 64, offset: 1024)
+!1657 = !DIDerivedType(tag: DW_TAG_member, name: "ProtoType", file: !10, line: 7, baseType: !1658, size: 64, align: 64, offset: 1088)
+!1658 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1659, size: 64)
+!1659 = !DISubroutineType(types: !1660)
+!1660 = !{!32, !31, !880}
+!1661 = !DIDerivedType(tag: DW_TAG_member, name: "RequiredNumbers", file: !10, line: 7, baseType: !1662, size: 64, align: 64, offset: 1152)
+!1662 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1663, size: 64)
+!1663 = !DISubroutineType(types: !1664)
+!1664 = !{!1665, !31}
+!1665 = !DICompositeType(tag: DW_TAG_structure_type, name: "FieldNumbers", file: !496, line: 7, size: 128, align: 8, elements: !1666)
+!1666 = !{!1667, !878}
+!1667 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1668, size: 64, align: 64)
+!1668 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1669, size: 64)
+!1669 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void,int)Number,*func(*void,Number)bool,*func(*void)int,*func(*void,DoNotImplement)void}", file: !10, size: 320, align: 8, elements: !1670)
+!1670 = !{!538, !1671, !1623, !1048, !1049}
+!1671 = !DIDerivedType(tag: DW_TAG_member, name: "Get", file: !10, line: 7, baseType: !1672, size: 64, align: 64, offset: 64)
+!1672 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1673, size: 64)
+!1673 = !DISubroutineType(types: !1674)
+!1674 = !{!989, !31, !28}
+!1675 = !DIDerivedType(tag: DW_TAG_member, name: "ReservedNames", file: !10, line: 7, baseType: !1540, size: 64, align: 64, offset: 1216)
+!1676 = !DIDerivedType(tag: DW_TAG_member, name: "ReservedRanges", file: !10, line: 7, baseType: !1609, size: 64, align: 64, offset: 1280)
+!1677 = !DIDerivedType(tag: DW_TAG_member, name: "Syntax", file: !10, line: 7, baseType: !1157, size: 64, align: 64, offset: 1344)
+!1678 = !DIDerivedType(tag: DW_TAG_member, name: "Exporter", file: !496, line: 7, baseType: !1679, size: 64, align: 64, offset: 256)
+!1679 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1680, size: 64)
+!1680 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1681)
+!1681 = !{!1682}
+!1682 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1683, size: 64, align: 64)
+!1683 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1684, size: 64)
+!1684 = !DISubroutineType(types: !1685)
+!1685 = !{!1405, !1405, !28}
+!1686 = !DIDerivedType(tag: DW_TAG_member, name: "OneofWrappers", file: !496, line: 7, baseType: !1687, size: 192, align: 64, offset: 320)
+!1687 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*any,int,int}", file: !10, size: 192, align: 8, elements: !1688)
+!1688 = !{!1689, !524, !525}
+!1689 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !1690, size: 64, align: 64)
+!1690 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1405, size: 64)
+!1691 = !DIDerivedType(tag: DW_TAG_member, name: "initMu", file: !496, line: 7, baseType: !706, size: 64, align: 32, offset: 512)
+!1692 = !DIDerivedType(tag: DW_TAG_member, name: "initDone", file: !496, line: 7, baseType: !546, size: 32, align: 32, offset: 576)
+!1693 = !DIDerivedType(tag: DW_TAG_member, name: "reflectMessageInfo", file: !496, line: 7, baseType: !1694, size: 832, align: 64, offset: 640)
+!1694 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.reflectMessageInfo", file: !496, line: 7, size: 832, align: 8, elements: !1695)
+!1695 = !{!1696, !1697, !1698, !1699, !1760, !1761, !1769, !1777, !1786}
+!1696 = !DIDerivedType(tag: DW_TAG_member, name: "fields", file: !496, line: 7, baseType: !633, size: 64, align: 64)
+!1697 = !DIDerivedType(tag: DW_TAG_member, name: "oneofs", file: !496, line: 7, baseType: !633, size: 64, align: 64, offset: 64)
+!1698 = !DIDerivedType(tag: DW_TAG_member, name: "fieldTypes", file: !496, line: 7, baseType: !633, size: 64, align: 64, offset: 128)
+!1699 = !DIDerivedType(tag: DW_TAG_member, name: "denseFields", file: !496, line: 7, baseType: !1700, size: 192, align: 64, offset: 192)
+!1700 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{**.google.golang.org/protobuf/internal/impl.fieldInfo,int,int}", file: !10, size: 192, align: 8, elements: !1701)
+!1701 = !{!1702, !524, !525}
+!1702 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !1703, size: 64, align: 64)
+!1703 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1704, size: 64)
+!1704 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1705, size: 64)
+!1705 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.fieldInfo", file: !496, line: 7, size: 576, align: 8, elements: !1706)
+!1706 = !{!1707, !1708, !1719, !1727, !1735, !1743, !1744, !1752}
+!1707 = !DIDerivedType(tag: DW_TAG_member, name: "fieldDesc", file: !496, line: 7, baseType: !942, size: 128, align: 64)
+!1708 = !DIDerivedType(tag: DW_TAG_member, name: "has", file: !496, line: 7, baseType: !1709, size: 64, align: 64, offset: 128)
+!1709 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1710, size: 64)
+!1710 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1711)
+!1711 = !{!1712}
+!1712 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1713, size: 64, align: 64)
+!1713 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1714, size: 64)
+!1714 = !DISubroutineType(types: !1715)
+!1715 = !{!13, !1716}
+!1716 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.pointer", file: !496, line: 7, size: 64, align: 8, elements: !1717)
+!1717 = !{!1718}
+!1718 = !DIDerivedType(tag: DW_TAG_member, name: "p", file: !496, line: 7, baseType: !31, size: 64, align: 64)
+!1719 = !DIDerivedType(tag: DW_TAG_member, name: "clear", file: !496, line: 7, baseType: !1720, size: 64, align: 64, offset: 192)
+!1720 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1721, size: 64)
+!1721 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1722)
+!1722 = !{!1723}
+!1723 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1724, size: 64, align: 64)
+!1724 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1725, size: 64)
+!1725 = !DISubroutineType(types: !1726)
+!1726 = !{!32, !1716}
+!1727 = !DIDerivedType(tag: DW_TAG_member, name: "get", file: !496, line: 7, baseType: !1728, size: 64, align: 64, offset: 256)
+!1728 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1729, size: 64)
+!1729 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1730)
+!1730 = !{!1731}
+!1731 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1732, size: 64, align: 64)
+!1732 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1733, size: 64)
+!1733 = !DISubroutineType(types: !1734)
+!1734 = !{!1234, !1716}
+!1735 = !DIDerivedType(tag: DW_TAG_member, name: "set", file: !496, line: 7, baseType: !1736, size: 64, align: 64, offset: 320)
+!1736 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1737, size: 64)
+!1737 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1738)
+!1738 = !{!1739}
+!1739 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1740, size: 64, align: 64)
+!1740 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1741, size: 64)
+!1741 = !DISubroutineType(types: !1742)
+!1742 = !{!32, !1716, !1234}
+!1743 = !DIDerivedType(tag: DW_TAG_member, name: "mutable", file: !496, line: 7, baseType: !1728, size: 64, align: 64, offset: 384)
+!1744 = !DIDerivedType(tag: DW_TAG_member, name: "newMessage", file: !496, line: 7, baseType: !1745, size: 64, align: 64, offset: 448)
+!1745 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1746, size: 64)
+!1746 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1747)
+!1747 = !{!1748}
+!1748 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1749, size: 64, align: 64)
+!1749 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1750, size: 64)
+!1750 = !DISubroutineType(types: !1751)
+!1751 = !{!932}
+!1752 = !DIDerivedType(tag: DW_TAG_member, name: "newField", file: !496, line: 7, baseType: !1753, size: 64, align: 64, offset: 512)
+!1753 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1754, size: 64)
+!1754 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1755)
+!1755 = !{!1756}
+!1756 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1757, size: 64, align: 64)
+!1757 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1758, size: 64)
+!1758 = !DISubroutineType(types: !1759)
+!1759 = !{!1234}
+!1760 = !DIDerivedType(tag: DW_TAG_member, name: "rangeInfos", file: !496, line: 7, baseType: !1687, size: 192, align: 64, offset: 384)
+!1761 = !DIDerivedType(tag: DW_TAG_member, name: "getUnknown", file: !496, line: 7, baseType: !1762, size: 64, align: 64, offset: 576)
+!1762 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1763, size: 64)
+!1763 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1764)
+!1764 = !{!1765}
+!1765 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1766, size: 64, align: 64)
+!1766 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1767, size: 64)
+!1767 = !DISubroutineType(types: !1768)
+!1768 = !{!1309, !1716}
+!1769 = !DIDerivedType(tag: DW_TAG_member, name: "setUnknown", file: !496, line: 7, baseType: !1770, size: 64, align: 64, offset: 640)
+!1770 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1771, size: 64)
+!1771 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1772)
+!1772 = !{!1773}
+!1773 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1774, size: 64, align: 64)
+!1774 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1775, size: 64)
+!1775 = !DISubroutineType(types: !1776)
+!1776 = !{!32, !1716, !1309}
+!1777 = !DIDerivedType(tag: DW_TAG_member, name: "extensionMap", file: !496, line: 7, baseType: !1778, size: 64, align: 64, offset: 704)
+!1778 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1779, size: 64)
+!1779 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1780)
+!1780 = !{!1781}
+!1781 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1782, size: 64, align: 64)
+!1782 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1783, size: 64)
+!1783 = !DISubroutineType(types: !1784)
+!1784 = !{!1785, !1716}
+!1785 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !633, size: 64)
+!1786 = !DIDerivedType(tag: DW_TAG_member, name: "nilMessage", file: !496, line: 7, baseType: !1787, size: 64, align: 64, offset: 768)
+!1787 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.atomicNilMessage", file: !496, line: 7, size: 64, align: 8, elements: !1717)
+!1788 = !DIDerivedType(tag: DW_TAG_member, name: "coderMessageInfo", file: !496, line: 7, baseType: !1789, size: 1152, align: 64, offset: 1472)
+!1789 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.coderMessageInfo", file: !496, line: 7, size: 1152, align: 8, elements: !1790)
+!1790 = !{!1791, !1792, !1877, !1878, !1879, !1880, !1881, !1882, !1883, !1884, !1885}
+!1791 = !DIDerivedType(tag: DW_TAG_member, name: "methods", file: !496, line: 7, baseType: !1326, size: 384, align: 64)
+!1792 = !DIDerivedType(tag: DW_TAG_member, name: "orderedCoderFields", file: !496, line: 7, baseType: !1793, size: 192, align: 64, offset: 384)
+!1793 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{**.google.golang.org/protobuf/internal/impl.coderFieldInfo,int,int}", file: !10, size: 192, align: 8, elements: !1794)
+!1794 = !{!1795, !524, !525}
+!1795 = !DIDerivedType(tag: DW_TAG_member, name: "__values", file: !10, line: 1, baseType: !1796, size: 64, align: 64)
+!1796 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1797, size: 64)
+!1797 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1798, size: 64)
+!1798 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.coderFieldInfo", file: !496, line: 7, size: 1088, align: 8, elements: !1799)
+!1799 = !{!1800, !1860, !1861, !1862, !1870, !1871, !1873, !1874, !1875, !1876}
+!1800 = !DIDerivedType(tag: DW_TAG_member, name: "funcs", file: !496, line: 7, baseType: !1801, size: 384, align: 64)
+!1801 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.pointerCoderFuncs", file: !496, line: 7, size: 384, align: 8, elements: !1802)
+!1802 = !{!1803, !1804, !1815, !1823, !1843, !1851}
+!1803 = !DIDerivedType(tag: DW_TAG_member, name: "mi", file: !496, line: 7, baseType: !31, size: 64, align: 64)
+!1804 = !DIDerivedType(tag: DW_TAG_member, name: "size", file: !496, line: 7, baseType: !1805, size: 64, align: 64, offset: 64)
+!1805 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1806, size: 64)
+!1806 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1807)
+!1807 = !{!1808}
+!1808 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1809, size: 64, align: 64)
+!1809 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1810, size: 64)
+!1810 = !DISubroutineType(types: !1811)
+!1811 = !{!28, !1716, !31, !1812}
+!1812 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.marshalOptions", file: !496, line: 7, size: 8, align: 1, elements: !1813)
+!1813 = !{!1814}
+!1814 = !DIDerivedType(tag: DW_TAG_member, name: "flags", file: !496, line: 7, baseType: !16, size: 8, align: 8)
+!1815 = !DIDerivedType(tag: DW_TAG_member, name: "marshal", file: !496, line: 7, baseType: !1816, size: 64, align: 64, offset: 128)
+!1816 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1817, size: 64)
+!1817 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1818)
+!1818 = !{!1819}
+!1819 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1820, size: 64, align: 64)
+!1820 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1821, size: 64)
+!1821 = !DISubroutineType(types: !1822)
+!1822 = !{!622, !521, !1716, !31, !1812}
+!1823 = !DIDerivedType(tag: DW_TAG_member, name: "unmarshal", file: !496, line: 7, baseType: !1824, size: 64, align: 64, offset: 192)
+!1824 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1825, size: 64)
+!1825 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1826)
+!1826 = !{!1827}
+!1827 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1828, size: 64, align: 64)
+!1828 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1829, size: 64)
+!1829 = !DISubroutineType(types: !1830)
+!1830 = !{!1831, !521, !1716, !1838, !31, !1839}
+!1831 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{.google.golang.org/protobuf/internal/impl.unmarshalOutput,error}", file: !10, size: 256, align: 8, elements: !1832)
+!1832 = !{!1833, !586}
+!1833 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1834, size: 128, align: 64)
+!1834 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.unmarshalOutput", file: !496, line: 7, size: 128, align: 8, elements: !1835)
+!1835 = !{!1836, !1837}
+!1836 = !DIDerivedType(tag: DW_TAG_member, name: "n", file: !496, line: 7, baseType: !28, size: 64, align: 64)
+!1837 = !DIDerivedType(tag: DW_TAG_member, name: "initialized", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 64)
+!1838 = !DIBasicType(name: "Type", size: 8, encoding: DW_ATE_signed)
+!1839 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.unmarshalOptions", file: !496, line: 7, size: 256, align: 8, elements: !1840)
+!1840 = !{!1814, !1841, !1842}
+!1841 = !DIDerivedType(tag: DW_TAG_member, name: "resolver", file: !496, line: 7, baseType: !1382, size: 128, align: 64, offset: 64)
+!1842 = !DIDerivedType(tag: DW_TAG_member, name: "depth", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 192)
+!1843 = !DIDerivedType(tag: DW_TAG_member, name: "isInit", file: !496, line: 7, baseType: !1844, size: 64, align: 64, offset: 256)
+!1844 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1845, size: 64)
+!1845 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1846)
+!1846 = !{!1847}
+!1847 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1848, size: 64, align: 64)
+!1848 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1849, size: 64)
+!1849 = !DISubroutineType(types: !1850)
+!1850 = !{!587, !1716, !31}
+!1851 = !DIDerivedType(tag: DW_TAG_member, name: "merge", file: !496, line: 7, baseType: !1852, size: 64, align: 64, offset: 320)
+!1852 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1853, size: 64)
+!1853 = !DICompositeType(tag: DW_TAG_structure_type, name: "__go_descriptor", file: !496, line: 7, size: 64, align: 8, elements: !1854)
+!1854 = !{!1855}
+!1855 = !DIDerivedType(tag: DW_TAG_member, name: "code", file: !496, line: 7, baseType: !1856, size: 64, align: 64)
+!1856 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1857, size: 64)
+!1857 = !DISubroutineType(types: !1858)
+!1858 = !{!32, !1716, !1716, !31, !1859}
+!1859 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.mergeOptions", file: !496, line: 7, align: 1, elements: !499)
+!1860 = !DIDerivedType(tag: DW_TAG_member, name: "mi", file: !496, line: 7, baseType: !31, size: 64, align: 64, offset: 384)
+!1861 = !DIDerivedType(tag: DW_TAG_member, name: "ft", file: !496, line: 7, baseType: !715, size: 128, align: 64, offset: 448)
+!1862 = !DIDerivedType(tag: DW_TAG_member, name: "validation", file: !496, line: 7, baseType: !1863, size: 192, align: 64, offset: 576)
+!1863 = !DICompositeType(tag: DW_TAG_structure_type, name: ".google.golang.org/protobuf/internal/impl.validationInfo", file: !496, line: 7, size: 192, align: 8, elements: !1864)
+!1864 = !{!1803, !1865, !1867, !1868, !1869}
+!1865 = !DIDerivedType(tag: DW_TAG_member, name: "typ", file: !496, line: 7, baseType: !1866, size: 8, align: 8, offset: 64)
+!1866 = !DIBasicType(name: ".google.golang.org/protobuf/internal/impl.validationType", size: 8, encoding: DW_ATE_unsigned)
+!1867 = !DIDerivedType(tag: DW_TAG_member, name: "keyType", file: !496, line: 7, baseType: !1866, size: 8, align: 8, offset: 72)
+!1868 = !DIDerivedType(tag: DW_TAG_member, name: "valType", file: !496, line: 7, baseType: !1866, size: 8, align: 8, offset: 80)
+!1869 = !DIDerivedType(tag: DW_TAG_member, name: "requiredBit", file: !496, line: 7, baseType: !22, size: 64, align: 64, offset: 128)
+!1870 = !DIDerivedType(tag: DW_TAG_member, name: "num", file: !496, line: 7, baseType: !989, size: 32, align: 32, offset: 768)
+!1871 = !DIDerivedType(tag: DW_TAG_member, name: "offset", file: !496, line: 7, baseType: !1872, size: 64, align: 64, offset: 832)
+!1872 = !DIBasicType(name: ".google.golang.org/protobuf/internal/impl.offset", size: 64, encoding: DW_ATE_unsigned)
+!1873 = !DIDerivedType(tag: DW_TAG_member, name: "wiretag", file: !496, line: 7, baseType: !22, size: 64, align: 64, offset: 896)
+!1874 = !DIDerivedType(tag: DW_TAG_member, name: "tagsize", file: !496, line: 7, baseType: !28, size: 64, align: 64, offset: 960)
+!1875 = !DIDerivedType(tag: DW_TAG_member, name: "isPointer", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 1024)
+!1876 = !DIDerivedType(tag: DW_TAG_member, name: "isRequired", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 1032)
+!1877 = !DIDerivedType(tag: DW_TAG_member, name: "denseCoderFields", file: !496, line: 7, baseType: !1793, size: 192, align: 64, offset: 576)
+!1878 = !DIDerivedType(tag: DW_TAG_member, name: "coderFields", file: !496, line: 7, baseType: !633, size: 64, align: 64, offset: 768)
+!1879 = !DIDerivedType(tag: DW_TAG_member, name: "sizecacheOffset", file: !496, line: 7, baseType: !1872, size: 64, align: 64, offset: 832)
+!1880 = !DIDerivedType(tag: DW_TAG_member, name: "unknownOffset", file: !496, line: 7, baseType: !1872, size: 64, align: 64, offset: 896)
+!1881 = !DIDerivedType(tag: DW_TAG_member, name: "unknownPtrKind", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 960)
+!1882 = !DIDerivedType(tag: DW_TAG_member, name: "extensionOffset", file: !496, line: 7, baseType: !1872, size: 64, align: 64, offset: 1024)
+!1883 = !DIDerivedType(tag: DW_TAG_member, name: "needsInitCheck", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 1088)
+!1884 = !DIDerivedType(tag: DW_TAG_member, name: "isMessageSet", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 1096)
+!1885 = !DIDerivedType(tag: DW_TAG_member, name: "numRequiredFields", file: !496, line: 7, baseType: !16, size: 8, align: 8, offset: 1104)
+!1886 = !DIDerivedType(tag: DW_TAG_member, name: "sizeCache", file: !496, line: 7, baseType: !513, size: 32, align: 32, offset: 64)
+!1887 = !DIDerivedType(tag: DW_TAG_member, name: "unknownFields", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 128)
+!1888 = !DIDerivedType(tag: DW_TAG_member, name: "Seconds", file: !496, line: 7, baseType: !1889, size: 64, align: 64, offset: 320)
+!1889 = !DIBasicType(name: "int64", size: 64, encoding: DW_ATE_signed)
+!1890 = !DIDerivedType(tag: DW_TAG_member, name: "Nanos", file: !496, line: 7, baseType: !513, size: 32, align: 32, offset: 384)
+!1891 = !DIDerivedType(tag: DW_TAG_member, name: "IsDelete", file: !496, line: 7, baseType: !13, size: 8, align: 8, offset: 384)
+!1892 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_NoUnkeyedLiteral", file: !496, line: 7, baseType: !527, align: 8, offset: 392)
+!1893 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_unrecognized", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 448)
+!1894 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_sizecache", file: !496, line: 7, baseType: !513, size: 32, align: 32, offset: 640)
+!1895 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateData", file: !10, line: 7, baseType: !1896, size: 64, align: 64, offset: 768)
+!1896 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1897, size: 64)
+!1897 = !DISubroutineType(types: !1898)
+!1898 = !{!622, !31, !515, !515}
+!1899 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateDataByPartialCompositeKey", file: !10, line: 7, baseType: !1900, size: 64, align: 64, offset: 832)
+!1900 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1901, size: 64)
+!1901 = !DISubroutineType(types: !1902)
+!1902 = !{!1903, !31, !515, !515, !599}
+!1903 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{StateQueryIteratorInterface,error}", file: !10, size: 256, align: 8, elements: !1904)
+!1904 = !{!1905, !586}
+!1905 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1906, size: 128, align: 64)
+!1906 = !DICompositeType(tag: DW_TAG_structure_type, name: "StateQueryIteratorInterface", file: !496, line: 7, size: 128, align: 8, elements: !1907)
+!1907 = !{!1908, !878}
+!1908 = !DIDerivedType(tag: DW_TAG_member, name: "__methods", file: !496, line: 7, baseType: !1909, size: 64, align: 64)
+!1909 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1910, size: 64)
+!1910 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*_type,*func(*void)error,*func(*void)bool,*func(*void)struct{*KV,error}}", file: !10, size: 256, align: 8, elements: !1911)
+!1911 = !{!538, !666, !670, !1912}
+!1912 = !DIDerivedType(tag: DW_TAG_member, name: "Next", file: !10, line: 7, baseType: !1913, size: 64, align: 64, offset: 192)
+!1913 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1914, size: 64)
+!1914 = !DISubroutineType(types: !1915)
+!1915 = !{!1916, !31}
+!1916 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*KV,error}", file: !10, size: 192, align: 8, elements: !1917)
+!1917 = !{!1918, !1378}
+!1918 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1919, size: 64, align: 64)
+!1919 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1920, size: 64)
+!1920 = !DICompositeType(tag: DW_TAG_structure_type, name: "KV", file: !496, line: 7, size: 704, align: 8, elements: !1921)
+!1921 = !{!1922, !1923, !1924, !1925, !1893, !1894}
+!1922 = !DIDerivedType(tag: DW_TAG_member, name: "Namespace", file: !496, line: 7, baseType: !515, size: 128, align: 64)
+!1923 = !DIDerivedType(tag: DW_TAG_member, name: "Key", file: !496, line: 7, baseType: !515, size: 128, align: 64, offset: 128)
+!1924 = !DIDerivedType(tag: DW_TAG_member, name: "Value", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 256)
+!1925 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_NoUnkeyedLiteral", file: !496, line: 7, baseType: !527, align: 8, offset: 448)
+!1926 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateDataByRange", file: !10, line: 7, baseType: !1927, size: 64, align: 64, offset: 896)
+!1927 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1928, size: 64)
+!1928 = !DISubroutineType(types: !1929)
+!1929 = !{!1903, !31, !515, !515, !515}
+!1930 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateDataHash", file: !10, line: 7, baseType: !1896, size: 64, align: 64, offset: 960)
+!1931 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateDataQueryResult", file: !10, line: 7, baseType: !1932, size: 64, align: 64, offset: 1024)
+!1932 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1933, size: 64)
+!1933 = !DISubroutineType(types: !1934)
+!1934 = !{!1903, !31, !515, !515}
+!1935 = !DIDerivedType(tag: DW_TAG_member, name: "GetPrivateDataValidationParameter", file: !10, line: 7, baseType: !1896, size: 64, align: 64, offset: 1088)
+!1936 = !DIDerivedType(tag: DW_TAG_member, name: "GetQueryResult", file: !10, line: 7, baseType: !1937, size: 64, align: 64, offset: 1152)
+!1937 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1938, size: 64)
+!1938 = !DISubroutineType(types: !1939)
+!1939 = !{!1903, !31, !515}
+!1940 = !DIDerivedType(tag: DW_TAG_member, name: "GetQueryResultWithPagination", file: !10, line: 7, baseType: !1941, size: 64, align: 64, offset: 1216)
+!1941 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1942, size: 64)
+!1942 = !DISubroutineType(types: !1943)
+!1943 = !{!1944, !31, !515, !513, !515}
+!1944 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{StateQueryIteratorInterface,*QueryResponseMetadata,error}", file: !10, size: 320, align: 8, elements: !1945)
+!1945 = !{!1905, !1946, !1359}
+!1946 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1947, size: 64, align: 64, offset: 128)
+!1947 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1948, size: 64)
+!1948 = !DICompositeType(tag: DW_TAG_structure_type, name: "QueryResponseMetadata", file: !496, line: 7, size: 448, align: 8, elements: !1949)
+!1949 = !{!1950, !1951, !1952, !1953, !1954}
+!1950 = !DIDerivedType(tag: DW_TAG_member, name: "FetchedRecordsCount", file: !496, line: 7, baseType: !513, size: 32, align: 32)
+!1951 = !DIDerivedType(tag: DW_TAG_member, name: "Bookmark", file: !496, line: 7, baseType: !515, size: 128, align: 64, offset: 64)
+!1952 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_NoUnkeyedLiteral", file: !496, line: 7, baseType: !527, align: 8, offset: 192)
+!1953 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_unrecognized", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 192)
+!1954 = !DIDerivedType(tag: DW_TAG_member, name: "XXX_sizecache", file: !496, line: 7, baseType: !513, size: 32, align: 32, offset: 384)
+!1955 = !DIDerivedType(tag: DW_TAG_member, name: "GetSignedProposal", file: !10, line: 7, baseType: !1956, size: 64, align: 64, offset: 1280)
+!1956 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1957, size: 64)
+!1957 = !DISubroutineType(types: !1958)
+!1958 = !{!1959, !31}
+!1959 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*SignedProposal,error}", file: !10, size: 192, align: 8, elements: !1960)
+!1960 = !{!1961, !1378}
+!1961 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !1962, size: 64, align: 64)
+!1962 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1963, size: 64)
+!1963 = !DICompositeType(tag: DW_TAG_structure_type, name: "SignedProposal", file: !496, line: 7, size: 640, align: 8, elements: !1964)
+!1964 = !{!1965, !1966, !526, !528, !529}
+!1965 = !DIDerivedType(tag: DW_TAG_member, name: "ProposalBytes", file: !496, line: 7, baseType: !521, size: 192, align: 64)
+!1966 = !DIDerivedType(tag: DW_TAG_member, name: "Signature", file: !496, line: 7, baseType: !521, size: 192, align: 64, offset: 192)
+!1967 = !DIDerivedType(tag: DW_TAG_member, name: "GetState", file: !10, line: 7, baseType: !1968, size: 64, align: 64, offset: 1344)
+!1968 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1969, size: 64)
+!1969 = !DISubroutineType(types: !1970)
+!1970 = !{!622, !31, !515}
+!1971 = !DIDerivedType(tag: DW_TAG_member, name: "GetStateByPartialCompositeKey", file: !10, line: 7, baseType: !1972, size: 64, align: 64, offset: 1408)
+!1972 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1973, size: 64)
+!1973 = !DISubroutineType(types: !1974)
+!1974 = !{!1903, !31, !515, !599}
+!1975 = !DIDerivedType(tag: DW_TAG_member, name: "GetStateByPartialCompositeKeyWithPagination", file: !10, line: 7, baseType: !1976, size: 64, align: 64, offset: 1472)
+!1976 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1977, size: 64)
+!1977 = !DISubroutineType(types: !1978)
+!1978 = !{!1944, !31, !515, !599, !513, !515}
+!1979 = !DIDerivedType(tag: DW_TAG_member, name: "GetStateByRange", file: !10, line: 7, baseType: !1932, size: 64, align: 64, offset: 1536)
+!1980 = !DIDerivedType(tag: DW_TAG_member, name: "GetStateByRangeWithPagination", file: !10, line: 7, baseType: !1981, size: 64, align: 64, offset: 1600)
+!1981 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1982, size: 64)
+!1982 = !DISubroutineType(types: !1983)
+!1983 = !{!1944, !31, !515, !515, !513, !515}
+!1984 = !DIDerivedType(tag: DW_TAG_member, name: "GetStateValidationParameter", file: !10, line: 7, baseType: !1968, size: 64, align: 64, offset: 1664)
+!1985 = !DIDerivedType(tag: DW_TAG_member, name: "GetStringArgs", file: !10, line: 7, baseType: !1986, size: 64, align: 64, offset: 1728)
+!1986 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1987, size: 64)
+!1987 = !DISubroutineType(types: !1988)
+!1988 = !{!599, !31}
+!1989 = !DIDerivedType(tag: DW_TAG_member, name: "GetTransient", file: !10, line: 7, baseType: !1990, size: 64, align: 64, offset: 1792)
+!1990 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1991, size: 64)
+!1991 = !DISubroutineType(types: !1992)
+!1992 = !{!1993, !31}
+!1993 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{Values,error}", file: !10, size: 192, align: 8, elements: !1994)
+!1994 = !{!1995, !1378}
+!1995 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !633, size: 64, align: 64)
+!1996 = !DIDerivedType(tag: DW_TAG_member, name: "GetTxID", file: !10, line: 7, baseType: !595, size: 64, align: 64, offset: 1856)
+!1997 = !DIDerivedType(tag: DW_TAG_member, name: "GetTxTimestamp", file: !10, line: 7, baseType: !1998, size: 64, align: 64, offset: 1920)
+!1998 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !1999, size: 64)
+!1999 = !DISubroutineType(types: !2000)
+!2000 = !{!2001, !31}
+!2001 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{*Timestamp,error}", file: !10, size: 192, align: 8, elements: !2002)
+!2002 = !{!2003, !1378}
+!2003 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !687, size: 64, align: 64)
+!2004 = !DIDerivedType(tag: DW_TAG_member, name: "InvokeChaincode", file: !10, line: 7, baseType: !2005, size: 64, align: 64, offset: 1984)
+!2005 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !2006, size: 64)
+!2006 = !DISubroutineType(types: !2007)
+!2007 = !{!510, !31, !515, !614, !515}
+!2008 = !DIDerivedType(tag: DW_TAG_member, name: "PurgePrivateData", file: !10, line: 7, baseType: !603, size: 64, align: 64, offset: 2048)
+!2009 = !DIDerivedType(tag: DW_TAG_member, name: "PutPrivateData", file: !10, line: 7, baseType: !2010, size: 64, align: 64, offset: 2112)
+!2010 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !2011, size: 64)
+!2011 = !DISubroutineType(types: !2012)
+!2012 = !{!587, !31, !515, !515, !521}
+!2013 = !DIDerivedType(tag: DW_TAG_member, name: "PutState", file: !10, line: 7, baseType: !2014, size: 64, align: 64, offset: 2176)
+!2014 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !2015, size: 64)
+!2015 = !DISubroutineType(types: !2016)
+!2016 = !{!587, !31, !515, !521}
+!2017 = !DIDerivedType(tag: DW_TAG_member, name: "SetEvent", file: !10, line: 7, baseType: !2014, size: 64, align: 64, offset: 2240)
+!2018 = !DIDerivedType(tag: DW_TAG_member, name: "SetPrivateDataValidationParameter", file: !10, line: 7, baseType: !2010, size: 64, align: 64, offset: 2304)
+!2019 = !DIDerivedType(tag: DW_TAG_member, name: "SetStateValidationParameter", file: !10, line: 7, baseType: !2014, size: 64, align: 64, offset: 2368)
+!2020 = !DIDerivedType(tag: DW_TAG_member, name: "SplitCompositeKey", file: !10, line: 7, baseType: !2021, size: 64, align: 64, offset: 2432)
+!2021 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !2022, size: 64)
+!2022 = !DISubroutineType(types: !2023)
+!2023 = !{!2024, !31, !515}
+!2024 = !DICompositeType(tag: DW_TAG_structure_type, name: "struct{string,struct{*string,int,int},error}", file: !10, size: 448, align: 8, elements: !2025)
+!2025 = !{!585, !652, !2026}
+!2026 = !DIDerivedType(tag: DW_TAG_member, name: "UNNAMED", file: !10, line: 7, baseType: !587, size: 128, align: 64, offset: 320)
+!2027 = !DILocalVariable(name: "t", arg: 1, scope: !507, file: !496, line: 18, type: !530)
+!2028 = !DILocation(line: 0, scope: !507)
+!2029 = !DILocalVariable(name: "stub", arg: 2, scope: !507, file: !496, line: 18, type: !532)
+!2030 = !DILocation(line: 20, column: 14, scope: !2031)
+!2031 = distinct !DILexicalBlock(scope: !507, file: !496, line: 18, column: 1)
+!2032 = !DILocalVariable(name: "args", scope: !2031, file: !496, line: 20, type: !599)
+!2033 = !DILocation(line: 21, column: 15, scope: !2031)
+!2034 = !DILocation(line: 0, scope: !2031)
+!2035 = !DILocation(line: 22, column: 15, scope: !2031)
+!2036 = !DILocation(line: 28, column: 13, scope: !2031)
+!2037 = !DILocation(line: 28, column: 38, scope: !2031)
+!2038 = !DILocalVariable(name: "err", scope: !2031, file: !496, line: 28, type: !587)
+!2039 = !DILocation(line: 29, column: 9, scope: !2031)
+!2040 = !DILocation(line: 32, column: 14, scope: !2031)
+!2041 = !DILocation(line: 30, column: 25, scope: !2031)
+!2042 = !DILocation(line: 30, column: 15, scope: !2031)
+!2043 = distinct !DISubprogram(name: "main.SimpleAsset.Invoke", scope: null, file: !496, line: 38, type: !508, scopeLine: 38, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2044 = !DILocalVariable(name: "t", arg: 1, scope: !2043, file: !496, line: 38, type: !530)
+!2045 = !DILocation(line: 0, scope: !2043)
+!2046 = !DILocalVariable(name: "stub", arg: 2, scope: !2043, file: !496, line: 38, type: !532)
+!2047 = !DILocation(line: 40, column: 18, scope: !2048)
+!2048 = distinct !DILexicalBlock(scope: !2043, file: !496, line: 38, column: 1)
+!2049 = !DILocalVariable(name: "fn", scope: !2048, file: !496, line: 40, type: !515)
+!2050 = !DILocalVariable(name: "args", scope: !2048, file: !496, line: 40, type: !599)
+!2051 = !DILocation(line: 40, column: 2, scope: !2043)
+!2052 = !DILocalVariable(name: "result", scope: !2048, file: !496, line: 42, type: !515)
+!2053 = !DILocalVariable(name: "err", scope: !2048, file: !496, line: 43, type: !587)
+!2054 = !DILocation(line: 45, column: 8, scope: !2048)
+!2055 = !DILocation(line: 46, column: 17, scope: !2048)
+!2056 = !DILocation(line: 0, scope: !2048)
+!2057 = !DILocation(line: 52, column: 9, scope: !2048)
+!2058 = !DILocation(line: 47, column: 15, scope: !2048)
+!2059 = !DILocation(line: 48, column: 17, scope: !2048)
+!2060 = !DILocation(line: 49, column: 15, scope: !2048)
+!2061 = !DILocation(line: 50, column: 17, scope: !2048)
+!2062 = !DILocation(line: 53, column: 24, scope: !2048)
+!2063 = !DILocation(line: 53, column: 15, scope: !2048)
+!2064 = !DILocation(line: 53, column: 3, scope: !2048)
+!2065 = !DILocation(line: 57, column: 28, scope: !2048)
+!2066 = !DILocation(line: 57, column: 14, scope: !2048)
+!2067 = !DILocation(line: 57, column: 2, scope: !2048)
+!2068 = distinct !DISubprogram(name: "main.SetRecord1", scope: null, file: !496, line: 60, type: !2069, scopeLine: 60, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2069 = !DISubroutineType(types: !2070)
+!2070 = !{!583, !532, !599}
+!2071 = !DILocalVariable(name: "args", arg: 2, scope: !2068, file: !496, line: 60, type: !599)
+!2072 = !DILocation(line: 60, column: 51, scope: !2068)
+!2073 = !DILocalVariable(name: "stub", arg: 1, scope: !2068, file: !496, line: 60, type: !532)
+!2074 = !DILocation(line: 0, scope: !2068)
+!2075 = !DILocalVariable(name: "$ret3", scope: !2068, file: !496, line: 60, type: !587)
+!2076 = !DILocation(line: 61, column: 9, scope: !2077)
+!2077 = distinct !DILexicalBlock(scope: !2068, file: !496, line: 60, column: 1)
+!2078 = !DILocation(line: 61, column: 15, scope: !2077)
+!2079 = !DILocation(line: 0, scope: !2077)
+!2080 = !DILocation(line: 62, column: 18, scope: !2077)
+!2081 = !DILocation(line: 62, column: 3, scope: !2077)
+!2082 = !DILocation(line: 65, column: 13, scope: !2077)
+!2083 = !DILocation(line: 65, column: 54, scope: !2077)
+!2084 = !DILocation(line: 65, column: 69, scope: !2077)
+!2085 = !DILocalVariable(name: "err", scope: !2077, file: !496, line: 65, type: !587)
+!2086 = !DILocation(line: 66, column: 9, scope: !2077)
+!2087 = !DILocation(line: 67, column: 18, scope: !2077)
+!2088 = !DILocation(line: 67, column: 3, scope: !2077)
+!2089 = !DILocation(line: 69, column: 13, scope: !2077)
+!2090 = !DILocation(line: 69, column: 2, scope: !2077)
+!2091 = distinct !DISubprogram(name: "main.GetRecord", scope: null, file: !496, line: 73, type: !2069, scopeLine: 73, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2092 = !DILocalVariable(name: "args", arg: 2, scope: !2091, file: !496, line: 73, type: !599)
+!2093 = !DILocation(line: 73, column: 50, scope: !2091)
+!2094 = !DILocalVariable(name: "stub", arg: 1, scope: !2091, file: !496, line: 73, type: !532)
+!2095 = !DILocation(line: 0, scope: !2091)
+!2096 = !DILocalVariable(name: "$ret4", scope: !2091, file: !496, line: 73, type: !515)
+!2097 = !DILocalVariable(name: "$ret5", scope: !2091, file: !496, line: 73, type: !587)
+!2098 = !DILocation(line: 74, column: 9, scope: !2099)
+!2099 = distinct !DILexicalBlock(scope: !2091, file: !496, line: 73, column: 1)
+!2100 = !DILocation(line: 74, column: 15, scope: !2099)
+!2101 = !DILocation(line: 0, scope: !2099)
+!2102 = !DILocation(line: 75, column: 18, scope: !2099)
+!2103 = !DILocation(line: 75, column: 3, scope: !2099)
+!2104 = !DILocation(line: 78, column: 20, scope: !2099)
+!2105 = !DILocation(line: 78, column: 61, scope: !2099)
+!2106 = !DILocalVariable(name: "value", scope: !2099, file: !496, line: 78, type: !521)
+!2107 = !DILocalVariable(name: "err", scope: !2099, file: !496, line: 78, type: !587)
+!2108 = !DILocation(line: 79, column: 9, scope: !2099)
+!2109 = !DILocation(line: 82, column: 11, scope: !2099)
+!2110 = !DILocation(line: 80, column: 18, scope: !2099)
+!2111 = !DILocation(line: 80, column: 76, scope: !2099)
+!2112 = !DILocation(line: 80, column: 3, scope: !2099)
+!2113 = !DILocation(line: 85, column: 9, scope: !2099)
+!2114 = !DILocation(line: 85, column: 2, scope: !2099)
+!2115 = !DILocation(line: 83, column: 18, scope: !2099)
+!2116 = !DILocation(line: 83, column: 3, scope: !2099)
+!2117 = distinct !DISubprogram(name: "main.SetRecord", scope: null, file: !496, line: 88, type: !2069, scopeLine: 88, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2118 = !DILocalVariable(name: "args", arg: 2, scope: !2117, file: !496, line: 88, type: !599)
+!2119 = !DILocation(line: 88, column: 50, scope: !2117)
+!2120 = !DILocalVariable(name: "stub", arg: 1, scope: !2117, file: !496, line: 88, type: !532)
+!2121 = !DILocation(line: 0, scope: !2117)
+!2122 = !DILocalVariable(name: "$ret7", scope: !2117, file: !496, line: 88, type: !587)
+!2123 = !DILocation(line: 95, column: 9, scope: !2124)
+!2124 = distinct !DILexicalBlock(scope: !2117, file: !496, line: 88, column: 1)
+!2125 = !DILocation(line: 95, column: 15, scope: !2124)
+!2126 = !DILocation(line: 0, scope: !2124)
+!2127 = !DILocation(line: 96, column: 18, scope: !2124)
+!2128 = !DILocation(line: 96, column: 3, scope: !2124)
+!2129 = !DILocation(line: 99, column: 23, scope: !2124)
+!2130 = !DILocalVariable(name: "transMap", scope: !2124, file: !496, line: 99, type: !633)
+!2131 = !DILocalVariable(name: "err", scope: !2124, file: !496, line: 99, type: !587)
+!2132 = !DILocation(line: 100, column: 9, scope: !2124)
+!2133 = !DILocation(line: 101, column: 18, scope: !2124)
+!2134 = !DILocation(line: 101, column: 3, scope: !2124)
+!2135 = !DILocalVariable(name: "keyValueAsBytes", scope: !2124, file: !496, line: 105, type: !521)
+!2136 = !DILocation(line: 105, column: 2, scope: !2117)
+!2137 = !DILocalVariable(name: "ok", scope: !2124, file: !496, line: 105, type: !13)
+!2138 = !DILocation(line: 105, column: 2, scope: !2124)
+!2139 = !DILocation(line: 106, column: 5, scope: !2124)
+!2140 = !DILocation(line: 107, column: 18, scope: !2124)
+!2141 = !DILocation(line: 107, column: 3, scope: !2124)
+!2142 = !DILocation(line: 110, column: 6, scope: !2124)
+!2143 = !DILocalVariable(name: "keyValueInput", scope: !2124, file: !496, line: 110, type: !2144)
+!2144 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !2145, size: 64)
+!2145 = !DICompositeType(tag: DW_TAG_structure_type, name: ".main.keyValueTransientInput", file: !496, line: 90, size: 256, align: 8, elements: !2146)
+!2146 = !{!2147, !2148}
+!2147 = !DIDerivedType(tag: DW_TAG_member, name: "Key", file: !496, line: 91, baseType: !515, size: 128, align: 64)
+!2148 = !DIDerivedType(tag: DW_TAG_member, name: "Value", file: !496, line: 92, baseType: !515, size: 128, align: 64, offset: 128)
+!2149 = !DILocation(line: 111, column: 13, scope: !2124)
+!2150 = !DILocation(line: 112, column: 9, scope: !2124)
+!2151 = !DILocation(line: 113, column: 18, scope: !2124)
+!2152 = !DILocation(line: 113, column: 3, scope: !2124)
+!2153 = !DILocation(line: 116, column: 12, scope: !2124)
+!2154 = !DILocation(line: 116, column: 92, scope: !2124)
+!2155 = !DILocation(line: 116, column: 78, scope: !2124)
+!2156 = !DILocation(line: 117, column: 9, scope: !2124)
+!2157 = !DILocation(line: 118, column: 18, scope: !2124)
+!2158 = !DILocation(line: 118, column: 3, scope: !2124)
+!2159 = !DILocation(line: 120, column: 2, scope: !2124)
+!2160 = distinct !DISubprogram(name: "main_0SetRecord_0keyValueTransientInput..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2161 = !DILocalVariable(name: "key1", arg: 1, scope: !2160, file: !8, line: 1, type: !31)
+!2162 = !DILocation(line: 0, scope: !2160)
+!2163 = !DILocalVariable(name: "key2", arg: 2, scope: !2160, file: !8, line: 1, type: !31)
+!2164 = !DILocalVariable(name: "$ret10", scope: !2160, file: !8, line: 1, type: !13)
+!2165 = !DILocation(line: 1, column: 1, scope: !2160)
+!2166 = distinct !DISubprogram(name: "main.main", scope: null, file: !496, line: 124, type: !497, scopeLine: 124, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2167 = !DILocation(line: 125, column: 23, scope: !2168)
+!2168 = distinct !DILexicalBlock(scope: !2166, file: !496, line: 125, column: 2)
+!2169 = !DILocation(line: 125, column: 17, scope: !2168)
+!2170 = !DILocalVariable(name: "err", scope: !2168, file: !496, line: 125, type: !587)
+!2171 = !DILocation(line: 0, scope: !2166)
+!2172 = !DILocation(line: 125, column: 46, scope: !2168)
+!2173 = !DILocation(line: 126, column: 47, scope: !2168)
+!2174 = !DILocation(line: 126, column: 7, scope: !2168)
+!2175 = !DILocation(line: 5, column: 15, scope: !503)
+!2176 = distinct !DISubprogram(name: "main.struct_4runtime_0gList_cruntime_0n_bint32_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2177 = !DILocalVariable(name: "key1", arg: 1, scope: !2176, file: !8, line: 1, type: !31)
+!2178 = !DILocation(line: 0, scope: !2176)
+!2179 = !DILocalVariable(name: "key2", arg: 2, scope: !2176, file: !8, line: 1, type: !31)
+!2180 = !DILocalVariable(name: "$ret11", scope: !2176, file: !8, line: 1, type: !13)
+!2181 = !DILocation(line: 1, column: 1, scope: !2176)
+!2182 = distinct !DISubprogram(name: "main._628_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2183 = !DILocalVariable(name: "key1", arg: 1, scope: !2182, file: !8, line: 1, type: !31)
+!2184 = !DILocation(line: 0, scope: !2182)
+!2185 = !DILocalVariable(name: "key2", arg: 2, scope: !2182, file: !8, line: 1, type: !31)
+!2186 = !DILocalVariable(name: "$ret12", scope: !2182, file: !8, line: 1, type: !13)
+!2187 = !DILocation(line: 1, column: 1, scope: !2182)
+!2188 = distinct !DISubprogram(name: "main._62_7google_0golang_0org_1protobuf_1reflect_1protoreflect_0EnumNumber..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2189 = !DILocalVariable(name: "key1", arg: 1, scope: !2188, file: !8, line: 1, type: !31)
+!2190 = !DILocation(line: 0, scope: !2188)
+!2191 = !DILocalVariable(name: "key2", arg: 2, scope: !2188, file: !8, line: 1, type: !31)
+!2192 = !DILocalVariable(name: "$ret13", scope: !2188, file: !8, line: 1, type: !13)
+!2193 = !DILocation(line: 1, column: 1, scope: !2188)
+!2194 = distinct !DISubprogram(name: "main._62_7google_0golang_0org_1protobuf_1encoding_1protowire_0Number..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2195 = !DILocalVariable(name: "key1", arg: 1, scope: !2194, file: !8, line: 1, type: !31)
+!2196 = !DILocation(line: 0, scope: !2194)
+!2197 = !DILocalVariable(name: "key2", arg: 2, scope: !2194, file: !8, line: 1, type: !31)
+!2198 = !DILocalVariable(name: "$ret14", scope: !2194, file: !8, line: 1, type: !13)
+!2199 = !DILocation(line: 1, column: 1, scope: !2194)
+!2200 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cFlags_buint8_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2201 = !DILocalVariable(name: "key1", arg: 1, scope: !2200, file: !8, line: 1, type: !31)
+!2202 = !DILocation(line: 0, scope: !2200)
+!2203 = !DILocalVariable(name: "key2", arg: 2, scope: !2200, file: !8, line: 1, type: !31)
+!2204 = !DILocalVariable(name: "$ret15", scope: !2200, file: !8, line: 1, type: !13)
+!2205 = !DILocation(line: 1, column: 1, scope: !2200)
+!2206 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cSource_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_cDestination_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2207 = !DILocalVariable(name: "key1", arg: 1, scope: !2206, file: !8, line: 1, type: !31)
+!2208 = !DILocation(line: 0, scope: !2206)
+!2209 = !DILocalVariable(name: "key2", arg: 2, scope: !2206, file: !8, line: 1, type: !31)
+!2210 = !DILocalVariable(name: "$ret16", scope: !2206, file: !8, line: 1, type: !13)
+!2211 = !DILocation(line: 1, column: 1, scope: !2206)
+!2212 = distinct !DISubprogram(name: "main.struct_4google_0golang_0org_1protobuf_1internal_1pragma_0NoUnkeyedLiterals_cMessage_bgoogle_0golang_0org_1protobuf_1reflect_1protoreflect_0Message_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2213 = !DILocalVariable(name: "key1", arg: 1, scope: !2212, file: !8, line: 1, type: !31)
+!2214 = !DILocation(line: 0, scope: !2212)
+!2215 = !DILocalVariable(name: "key2", arg: 2, scope: !2212, file: !8, line: 1, type: !31)
+!2216 = !DILocalVariable(name: "$ret17", scope: !2212, file: !8, line: 1, type: !13)
+!2217 = !DILocation(line: 1, column: 1, scope: !2212)
+!2218 = distinct !DISubprogram(name: "main._68_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2219 = !DILocalVariable(name: "key1", arg: 1, scope: !2218, file: !8, line: 1, type: !31)
+!2220 = !DILocation(line: 0, scope: !2218)
+!2221 = !DILocalVariable(name: "key2", arg: 2, scope: !2218, file: !8, line: 1, type: !31)
+!2222 = !DILocalVariable(name: "$ret18", scope: !2218, file: !8, line: 1, type: !13)
+!2223 = !DILocation(line: 1, column: 1, scope: !2218)
+!2224 = distinct !DISubprogram(name: "main._614_7int8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2225 = !DILocalVariable(name: "key1", arg: 1, scope: !2224, file: !8, line: 1, type: !31)
+!2226 = !DILocation(line: 0, scope: !2224)
+!2227 = !DILocalVariable(name: "key2", arg: 2, scope: !2224, file: !8, line: 1, type: !31)
+!2228 = !DILocalVariable(name: "$ret19", scope: !2224, file: !8, line: 1, type: !13)
+!2229 = !DILocation(line: 1, column: 1, scope: !2224)
+!2230 = distinct !DISubprogram(name: "main._696_7int8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2231 = !DILocalVariable(name: "key1", arg: 1, scope: !2230, file: !8, line: 1, type: !31)
+!2232 = !DILocation(line: 0, scope: !2230)
+!2233 = !DILocalVariable(name: "key2", arg: 2, scope: !2230, file: !8, line: 1, type: !31)
+!2234 = !DILocalVariable(name: "$ret20", scope: !2230, file: !8, line: 1, type: !13)
+!2235 = !DILocation(line: 1, column: 1, scope: !2230)
+!2236 = distinct !DISubprogram(name: "main._632_7uintptr..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2237 = !DILocalVariable(name: "key1", arg: 1, scope: !2236, file: !8, line: 1, type: !31)
+!2238 = !DILocation(line: 0, scope: !2236)
+!2239 = !DILocalVariable(name: "key2", arg: 2, scope: !2236, file: !8, line: 1, type: !31)
+!2240 = !DILocalVariable(name: "$ret21", scope: !2236, file: !8, line: 1, type: !13)
+!2241 = !DILocation(line: 1, column: 1, scope: !2236)
+!2242 = distinct !DISubprogram(name: "main._6256_7uint64..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2243 = !DILocalVariable(name: "key1", arg: 1, scope: !2242, file: !8, line: 1, type: !31)
+!2244 = !DILocation(line: 0, scope: !2242)
+!2245 = !DILocalVariable(name: "key2", arg: 2, scope: !2242, file: !8, line: 1, type: !31)
+!2246 = !DILocalVariable(name: "$ret22", scope: !2242, file: !8, line: 1, type: !13)
+!2247 = !DILocation(line: 1, column: 1, scope: !2242)
+!2248 = distinct !DISubprogram(name: "main._661_7struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2249 = !DILocalVariable(name: "key1", arg: 1, scope: !2248, file: !8, line: 1, type: !31)
+!2250 = !DILocation(line: 0, scope: !2248)
+!2251 = !DILocalVariable(name: "key2", arg: 2, scope: !2248, file: !8, line: 1, type: !31)
+!2252 = !DILocalVariable(name: "$ret23", scope: !2248, file: !8, line: 1, type: !13)
+!2253 = !DILocation(line: 1, column: 1, scope: !2248)
+!2254 = distinct !DISubprogram(name: "main.struct_4Size_buint32_cMallocs_buint64_cFrees_buint64_5..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2255 = !DILocalVariable(name: "key1", arg: 1, scope: !2254, file: !8, line: 1, type: !31)
+!2256 = !DILocation(line: 0, scope: !2254)
+!2257 = !DILocalVariable(name: "key2", arg: 2, scope: !2254, file: !8, line: 1, type: !31)
+!2258 = !DILocalVariable(name: "$ret24", scope: !2254, file: !8, line: 1, type: !13)
+!2259 = !DILocation(line: 1, column: 1, scope: !2254)
+!2260 = distinct !DISubprogram(name: "main._6122_7uintptr..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2261 = !DILocalVariable(name: "key1", arg: 1, scope: !2260, file: !8, line: 1, type: !31)
+!2262 = !DILocation(line: 0, scope: !2260)
+!2263 = !DILocalVariable(name: "key2", arg: 2, scope: !2260, file: !8, line: 1, type: !31)
+!2264 = !DILocalVariable(name: "$ret25", scope: !2260, file: !8, line: 1, type: !13)
+!2265 = !DILocation(line: 1, column: 1, scope: !2260)
+!2266 = distinct !DISubprogram(name: "main._68_7uint64..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2267 = !DILocalVariable(name: "key1", arg: 1, scope: !2266, file: !8, line: 1, type: !31)
+!2268 = !DILocation(line: 0, scope: !2266)
+!2269 = !DILocalVariable(name: "key2", arg: 2, scope: !2266, file: !8, line: 1, type: !31)
+!2270 = !DILocalVariable(name: "$ret26", scope: !2266, file: !8, line: 1, type: !13)
+!2271 = !DILocation(line: 1, column: 1, scope: !2266)
+!2272 = distinct !DISubprogram(name: "main._6128_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2273 = !DILocalVariable(name: "key1", arg: 1, scope: !2272, file: !8, line: 1, type: !31)
+!2274 = !DILocation(line: 0, scope: !2272)
+!2275 = !DILocalVariable(name: "key2", arg: 2, scope: !2272, file: !8, line: 1, type: !31)
+!2276 = !DILocalVariable(name: "$ret27", scope: !2272, file: !8, line: 1, type: !13)
+!2277 = !DILocation(line: 1, column: 1, scope: !2272)
+!2278 = distinct !DISubprogram(name: "main._64096_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2279 = !DILocalVariable(name: "key1", arg: 1, scope: !2278, file: !8, line: 1, type: !31)
+!2280 = !DILocation(line: 0, scope: !2278)
+!2281 = !DILocalVariable(name: "key2", arg: 2, scope: !2278, file: !8, line: 1, type: !31)
+!2282 = !DILocalVariable(name: "$ret28", scope: !2278, file: !8, line: 1, type: !13)
+!2283 = !DILocation(line: 1, column: 1, scope: !2278)
+!2284 = distinct !DISubprogram(name: "main._668_7uint16..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2285 = !DILocalVariable(name: "key1", arg: 1, scope: !2284, file: !8, line: 1, type: !31)
+!2286 = !DILocation(line: 0, scope: !2284)
+!2287 = !DILocalVariable(name: "key2", arg: 2, scope: !2284, file: !8, line: 1, type: !31)
+!2288 = !DILocalVariable(name: "$ret29", scope: !2284, file: !8, line: 1, type: !13)
+!2289 = !DILocation(line: 1, column: 1, scope: !2284)
+!2290 = distinct !DISubprogram(name: "main._633_7float64..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2291 = !DILocalVariable(name: "key1", arg: 1, scope: !2290, file: !8, line: 1, type: !31)
+!2292 = !DILocation(line: 0, scope: !2290)
+!2293 = !DILocalVariable(name: "key2", arg: 2, scope: !2290, file: !8, line: 1, type: !31)
+!2294 = !DILocalVariable(name: "$ret30", scope: !2290, file: !8, line: 1, type: !13)
+!2295 = !DILocation(line: 1, column: 1, scope: !2290)
+!2296 = distinct !DISubprogram(name: "main._665_7uint32..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2297 = !DILocalVariable(name: "key1", arg: 1, scope: !2296, file: !8, line: 1, type: !31)
+!2298 = !DILocation(line: 0, scope: !2296)
+!2299 = !DILocalVariable(name: "key2", arg: 2, scope: !2296, file: !8, line: 1, type: !31)
+!2300 = !DILocalVariable(name: "$ret31", scope: !2296, file: !8, line: 1, type: !13)
+!2301 = !DILocation(line: 1, column: 1, scope: !2296)
+!2302 = distinct !DISubprogram(name: "main._64_7uintptr..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2303 = !DILocalVariable(name: "key1", arg: 1, scope: !2302, file: !8, line: 1, type: !31)
+!2304 = !DILocation(line: 0, scope: !2302)
+!2305 = !DILocalVariable(name: "key2", arg: 2, scope: !2302, file: !8, line: 1, type: !31)
+!2306 = !DILocalVariable(name: "$ret32", scope: !2302, file: !8, line: 1, type: !13)
+!2307 = !DILocation(line: 1, column: 1, scope: !2302)
+!2308 = distinct !DISubprogram(name: "main._65_7uint..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2309 = !DILocalVariable(name: "key1", arg: 1, scope: !2308, file: !8, line: 1, type: !31)
+!2310 = !DILocation(line: 0, scope: !2308)
+!2311 = !DILocalVariable(name: "key2", arg: 2, scope: !2308, file: !8, line: 1, type: !31)
+!2312 = !DILocalVariable(name: "$ret33", scope: !2308, file: !8, line: 1, type: !13)
+!2313 = !DILocation(line: 1, column: 1, scope: !2308)
+!2314 = distinct !DISubprogram(name: "main._6512_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2315 = !DILocalVariable(name: "key1", arg: 1, scope: !2314, file: !8, line: 1, type: !31)
+!2316 = !DILocation(line: 0, scope: !2314)
+!2317 = !DILocalVariable(name: "key2", arg: 2, scope: !2314, file: !8, line: 1, type: !31)
+!2318 = !DILocalVariable(name: "$ret34", scope: !2314, file: !8, line: 1, type: !13)
+!2319 = !DILocation(line: 1, column: 1, scope: !2314)
+!2320 = distinct !DISubprogram(name: "main._6249_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2321 = !DILocalVariable(name: "key1", arg: 1, scope: !2320, file: !8, line: 1, type: !31)
+!2322 = !DILocation(line: 0, scope: !2320)
+!2323 = !DILocalVariable(name: "key2", arg: 2, scope: !2320, file: !8, line: 1, type: !31)
+!2324 = !DILocalVariable(name: "$ret35", scope: !2320, file: !8, line: 1, type: !13)
+!2325 = !DILocation(line: 1, column: 1, scope: !2320)
+!2326 = distinct !DISubprogram(name: "main._6129_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2327 = !DILocalVariable(name: "key1", arg: 1, scope: !2326, file: !8, line: 1, type: !31)
+!2328 = !DILocation(line: 0, scope: !2326)
+!2329 = !DILocalVariable(name: "key2", arg: 2, scope: !2326, file: !8, line: 1, type: !31)
+!2330 = !DILocalVariable(name: "$ret36", scope: !2326, file: !8, line: 1, type: !13)
+!2331 = !DILocation(line: 1, column: 1, scope: !2326)
+!2332 = distinct !DISubprogram(name: "main._632_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2333 = !DILocalVariable(name: "key1", arg: 1, scope: !2332, file: !8, line: 1, type: !31)
+!2334 = !DILocation(line: 0, scope: !2332)
+!2335 = !DILocalVariable(name: "key2", arg: 2, scope: !2332, file: !8, line: 1, type: !31)
+!2336 = !DILocalVariable(name: "$ret37", scope: !2332, file: !8, line: 1, type: !13)
+!2337 = !DILocation(line: 1, column: 1, scope: !2332)
+!2338 = distinct !DISubprogram(name: "main._627_7string..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2339 = !DILocalVariable(name: "key1", arg: 1, scope: !2338, file: !8, line: 1, type: !31)
+!2340 = !DILocation(line: 0, scope: !2338)
+!2341 = !DILocalVariable(name: "key2", arg: 2, scope: !2338, file: !8, line: 1, type: !31)
+!2342 = !DILocalVariable(name: "$ret38", scope: !2338, file: !8, line: 1, type: !13)
+!2343 = !DILocation(line: 1, column: 1, scope: !2338)
+!2344 = distinct !DISubprogram(name: "main._61024_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2345 = !DILocalVariable(name: "key1", arg: 1, scope: !2344, file: !8, line: 1, type: !31)
+!2346 = !DILocation(line: 0, scope: !2344)
+!2347 = !DILocalVariable(name: "key2", arg: 2, scope: !2344, file: !8, line: 1, type: !31)
+!2348 = !DILocalVariable(name: "$ret39", scope: !2344, file: !8, line: 1, type: !13)
+!2349 = !DILocation(line: 1, column: 1, scope: !2344)
+!2350 = distinct !DISubprogram(name: "main._62_7int32..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2351 = !DILocalVariable(name: "key1", arg: 1, scope: !2350, file: !8, line: 1, type: !31)
+!2352 = !DILocation(line: 0, scope: !2350)
+!2353 = !DILocalVariable(name: "key2", arg: 2, scope: !2350, file: !8, line: 1, type: !31)
+!2354 = !DILocalVariable(name: "$ret40", scope: !2350, file: !8, line: 1, type: !13)
+!2355 = !DILocation(line: 1, column: 1, scope: !2350)
+!2356 = distinct !DISubprogram(name: "main._664_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2357 = !DILocalVariable(name: "key1", arg: 1, scope: !2356, file: !8, line: 1, type: !31)
+!2358 = !DILocation(line: 0, scope: !2356)
+!2359 = !DILocalVariable(name: "key2", arg: 2, scope: !2356, file: !8, line: 1, type: !31)
+!2360 = !DILocalVariable(name: "$ret41", scope: !2356, file: !8, line: 1, type: !13)
+!2361 = !DILocation(line: 1, column: 1, scope: !2356)
+!2362 = distinct !DISubprogram(name: "main._6256_7uint8..eq", scope: null, file: !8, line: 1, type: !557, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !3, retainedNodes: !499)
+!2363 = !DILocalVariable(name: "key1", arg: 1, scope: !2362, file: !8, line: 1, type: !31)
+!2364 = !DILocation(line: 0, scope: !2362)
+!2365 = !DILocalVariable(name: "key2", arg: 2, scope: !2362, file: !8, line: 1, type: !31)
+!2366 = !DILocalVariable(name: "$ret42", scope: !2362, file: !8, line: 1, type: !13)
+!2367 = !DILocation(line: 1, column: 1, scope: !2362)

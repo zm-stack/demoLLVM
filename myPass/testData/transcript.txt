@@ -1,0 +1,1996 @@
+WORK=/tmp/go-build2460917907
+mkdir -p $WORK/b017/
+mkdir -p $WORK/b031/
+cd $WORK
+/my/install/dir/bin/llvm-goc -fgo-importcfg=/dev/null -c -x c - -o /dev/null || true
+/my/install/dir/bin/llvm-goc -ffile-prefix-map=a=b -c -x c - -o /dev/null || true
+mkdir -p $WORK/b058/
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/detrand
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/detrand -o $WORK/b017/_go_.o -I $WORK/b017/_importcfgroot_ ./rand.go
+mkdir -p $WORK/b025/
+mkdir -p $WORK/b040/
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/flags
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/flags -o $WORK/b031/_go_.o -I $WORK/b031/_importcfgroot_ ./flags.go ./proto_legacy_disable.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/version
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/version -o $WORK/b058/_go_.o -I $WORK/b058/_importcfgroot_ ./version.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/set
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/set -o $WORK/b040/_go_.o -I $WORK/b040/_importcfgroot_ ./ints.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/pragma
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/pragma -o $WORK/b025/_go_.o -I $WORK/b025/_importcfgroot_ ./pragma.go
+echo '	.section .go.buildid,"e"' >> $WORK/b031/_buildid.s
+echo '	.byte 0x72,0x53,0x58,0x56,0x42,0x57,0x62,0x4b' >> $WORK/b031/_buildid.s
+echo '	.byte 0x50,0x31,0x5a,0x68,0x36,0x63,0x58,0x37' >> $WORK/b031/_buildid.s
+echo '	.byte 0x68,0x49,0x79,0x73,0x2f,0x72,0x53,0x58' >> $WORK/b031/_buildid.s
+echo '	.byte 0x56,0x42,0x57,0x62,0x4b,0x50,0x31,0x5a' >> $WORK/b031/_buildid.s
+echo '	.byte 0x68,0x36,0x63,0x58,0x37,0x68,0x49,0x79' >> $WORK/b031/_buildid.s
+echo '	.byte 0x73' >> $WORK/b031/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b031/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b031/_buildid.s
+echo '' >> $WORK/b031/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b058/_buildid.s
+echo '	.byte 0x65,0x31,0x66,0x51,0x6a,0x43,0x6f,0x39' >> $WORK/b058/_buildid.s
+echo '	.byte 0x78,0x63,0x58,0x4b,0x6d,0x56,0x78,0x39' >> $WORK/b058/_buildid.s
+echo '	.byte 0x4b,0x73,0x6a,0x5f,0x2f,0x65,0x31,0x66' >> $WORK/b058/_buildid.s
+echo '	.byte 0x51,0x6a,0x43,0x6f,0x39,0x78,0x63,0x58' >> $WORK/b058/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b025/_buildid.s
+echo '	.byte 0x30,0x67,0x49,0x4f,0x49,0x32,0x6a,0x35' >> $WORK/b025/_buildid.s
+echo '	.byte 0x65,0x35,0x70,0x59,0x64,0x63,0x49,0x62' >> $WORK/b025/_buildid.s
+echo '	.byte 0x74,0x76,0x46,0x35,0x2f,0x30,0x67,0x49' >> $WORK/b025/_buildid.s
+echo '	.byte 0x4f,0x49,0x32,0x6a,0x35,0x65,0x35,0x70' >> $WORK/b025/_buildid.s
+echo '	.byte 0x59,0x64,0x63,0x49,0x62,0x74,0x76,0x46' >> $WORK/b025/_buildid.s
+echo '	.byte 0x35' >> $WORK/b025/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b025/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b025/_buildid.s
+echo '' >> $WORK/b025/_buildid.s
+echo '	.byte 0x4b,0x6d,0x56,0x78,0x39,0x4b,0x73,0x6a' >> $WORK/b058/_buildid.s
+echo '	.byte 0x5f' >> $WORK/b058/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b058/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b058/_buildid.s
+echo '' >> $WORK/b058/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/flags
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b031/ -c -o $WORK/b031/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1flags -m64 $WORK/b031/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/pragma
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b025/ -c -o $WORK/b025/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1pragma -m64 $WORK/b025/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/version
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b058/ -c -o $WORK/b058/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1version -m64 $WORK/b058/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b040/_buildid.s
+echo '	.byte 0x34,0x6a,0x69,0x43,0x62,0x49,0x6e,0x39' >> $WORK/b040/_buildid.s
+echo '	.byte 0x78,0x41,0x44,0x5a,0x72,0x64,0x72,0x7a' >> $WORK/b040/_buildid.s
+echo '	.byte 0x44,0x66,0x4b,0x39,0x2f,0x34,0x6a,0x69' >> $WORK/b040/_buildid.s
+echo '	.byte 0x43,0x62,0x49,0x6e,0x39,0x78,0x41,0x44' >> $WORK/b040/_buildid.s
+echo '	.byte 0x5a,0x72,0x64,0x72,0x7a,0x44,0x66,0x4b' >> $WORK/b040/_buildid.s
+echo '	.byte 0x39' >> $WORK/b040/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b040/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b040/_buildid.s
+echo '' >> $WORK/b040/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/set
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b040/ -c -o $WORK/b040/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1set -m64 $WORK/b040/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/version
+ar rcD $WORK/b058/_pkg_.a $WORK/b058/_go_.o $WORK/b058/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b017/_buildid.s
+echo '	.byte 0x58,0x78,0x69,0x7a,0x37,0x4f,0x31,0x4a' >> $WORK/b017/_buildid.s
+echo '	.byte 0x6a,0x56,0x4d,0x46,0x6f,0x34,0x6e,0x42' >> $WORK/b017/_buildid.s
+echo '	.byte 0x32,0x34,0x46,0x69,0x2f,0x58,0x78,0x69' >> $WORK/b017/_buildid.s
+echo '	.byte 0x7a,0x37,0x4f,0x31,0x4a,0x6a,0x56,0x4d' >> $WORK/b017/_buildid.s
+echo '	.byte 0x46,0x6f,0x34,0x6e,0x42,0x32,0x34,0x46' >> $WORK/b017/_buildid.s
+echo '	.byte 0x69' >> $WORK/b017/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b017/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b017/_buildid.s
+echo '' >> $WORK/b017/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/flags
+ar rcD $WORK/b031/_pkg_.a $WORK/b031/_go_.o $WORK/b031/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/detrand
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b017/ -c -o $WORK/b017/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1detrand -m64 $WORK/b017/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/pragma
+ar rcD $WORK/b025/_pkg_.a $WORK/b025/_go_.o $WORK/b025/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/set
+ar rcD $WORK/b040/_pkg_.a $WORK/b040/_go_.o $WORK/b040/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/detrand
+ar rcD $WORK/b017/_pkg_.a $WORK/b017/_go_.o $WORK/b017/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b031/_pkg_.a # internal
+cp $WORK/b031/_pkg_.a /home/ming/.cache/go-build/39/3950e643eea87a603395e0b1f8be8d9c61e781266a9133db084aa0894bf76c4c-d # internal
+/my/install/dir/tools/buildid -w $WORK/b058/_pkg_.a # internal
+/my/install/dir/tools/buildid -w $WORK/b025/_pkg_.a # internal
+/my/install/dir/tools/buildid -w $WORK/b040/_pkg_.a # internal
+/my/install/dir/tools/buildid -w $WORK/b017/_pkg_.a # internal
+cp $WORK/b058/_pkg_.a /home/ming/.cache/go-build/3b/3b2b423e9b09c1f0fec8e985788781b8dca58c2bdffda13a86526940716cec45-d # internal
+cp $WORK/b025/_pkg_.a /home/ming/.cache/go-build/c9/c9a68af6acee39e093d4a3ee7e563a19815619c38375c4c84147679976eb2278-d # internal
+cp $WORK/b017/_pkg_.a /home/ming/.cache/go-build/1f/1f16f658b32ec28d3a5849cd5832298a2b20149a07c4b3f08c1e64bee1923a12-d # internal
+cp $WORK/b040/_pkg_.a /home/ming/.cache/go-build/f9/f95703436316b14386e4b56b9bccb520e009149cefae5d18cf3451d2cb969299-d # internal
+mkdir -p $WORK/b016/
+mkdir -p $WORK/b016/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b017/_pkg_.a $WORK/b016/_importcfgroot_/google.golang.org/protobuf/internal/libdetrand.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/errors
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/errors -o $WORK/b016/_go_.o -I $WORK/b016/_importcfgroot_ ./errors.go ./is_go113.go
+echo '	.section .go.buildid,"e"' >> $WORK/b016/_buildid.s
+echo '	.byte 0x71,0x4b,0x36,0x41,0x53,0x38,0x4d,0x4f' >> $WORK/b016/_buildid.s
+echo '	.byte 0x6f,0x4e,0x72,0x53,0x6c,0x31,0x6c,0x4a' >> $WORK/b016/_buildid.s
+echo '	.byte 0x50,0x36,0x30,0x49,0x2f,0x71,0x4b,0x36' >> $WORK/b016/_buildid.s
+echo '	.byte 0x41,0x53,0x38,0x4d,0x4f,0x6f,0x4e,0x72' >> $WORK/b016/_buildid.s
+echo '	.byte 0x53,0x6c,0x31,0x6c,0x4a,0x50,0x36,0x30' >> $WORK/b016/_buildid.s
+echo '	.byte 0x49' >> $WORK/b016/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b016/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b016/_buildid.s
+echo '' >> $WORK/b016/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b016/ -c -o $WORK/b016/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1errors -m64 $WORK/b016/_buildid.s
+ar rcD $WORK/b016/_pkg_.a $WORK/b016/_go_.o $WORK/b016/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b016/_pkg_.a # internal
+cp $WORK/b016/_pkg_.a /home/ming/.cache/go-build/8f/8f6a66e6f4f457228368d718e4f24d11f86c60acc6508e9d2f2fecd470970ace-d # internal
+mkdir -p $WORK/b015/
+mkdir -p $WORK/b015/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b015/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/encoding/protowire
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/encoding/protowire -o $WORK/b015/_go_.o -I $WORK/b015/_importcfgroot_ ./wire.go
+echo '	.section .go.buildid,"e"' >> $WORK/b015/_buildid.s
+echo '	.byte 0x78,0x77,0x55,0x39,0x39,0x4c,0x71,0x61' >> $WORK/b015/_buildid.s
+echo '	.byte 0x4d,0x45,0x44,0x44,0x4a,0x78,0x43,0x55' >> $WORK/b015/_buildid.s
+echo '	.byte 0x66,0x4f,0x67,0x72,0x2f,0x78,0x77,0x55' >> $WORK/b015/_buildid.s
+echo '	.byte 0x39,0x39,0x4c,0x71,0x61,0x4d,0x45,0x44' >> $WORK/b015/_buildid.s
+echo '	.byte 0x44,0x4a,0x78,0x43,0x55,0x66,0x4f,0x67' >> $WORK/b015/_buildid.s
+echo '	.byte 0x72' >> $WORK/b015/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b015/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b015/_buildid.s
+echo '' >> $WORK/b015/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b015/ -c -o $WORK/b015/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1encoding_1protowire -m64 $WORK/b015/_buildid.s
+ar rcD $WORK/b015/_pkg_.a $WORK/b015/_go_.o $WORK/b015/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b015/_pkg_.a # internal
+cp $WORK/b015/_pkg_.a /home/ming/.cache/go-build/a0/a07ecef97042f7ff31e0b3e56c5265b57cd25eae3c7407d153bf9a4e97fbd25f-d # internal
+mkdir -p $WORK/b024/
+mkdir -p $WORK/b024/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b015/_pkg_.a $WORK/b024/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b024/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b025/_pkg_.a $WORK/b024/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/reflect/protoreflect
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/reflect/protoreflect -o $WORK/b024/_go_.o -I $WORK/b024/_importcfgroot_ ./methods.go ./proto.go ./source.go ./source_gen.go ./type.go ./value.go ./value_union.go ./value_unsafe.go
+echo '	.section .go.buildid,"e"' >> $WORK/b024/_buildid.s
+echo '	.byte 0x49,0x37,0x58,0x32,0x63,0x69,0x4c,0x48' >> $WORK/b024/_buildid.s
+echo '	.byte 0x6f,0x65,0x43,0x38,0x41,0x48,0x4c,0x6b' >> $WORK/b024/_buildid.s
+echo '	.byte 0x42,0x68,0x67,0x37,0x2f,0x49,0x37,0x58' >> $WORK/b024/_buildid.s
+echo '	.byte 0x32,0x63,0x69,0x4c,0x48,0x6f,0x65,0x43' >> $WORK/b024/_buildid.s
+echo '	.byte 0x38,0x41,0x48,0x4c,0x6b,0x42,0x68,0x67' >> $WORK/b024/_buildid.s
+echo '	.byte 0x37' >> $WORK/b024/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b024/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b024/_buildid.s
+echo '' >> $WORK/b024/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b024/ -c -o $WORK/b024/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1reflect_1protoreflect -m64 $WORK/b024/_buildid.s
+ar rcD $WORK/b024/_pkg_.a $WORK/b024/_go_.o $WORK/b024/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b024/_pkg_.a # internal
+cp $WORK/b024/_pkg_.a /home/ming/.cache/go-build/e4/e4f9a4797498a519a4a8400f57a854d835a8f4e4701f3757f6c212ca0c614100-d # internal
+mkdir -p $WORK/b023/
+mkdir -p $WORK/b043/
+mkdir -p $WORK/b038/
+mkdir -p $WORK/b049/
+mkdir -p $WORK/b048/
+mkdir -p $WORK/b032/
+mkdir -p $WORK/b037/
+mkdir -p $WORK/b043/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b025/_pkg_.a $WORK/b043/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+mkdir -p $WORK/b037/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b037/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b023/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b015/_pkg_.a $WORK/b023/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b023/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b023/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+mkdir -p $WORK/b023/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b023/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/messageset
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/encoding/messageset -o $WORK/b023/_go_.o -I $WORK/b023/_importcfgroot_ ./messageset.go
+mkdir -p $WORK/b032/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b031/_pkg_.a $WORK/b032/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+mkdir -p $WORK/b048/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b017/_pkg_.a $WORK/b048/_importcfgroot_/google.golang.org/protobuf/internal/libdetrand.a
+ln -s $WORK/b025/_pkg_.a $WORK/b048/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+mkdir -p $WORK/b048/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b048/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b032/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b032/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/strs
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/strs -o $WORK/b032/_go_.o -I $WORK/b032/_importcfgroot_ ./strings.go ./strings_unsafe.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/genid
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/genid -o $WORK/b037/_go_.o -I $WORK/b037/_importcfgroot_ ./any_gen.go ./api_gen.go ./descriptor_gen.go ./doc.go ./duration_gen.go ./empty_gen.go ./field_mask_gen.go ./goname.go ./map_entry.go ./source_context_gen.go ./struct_gen.go ./timestamp_gen.go ./type_gen.go ./wrappers.go ./wrappers_gen.go
+mkdir -p $WORK/b038/_importcfgroot_/google.golang.org/protobuf/reflect
+mkdir -p $WORK/b043/_importcfgroot_/google.golang.org/protobuf/reflect
+mkdir -p $WORK/b049/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b038/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b024/_pkg_.a $WORK/b043/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/order
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/order -o $WORK/b038/_go_.o -I $WORK/b038/_importcfgroot_ ./order.go ./range.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/descfmt
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/descfmt -o $WORK/b048/_go_.o -I $WORK/b048/_importcfgroot_ ./stringer.go
+ln -s $WORK/b024/_pkg_.a $WORK/b049/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/runtime/protoiface
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/runtime/protoiface -o $WORK/b043/_go_.o -I $WORK/b043/_importcfgroot_ ./legacy.go ./methods.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/descopts
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/descopts -o $WORK/b049/_go_.o -I $WORK/b049/_importcfgroot_ ./options.go
+echo '	.section .go.buildid,"e"' >> $WORK/b043/_buildid.s
+echo '	.byte 0x33,0x5f,0x50,0x74,0x43,0x68,0x46,0x67' >> $WORK/b043/_buildid.s
+echo '	.byte 0x65,0x43,0x32,0x68,0x67,0x5f,0x51,0x72' >> $WORK/b043/_buildid.s
+echo '	.byte 0x5f,0x69,0x71,0x59,0x2f,0x33,0x5f,0x50' >> $WORK/b043/_buildid.s
+echo '	.byte 0x74,0x43,0x68,0x46,0x67,0x65,0x43,0x32' >> $WORK/b043/_buildid.s
+echo '	.byte 0x68,0x67,0x5f,0x51,0x72,0x5f,0x69,0x71' >> $WORK/b043/_buildid.s
+echo '	.byte 0x59' >> $WORK/b043/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b043/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b043/_buildid.s
+echo '' >> $WORK/b043/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b037/_buildid.s
+echo '	.byte 0x34,0x7a,0x64,0x34,0x75,0x44,0x4f,0x4e' >> $WORK/b037/_buildid.s
+echo '	.byte 0x44,0x55,0x69,0x53,0x73,0x39,0x49,0x72' >> $WORK/b037/_buildid.s
+echo '	.byte 0x77,0x72,0x49,0x56,0x2f,0x34,0x7a,0x64' >> $WORK/b037/_buildid.s
+echo '	.byte 0x34,0x75,0x44,0x4f,0x4e,0x44,0x55,0x69' >> $WORK/b037/_buildid.s
+echo '	.byte 0x53,0x73,0x39,0x49,0x72,0x77,0x72,0x49' >> $WORK/b037/_buildid.s
+echo '	.byte 0x56' >> $WORK/b037/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b037/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b037/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/runtime/protoiface
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b043/ -c -o $WORK/b043/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1runtime_1protoiface -m64 $WORK/b043/_buildid.s
+echo '' >> $WORK/b037/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/genid
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b037/ -c -o $WORK/b037/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1genid -m64 $WORK/b037/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b049/_buildid.s
+echo '	.byte 0x6b,0x39,0x4d,0x73,0x35,0x61,0x55,0x69' >> $WORK/b049/_buildid.s
+echo '	.byte 0x69,0x67,0x4a,0x73,0x53,0x70,0x58,0x6d' >> $WORK/b049/_buildid.s
+echo '	.byte 0x41,0x67,0x72,0x46,0x2f,0x6b,0x39,0x4d' >> $WORK/b049/_buildid.s
+echo '	.byte 0x73,0x35,0x61,0x55,0x69,0x69,0x67,0x4a' >> $WORK/b049/_buildid.s
+echo '	.byte 0x73,0x53,0x70,0x58,0x6d,0x41,0x67,0x72' >> $WORK/b049/_buildid.s
+echo '	.byte 0x46' >> $WORK/b049/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b049/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b049/_buildid.s
+echo '' >> $WORK/b049/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/descopts
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b049/ -c -o $WORK/b049/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1descopts -m64 $WORK/b049/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/runtime/protoiface
+ar rcD $WORK/b043/_pkg_.a $WORK/b043/_go_.o $WORK/b043/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/genid
+ar rcD $WORK/b037/_pkg_.a $WORK/b037/_go_.o $WORK/b037/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/descopts
+ar rcD $WORK/b049/_pkg_.a $WORK/b049/_go_.o $WORK/b049/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b043/_pkg_.a # internal
+/my/install/dir/tools/buildid -w $WORK/b037/_pkg_.a # internal
+cp $WORK/b043/_pkg_.a /home/ming/.cache/go-build/2d/2d125c3d80505360e31bd1035cfdd7c6475d9080533272c2f1ed35a67d3bf244-d # internal
+cp $WORK/b037/_pkg_.a /home/ming/.cache/go-build/5b/5b2341e8b6701e6159b2d80d90a795bd78a747dcd2022631c5d59bb7cd5134f6-d # internal
+/my/install/dir/tools/buildid -w $WORK/b049/_pkg_.a # internal
+cp $WORK/b049/_pkg_.a /home/ming/.cache/go-build/0b/0b12eb98954eae32d037622b71a8357f5b10d04b35e5dde9f8645f2a19839ad5-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b038/_buildid.s
+echo '	.byte 0x42,0x45,0x41,0x6b,0x6b,0x31,0x38,0x69' >> $WORK/b038/_buildid.s
+echo '	.byte 0x42,0x75,0x48,0x56,0x38,0x61,0x67,0x74' >> $WORK/b038/_buildid.s
+echo '	.byte 0x61,0x4a,0x77,0x31,0x2f,0x42,0x45,0x41' >> $WORK/b038/_buildid.s
+echo '	.byte 0x6b,0x6b,0x31,0x38,0x69,0x42,0x75,0x48' >> $WORK/b038/_buildid.s
+echo '	.byte 0x56,0x38,0x61,0x67,0x74,0x61,0x4a,0x77' >> $WORK/b038/_buildid.s
+echo '	.byte 0x31' >> $WORK/b038/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b038/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b038/_buildid.s
+echo '' >> $WORK/b038/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/order
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b038/ -c -o $WORK/b038/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1order -m64 $WORK/b038/_buildid.s
+ar rcD $WORK/b038/_pkg_.a $WORK/b038/_go_.o $WORK/b038/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b023/_buildid.s
+echo '	.byte 0x62,0x4b,0x72,0x4b,0x68,0x6f,0x41,0x67' >> $WORK/b023/_buildid.s
+echo '	.byte 0x6a,0x31,0x49,0x31,0x4a,0x50,0x55,0x46' >> $WORK/b023/_buildid.s
+echo '	.byte 0x5a,0x56,0x64,0x63,0x2f,0x62,0x4b,0x72' >> $WORK/b023/_buildid.s
+echo '	.byte 0x4b,0x68,0x6f,0x41,0x67,0x6a,0x31,0x49' >> $WORK/b023/_buildid.s
+echo '	.byte 0x31,0x4a,0x50,0x55,0x46,0x5a,0x56,0x64' >> $WORK/b023/_buildid.s
+echo '	.byte 0x63' >> $WORK/b023/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b023/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b023/_buildid.s
+echo '' >> $WORK/b023/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/messageset
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b023/ -c -o $WORK/b023/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1encoding_1messageset -m64 $WORK/b023/_buildid.s
+ar rcD $WORK/b023/_pkg_.a $WORK/b023/_go_.o $WORK/b023/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b038/_pkg_.a # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b032/_buildid.s
+echo '	.byte 0x33,0x5a,0x79,0x4d,0x79,0x38,0x44,0x52' >> $WORK/b032/_buildid.s
+echo '	.byte 0x6e,0x31,0x32,0x2d,0x65,0x46,0x38,0x66' >> $WORK/b032/_buildid.s
+echo '	.byte 0x42,0x36,0x57,0x46,0x2f,0x33,0x5a,0x79' >> $WORK/b032/_buildid.s
+echo '	.byte 0x4d,0x79,0x38,0x44,0x52,0x6e,0x31,0x32' >> $WORK/b032/_buildid.s
+echo '	.byte 0x2d,0x65,0x46,0x38,0x66,0x42,0x36,0x57' >> $WORK/b032/_buildid.s
+echo '	.byte 0x46' >> $WORK/b032/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b032/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b032/_buildid.s
+echo '' >> $WORK/b032/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/strs
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b032/ -c -o $WORK/b032/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1strs -m64 $WORK/b032/_buildid.s
+cp $WORK/b038/_pkg_.a /home/ming/.cache/go-build/34/34b3663587ac4b22a5dfcd04f20bb217412eff59c958cf4b8fdbd924c33befdf-d # internal
+/my/install/dir/tools/buildid -w $WORK/b023/_pkg_.a # internal
+ar rcD $WORK/b032/_pkg_.a $WORK/b032/_go_.o $WORK/b032/_buildid.o
+cp $WORK/b023/_pkg_.a /home/ming/.cache/go-build/53/539f1e18a77b54c22834a7030e0ff3f4c6591432169091aa84d946bf7c52156d-d # internal
+mkdir -p $WORK/b042/
+mkdir -p $WORK/b042/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b023/_pkg_.a $WORK/b042/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+mkdir -p $WORK/b042/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b042/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b031/_pkg_.a $WORK/b042/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+mkdir -p $WORK/b042/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b042/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/reflect/protoregistry
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/reflect/protoregistry -o $WORK/b042/_go_.o -I $WORK/b042/_importcfgroot_ ./registry.go
+/my/install/dir/tools/buildid -w $WORK/b032/_pkg_.a # internal
+cp $WORK/b032/_pkg_.a /home/ming/.cache/go-build/81/81d26e649d75c9599e6a746a802fd9ada075608fdc1314fdbca779524855558d-d # internal
+mkdir -p $WORK/b098/
+mkdir -p $WORK/b030/
+mkdir -p $WORK/b098/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b017/_pkg_.a $WORK/b098/_importcfgroot_/google.golang.org/protobuf/internal/libdetrand.a
+ln -s $WORK/b016/_pkg_.a $WORK/b098/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b032/_pkg_.a $WORK/b098/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/json
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/encoding/json -o $WORK/b098/_go_.o -I $WORK/b098/_importcfgroot_ ./decode.go ./decode_number.go ./decode_string.go ./decode_token.go ./encode.go
+mkdir -p $WORK/b030/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b017/_pkg_.a $WORK/b030/_importcfgroot_/google.golang.org/protobuf/internal/libdetrand.a
+ln -s $WORK/b016/_pkg_.a $WORK/b030/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b031/_pkg_.a $WORK/b030/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b032/_pkg_.a $WORK/b030/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/text
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/encoding/text -o $WORK/b030/_go_.o -I $WORK/b030/_importcfgroot_ ./decode.go ./decode_number.go ./decode_string.go ./decode_token.go ./doc.go ./encode.go
+echo '	.section .go.buildid,"e"' >> $WORK/b048/_buildid.s
+echo '	.byte 0x37,0x38,0x5a,0x72,0x46,0x57,0x61,0x39' >> $WORK/b048/_buildid.s
+echo '	.byte 0x6e,0x63,0x6b,0x63,0x35,0x67,0x74,0x55' >> $WORK/b048/_buildid.s
+echo '	.byte 0x6b,0x52,0x4b,0x4b,0x2f,0x37,0x38,0x5a' >> $WORK/b048/_buildid.s
+echo '	.byte 0x72,0x46,0x57,0x61,0x39,0x6e,0x63,0x6b' >> $WORK/b048/_buildid.s
+echo '	.byte 0x63,0x35,0x67,0x74,0x55,0x6b,0x52,0x4b' >> $WORK/b048/_buildid.s
+echo '	.byte 0x4b' >> $WORK/b048/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b048/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b048/_buildid.s
+echo '' >> $WORK/b048/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/descfmt
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b048/ -c -o $WORK/b048/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1descfmt -m64 $WORK/b048/_buildid.s
+ar rcD $WORK/b048/_pkg_.a $WORK/b048/_go_.o $WORK/b048/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b048/_pkg_.a # internal
+cp $WORK/b048/_pkg_.a /home/ming/.cache/go-build/9c/9ca5d5921b68ca7133d2aca5413bd4a780e3aceac6277baa3a86611ae9b11067-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b042/_buildid.s
+echo '	.byte 0x57,0x79,0x4a,0x6e,0x6f,0x31,0x47,0x5a' >> $WORK/b042/_buildid.s
+echo '	.byte 0x6d,0x58,0x4d,0x70,0x37,0x2d,0x6b,0x50' >> $WORK/b042/_buildid.s
+echo '	.byte 0x59,0x73,0x4e,0x62,0x2f,0x57,0x79,0x4a' >> $WORK/b042/_buildid.s
+echo '	.byte 0x6e,0x6f,0x31,0x47,0x5a,0x6d,0x58,0x4d' >> $WORK/b042/_buildid.s
+echo '	.byte 0x70,0x37,0x2d,0x6b,0x50,0x59,0x73,0x4e' >> $WORK/b042/_buildid.s
+echo '	.byte 0x62' >> $WORK/b042/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b042/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b042/_buildid.s
+echo '' >> $WORK/b042/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/reflect/protoregistry
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b042/ -c -o $WORK/b042/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1reflect_1protoregistry -m64 $WORK/b042/_buildid.s
+ar rcD $WORK/b042/_pkg_.a $WORK/b042/_go_.o $WORK/b042/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b042/_pkg_.a # internal
+cp $WORK/b042/_pkg_.a /home/ming/.cache/go-build/e8/e840aaff238ce8fc007f5ccde1ac30f3f80b77168bdc164fd57682c25709a8c5-d # internal
+mkdir -p $WORK/b041/
+mkdir -p $WORK/b041/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b015/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b023/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+mkdir -p $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b031/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b037/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+ln -s $WORK/b038/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/liborder.a
+ln -s $WORK/b025/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b032/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b041/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+mkdir -p $WORK/b041/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b043/_pkg_.a $WORK/b041/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoiface.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/proto
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/proto -o $WORK/b041/_go_.o -I $WORK/b041/_importcfgroot_ ./checkinit.go ./decode.go ./decode_gen.go ./doc.go ./encode.go ./encode_gen.go ./equal.go ./extension.go ./merge.go ./messageset.go ./proto.go ./proto_methods.go ./reset.go ./size.go ./size_gen.go ./wrappers.go
+echo '	.section .go.buildid,"e"' >> $WORK/b098/_buildid.s
+echo '	.byte 0x6c,0x39,0x53,0x62,0x64,0x38,0x39,0x35' >> $WORK/b098/_buildid.s
+echo '	.byte 0x47,0x73,0x38,0x55,0x30,0x50,0x58,0x6f' >> $WORK/b098/_buildid.s
+echo '	.byte 0x76,0x4c,0x45,0x5f,0x2f,0x6c,0x39,0x53' >> $WORK/b098/_buildid.s
+echo '	.byte 0x62,0x64,0x38,0x39,0x35,0x47,0x73,0x38' >> $WORK/b098/_buildid.s
+echo '	.byte 0x55,0x30,0x50,0x58,0x6f,0x76,0x4c,0x45' >> $WORK/b098/_buildid.s
+echo '	.byte 0x5f' >> $WORK/b098/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b098/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b098/_buildid.s
+echo '' >> $WORK/b098/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/json
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b098/ -c -o $WORK/b098/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1encoding_1json -m64 $WORK/b098/_buildid.s
+ar rcD $WORK/b098/_pkg_.a $WORK/b098/_go_.o $WORK/b098/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b098/_pkg_.a # internal
+cp $WORK/b098/_pkg_.a /home/ming/.cache/go-build/41/41c9f199d41f1224ee91588a1fc419d7b74dfb8bf8a2f729660fcd6b3d8e791c-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b030/_buildid.s
+echo '	.byte 0x46,0x4a,0x78,0x6e,0x4a,0x56,0x45,0x4d' >> $WORK/b030/_buildid.s
+echo '	.byte 0x75,0x77,0x45,0x56,0x38,0x65,0x6f,0x46' >> $WORK/b030/_buildid.s
+echo '	.byte 0x50,0x59,0x36,0x6c,0x2f,0x46,0x4a,0x78' >> $WORK/b030/_buildid.s
+echo '	.byte 0x6e,0x4a,0x56,0x45,0x4d,0x75,0x77,0x45' >> $WORK/b030/_buildid.s
+echo '	.byte 0x56,0x38,0x65,0x6f,0x46,0x50,0x59,0x36' >> $WORK/b030/_buildid.s
+echo '	.byte 0x6c' >> $WORK/b030/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b030/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b030/_buildid.s
+echo '' >> $WORK/b030/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/text
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b030/ -c -o $WORK/b030/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1encoding_1text -m64 $WORK/b030/_buildid.s
+ar rcD $WORK/b030/_pkg_.a $WORK/b030/_go_.o $WORK/b030/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b030/_pkg_.a # internal
+cp $WORK/b030/_pkg_.a /home/ming/.cache/go-build/26/2646aebd95f6eab6b11072d45ad0a7e505c371ece20e19afab6b3f214d6195cf-d # internal
+mkdir -p $WORK/b046/
+mkdir -p $WORK/b046/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b030/_pkg_.a $WORK/b046/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libtext.a
+mkdir -p $WORK/b046/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b046/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+mkdir -p $WORK/b046/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b046/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/defval
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/encoding/defval -o $WORK/b046/_go_.o -I $WORK/b046/_importcfgroot_ ./default.go
+echo '	.section .go.buildid,"e"' >> $WORK/b046/_buildid.s
+echo '	.byte 0x32,0x57,0x47,0x31,0x33,0x31,0x4a,0x30' >> $WORK/b046/_buildid.s
+echo '	.byte 0x67,0x38,0x77,0x75,0x35,0x51,0x6d,0x76' >> $WORK/b046/_buildid.s
+echo '	.byte 0x6b,0x57,0x75,0x2d,0x2f,0x32,0x57,0x47' >> $WORK/b046/_buildid.s
+echo '	.byte 0x31,0x33,0x31,0x4a,0x30,0x67,0x38,0x77' >> $WORK/b046/_buildid.s
+echo '	.byte 0x75,0x35,0x51,0x6d,0x76,0x6b,0x57,0x75' >> $WORK/b046/_buildid.s
+echo '	.byte 0x2d' >> $WORK/b046/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b046/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b046/_buildid.s
+echo '' >> $WORK/b046/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b046/ -c -o $WORK/b046/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1encoding_1defval -m64 $WORK/b046/_buildid.s
+ar rcD $WORK/b046/_pkg_.a $WORK/b046/_go_.o $WORK/b046/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b046/_pkg_.a # internal
+cp $WORK/b046/_pkg_.a /home/ming/.cache/go-build/95/956df43e2cbd35eba5488f06d22d5a8dabb4f85c1d0bb515a147d8fbc96d7648-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b041/_buildid.s
+echo '	.byte 0x61,0x44,0x6c,0x76,0x6e,0x33,0x76,0x63' >> $WORK/b041/_buildid.s
+echo '	.byte 0x43,0x76,0x70,0x62,0x2d,0x48,0x69,0x78' >> $WORK/b041/_buildid.s
+echo '	.byte 0x51,0x42,0x72,0x72,0x2f,0x61,0x44,0x6c' >> $WORK/b041/_buildid.s
+echo '	.byte 0x76,0x6e,0x33,0x76,0x63,0x43,0x76,0x70' >> $WORK/b041/_buildid.s
+echo '	.byte 0x62,0x2d,0x48,0x69,0x78,0x51,0x42,0x72' >> $WORK/b041/_buildid.s
+echo '	.byte 0x72' >> $WORK/b041/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b041/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b041/_buildid.s
+echo '' >> $WORK/b041/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/proto
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b041/ -c -o $WORK/b041/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1proto -m64 $WORK/b041/_buildid.s
+ar rcD $WORK/b041/_pkg_.a $WORK/b041/_go_.o $WORK/b041/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b041/_pkg_.a # internal
+cp $WORK/b041/_pkg_.a /home/ming/.cache/go-build/18/185d7d2140886c782b9b4265a89ddf6c7d628bb05a06fbf14d56b660fab334af-d # internal
+mkdir -p $WORK/b014/
+mkdir -p $WORK/b047/
+mkdir -p $WORK/b047/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b015/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b048/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/libdescfmt.a
+ln -s $WORK/b049/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/libdescopts.a
+mkdir -p $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b046/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libdefval.a
+ln -s $WORK/b023/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+ln -s $WORK/b016/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b037/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+ln -s $WORK/b025/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b032/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b047/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b047/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b047/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+mkdir -p $WORK/b014/_importcfgroot_/google.golang.org/protobuf/encoding
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/filedesc
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/filedesc -o $WORK/b047/_go_.o -I $WORK/b047/_importcfgroot_ ./build.go ./desc.go ./desc_init.go ./desc_lazy.go ./desc_list.go ./desc_list_gen.go ./placeholder.go
+ln -s $WORK/b015/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b023/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+ln -s $WORK/b030/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libtext.a
+mkdir -p $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b031/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b037/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+ln -s $WORK/b038/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/liborder.a
+ln -s $WORK/b025/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b040/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/libset.a
+ln -s $WORK/b032/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b014/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b014/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b014/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/encoding/prototext
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/encoding/prototext -o $WORK/b014/_go_.o -I $WORK/b014/_importcfgroot_ ./decode.go ./doc.go ./encode.go
+echo '	.section .go.buildid,"e"' >> $WORK/b014/_buildid.s
+echo '	.byte 0x38,0x79,0x31,0x34,0x34,0x49,0x31,0x6f' >> $WORK/b014/_buildid.s
+echo '	.byte 0x5a,0x5a,0x46,0x4a,0x44,0x69,0x49,0x59' >> $WORK/b014/_buildid.s
+echo '	.byte 0x6d,0x46,0x37,0x72,0x2f,0x38,0x79,0x31' >> $WORK/b014/_buildid.s
+echo '	.byte 0x34,0x34,0x49,0x31,0x6f,0x5a,0x5a,0x46' >> $WORK/b014/_buildid.s
+echo '	.byte 0x4a,0x44,0x69,0x49,0x59,0x6d,0x46,0x37' >> $WORK/b014/_buildid.s
+echo '	.byte 0x72' >> $WORK/b014/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b014/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b014/_buildid.s
+echo '' >> $WORK/b014/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b014/ -c -o $WORK/b014/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1encoding_1prototext -m64 $WORK/b014/_buildid.s
+ar rcD $WORK/b014/_pkg_.a $WORK/b014/_go_.o $WORK/b014/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b014/_pkg_.a # internal
+cp $WORK/b014/_pkg_.a /home/ming/.cache/go-build/df/df1579ddbeda4c41fbd65b57ade79dbd97b3f3bf8cbcc40fa1ea44d6d033d013-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b047/_buildid.s
+echo '	.byte 0x48,0x69,0x43,0x44,0x73,0x6e,0x35,0x56' >> $WORK/b047/_buildid.s
+echo '	.byte 0x77,0x70,0x42,0x57,0x51,0x56,0x76,0x63' >> $WORK/b047/_buildid.s
+echo '	.byte 0x5f,0x56,0x52,0x59,0x2f,0x48,0x69,0x43' >> $WORK/b047/_buildid.s
+echo '	.byte 0x44,0x73,0x6e,0x35,0x56,0x77,0x70,0x42' >> $WORK/b047/_buildid.s
+echo '	.byte 0x57,0x51,0x56,0x76,0x63,0x5f,0x56,0x52' >> $WORK/b047/_buildid.s
+echo '	.byte 0x59' >> $WORK/b047/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b047/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b047/_buildid.s
+echo '' >> $WORK/b047/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/filedesc
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b047/ -c -o $WORK/b047/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1filedesc -m64 $WORK/b047/_buildid.s
+ar rcD $WORK/b047/_pkg_.a $WORK/b047/_go_.o $WORK/b047/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b047/_pkg_.a # internal
+cp $WORK/b047/_pkg_.a /home/ming/.cache/go-build/ed/ed9b4db845de30ea6c293d441c6640637c72f99093c8f4f99d6ae31d2fc2fbec-d # internal
+mkdir -p $WORK/b097/
+mkdir -p $WORK/b055/
+mkdir -p $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b098/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libjson.a
+ln -s $WORK/b023/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+mkdir -p $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b047/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b031/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b037/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+mkdir -p $WORK/b055/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b046/_pkg_.a $WORK/b055/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libdefval.a
+mkdir -p $WORK/b055/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b047/_pkg_.a $WORK/b055/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b038/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/liborder.a
+ln -s $WORK/b032/_pkg_.a $WORK/b055/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b055/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b055/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/tag
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/encoding/tag -o $WORK/b055/_go_.o -I $WORK/b055/_importcfgroot_ ./tag.go
+ln -s $WORK/b025/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b040/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libset.a
+ln -s $WORK/b032/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b097/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b097/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b097/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/encoding/protojson
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/encoding/protojson -o $WORK/b097/_go_.o -I $WORK/b097/_importcfgroot_ ./decode.go ./doc.go ./encode.go ./well_known_types.go
+echo '	.section .go.buildid,"e"' >> $WORK/b055/_buildid.s
+echo '	.byte 0x51,0x78,0x48,0x4e,0x7a,0x56,0x4b,0x7a' >> $WORK/b055/_buildid.s
+echo '	.byte 0x4c,0x4d,0x57,0x51,0x45,0x48,0x56,0x54' >> $WORK/b055/_buildid.s
+echo '	.byte 0x65,0x4d,0x72,0x4b,0x2f,0x51,0x78,0x48' >> $WORK/b055/_buildid.s
+echo '	.byte 0x4e,0x7a,0x56,0x4b,0x7a,0x4c,0x4d,0x57' >> $WORK/b055/_buildid.s
+echo '	.byte 0x51,0x45,0x48,0x56,0x54,0x65,0x4d,0x72' >> $WORK/b055/_buildid.s
+echo '	.byte 0x4b' >> $WORK/b055/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b055/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b055/_buildid.s
+echo '' >> $WORK/b055/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/encoding/tag
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b055/ -c -o $WORK/b055/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1encoding_1tag -m64 $WORK/b055/_buildid.s
+ar rcD $WORK/b055/_pkg_.a $WORK/b055/_go_.o $WORK/b055/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b055/_pkg_.a # internal
+cp $WORK/b055/_pkg_.a /home/ming/.cache/go-build/27/277502b503b3a94d1a0379d7b265c1343e677e6bfabacf90dd5900af48aa878d-d # internal
+mkdir -p $WORK/b054/
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b014/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/encoding/libprototext.a
+ln -s $WORK/b015/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b049/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libdescopts.a
+ln -s $WORK/b017/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libdetrand.a
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b023/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libmessageset.a
+ln -s $WORK/b055/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libtag.a
+ln -s $WORK/b016/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b047/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b031/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b037/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+ln -s $WORK/b038/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/liborder.a
+ln -s $WORK/b025/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b032/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+mkdir -p $WORK/b054/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b043/_pkg_.a $WORK/b054/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoiface.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/impl
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/impl -o $WORK/b054/_go_.o -I $WORK/b054/_importcfgroot_ ./api_export.go ./checkinit.go ./codec_extension.go ./codec_field.go ./codec_gen.go ./codec_map.go ./codec_map_go112.go ./codec_message.go ./codec_messageset.go ./codec_tables.go ./codec_unsafe.go ./convert.go ./convert_list.go ./convert_map.go ./decode.go ./encode.go ./enum.go ./extension.go ./legacy_enum.go ./legacy_export.go ./legacy_extension.go ./legacy_file.go ./legacy_message.go ./merge.go ./merge_gen.go ./message.go ./message_reflect.go ./message_reflect_field.go ./message_reflect_gen.go ./pointer_unsafe.go ./validate.go ./weak.go
+echo '	.section .go.buildid,"e"' >> $WORK/b097/_buildid.s
+echo '	.byte 0x75,0x73,0x67,0x2d,0x34,0x39,0x41,0x59' >> $WORK/b097/_buildid.s
+echo '	.byte 0x36,0x30,0x44,0x4e,0x32,0x52,0x36,0x75' >> $WORK/b097/_buildid.s
+echo '	.byte 0x65,0x54,0x41,0x71,0x2f,0x75,0x73,0x67' >> $WORK/b097/_buildid.s
+echo '	.byte 0x2d,0x34,0x39,0x41,0x59,0x36,0x30,0x44' >> $WORK/b097/_buildid.s
+echo '	.byte 0x4e,0x32,0x52,0x36,0x75,0x65,0x54,0x41' >> $WORK/b097/_buildid.s
+echo '	.byte 0x71' >> $WORK/b097/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b097/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b097/_buildid.s
+echo '' >> $WORK/b097/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/encoding/protojson
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b097/ -c -o $WORK/b097/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1encoding_1protojson -m64 $WORK/b097/_buildid.s
+ar rcD $WORK/b097/_pkg_.a $WORK/b097/_go_.o $WORK/b097/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b097/_pkg_.a # internal
+cp $WORK/b097/_pkg_.a /home/ming/.cache/go-build/34/34d092d5ceebad4466ac9049e82e9b73bcc9cc80fd9b7f0d341800362de8bcc8-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b054/_buildid.s
+echo '	.byte 0x64,0x32,0x41,0x54,0x32,0x66,0x38,0x68' >> $WORK/b054/_buildid.s
+echo '	.byte 0x55,0x53,0x54,0x44,0x36,0x64,0x4e,0x74' >> $WORK/b054/_buildid.s
+echo '	.byte 0x4b,0x41,0x4d,0x45,0x2f,0x64,0x32,0x41' >> $WORK/b054/_buildid.s
+echo '	.byte 0x54,0x32,0x66,0x38,0x68,0x55,0x53,0x54' >> $WORK/b054/_buildid.s
+echo '	.byte 0x44,0x36,0x64,0x4e,0x74,0x4b,0x41,0x4d' >> $WORK/b054/_buildid.s
+echo '	.byte 0x45' >> $WORK/b054/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b054/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b054/_buildid.s
+echo '' >> $WORK/b054/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/impl
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b054/ -c -o $WORK/b054/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1impl -m64 $WORK/b054/_buildid.s
+ar rcD $WORK/b054/_pkg_.a $WORK/b054/_go_.o $WORK/b054/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b054/_pkg_.a # internal
+cp $WORK/b054/_pkg_.a /home/ming/.cache/go-build/f1/f1e59d72fcfdca4d34a8d129b5921a79a5075583edcbedd7288a03ab564e1591-d # internal
+mkdir -p $WORK/b053/
+mkdir -p $WORK/b053/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b049/_pkg_.a $WORK/b053/_importcfgroot_/google.golang.org/protobuf/internal/libdescopts.a
+ln -s $WORK/b047/_pkg_.a $WORK/b053/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b054/_pkg_.a $WORK/b053/_importcfgroot_/google.golang.org/protobuf/internal/libimpl.a
+mkdir -p $WORK/b053/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b053/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b053/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/internal/filetype
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/internal/filetype -o $WORK/b053/_go_.o -I $WORK/b053/_importcfgroot_ ./build.go
+echo '	.section .go.buildid,"e"' >> $WORK/b053/_buildid.s
+echo '	.byte 0x44,0x67,0x6b,0x42,0x47,0x71,0x78,0x34' >> $WORK/b053/_buildid.s
+echo '	.byte 0x32,0x4a,0x55,0x71,0x2d,0x63,0x4c,0x5a' >> $WORK/b053/_buildid.s
+echo '	.byte 0x5f,0x4e,0x54,0x65,0x2f,0x44,0x67,0x6b' >> $WORK/b053/_buildid.s
+echo '	.byte 0x42,0x47,0x71,0x78,0x34,0x32,0x4a,0x55' >> $WORK/b053/_buildid.s
+echo '	.byte 0x71,0x2d,0x63,0x4c,0x5a,0x5f,0x4e,0x54' >> $WORK/b053/_buildid.s
+echo '	.byte 0x65' >> $WORK/b053/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b053/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b053/_buildid.s
+echo '' >> $WORK/b053/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b053/ -c -o $WORK/b053/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1internal_1filetype -m64 $WORK/b053/_buildid.s
+ar rcD $WORK/b053/_pkg_.a $WORK/b053/_go_.o $WORK/b053/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b053/_pkg_.a # internal
+cp $WORK/b053/_pkg_.a /home/ming/.cache/go-build/0e/0e2e2c38a5e72c9982bd9ae239b5c88e90a26fc5221a84a6caf1d43c057c3d84-d # internal
+mkdir -p $WORK/b052/
+mkdir -p $WORK/b052/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b047/_pkg_.a $WORK/b052/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b053/_pkg_.a $WORK/b052/_importcfgroot_/google.golang.org/protobuf/internal/libfiletype.a
+ln -s $WORK/b054/_pkg_.a $WORK/b052/_importcfgroot_/google.golang.org/protobuf/internal/libimpl.a
+ln -s $WORK/b058/_pkg_.a $WORK/b052/_importcfgroot_/google.golang.org/protobuf/internal/libversion.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/runtime/protoimpl
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/runtime/protoimpl -o $WORK/b052/_go_.o -I $WORK/b052/_importcfgroot_ ./impl.go ./version.go
+echo '	.section .go.buildid,"e"' >> $WORK/b052/_buildid.s
+echo '	.byte 0x78,0x73,0x70,0x47,0x35,0x37,0x70,0x41' >> $WORK/b052/_buildid.s
+echo '	.byte 0x4c,0x6b,0x43,0x68,0x5a,0x5f,0x68,0x55' >> $WORK/b052/_buildid.s
+echo '	.byte 0x4f,0x68,0x72,0x6f,0x2f,0x78,0x73,0x70' >> $WORK/b052/_buildid.s
+echo '	.byte 0x47,0x35,0x37,0x70,0x41,0x4c,0x6b,0x43' >> $WORK/b052/_buildid.s
+echo '	.byte 0x68,0x5a,0x5f,0x68,0x55,0x4f,0x68,0x72' >> $WORK/b052/_buildid.s
+echo '	.byte 0x6f' >> $WORK/b052/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b052/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b052/_buildid.s
+echo '' >> $WORK/b052/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b052/ -c -o $WORK/b052/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1runtime_1protoimpl -m64 $WORK/b052/_buildid.s
+ar rcD $WORK/b052/_pkg_.a $WORK/b052/_go_.o $WORK/b052/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b052/_pkg_.a # internal
+cp $WORK/b052/_pkg_.a /home/ming/.cache/go-build/01/01d792d5b031cf6e53c0e47b121c4ba8bde845a79c5836ea09c29a3100b1be3c-d # internal
+mkdir -p $WORK/b060/
+mkdir -p $WORK/b117/
+mkdir -p $WORK/b119/
+mkdir -p $WORK/b156/
+mkdir -p $WORK/b119/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b119/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b119/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b119/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b051/
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/durationpb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/types/known/durationpb -o $WORK/b119/_go_.o -I $WORK/b119/_importcfgroot_ ./duration.pb.go
+mkdir -p $WORK/b060/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b060/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b060/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b060/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b117/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b117/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b156/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b156/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b156/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b156/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b117/_importcfgroot_/google.golang.org/protobuf/reflect
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/emptypb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/types/known/emptypb -o $WORK/b156/_go_.o -I $WORK/b156/_importcfgroot_ ./empty.pb.go
+mkdir -p $WORK/b051/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b117/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/timestamppb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/types/known/timestamppb -o $WORK/b060/_go_.o -I $WORK/b060/_importcfgroot_ ./timestamp.pb.go
+ln -s $WORK/b024/_pkg_.a $WORK/b051/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b051/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b042/_pkg_.a $WORK/b117/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+ln -s $WORK/b052/_pkg_.a $WORK/b051/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b117/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b117/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/descriptorpb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/types/descriptorpb -o $WORK/b051/_go_.o -I $WORK/b051/_importcfgroot_ ./descriptor.pb.go
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/anypb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/types/known/anypb -o $WORK/b117/_go_.o -I $WORK/b117/_importcfgroot_ ./any.pb.go
+echo '	.section .go.buildid,"e"' >> $WORK/b156/_buildid.s
+echo '	.byte 0x49,0x78,0x52,0x64,0x62,0x6e,0x38,0x4d' >> $WORK/b156/_buildid.s
+echo '	.byte 0x78,0x71,0x57,0x4b,0x6a,0x72,0x62,0x44' >> $WORK/b156/_buildid.s
+echo '	.byte 0x4b,0x33,0x56,0x6d,0x2f,0x49,0x78,0x52' >> $WORK/b156/_buildid.s
+echo '	.byte 0x64,0x62,0x6e,0x38,0x4d,0x78,0x71,0x57' >> $WORK/b156/_buildid.s
+echo '	.byte 0x4b,0x6a,0x72,0x62,0x44,0x4b,0x33,0x56' >> $WORK/b156/_buildid.s
+echo '	.byte 0x6d' >> $WORK/b156/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b156/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b156/_buildid.s
+echo '' >> $WORK/b156/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/emptypb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b156/ -c -o $WORK/b156/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1types_1known_1emptypb -m64 $WORK/b156/_buildid.s
+ar rcD $WORK/b156/_pkg_.a $WORK/b156/_go_.o $WORK/b156/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b156/_pkg_.a # internal
+cp $WORK/b156/_pkg_.a /home/ming/.cache/go-build/b0/b0faf126d4cdd17154935cfa51d5aafee49695ce93392dcdfe9630ff18f131ef-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b060/_buildid.s
+echo '	.byte 0x51,0x32,0x58,0x57,0x71,0x74,0x4c,0x75' >> $WORK/b060/_buildid.s
+echo '	.byte 0x68,0x32,0x50,0x48,0x37,0x74,0x62,0x6c' >> $WORK/b060/_buildid.s
+echo '	.byte 0x51,0x34,0x4a,0x6c,0x2f,0x51,0x32,0x58' >> $WORK/b060/_buildid.s
+echo '	.byte 0x57,0x71,0x74,0x4c,0x75,0x68,0x32,0x50' >> $WORK/b060/_buildid.s
+echo '	.byte 0x48,0x37,0x74,0x62,0x6c,0x51,0x34,0x4a' >> $WORK/b060/_buildid.s
+echo '	.byte 0x6c' >> $WORK/b060/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b060/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b060/_buildid.s
+echo '' >> $WORK/b060/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/timestamppb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b060/ -c -o $WORK/b060/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1types_1known_1timestamppb -m64 $WORK/b060/_buildid.s
+ar rcD $WORK/b060/_pkg_.a $WORK/b060/_go_.o $WORK/b060/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b060/_pkg_.a # internal
+cp $WORK/b060/_pkg_.a /home/ming/.cache/go-build/61/6150de2298953fda9ed2116d0f1b990168ce210decb8fd30c423cfcdd48e1718-d # internal
+mkdir -p $WORK/b059/
+mkdir -p $WORK/b059/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b059/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b059/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b059/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b059/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b060/_pkg_.a $WORK/b059/_importcfgroot_/google.golang.org/protobuf/types/known/libtimestamppb.a
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/timestamp
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/ptypes/timestamp -o $WORK/b059/_go_.o -I $WORK/b059/_importcfgroot_ ./timestamp.pb.go
+echo '	.section .go.buildid,"e"' >> $WORK/b119/_buildid.s
+echo '	.byte 0x67,0x66,0x30,0x77,0x6e,0x4a,0x6f,0x47' >> $WORK/b119/_buildid.s
+echo '	.byte 0x53,0x72,0x38,0x6b,0x67,0x31,0x68,0x67' >> $WORK/b119/_buildid.s
+echo '	.byte 0x72,0x34,0x65,0x32,0x2f,0x67,0x66,0x30' >> $WORK/b119/_buildid.s
+echo '	.byte 0x77,0x6e,0x4a,0x6f,0x47,0x53,0x72,0x38' >> $WORK/b119/_buildid.s
+echo '	.byte 0x6b,0x67,0x31,0x68,0x67,0x72,0x34,0x65' >> $WORK/b119/_buildid.s
+echo '	.byte 0x32' >> $WORK/b119/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b119/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b119/_buildid.s
+echo '' >> $WORK/b119/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/durationpb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b119/ -c -o $WORK/b119/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1types_1known_1durationpb -m64 $WORK/b119/_buildid.s
+ar rcD $WORK/b119/_pkg_.a $WORK/b119/_go_.o $WORK/b119/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b119/_pkg_.a # internal
+cp $WORK/b119/_pkg_.a /home/ming/.cache/go-build/51/518b68233db76ea16b7f566f17fe060e7cc4e5dc6cc2d07105af469f59496738-d # internal
+mkdir -p $WORK/b118/
+mkdir -p $WORK/b118/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b118/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b118/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b118/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b118/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b119/_pkg_.a $WORK/b118/_importcfgroot_/google.golang.org/protobuf/types/known/libdurationpb.a
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/duration
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/ptypes/duration -o $WORK/b118/_go_.o -I $WORK/b118/_importcfgroot_ ./duration.pb.go
+echo '	.section .go.buildid,"e"' >> $WORK/b117/_buildid.s
+echo '	.byte 0x58,0x35,0x72,0x45,0x32,0x58,0x30,0x44' >> $WORK/b117/_buildid.s
+echo '	.byte 0x53,0x68,0x6e,0x4a,0x54,0x5f,0x4b,0x74' >> $WORK/b117/_buildid.s
+echo '	.byte 0x6e,0x65,0x4c,0x66,0x2f,0x58,0x35,0x72' >> $WORK/b117/_buildid.s
+echo '	.byte 0x45,0x32,0x58,0x30,0x44,0x53,0x68,0x6e' >> $WORK/b117/_buildid.s
+echo '	.byte 0x4a,0x54,0x5f,0x4b,0x74,0x6e,0x65,0x4c' >> $WORK/b117/_buildid.s
+echo '	.byte 0x66' >> $WORK/b117/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b117/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b117/_buildid.s
+echo '' >> $WORK/b117/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/known/anypb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b117/ -c -o $WORK/b117/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1types_1known_1anypb -m64 $WORK/b117/_buildid.s
+ar rcD $WORK/b117/_pkg_.a $WORK/b117/_go_.o $WORK/b117/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b059/_buildid.s
+echo '	.byte 0x7a,0x30,0x54,0x7a,0x34,0x6f,0x70,0x54' >> $WORK/b059/_buildid.s
+echo '	.byte 0x30,0x75,0x51,0x74,0x4d,0x78,0x59,0x68' >> $WORK/b059/_buildid.s
+echo '	.byte 0x74,0x58,0x54,0x73,0x2f,0x7a,0x30,0x54' >> $WORK/b059/_buildid.s
+echo '	.byte 0x7a,0x34,0x6f,0x70,0x54,0x30,0x75,0x51' >> $WORK/b059/_buildid.s
+echo '	.byte 0x74,0x4d,0x78,0x59,0x68,0x74,0x58,0x54' >> $WORK/b059/_buildid.s
+echo '	.byte 0x73' >> $WORK/b059/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b059/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b059/_buildid.s
+echo '' >> $WORK/b059/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/timestamp
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b059/ -c -o $WORK/b059/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1ptypes_1timestamp -m64 $WORK/b059/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b117/_pkg_.a # internal
+ar rcD $WORK/b059/_pkg_.a $WORK/b059/_go_.o $WORK/b059/_buildid.o
+cp $WORK/b117/_pkg_.a /home/ming/.cache/go-build/6d/6db97a8aff00b4628a4a62f1183a87cccc721bfcd51b426b6c20bf5582cb8d1d-d # internal
+mkdir -p $WORK/b123/
+mkdir -p $WORK/b116/
+mkdir -p $WORK/b116/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b116/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b116/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b116/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b123/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b123/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b123/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b123/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+mkdir -p $WORK/b116/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b117/_pkg_.a $WORK/b116/_importcfgroot_/google.golang.org/protobuf/types/known/libanypb.a
+mkdir -p $WORK/b123/_importcfgroot_/google.golang.org/protobuf/types/known
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/any
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/ptypes/any -o $WORK/b116/_go_.o -I $WORK/b116/_importcfgroot_ ./any.pb.go
+ln -s $WORK/b117/_pkg_.a $WORK/b123/_importcfgroot_/google.golang.org/protobuf/types/known/libanypb.a
+cd /home/ming/go/pkg/mod/google.golang.org/genproto@v0.0.0-20220718134204-073382fd740c/googleapis/rpc/status
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/genproto/googleapis/rpc/status -o $WORK/b123/_go_.o -I $WORK/b123/_importcfgroot_ ./status.pb.go
+/my/install/dir/tools/buildid -w $WORK/b059/_pkg_.a # internal
+cp $WORK/b059/_pkg_.a /home/ming/.cache/go-build/41/4189031089c48272c9883f31092b8b13581274b6ae3d1dd55bb53b4e4e27177e-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b118/_buildid.s
+echo '	.byte 0x67,0x52,0x59,0x56,0x4e,0x6d,0x73,0x6f' >> $WORK/b118/_buildid.s
+echo '	.byte 0x76,0x6d,0x7a,0x63,0x6a,0x31,0x39,0x75' >> $WORK/b118/_buildid.s
+echo '	.byte 0x49,0x56,0x55,0x4a,0x2f,0x67,0x52,0x59' >> $WORK/b118/_buildid.s
+echo '	.byte 0x56,0x4e,0x6d,0x73,0x6f,0x76,0x6d,0x7a' >> $WORK/b118/_buildid.s
+echo '	.byte 0x63,0x6a,0x31,0x39,0x75,0x49,0x56,0x55' >> $WORK/b118/_buildid.s
+echo '	.byte 0x4a' >> $WORK/b118/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b118/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b118/_buildid.s
+echo '' >> $WORK/b118/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/duration
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b118/ -c -o $WORK/b118/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1ptypes_1duration -m64 $WORK/b118/_buildid.s
+ar rcD $WORK/b118/_pkg_.a $WORK/b118/_go_.o $WORK/b118/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b118/_pkg_.a # internal
+cp $WORK/b118/_pkg_.a /home/ming/.cache/go-build/2d/2dc133cd0b46810a037e36831f5bd1cfd3892ca89b1cf792c4c4def90cb3d0c7-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b116/_buildid.s
+echo '	.byte 0x47,0x6a,0x42,0x42,0x67,0x30,0x43,0x66' >> $WORK/b116/_buildid.s
+echo '	.byte 0x4c,0x35,0x68,0x58,0x61,0x32,0x6b,0x70' >> $WORK/b116/_buildid.s
+echo '	.byte 0x5a,0x58,0x55,0x71,0x2f,0x47,0x6a,0x42' >> $WORK/b116/_buildid.s
+echo '	.byte 0x42,0x67,0x30,0x43,0x66,0x4c,0x35,0x68' >> $WORK/b116/_buildid.s
+echo '	.byte 0x58,0x61,0x32,0x6b,0x70,0x5a,0x58,0x55' >> $WORK/b116/_buildid.s
+echo '	.byte 0x71' >> $WORK/b116/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b116/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b116/_buildid.s
+echo '' >> $WORK/b116/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes/any
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b116/ -c -o $WORK/b116/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1ptypes_1any -m64 $WORK/b116/_buildid.s
+ar rcD $WORK/b116/_pkg_.a $WORK/b116/_go_.o $WORK/b116/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b116/_pkg_.a # internal
+cp $WORK/b116/_pkg_.a /home/ming/.cache/go-build/f4/f45a0d3e18f1ff1d823c591ae1b6344cb95484414f8e9d962be47d73f432d654-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b123/_buildid.s
+echo '	.byte 0x58,0x6a,0x67,0x78,0x45,0x73,0x52,0x43' >> $WORK/b123/_buildid.s
+echo '	.byte 0x2d,0x54,0x69,0x5a,0x6d,0x79,0x6e,0x67' >> $WORK/b123/_buildid.s
+echo '	.byte 0x34,0x52,0x68,0x48,0x2f,0x58,0x6a,0x67' >> $WORK/b123/_buildid.s
+echo '	.byte 0x78,0x45,0x73,0x52,0x43,0x2d,0x54,0x69' >> $WORK/b123/_buildid.s
+echo '	.byte 0x5a,0x6d,0x79,0x6e,0x67,0x34,0x52,0x68' >> $WORK/b123/_buildid.s
+echo '	.byte 0x48' >> $WORK/b123/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b123/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b123/_buildid.s
+echo '' >> $WORK/b123/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/genproto@v0.0.0-20220718134204-073382fd740c/googleapis/rpc/status
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b123/ -c -o $WORK/b123/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1genproto_1googleapis_1rpc_1status -m64 $WORK/b123/_buildid.s
+ar rcD $WORK/b123/_pkg_.a $WORK/b123/_go_.o $WORK/b123/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b123/_pkg_.a # internal
+cp $WORK/b123/_pkg_.a /home/ming/.cache/go-build/65/650490188f11dc82ca96a212e40350a42360361a10d2506ef458e6ae8b15a589-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b051/_buildid.s
+echo '	.byte 0x4d,0x75,0x52,0x57,0x34,0x4d,0x4e,0x4f' >> $WORK/b051/_buildid.s
+echo '	.byte 0x76,0x52,0x4b,0x37,0x69,0x6e,0x52,0x51' >> $WORK/b051/_buildid.s
+echo '	.byte 0x5a,0x4f,0x53,0x59,0x2f,0x4d,0x75,0x52' >> $WORK/b051/_buildid.s
+echo '	.byte 0x57,0x34,0x4d,0x4e,0x4f,0x76,0x52,0x4b' >> $WORK/b051/_buildid.s
+echo '	.byte 0x37,0x69,0x6e,0x52,0x51,0x5a,0x4f,0x53' >> $WORK/b051/_buildid.s
+echo '	.byte 0x59' >> $WORK/b051/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b051/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b051/_buildid.s
+echo '' >> $WORK/b051/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/types/descriptorpb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b051/ -c -o $WORK/b051/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1types_1descriptorpb -m64 $WORK/b051/_buildid.s
+ar rcD $WORK/b051/_pkg_.a $WORK/b051/_go_.o $WORK/b051/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b051/_pkg_.a # internal
+cp $WORK/b051/_pkg_.a /home/ming/.cache/go-build/8f/8f6eff4e16e158bb2752535a8f20f5f16f2225e5b3ab309ce45ed6af6317168b-d # internal
+mkdir -p $WORK/b045/
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b015/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/encoding
+ln -s $WORK/b046/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/encoding/libdefval.a
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal
+ln -s $WORK/b016/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/liberrors.a
+ln -s $WORK/b047/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/libfiledesc.a
+ln -s $WORK/b031/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/libflags.a
+ln -s $WORK/b037/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/libgenid.a
+ln -s $WORK/b025/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/libpragma.a
+ln -s $WORK/b032/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/internal/libstrs.a
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+mkdir -p $WORK/b045/_importcfgroot_/google.golang.org/protobuf/types
+ln -s $WORK/b051/_pkg_.a $WORK/b045/_importcfgroot_/google.golang.org/protobuf/types/libdescriptorpb.a
+cd /home/ming/go/pkg/mod/google.golang.org/protobuf@v1.28.1/reflect/protodesc
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/protobuf/reflect/protodesc -o $WORK/b045/_go_.o -I $WORK/b045/_importcfgroot_ ./desc.go ./desc_init.go ./desc_resolve.go ./desc_validate.go ./proto.go
+echo '	.section .go.buildid,"e"' >> $WORK/b045/_buildid.s
+echo '	.byte 0x4c,0x61,0x6c,0x62,0x48,0x5f,0x42,0x6d' >> $WORK/b045/_buildid.s
+echo '	.byte 0x4c,0x74,0x64,0x32,0x4e,0x35,0x56,0x6e' >> $WORK/b045/_buildid.s
+echo '	.byte 0x42,0x47,0x67,0x76,0x2f,0x4c,0x61,0x6c' >> $WORK/b045/_buildid.s
+echo '	.byte 0x62,0x48,0x5f,0x42,0x6d,0x4c,0x74,0x64' >> $WORK/b045/_buildid.s
+echo '	.byte 0x32,0x4e,0x35,0x56,0x6e,0x42,0x47,0x67' >> $WORK/b045/_buildid.s
+echo '	.byte 0x76' >> $WORK/b045/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b045/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b045/_buildid.s
+echo '' >> $WORK/b045/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b045/ -c -o $WORK/b045/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1protobuf_1reflect_1protodesc -m64 $WORK/b045/_buildid.s
+ar rcD $WORK/b045/_pkg_.a $WORK/b045/_go_.o $WORK/b045/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b045/_pkg_.a # internal
+cp $WORK/b045/_pkg_.a /home/ming/.cache/go-build/4e/4e78b5a049596483c1b1bf7f128adccf46175712d0c2dd1965fa9874ae04ca04-d # internal
+mkdir -p $WORK/b010/
+mkdir -p $WORK/b010/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b014/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/encoding/libprototext.a
+ln -s $WORK/b015/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/encoding/libprotowire.a
+mkdir -p $WORK/b010/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b010/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b045/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/reflect/libprotodesc.a
+ln -s $WORK/b024/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+mkdir -p $WORK/b010/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b043/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoiface.a
+ln -s $WORK/b052/_pkg_.a $WORK/b010/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/proto
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/proto -o $WORK/b010/_go_.o -I $WORK/b010/_importcfgroot_ ./buffer.go ./defaults.go ./deprecated.go ./discard.go ./extensions.go ./properties.go ./proto.go ./registry.go ./text_decode.go ./text_encode.go ./wire.go ./wrappers.go
+echo '	.section .go.buildid,"e"' >> $WORK/b010/_buildid.s
+echo '	.byte 0x4f,0x4a,0x34,0x71,0x48,0x63,0x6f,0x43' >> $WORK/b010/_buildid.s
+echo '	.byte 0x35,0x74,0x76,0x64,0x5f,0x49,0x6c,0x48' >> $WORK/b010/_buildid.s
+echo '	.byte 0x4e,0x73,0x41,0x63,0x2f,0x4f,0x4a,0x34' >> $WORK/b010/_buildid.s
+echo '	.byte 0x71,0x48,0x63,0x6f,0x43,0x35,0x74,0x76' >> $WORK/b010/_buildid.s
+echo '	.byte 0x64,0x5f,0x49,0x6c,0x48,0x4e,0x73,0x41' >> $WORK/b010/_buildid.s
+echo '	.byte 0x63' >> $WORK/b010/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b010/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b010/_buildid.s
+echo '' >> $WORK/b010/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b010/ -c -o $WORK/b010/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1proto -m64 $WORK/b010/_buildid.s
+ar rcD $WORK/b010/_pkg_.a $WORK/b010/_go_.o $WORK/b010/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b010/_pkg_.a # internal
+cp $WORK/b010/_pkg_.a /home/ming/.cache/go-build/81/813a6c3cbbf430f8ea488725b07365db60db8373772c2e6964acaa12b03c644d-d # internal
+mkdir -p $WORK/b090/
+mkdir -p $WORK/b115/
+mkdir -p $WORK/b157/
+mkdir -p $WORK/b068/
+mkdir -p $WORK/b069/
+mkdir -p $WORK/b157/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b157/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b109/
+mkdir -p $WORK/b068/_importcfgroot_/github.com/golang/protobuf
+mkdir -p $WORK/b096/
+ln -s $WORK/b010/_pkg_.a $WORK/b068/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b069/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b069/_importcfgroot_/github.com/golang/protobuf/libproto.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/ledger/rwset
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-protos-go/ledger/rwset -o $WORK/b069/_go_.o -I $WORK/b069/_importcfgroot_ ./rwset.pb.go
+mkdir -p $WORK/b120/
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/msp
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-protos-go/msp -o $WORK/b068/_go_.o -I $WORK/b068/_importcfgroot_ ./identities.pb.go ./msp_config.pb.go ./msp_principal.pb.go
+mkdir -p $WORK/b096/_importcfgroot_/github.com/golang/protobuf
+mkdir -p $WORK/b090/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b096/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b115/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b090/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b157/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b010/_pkg_.a $WORK/b115/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b096/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b060/_pkg_.a $WORK/b157/_importcfgroot_/google.golang.org/protobuf/types/known/libtimestamppb.a
+ln -s $WORK/b097/_pkg_.a $WORK/b096/_importcfgroot_/google.golang.org/protobuf/encoding/libprotojson.a
+mkdir -p $WORK/b096/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b096/_importcfgroot_/google.golang.org/protobuf/libproto.a
+mkdir -p $WORK/b096/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b096/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b090/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ce/cec6215cefbcba8259c6501044049f13c77dd7a5129207e391235f0649da6ea1-d $WORK/b090/_importcfgroot_/google.golang.org/grpc/libattributes.a
+mkdir -p $WORK/b120/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b120/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b120/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b120/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+mkdir -p $WORK/b090/_importcfgroot_/google.golang.org/grpc/internal
+ln -s /home/ming/.cache/go-build/6c/6cfb51d0d6f9081783fa64c8d812d56cd29e83cf28fa94a61d60c0e44a2234e3-d $WORK/b090/_importcfgroot_/google.golang.org/grpc/internal/libcredentials.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/ledger/queryresult
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-protos-go/ledger/queryresult -o $WORK/b157/_go_.o -I $WORK/b157/_importcfgroot_ ./kv_query_result.pb.go
+mkdir -p $WORK/b109/_importcfgroot_/github.com/golang/protobuf
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/credentials
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/credentials -o $WORK/b090/_go_.o -I $WORK/b090/_importcfgroot_ ./credentials.go ./tls.go
+ln -s $WORK/b010/_pkg_.a $WORK/b109/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b109/_importcfgroot_/google.golang.org/grpc
+mkdir -p $WORK/b115/_importcfgroot_/github.com/golang/protobuf/ptypes
+ln -s $WORK/b042/_pkg_.a $WORK/b096/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+ln -s /home/ming/.cache/go-build/f6/f65d6f53191058c6b5aa94aa126f38b20ddd083a103312dc154175ba540e5590-d $WORK/b109/_importcfgroot_/google.golang.org/grpc/libencoding.a
+mkdir -p $WORK/b120/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b116/_pkg_.a $WORK/b115/_importcfgroot_/github.com/golang/protobuf/ptypes/libany.a
+mkdir -p $WORK/b096/_importcfgroot_/google.golang.org/protobuf/runtime
+ln -s $WORK/b052/_pkg_.a $WORK/b120/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+ln -s $WORK/b052/_pkg_.a $WORK/b096/_importcfgroot_/google.golang.org/protobuf/runtime/libprotoimpl.a
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/jsonpb
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/jsonpb -o $WORK/b096/_go_.o -I $WORK/b096/_importcfgroot_ ./decode.go ./encode.go ./json.go
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/encoding/proto
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/encoding/proto -o $WORK/b109/_go_.o -I $WORK/b109/_importcfgroot_ ./proto.go
+ln -s $WORK/b118/_pkg_.a $WORK/b115/_importcfgroot_/github.com/golang/protobuf/ptypes/libduration.a
+mkdir -p $WORK/b120/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b119/_pkg_.a $WORK/b120/_importcfgroot_/google.golang.org/protobuf/types/known/libdurationpb.a
+ln -s $WORK/b060/_pkg_.a $WORK/b120/_importcfgroot_/google.golang.org/protobuf/types/known/libtimestamppb.a
+ln -s $WORK/b059/_pkg_.a $WORK/b115/_importcfgroot_/github.com/golang/protobuf/ptypes/libtimestamp.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/binarylog/grpc_binarylog_v1
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/binarylog/grpc_binarylog_v1 -o $WORK/b120/_go_.o -I $WORK/b120/_importcfgroot_ ./binarylog.pb.go
+mkdir -p $WORK/b115/_importcfgroot_/google.golang.org/protobuf/reflect
+ln -s $WORK/b024/_pkg_.a $WORK/b115/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoreflect.a
+ln -s $WORK/b042/_pkg_.a $WORK/b115/_importcfgroot_/google.golang.org/protobuf/reflect/libprotoregistry.a
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/golang/protobuf/ptypes -o $WORK/b115/_go_.o -I $WORK/b115/_importcfgroot_ ./any.go ./doc.go ./duration.go ./timestamp.go
+echo '	.section .go.buildid,"e"' >> $WORK/b109/_buildid.s
+echo '	.byte 0x53,0x6b,0x6b,0x46,0x66,0x75,0x46,0x56' >> $WORK/b109/_buildid.s
+echo '	.byte 0x72,0x4c,0x4e,0x63,0x6e,0x4b,0x53,0x69' >> $WORK/b109/_buildid.s
+echo '	.byte 0x2d,0x5a,0x41,0x68,0x2f,0x53,0x6b,0x6b' >> $WORK/b109/_buildid.s
+echo '	.byte 0x46,0x66,0x75,0x46,0x56,0x72,0x4c,0x4e' >> $WORK/b109/_buildid.s
+echo '	.byte 0x63,0x6e,0x4b,0x53,0x69,0x2d,0x5a,0x41' >> $WORK/b109/_buildid.s
+echo '	.byte 0x68' >> $WORK/b109/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b109/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b109/_buildid.s
+echo '' >> $WORK/b109/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/encoding/proto
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b109/ -c -o $WORK/b109/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1encoding_1proto -m64 $WORK/b109/_buildid.s
+ar rcD $WORK/b109/_pkg_.a $WORK/b109/_go_.o $WORK/b109/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b109/_pkg_.a # internal
+cp $WORK/b109/_pkg_.a /home/ming/.cache/go-build/39/394169d4e9b24b3984a99ca7269001fa680825d8af754a5adcd2e22a100b14e7-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b157/_buildid.s
+echo '	.byte 0x73,0x4b,0x6e,0x6a,0x4b,0x2d,0x36,0x70' >> $WORK/b157/_buildid.s
+echo '	.byte 0x6a,0x79,0x4c,0x66,0x4d,0x32,0x57,0x6a' >> $WORK/b157/_buildid.s
+echo '	.byte 0x38,0x31,0x74,0x43,0x2f,0x73,0x4b,0x6e' >> $WORK/b157/_buildid.s
+echo '	.byte 0x6a,0x4b,0x2d,0x36,0x70,0x6a,0x79,0x4c' >> $WORK/b157/_buildid.s
+echo '	.byte 0x66,0x4d,0x32,0x57,0x6a,0x38,0x31,0x74' >> $WORK/b157/_buildid.s
+echo '	.byte 0x43' >> $WORK/b157/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b157/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b157/_buildid.s
+echo '' >> $WORK/b157/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/ledger/queryresult
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b157/ -c -o $WORK/b157/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1queryresult -m64 $WORK/b157/_buildid.s
+ar rcD $WORK/b157/_pkg_.a $WORK/b157/_go_.o $WORK/b157/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b157/_pkg_.a # internal
+cp $WORK/b157/_pkg_.a /home/ming/.cache/go-build/f4/f44a5e489648067173128b662a85b1fa87d4c045340c633de93eed58c5ac62db-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b069/_buildid.s
+echo '	.byte 0x36,0x58,0x73,0x64,0x57,0x62,0x74,0x33' >> $WORK/b069/_buildid.s
+echo '	.byte 0x56,0x69,0x30,0x57,0x70,0x57,0x48,0x62' >> $WORK/b069/_buildid.s
+echo '	.byte 0x56,0x70,0x64,0x73,0x2f,0x36,0x58,0x73' >> $WORK/b069/_buildid.s
+echo '	.byte 0x64,0x57,0x62,0x74,0x33,0x56,0x69,0x30' >> $WORK/b069/_buildid.s
+echo '	.byte 0x57,0x70,0x57,0x48,0x62,0x56,0x70,0x64' >> $WORK/b069/_buildid.s
+echo '	.byte 0x73' >> $WORK/b069/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b069/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b069/_buildid.s
+echo '' >> $WORK/b069/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/ledger/rwset
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b069/ -c -o $WORK/b069/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1ledger_1rwset -m64 $WORK/b069/_buildid.s
+ar rcD $WORK/b069/_pkg_.a $WORK/b069/_go_.o $WORK/b069/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b090/_buildid.s
+echo '	.byte 0x30,0x6c,0x47,0x7a,0x33,0x36,0x57,0x77' >> $WORK/b090/_buildid.s
+echo '	.byte 0x38,0x4a,0x4a,0x33,0x4b,0x35,0x75,0x46' >> $WORK/b090/_buildid.s
+echo '	.byte 0x4f,0x45,0x36,0x72,0x2f,0x30,0x6c,0x47' >> $WORK/b090/_buildid.s
+echo '	.byte 0x7a,0x33,0x36,0x57,0x77,0x38,0x4a,0x4a' >> $WORK/b090/_buildid.s
+echo '	.byte 0x33,0x4b,0x35,0x75,0x46,0x4f,0x45,0x36' >> $WORK/b090/_buildid.s
+echo '	.byte 0x72' >> $WORK/b090/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b090/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b090/_buildid.s
+echo '' >> $WORK/b090/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/credentials
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b090/ -c -o $WORK/b090/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1credentials -m64 $WORK/b090/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b069/_pkg_.a # internal
+ar rcD $WORK/b090/_pkg_.a $WORK/b090/_go_.o $WORK/b090/_buildid.o
+cp $WORK/b069/_pkg_.a /home/ming/.cache/go-build/7f/7f2736082283293fd41b0a91d73acce48526a317f40a97412698b1e267f01365-d # internal
+/my/install/dir/tools/buildid -w $WORK/b090/_pkg_.a # internal
+cp $WORK/b090/_pkg_.a /home/ming/.cache/go-build/4d/4d729c979da8dc513361e2c387accfa5e9095be57dbe0f89eff691b6f1240165-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b115/_buildid.s
+echo '	.byte 0x50,0x4b,0x5a,0x55,0x69,0x33,0x6b,0x4f' >> $WORK/b115/_buildid.s
+echo '	.byte 0x78,0x48,0x45,0x38,0x70,0x59,0x36,0x7a' >> $WORK/b115/_buildid.s
+echo '	.byte 0x31,0x74,0x38,0x61,0x2f,0x50,0x4b,0x5a' >> $WORK/b115/_buildid.s
+echo '	.byte 0x55,0x69,0x33,0x6b,0x4f,0x78,0x48,0x45' >> $WORK/b115/_buildid.s
+echo '	.byte 0x38,0x70,0x59,0x36,0x7a,0x31,0x74,0x38' >> $WORK/b115/_buildid.s
+echo '	.byte 0x61' >> $WORK/b115/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b115/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b115/_buildid.s
+echo '' >> $WORK/b115/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b115/ -c -o $WORK/b115/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1ptypes -m64 $WORK/b115/_buildid.s
+mkdir -p $WORK/b107/
+mkdir -p $WORK/b151/
+mkdir -p $WORK/b107/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b090/_pkg_.a $WORK/b107/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/credentials/insecure
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/credentials/insecure -o $WORK/b107/_go_.o -I $WORK/b107/_importcfgroot_ ./insecure.go
+mkdir -p $WORK/b083/
+mkdir -p $WORK/b151/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b090/_pkg_.a $WORK/b151/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/peer
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/peer -o $WORK/b151/_go_.o -I $WORK/b151/_importcfgroot_ ./peer.go
+mkdir -p $WORK/b083/_importcfgroot_/golang.org/x/sys
+ln -s /home/ming/.cache/go-build/ad/adeb333dc502029a480027c5bbeac0fc7709026c4738925df2e36819a1d603a8-d $WORK/b083/_importcfgroot_/golang.org/x/sys/libunix.a
+mkdir -p $WORK/b083/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b083/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+ln -s $WORK/b090/_pkg_.a $WORK/b083/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b083/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/channelz
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/channelz -o $WORK/b083/_go_.o -I $WORK/b083/_importcfgroot_ ./funcs.go ./id.go ./logging.go ./types.go ./types_linux.go ./util_linux.go
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/ptypes
+ar rcD $WORK/b115/_pkg_.a $WORK/b115/_go_.o $WORK/b115/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b115/_pkg_.a # internal
+cp $WORK/b115/_pkg_.a /home/ming/.cache/go-build/2b/2b983322ec323e7ad6169b352d1cee2f75d0f8f6509c9cdbfad6e3cdd0958ee5-d # internal
+mkdir -p $WORK/b124/
+mkdir -p $WORK/b124/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b124/_importcfgroot_/github.com/golang/protobuf/libproto.a
+ln -s $WORK/b115/_pkg_.a $WORK/b124/_importcfgroot_/github.com/golang/protobuf/libptypes.a
+mkdir -p $WORK/b124/_importcfgroot_/google.golang.org/genproto/googleapis/rpc
+ln -s $WORK/b123/_pkg_.a $WORK/b124/_importcfgroot_/google.golang.org/genproto/googleapis/rpc/libstatus.a
+mkdir -p $WORK/b124/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b124/_importcfgroot_/google.golang.org/grpc/libcodes.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/status
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/status -o $WORK/b124/_go_.o -I $WORK/b124/_importcfgroot_ ./status.go
+echo '	.section .go.buildid,"e"' >> $WORK/b151/_buildid.s
+echo '	.byte 0x68,0x78,0x39,0x70,0x7a,0x56,0x38,0x52' >> $WORK/b151/_buildid.s
+echo '	.byte 0x43,0x63,0x77,0x6f,0x6e,0x72,0x37,0x4c' >> $WORK/b151/_buildid.s
+echo '	.byte 0x59,0x54,0x76,0x46,0x2f,0x68,0x78,0x39' >> $WORK/b151/_buildid.s
+echo '	.byte 0x70,0x7a,0x56,0x38,0x52,0x43,0x63,0x77' >> $WORK/b151/_buildid.s
+echo '	.byte 0x6f,0x6e,0x72,0x37,0x4c,0x59,0x54,0x76' >> $WORK/b151/_buildid.s
+echo '	.byte 0x46' >> $WORK/b151/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b151/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b151/_buildid.s
+echo '' >> $WORK/b151/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/peer
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b151/ -c -o $WORK/b151/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1peer -m64 $WORK/b151/_buildid.s
+ar rcD $WORK/b151/_pkg_.a $WORK/b151/_go_.o $WORK/b151/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b151/_pkg_.a # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b107/_buildid.s
+echo '	.byte 0x4f,0x69,0x79,0x76,0x42,0x49,0x54,0x78' >> $WORK/b107/_buildid.s
+echo '	.byte 0x30,0x39,0x52,0x48,0x6c,0x4d,0x6c,0x6c' >> $WORK/b107/_buildid.s
+echo '	.byte 0x45,0x79,0x32,0x44,0x2f,0x4f,0x69,0x79' >> $WORK/b107/_buildid.s
+echo '	.byte 0x76,0x42,0x49,0x54,0x78,0x30,0x39,0x52' >> $WORK/b107/_buildid.s
+echo '	.byte 0x48,0x6c,0x4d,0x6c,0x6c,0x45,0x79,0x32' >> $WORK/b107/_buildid.s
+echo '	.byte 0x44' >> $WORK/b107/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b107/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b107/_buildid.s
+echo '' >> $WORK/b107/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/credentials/insecure
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b107/ -c -o $WORK/b107/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1credentials_1insecure -m64 $WORK/b107/_buildid.s
+cp $WORK/b151/_pkg_.a /home/ming/.cache/go-build/34/34c106efa8e232710bdf585bc5deba308fda3180a996045fb54688fc681e8bd5-d # internal
+ar rcD $WORK/b107/_pkg_.a $WORK/b107/_go_.o $WORK/b107/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b107/_pkg_.a # internal
+cp $WORK/b107/_pkg_.a /home/ming/.cache/go-build/32/32cac6cfebb059cfd4309628bc6955a0dedde5bc3a860598f1d4c718a656f5ab-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b120/_buildid.s
+echo '	.byte 0x76,0x52,0x76,0x47,0x38,0x75,0x78,0x48' >> $WORK/b120/_buildid.s
+echo '	.byte 0x46,0x47,0x56,0x70,0x5f,0x59,0x42,0x50' >> $WORK/b120/_buildid.s
+echo '	.byte 0x53,0x33,0x54,0x44,0x2f,0x76,0x52,0x76' >> $WORK/b120/_buildid.s
+echo '	.byte 0x47,0x38,0x75,0x78,0x48,0x46,0x47,0x56' >> $WORK/b120/_buildid.s
+echo '	.byte 0x70,0x5f,0x59,0x42,0x50,0x53,0x33,0x54' >> $WORK/b120/_buildid.s
+echo '	.byte 0x44' >> $WORK/b120/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b120/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b120/_buildid.s
+echo '' >> $WORK/b120/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/binarylog/grpc_binarylog_v1
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b120/ -c -o $WORK/b120/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1binarylog_1grpc__binarylog__v1 -m64 $WORK/b120/_buildid.s
+ar rcD $WORK/b120/_pkg_.a $WORK/b120/_go_.o $WORK/b120/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b120/_pkg_.a # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b124/_buildid.s
+echo '	.byte 0x7a,0x31,0x6f,0x39,0x6b,0x33,0x58,0x31' >> $WORK/b124/_buildid.s
+echo '	.byte 0x37,0x68,0x55,0x4c,0x66,0x6d,0x46,0x4e' >> $WORK/b124/_buildid.s
+echo '	.byte 0x76,0x5f,0x73,0x74,0x2f,0x7a,0x31,0x6f' >> $WORK/b124/_buildid.s
+echo '	.byte 0x39,0x6b,0x33,0x58,0x31,0x37,0x68,0x55' >> $WORK/b124/_buildid.s
+echo '	.byte 0x4c,0x66,0x6d,0x46,0x4e,0x76,0x5f,0x73' >> $WORK/b124/_buildid.s
+echo '	.byte 0x74' >> $WORK/b124/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b124/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b124/_buildid.s
+echo '' >> $WORK/b124/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/status
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b124/ -c -o $WORK/b124/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1status -m64 $WORK/b124/_buildid.s
+ar rcD $WORK/b124/_pkg_.a $WORK/b124/_go_.o $WORK/b124/_buildid.o
+cp $WORK/b120/_pkg_.a /home/ming/.cache/go-build/45/453a9af3117a89e2668f6cda53bc6415afa4eee313f427754297802ada017f28-d # internal
+/my/install/dir/tools/buildid -w $WORK/b124/_pkg_.a # internal
+cp $WORK/b124/_pkg_.a /home/ming/.cache/go-build/00/000086328a50d133f399c3a34552f35eb3c0ed08676728994a5fae9544b5607e-d # internal
+mkdir -p $WORK/b122/
+mkdir -p $WORK/b122/_importcfgroot_/google.golang.org/genproto/googleapis/rpc
+ln -s $WORK/b123/_pkg_.a $WORK/b122/_importcfgroot_/google.golang.org/genproto/googleapis/rpc/libstatus.a
+mkdir -p $WORK/b122/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b122/_importcfgroot_/google.golang.org/grpc/libcodes.a
+mkdir -p $WORK/b122/_importcfgroot_/google.golang.org/grpc/internal
+ln -s $WORK/b124/_pkg_.a $WORK/b122/_importcfgroot_/google.golang.org/grpc/internal/libstatus.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/status
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/status -o $WORK/b122/_go_.o -I $WORK/b122/_importcfgroot_ ./status.go
+echo '	.section .go.buildid,"e"' >> $WORK/b122/_buildid.s
+echo '	.byte 0x54,0x4a,0x61,0x66,0x36,0x4b,0x4d,0x58' >> $WORK/b122/_buildid.s
+echo '	.byte 0x45,0x70,0x69,0x51,0x58,0x6b,0x62,0x4d' >> $WORK/b122/_buildid.s
+echo '	.byte 0x6c,0x47,0x77,0x35,0x2f,0x54,0x4a,0x61' >> $WORK/b122/_buildid.s
+echo '	.byte 0x66,0x36,0x4b,0x4d,0x58,0x45,0x70,0x69' >> $WORK/b122/_buildid.s
+echo '	.byte 0x51,0x58,0x6b,0x62,0x4d,0x6c,0x47,0x77' >> $WORK/b122/_buildid.s
+echo '	.byte 0x35' >> $WORK/b122/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b122/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b122/_buildid.s
+echo '' >> $WORK/b122/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b122/ -c -o $WORK/b122/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1status -m64 $WORK/b122/_buildid.s
+ar rcD $WORK/b122/_pkg_.a $WORK/b122/_go_.o $WORK/b122/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b068/_buildid.s
+echo '	.byte 0x35,0x70,0x47,0x65,0x61,0x33,0x75,0x49' >> $WORK/b068/_buildid.s
+echo '	.byte 0x52,0x48,0x4f,0x57,0x54,0x48,0x50,0x5a' >> $WORK/b068/_buildid.s
+echo '	.byte 0x51,0x71,0x58,0x6d,0x2f,0x35,0x70,0x47' >> $WORK/b068/_buildid.s
+echo '	.byte 0x65,0x61,0x33,0x75,0x49,0x52,0x48,0x4f' >> $WORK/b068/_buildid.s
+echo '	.byte 0x57,0x54,0x48,0x50,0x5a,0x51,0x71,0x58' >> $WORK/b068/_buildid.s
+echo '	.byte 0x6d' >> $WORK/b068/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b068/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b068/_buildid.s
+echo '' >> $WORK/b068/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/msp
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b068/ -c -o $WORK/b068/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1msp -m64 $WORK/b068/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b122/_pkg_.a # internal
+cp $WORK/b122/_pkg_.a /home/ming/.cache/go-build/4d/4d5b4b1452cfd1a2bca69c76b30c661b98e3ed875cf9d0a48d0a50cd115a573c-d # internal
+ar rcD $WORK/b068/_pkg_.a $WORK/b068/_go_.o $WORK/b068/_buildid.o
+mkdir -p $WORK/b113/
+mkdir -p $WORK/b113/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b113/_importcfgroot_/github.com/golang/protobuf/libproto.a
+ln -s $WORK/b115/_pkg_.a $WORK/b113/_importcfgroot_/github.com/golang/protobuf/libptypes.a
+mkdir -p $WORK/b113/_importcfgroot_/google.golang.org/grpc/binarylog
+ln -s $WORK/b120/_pkg_.a $WORK/b113/_importcfgroot_/google.golang.org/grpc/binarylog/libgrpc_binarylog_v1.a
+mkdir -p $WORK/b113/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b113/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+mkdir -p $WORK/b113/_importcfgroot_/google.golang.org/grpc/internal
+ln -s /home/ming/.cache/go-build/48/48de3ed42f3b8c345209d0a6709880089ef237811ac3e67c6f1c4be67412a1ef-d $WORK/b113/_importcfgroot_/google.golang.org/grpc/internal/libgrpcutil.a
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b113/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+ln -s $WORK/b122/_pkg_.a $WORK/b113/_importcfgroot_/google.golang.org/grpc/libstatus.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/binarylog
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/binarylog -o $WORK/b113/_go_.o -I $WORK/b113/_importcfgroot_ ./binarylog.go ./binarylog_testutil.go ./env_config.go ./method_logger.go ./sink.go
+/my/install/dir/tools/buildid -w $WORK/b068/_pkg_.a # internal
+cp $WORK/b068/_pkg_.a /home/ming/.cache/go-build/98/98ee1dc6b8b119a064399c8cf6045593740962a7f1b3ef63d77f2a58612b9c42-d # internal
+mkdir -p $WORK/b067/
+mkdir -p $WORK/b067/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b067/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b067/_importcfgroot_/github.com/hyperledger/fabric-protos-go
+ln -s $WORK/b068/_pkg_.a $WORK/b067/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libmsp.a
+mkdir -p $WORK/b067/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b060/_pkg_.a $WORK/b067/_importcfgroot_/google.golang.org/protobuf/types/known/libtimestamppb.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/common
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-protos-go/common -o $WORK/b067/_go_.o -I $WORK/b067/_importcfgroot_ ./collection.pb.go ./common.pb.go ./configtx.pb.go ./configuration.pb.go ./ledger.pb.go ./policies.pb.go
+echo '	.section .go.buildid,"e"' >> $WORK/b096/_buildid.s
+echo '	.byte 0x72,0x6e,0x38,0x75,0x5a,0x66,0x34,0x7a' >> $WORK/b096/_buildid.s
+echo '	.byte 0x5a,0x56,0x51,0x7a,0x41,0x6d,0x4f,0x76' >> $WORK/b096/_buildid.s
+echo '	.byte 0x42,0x38,0x68,0x37,0x2f,0x72,0x6e,0x38' >> $WORK/b096/_buildid.s
+echo '	.byte 0x75,0x5a,0x66,0x34,0x7a,0x5a,0x56,0x51' >> $WORK/b096/_buildid.s
+echo '	.byte 0x7a,0x41,0x6d,0x4f,0x76,0x42,0x38,0x68' >> $WORK/b096/_buildid.s
+echo '	.byte 0x37' >> $WORK/b096/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b096/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b096/_buildid.s
+echo '' >> $WORK/b096/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/golang/protobuf@v1.5.2/jsonpb
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b096/ -c -o $WORK/b096/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1golang_1protobuf_1jsonpb -m64 $WORK/b096/_buildid.s
+ar rcD $WORK/b096/_pkg_.a $WORK/b096/_go_.o $WORK/b096/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b096/_pkg_.a # internal
+cp $WORK/b096/_pkg_.a /home/ming/.cache/go-build/55/55f57e8d1a86c8d1535c02260c0f8e9763c467638aeaa3411970b305fb025e75-d # internal
+mkdir -p $WORK/b095/
+mkdir -p $WORK/b095/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b096/_pkg_.a $WORK/b095/_importcfgroot_/github.com/golang/protobuf/libjsonpb.a
+ln -s $WORK/b010/_pkg_.a $WORK/b095/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b095/_importcfgroot_/google.golang.org/protobuf/encoding
+ln -s $WORK/b097/_pkg_.a $WORK/b095/_importcfgroot_/google.golang.org/protobuf/encoding/libprotojson.a
+mkdir -p $WORK/b095/_importcfgroot_/google.golang.org/protobuf
+ln -s $WORK/b041/_pkg_.a $WORK/b095/_importcfgroot_/google.golang.org/protobuf/libproto.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/pretty
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/pretty -o $WORK/b095/_go_.o -I $WORK/b095/_importcfgroot_ ./pretty.go
+echo '	.section .go.buildid,"e"' >> $WORK/b095/_buildid.s
+echo '	.byte 0x39,0x69,0x44,0x45,0x6c,0x43,0x77,0x64' >> $WORK/b095/_buildid.s
+echo '	.byte 0x61,0x4b,0x54,0x63,0x44,0x6f,0x55,0x36' >> $WORK/b095/_buildid.s
+echo '	.byte 0x41,0x39,0x52,0x78,0x2f,0x39,0x69,0x44' >> $WORK/b095/_buildid.s
+echo '	.byte 0x45,0x6c,0x43,0x77,0x64,0x61,0x4b,0x54' >> $WORK/b095/_buildid.s
+echo '	.byte 0x63,0x44,0x6f,0x55,0x36,0x41,0x39,0x52' >> $WORK/b095/_buildid.s
+echo '	.byte 0x78' >> $WORK/b095/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b095/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b095/_buildid.s
+echo '' >> $WORK/b095/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b095/ -c -o $WORK/b095/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1pretty -m64 $WORK/b095/_buildid.s
+ar rcD $WORK/b095/_pkg_.a $WORK/b095/_go_.o $WORK/b095/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b095/_pkg_.a # internal
+cp $WORK/b095/_pkg_.a /home/ming/.cache/go-build/ba/bab9886bf8b2af9f9025c4d42f82907d699896d39d8f3e8e193933bc3e18d126-d # internal
+mkdir -p $WORK/b094/
+mkdir -p $WORK/b094/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ce/cec6215cefbcba8259c6501044049f13c77dd7a5129207e391235f0649da6ea1-d $WORK/b094/_importcfgroot_/google.golang.org/grpc/libattributes.a
+ln -s $WORK/b090/_pkg_.a $WORK/b094/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+mkdir -p $WORK/b094/_importcfgroot_/google.golang.org/grpc/internal
+ln -s $WORK/b095/_pkg_.a $WORK/b094/_importcfgroot_/google.golang.org/grpc/internal/libpretty.a
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b094/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/resolver
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/resolver -o $WORK/b094/_go_.o -I $WORK/b094/_importcfgroot_ ./map.go ./resolver.go
+echo '	.section .go.buildid,"e"' >> $WORK/b094/_buildid.s
+echo '	.byte 0x70,0x33,0x39,0x42,0x47,0x48,0x32,0x44' >> $WORK/b094/_buildid.s
+echo '	.byte 0x72,0x64,0x41,0x6d,0x70,0x46,0x65,0x53' >> $WORK/b094/_buildid.s
+echo '	.byte 0x6c,0x70,0x75,0x71,0x2f,0x70,0x33,0x39' >> $WORK/b094/_buildid.s
+echo '	.byte 0x42,0x47,0x48,0x32,0x44,0x72,0x64,0x41' >> $WORK/b094/_buildid.s
+echo '	.byte 0x6d,0x70,0x46,0x65,0x53,0x6c,0x70,0x75' >> $WORK/b094/_buildid.s
+echo '	.byte 0x71' >> $WORK/b094/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b094/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b094/_buildid.s
+echo '' >> $WORK/b094/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b094/ -c -o $WORK/b094/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1resolver -m64 $WORK/b094/_buildid.s
+ar rcD $WORK/b094/_pkg_.a $WORK/b094/_go_.o $WORK/b094/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b094/_pkg_.a # internal
+cp $WORK/b094/_pkg_.a /home/ming/.cache/go-build/7d/7de6b32ced7c721f65e02f9e1b1f229f6e1d61d3bcc349aa77ac9a3878d09688-d # internal
+mkdir -p $WORK/b131/
+mkdir -p $WORK/b127/
+mkdir -p $WORK/b093/
+mkdir -p $WORK/b135/
+mkdir -p $WORK/b133/
+mkdir -p $WORK/b135/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b094/_pkg_.a $WORK/b135/_importcfgroot_/google.golang.org/grpc/libresolver.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/transport/networktype
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/transport/networktype -o $WORK/b135/_go_.o -I $WORK/b135/_importcfgroot_ ./networktype.go
+mkdir -p $WORK/b131/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b094/_pkg_.a $WORK/b131/_importcfgroot_/google.golang.org/grpc/libresolver.a
+mkdir -p $WORK/b093/_importcfgroot_/google.golang.org/grpc
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/grpclb/state
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/balancer/grpclb/state -o $WORK/b131/_go_.o -I $WORK/b131/_importcfgroot_ ./state.go
+ln -s /home/ming/.cache/go-build/ce/cec6215cefbcba8259c6501044049f13c77dd7a5129207e391235f0649da6ea1-d $WORK/b093/_importcfgroot_/google.golang.org/grpc/libattributes.a
+mkdir -p $WORK/b127/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b127/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+mkdir -p $WORK/b133/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b094/_pkg_.a $WORK/b133/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s $WORK/b094/_pkg_.a $WORK/b127/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b093/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/passthrough
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/resolver/passthrough -o $WORK/b133/_go_.o -I $WORK/b133/_importcfgroot_ ./passthrough.go
+ln -s $WORK/b094/_pkg_.a $WORK/b093/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b093/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/metadata
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/metadata -o $WORK/b127/_go_.o -I $WORK/b127/_importcfgroot_ ./metadata.go
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal -o $WORK/b093/_go_.o -I $WORK/b093/_importcfgroot_ ./internal.go ./xds_handshake_cluster.go
+echo '	.section .go.buildid,"e"' >> $WORK/b131/_buildid.s
+echo '	.byte 0x58,0x61,0x65,0x6f,0x4a,0x38,0x45,0x66' >> $WORK/b131/_buildid.s
+echo '	.byte 0x41,0x6e,0x4a,0x54,0x6f,0x36,0x52,0x4d' >> $WORK/b131/_buildid.s
+echo '	.byte 0x36,0x6d,0x62,0x6e,0x2f,0x58,0x61,0x65' >> $WORK/b131/_buildid.s
+echo '	.byte 0x6f,0x4a,0x38,0x45,0x66,0x41,0x6e,0x4a' >> $WORK/b131/_buildid.s
+echo '	.byte 0x54,0x6f,0x36,0x52,0x4d,0x36,0x6d,0x62' >> $WORK/b131/_buildid.s
+echo '	.byte 0x6e' >> $WORK/b131/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b131/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b131/_buildid.s
+echo '' >> $WORK/b131/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/grpclb/state
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b131/ -c -o $WORK/b131/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1balancer_1grpclb_1state -m64 $WORK/b131/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b135/_buildid.s
+echo '	.byte 0x43,0x41,0x46,0x65,0x49,0x47,0x6d,0x49' >> $WORK/b135/_buildid.s
+echo '	.byte 0x62,0x72,0x53,0x39,0x71,0x68,0x33,0x65' >> $WORK/b135/_buildid.s
+echo '	.byte 0x6c,0x62,0x37,0x49,0x2f,0x43,0x41,0x46' >> $WORK/b135/_buildid.s
+echo '	.byte 0x65,0x49,0x47,0x6d,0x49,0x62,0x72,0x53' >> $WORK/b135/_buildid.s
+echo '	.byte 0x39,0x71,0x68,0x33,0x65,0x6c,0x62,0x37' >> $WORK/b135/_buildid.s
+echo '	.byte 0x49' >> $WORK/b135/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b135/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b135/_buildid.s
+echo '' >> $WORK/b135/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/transport/networktype
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b135/ -c -o $WORK/b135/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1transport_1networktype -m64 $WORK/b135/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/grpclb/state
+ar rcD $WORK/b131/_pkg_.a $WORK/b131/_go_.o $WORK/b131/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/transport/networktype
+ar rcD $WORK/b135/_pkg_.a $WORK/b135/_go_.o $WORK/b135/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b093/_buildid.s
+echo '	.byte 0x57,0x56,0x7a,0x55,0x6f,0x73,0x41,0x31' >> $WORK/b093/_buildid.s
+echo '	.byte 0x72,0x57,0x4b,0x52,0x51,0x4f,0x50,0x54' >> $WORK/b093/_buildid.s
+echo '	.byte 0x5a,0x75,0x57,0x34,0x2f,0x57,0x56,0x7a' >> $WORK/b093/_buildid.s
+echo '	.byte 0x55,0x6f,0x73,0x41,0x31,0x72,0x57,0x4b' >> $WORK/b093/_buildid.s
+echo '	.byte 0x52,0x51,0x4f,0x50,0x54,0x5a,0x75,0x57' >> $WORK/b093/_buildid.s
+echo '	.byte 0x34' >> $WORK/b093/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b093/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b093/_buildid.s
+echo '' >> $WORK/b093/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b093/ -c -o $WORK/b093/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal -m64 $WORK/b093/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b131/_pkg_.a # internal
+cp $WORK/b131/_pkg_.a /home/ming/.cache/go-build/79/7950f3e78b413ff1bc1b227dc33678683b38f902e320a3ddf38aa26d3bc4ef15-d # internal
+mkdir -p $WORK/b130/
+echo '	.section .go.buildid,"e"' >> $WORK/b113/_buildid.s
+echo '	.byte 0x70,0x35,0x66,0x46,0x35,0x66,0x6b,0x65' >> $WORK/b113/_buildid.s
+echo '	.byte 0x6a,0x66,0x58,0x55,0x43,0x2d,0x39,0x4d' >> $WORK/b113/_buildid.s
+echo '	.byte 0x73,0x62,0x50,0x64,0x2f,0x70,0x35,0x66' >> $WORK/b113/_buildid.s
+echo '	.byte 0x46,0x35,0x66,0x6b,0x65,0x6a,0x66,0x58' >> $WORK/b113/_buildid.s
+echo '	.byte 0x55,0x43,0x2d,0x39,0x4d,0x73,0x62,0x50' >> $WORK/b113/_buildid.s
+echo '	.byte 0x64' >> $WORK/b113/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b113/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b113/_buildid.s
+echo '' >> $WORK/b113/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/binarylog
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b113/ -c -o $WORK/b113/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1binarylog -m64 $WORK/b113/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b135/_pkg_.a # internal
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal
+ar rcD $WORK/b093/_pkg_.a $WORK/b093/_go_.o $WORK/b093/_buildid.o
+mkdir -p $WORK/b130/_importcfgroot_/google.golang.org/grpc/balancer/grpclb
+cp $WORK/b135/_pkg_.a /home/ming/.cache/go-build/78/78184e736ebbf60f163cfc427c1deb0889ecab0b7d27f02c5fa17e5fb91d313e-d # internal
+ln -s $WORK/b131/_pkg_.a $WORK/b130/_importcfgroot_/google.golang.org/grpc/balancer/grpclb/libstate.a
+mkdir -p $WORK/b130/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b130/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+mkdir -p $WORK/b130/_importcfgroot_/google.golang.org/grpc/internal
+ln -s /home/ming/.cache/go-build/51/514cb61280ada7ad96373266c16cca3d3572d76993cdca18ea2d19d219351235-d $WORK/b130/_importcfgroot_/google.golang.org/grpc/internal/libbackoff.a
+ln -s /home/ming/.cache/go-build/4a/4a201fba0abe51c6f295ff68b7f7a72a9c7feb4ad532439de231423815a5f55f-d $WORK/b130/_importcfgroot_/google.golang.org/grpc/internal/libenvconfig.a
+ln -s /home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d $WORK/b130/_importcfgroot_/google.golang.org/grpc/internal/libgrpcrand.a
+ln -s $WORK/b094/_pkg_.a $WORK/b130/_importcfgroot_/google.golang.org/grpc/libresolver.a
+mkdir -p $WORK/b134/
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b130/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/dns
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/resolver/dns -o $WORK/b130/_go_.o -I $WORK/b130/_importcfgroot_ ./dns_resolver.go
+mkdir -p $WORK/b134/_importcfgroot_/google.golang.org/grpc/internal/transport
+ln -s $WORK/b135/_pkg_.a $WORK/b134/_importcfgroot_/google.golang.org/grpc/internal/transport/libnetworktype.a
+mkdir -p $WORK/b134/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b094/_pkg_.a $WORK/b134/_importcfgroot_/google.golang.org/grpc/libresolver.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/unix
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/resolver/unix -o $WORK/b134/_go_.o -I $WORK/b134/_importcfgroot_ ./unix.go
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/binarylog
+ar rcD $WORK/b113/_pkg_.a $WORK/b113/_go_.o $WORK/b113/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b093/_pkg_.a # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b133/_buildid.s
+echo '	.byte 0x2d,0x34,0x6f,0x43,0x53,0x78,0x48,0x59' >> $WORK/b133/_buildid.s
+echo '	.byte 0x62,0x6e,0x69,0x47,0x34,0x33,0x73,0x67' >> $WORK/b133/_buildid.s
+echo '	.byte 0x4e,0x73,0x41,0x61,0x2f,0x2d,0x34,0x6f' >> $WORK/b133/_buildid.s
+echo '	.byte 0x43,0x53,0x78,0x48,0x59,0x62,0x6e,0x69' >> $WORK/b133/_buildid.s
+echo '	.byte 0x47,0x34,0x33,0x73,0x67,0x4e,0x73,0x41' >> $WORK/b133/_buildid.s
+echo '	.byte 0x61' >> $WORK/b133/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b133/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b133/_buildid.s
+echo '' >> $WORK/b133/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/passthrough
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b133/ -c -o $WORK/b133/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1resolver_1passthrough -m64 $WORK/b133/_buildid.s
+echo '	.section .go.buildid,"e"' >> $WORK/b127/_buildid.s
+echo '	.byte 0x72,0x73,0x57,0x5f,0x63,0x48,0x32,0x61' >> $WORK/b127/_buildid.s
+echo '	.byte 0x67,0x37,0x7a,0x55,0x55,0x6b,0x52,0x54' >> $WORK/b127/_buildid.s
+echo '	.byte 0x6b,0x53,0x6c,0x30,0x2f,0x72,0x73,0x57' >> $WORK/b127/_buildid.s
+echo '	.byte 0x5f,0x63,0x48,0x32,0x61,0x67,0x37,0x7a' >> $WORK/b127/_buildid.s
+echo '	.byte 0x55,0x55,0x6b,0x52,0x54,0x6b,0x53,0x6c' >> $WORK/b127/_buildid.s
+echo '	.byte 0x30' >> $WORK/b127/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b127/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b127/_buildid.s
+echo '' >> $WORK/b127/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/metadata
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b127/ -c -o $WORK/b127/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1metadata -m64 $WORK/b127/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b113/_pkg_.a # internal
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/passthrough
+ar rcD $WORK/b133/_pkg_.a $WORK/b133/_go_.o $WORK/b133/_buildid.o
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/metadata
+ar rcD $WORK/b127/_pkg_.a $WORK/b127/_go_.o $WORK/b127/_buildid.o
+cp $WORK/b093/_pkg_.a /home/ming/.cache/go-build/50/507d5def6e58c7776e961814296138baabbcf417cc6c642013fbf5e3ebfc29fc-d # internal
+cp $WORK/b113/_pkg_.a /home/ming/.cache/go-build/3a/3af48c4b6117d82fdce502b6521dc7aaed5369e3c164a9d6b79bff2bb1b1fcb9-d # internal
+/my/install/dir/tools/buildid -w $WORK/b133/_pkg_.a # internal
+/my/install/dir/tools/buildid -w $WORK/b127/_pkg_.a # internal
+cp $WORK/b133/_pkg_.a /home/ming/.cache/go-build/37/377f479c06c6ce318d967607e5aec5402e1b1d76ebadc285485a42471150a60d-d # internal
+cp $WORK/b127/_pkg_.a /home/ming/.cache/go-build/6c/6c789ae9b8b601cd54a753f6836cb31f9fd194383df72a57de1acddb2f031312-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b134/_buildid.s
+echo '	.byte 0x45,0x56,0x49,0x4a,0x6d,0x6d,0x43,0x61' >> $WORK/b134/_buildid.s
+echo '	.byte 0x4f,0x50,0x4c,0x4b,0x6a,0x39,0x78,0x47' >> $WORK/b134/_buildid.s
+echo '	.byte 0x44,0x62,0x36,0x56,0x2f,0x45,0x56,0x49' >> $WORK/b134/_buildid.s
+echo '	.byte 0x4a,0x6d,0x6d,0x43,0x61,0x4f,0x50,0x4c' >> $WORK/b134/_buildid.s
+echo '	.byte 0x4b,0x6a,0x39,0x78,0x47,0x44,0x62,0x36' >> $WORK/b134/_buildid.s
+echo '	.byte 0x56' >> $WORK/b134/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b134/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b134/_buildid.s
+echo '' >> $WORK/b134/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/unix
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b134/ -c -o $WORK/b134/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1resolver_1unix -m64 $WORK/b134/_buildid.s
+ar rcD $WORK/b134/_pkg_.a $WORK/b134/_go_.o $WORK/b134/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b134/_pkg_.a # internal
+cp $WORK/b134/_pkg_.a /home/ming/.cache/go-build/db/db21a88666f0432fe4f744ebc45daed9c955f171e55285608138e8367dc6fc39-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b083/_buildid.s
+echo '	.byte 0x36,0x69,0x6b,0x48,0x77,0x44,0x6b,0x72' >> $WORK/b083/_buildid.s
+echo '	.byte 0x45,0x30,0x46,0x47,0x35,0x50,0x69,0x75' >> $WORK/b083/_buildid.s
+echo '	.byte 0x69,0x6f,0x56,0x6e,0x2f,0x36,0x69,0x6b' >> $WORK/b083/_buildid.s
+echo '	.byte 0x48,0x77,0x44,0x6b,0x72,0x45,0x30,0x46' >> $WORK/b083/_buildid.s
+echo '	.byte 0x47,0x35,0x50,0x69,0x75,0x69,0x6f,0x56' >> $WORK/b083/_buildid.s
+echo '	.byte 0x6e' >> $WORK/b083/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b083/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b083/_buildid.s
+echo '' >> $WORK/b083/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/channelz
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b083/ -c -o $WORK/b083/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1channelz -m64 $WORK/b083/_buildid.s
+ar rcD $WORK/b083/_pkg_.a $WORK/b083/_go_.o $WORK/b083/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b083/_pkg_.a # internal
+cp $WORK/b083/_pkg_.a /home/ming/.cache/go-build/cc/cca5c385c9c10c8c43ae4e7b19dfe24f3777b779f1be0857af72b03b48b9d374-d # internal
+mkdir -p $WORK/b082/
+mkdir -p $WORK/b082/_importcfgroot_/google.golang.org/grpc/internal
+ln -s $WORK/b083/_pkg_.a $WORK/b082/_importcfgroot_/google.golang.org/grpc/internal/libchannelz.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/channelz
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/channelz -o $WORK/b082/_go_.o -I $WORK/b082/_importcfgroot_ ./channelz.go
+mkdir -p $WORK/b136/
+mkdir -p $WORK/b136/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b136/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b136/_importcfgroot_/golang.org/x/net
+ln -s /home/ming/.cache/go-build/92/9287357fee5010b225f53e67db00fd1ed678daeca3827196d2a5b9035e4704d1-d $WORK/b136/_importcfgroot_/golang.org/x/net/libhttp2.a
+mkdir -p $WORK/b136/_importcfgroot_/golang.org/x/net/http2
+ln -s /home/ming/.cache/go-build/d9/d907d2cd707689d240b8f6205565819aa84cac69980c7d68206d2dbc78a87513-d $WORK/b136/_importcfgroot_/golang.org/x/net/http2/libhpack.a
+mkdir -p $WORK/b136/_importcfgroot_/google.golang.org/genproto/googleapis/rpc
+ln -s $WORK/b123/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/genproto/googleapis/rpc/libstatus.a
+mkdir -p $WORK/b136/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libcodes.a
+ln -s $WORK/b090/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+mkdir -p $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal
+ln -s $WORK/b083/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libchannelz.a
+ln -s /home/ming/.cache/go-build/6c/6cfb51d0d6f9081783fa64c8d812d56cd29e83cf28fa94a61d60c0e44a2234e3-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libcredentials.a
+ln -s /home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libgrpcrand.a
+ln -s /home/ming/.cache/go-build/48/48de3ed42f3b8c345209d0a6709880089ef237811ac3e67c6f1c4be67412a1ef-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libgrpcutil.a
+ln -s $WORK/b127/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libmetadata.a
+ln -s /home/ming/.cache/go-build/f4/f43a176726480309589445784ee5a1b0e16733952f4508375792ae205f73bf43-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/libsyscall.a
+mkdir -p $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/transport
+ln -s $WORK/b135/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/internal/transport/libnetworktype.a
+ln -s /home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libkeepalive.a
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+ln -s $WORK/b151/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/libpeer.a
+ln -s $WORK/b094/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/1d/1de622fbfb4f98fd814dfc7291fea6d74b56c33fd684c686a5af7b5fbda679b2-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libstats.a
+ln -s $WORK/b122/_pkg_.a $WORK/b136/_importcfgroot_/google.golang.org/grpc/libstatus.a
+ln -s /home/ming/.cache/go-build/8a/8a8afce22eaec62758ab2d606346679487be37f58dae2ec3bf45c42400765b8e-d $WORK/b136/_importcfgroot_/google.golang.org/grpc/libtap.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/transport
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/transport -o $WORK/b136/_go_.o -I $WORK/b136/_importcfgroot_ ./bdp_estimator.go ./controlbuf.go ./defaults.go ./flowcontrol.go ./handler_server.go ./http2_client.go ./http2_server.go ./http_util.go ./proxy.go ./transport.go
+echo '	.section .go.buildid,"e"' >> $WORK/b082/_buildid.s
+echo '	.byte 0x52,0x44,0x56,0x74,0x62,0x71,0x42,0x48' >> $WORK/b082/_buildid.s
+echo '	.byte 0x32,0x2d,0x56,0x39,0x39,0x6e,0x4e,0x37' >> $WORK/b082/_buildid.s
+echo '	.byte 0x31,0x64,0x64,0x31,0x2f,0x52,0x44,0x56' >> $WORK/b082/_buildid.s
+echo '	.byte 0x74,0x62,0x71,0x42,0x48,0x32,0x2d,0x56' >> $WORK/b082/_buildid.s
+echo '	.byte 0x39,0x39,0x6e,0x4e,0x37,0x31,0x64,0x64' >> $WORK/b082/_buildid.s
+echo '	.byte 0x31' >> $WORK/b082/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b082/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b082/_buildid.s
+echo '' >> $WORK/b082/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/channelz
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b082/ -c -o $WORK/b082/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1channelz -m64 $WORK/b082/_buildid.s
+ar rcD $WORK/b082/_pkg_.a $WORK/b082/_go_.o $WORK/b082/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b082/_pkg_.a # internal
+cp $WORK/b082/_pkg_.a /home/ming/.cache/go-build/73/73691d953301c7f495b11088d5d5032cb12eb0d63f8e46c4bd1db601784d143f-d # internal
+mkdir -p $WORK/b081/
+mkdir -p $WORK/b081/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b082/_pkg_.a $WORK/b081/_importcfgroot_/google.golang.org/grpc/libchannelz.a
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b081/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+ln -s $WORK/b090/_pkg_.a $WORK/b081/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+ln -s $WORK/b093/_pkg_.a $WORK/b081/_importcfgroot_/google.golang.org/grpc/libinternal.a
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b081/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+ln -s $WORK/b094/_pkg_.a $WORK/b081/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b081/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/balancer -o $WORK/b081/_go_.o -I $WORK/b081/_importcfgroot_ ./balancer.go
+echo '	.section .go.buildid,"e"' >> $WORK/b081/_buildid.s
+echo '	.byte 0x68,0x44,0x47,0x73,0x6f,0x44,0x7a,0x35' >> $WORK/b081/_buildid.s
+echo '	.byte 0x4e,0x53,0x53,0x30,0x33,0x4c,0x56,0x61' >> $WORK/b081/_buildid.s
+echo '	.byte 0x51,0x31,0x76,0x41,0x2f,0x68,0x44,0x47' >> $WORK/b081/_buildid.s
+echo '	.byte 0x73,0x6f,0x44,0x7a,0x35,0x4e,0x53,0x53' >> $WORK/b081/_buildid.s
+echo '	.byte 0x30,0x33,0x4c,0x56,0x61,0x51,0x31,0x76' >> $WORK/b081/_buildid.s
+echo '	.byte 0x41' >> $WORK/b081/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b081/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b081/_buildid.s
+echo '' >> $WORK/b081/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b081/ -c -o $WORK/b081/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1balancer -m64 $WORK/b081/_buildid.s
+ar rcD $WORK/b081/_pkg_.a $WORK/b081/_go_.o $WORK/b081/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b130/_buildid.s
+echo '	.byte 0x35,0x69,0x4d,0x47,0x32,0x56,0x71,0x66' >> $WORK/b130/_buildid.s
+echo '	.byte 0x36,0x4e,0x32,0x5a,0x62,0x63,0x5f,0x64' >> $WORK/b130/_buildid.s
+echo '	.byte 0x49,0x34,0x35,0x56,0x2f,0x35,0x69,0x4d' >> $WORK/b130/_buildid.s
+echo '	.byte 0x47,0x32,0x56,0x71,0x66,0x36,0x4e,0x32' >> $WORK/b130/_buildid.s
+echo '	.byte 0x5a,0x62,0x63,0x5f,0x64,0x49,0x34,0x35' >> $WORK/b130/_buildid.s
+echo '	.byte 0x56' >> $WORK/b130/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b130/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b130/_buildid.s
+echo '' >> $WORK/b130/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver/dns
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b130/ -c -o $WORK/b130/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1resolver_1dns -m64 $WORK/b130/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b081/_pkg_.a # internal
+ar rcD $WORK/b130/_pkg_.a $WORK/b130/_go_.o $WORK/b130/_buildid.o
+cp $WORK/b081/_pkg_.a /home/ming/.cache/go-build/af/af78237e0b8feb5c606939e2bc02bdbe10b8103b7735afadf26bd23c8d8946e0-d # internal
+mkdir -p $WORK/b129/
+mkdir -p $WORK/b102/
+mkdir -p $WORK/b102/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b081/_pkg_.a $WORK/b102/_importcfgroot_/google.golang.org/grpc/libbalancer.a
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b102/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+mkdir -p $WORK/b129/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b081/_pkg_.a $WORK/b129/_importcfgroot_/google.golang.org/grpc/libbalancer.a
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b129/_importcfgroot_/google.golang.org/grpc/libcodes.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b102/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b129/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+ln -s $WORK/b094/_pkg_.a $WORK/b102/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b129/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/serviceconfig
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/serviceconfig -o $WORK/b129/_go_.o -I $WORK/b129/_importcfgroot_ ./serviceconfig.go
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/base
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/balancer/base -o $WORK/b102/_go_.o -I $WORK/b102/_importcfgroot_ ./balancer.go ./base.go
+/my/install/dir/tools/buildid -w $WORK/b130/_pkg_.a # internal
+cp $WORK/b130/_pkg_.a /home/ming/.cache/go-build/00/008b46d0eb93653c522ecb52aed254f91f6ce23d6f4ade42d8e63ae72038f9fd-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b129/_buildid.s
+echo '	.byte 0x4e,0x50,0x41,0x76,0x33,0x79,0x38,0x7a' >> $WORK/b129/_buildid.s
+echo '	.byte 0x55,0x56,0x39,0x68,0x53,0x54,0x69,0x4d' >> $WORK/b129/_buildid.s
+echo '	.byte 0x6b,0x75,0x55,0x61,0x2f,0x4e,0x50,0x41' >> $WORK/b129/_buildid.s
+echo '	.byte 0x76,0x33,0x79,0x38,0x7a,0x55,0x56,0x39' >> $WORK/b129/_buildid.s
+echo '	.byte 0x68,0x53,0x54,0x69,0x4d,0x6b,0x75,0x55' >> $WORK/b129/_buildid.s
+echo '	.byte 0x61' >> $WORK/b129/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b129/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b129/_buildid.s
+echo '' >> $WORK/b129/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/serviceconfig
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b129/ -c -o $WORK/b129/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1serviceconfig -m64 $WORK/b129/_buildid.s
+ar rcD $WORK/b129/_pkg_.a $WORK/b129/_go_.o $WORK/b129/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b129/_pkg_.a # internal
+cp $WORK/b129/_pkg_.a /home/ming/.cache/go-build/a8/a846d40e77225bf79217977365b6b98cba00846d06f09ce5a6605f52dff96ca1-d # internal
+mkdir -p $WORK/b128/
+mkdir -p $WORK/b128/_importcfgroot_/google.golang.org/grpc/internal
+ln -s $WORK/b129/_pkg_.a $WORK/b128/_importcfgroot_/google.golang.org/grpc/internal/libserviceconfig.a
+mkdir -p $WORK/b128/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b128/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+ln -s $WORK/b094/_pkg_.a $WORK/b128/_importcfgroot_/google.golang.org/grpc/libresolver.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/resolver -o $WORK/b128/_go_.o -I $WORK/b128/_importcfgroot_ ./config_selector.go
+echo '	.section .go.buildid,"e"' >> $WORK/b102/_buildid.s
+echo '	.byte 0x6c,0x38,0x50,0x45,0x6a,0x42,0x48,0x63' >> $WORK/b102/_buildid.s
+echo '	.byte 0x4e,0x77,0x73,0x51,0x71,0x70,0x6d,0x33' >> $WORK/b102/_buildid.s
+echo '	.byte 0x6f,0x32,0x43,0x58,0x2f,0x6c,0x38,0x50' >> $WORK/b102/_buildid.s
+echo '	.byte 0x45,0x6a,0x42,0x48,0x63,0x4e,0x77,0x73' >> $WORK/b102/_buildid.s
+echo '	.byte 0x51,0x71,0x70,0x6d,0x33,0x6f,0x32,0x43' >> $WORK/b102/_buildid.s
+echo '	.byte 0x58' >> $WORK/b102/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b102/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b102/_buildid.s
+echo '' >> $WORK/b102/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/base
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b102/ -c -o $WORK/b102/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1balancer_1base -m64 $WORK/b102/_buildid.s
+ar rcD $WORK/b102/_pkg_.a $WORK/b102/_go_.o $WORK/b102/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b128/_buildid.s
+echo '	.byte 0x57,0x75,0x42,0x72,0x48,0x43,0x6d,0x59' >> $WORK/b128/_buildid.s
+echo '	.byte 0x78,0x78,0x6a,0x41,0x70,0x71,0x2d,0x33' >> $WORK/b128/_buildid.s
+echo '	.byte 0x75,0x59,0x37,0x66,0x2f,0x57,0x75,0x42' >> $WORK/b128/_buildid.s
+echo '	.byte 0x72,0x48,0x43,0x6d,0x59,0x78,0x78,0x6a' >> $WORK/b128/_buildid.s
+echo '	.byte 0x41,0x70,0x71,0x2d,0x33,0x75,0x59,0x37' >> $WORK/b128/_buildid.s
+echo '	.byte 0x66' >> $WORK/b128/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b128/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b128/_buildid.s
+echo '' >> $WORK/b128/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/resolver
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b128/ -c -o $WORK/b128/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1resolver -m64 $WORK/b128/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b102/_pkg_.a # internal
+cp $WORK/b102/_pkg_.a /home/ming/.cache/go-build/38/38fc1fff891e4ca0b463549fc6c807041b13d58cd35198f09f804463b6e843c2-d # internal
+mkdir -p $WORK/b103/
+mkdir -p $WORK/b111/
+ar rcD $WORK/b128/_pkg_.a $WORK/b128/_go_.o $WORK/b128/_buildid.o
+mkdir -p $WORK/b103/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b081/_pkg_.a $WORK/b103/_importcfgroot_/google.golang.org/grpc/libbalancer.a
+mkdir -p $WORK/b103/_importcfgroot_/google.golang.org/grpc/balancer
+ln -s $WORK/b102/_pkg_.a $WORK/b103/_importcfgroot_/google.golang.org/grpc/balancer/libbase.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b103/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+mkdir -p $WORK/b111/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b081/_pkg_.a $WORK/b111/_importcfgroot_/google.golang.org/grpc/libbalancer.a
+mkdir -p $WORK/b111/_importcfgroot_/google.golang.org/grpc/balancer
+ln -s $WORK/b102/_pkg_.a $WORK/b111/_importcfgroot_/google.golang.org/grpc/balancer/libbase.a
+mkdir -p $WORK/b103/_importcfgroot_/google.golang.org/grpc/internal
+ln -s /home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d $WORK/b103/_importcfgroot_/google.golang.org/grpc/internal/libgrpcrand.a
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b111/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+ln -s $WORK/b094/_pkg_.a $WORK/b111/_importcfgroot_/google.golang.org/grpc/libresolver.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/roundrobin
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/balancer/roundrobin -o $WORK/b103/_go_.o -I $WORK/b103/_importcfgroot_ ./roundrobin.go
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/balancer/gracefulswitch
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc/internal/balancer/gracefulswitch -o $WORK/b111/_go_.o -I $WORK/b111/_importcfgroot_ ./gracefulswitch.go
+/my/install/dir/tools/buildid -w $WORK/b128/_pkg_.a # internal
+cp $WORK/b128/_pkg_.a /home/ming/.cache/go-build/b8/b881d085c11a6909ddc9801d37e75e48f884147a35253895f57bb9ceb493dde7-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b103/_buildid.s
+echo '	.byte 0x41,0x6d,0x4e,0x72,0x77,0x56,0x53,0x53' >> $WORK/b103/_buildid.s
+echo '	.byte 0x61,0x6e,0x33,0x4c,0x62,0x42,0x31,0x42' >> $WORK/b103/_buildid.s
+echo '	.byte 0x4c,0x59,0x39,0x43,0x2f,0x41,0x6d,0x4e' >> $WORK/b103/_buildid.s
+echo '	.byte 0x72,0x77,0x56,0x53,0x53,0x61,0x6e,0x33' >> $WORK/b103/_buildid.s
+echo '	.byte 0x4c,0x62,0x42,0x31,0x42,0x4c,0x59,0x39' >> $WORK/b103/_buildid.s
+echo '	.byte 0x43' >> $WORK/b103/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b103/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b103/_buildid.s
+echo '' >> $WORK/b103/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/balancer/roundrobin
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b103/ -c -o $WORK/b103/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1balancer_1roundrobin -m64 $WORK/b103/_buildid.s
+ar rcD $WORK/b103/_pkg_.a $WORK/b103/_go_.o $WORK/b103/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b103/_pkg_.a # internal
+cp $WORK/b103/_pkg_.a /home/ming/.cache/go-build/c4/c46d4abc806960823e89ce230542dc36395067d926ec47b722d6b32a59b7d1a4-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b067/_buildid.s
+echo '	.byte 0x75,0x4b,0x57,0x38,0x65,0x64,0x46,0x64' >> $WORK/b067/_buildid.s
+echo '	.byte 0x63,0x38,0x52,0x36,0x41,0x4b,0x5a,0x39' >> $WORK/b067/_buildid.s
+echo '	.byte 0x70,0x74,0x59,0x46,0x2f,0x75,0x4b,0x57' >> $WORK/b067/_buildid.s
+echo '	.byte 0x38,0x65,0x64,0x46,0x64,0x63,0x38,0x52' >> $WORK/b067/_buildid.s
+echo '	.byte 0x36,0x41,0x4b,0x5a,0x39,0x70,0x74,0x59' >> $WORK/b067/_buildid.s
+echo '	.byte 0x46' >> $WORK/b067/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b067/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b067/_buildid.s
+echo '' >> $WORK/b067/_buildid.s
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/common
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b067/ -c -o $WORK/b067/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1common -m64 $WORK/b067/_buildid.s
+ar rcD $WORK/b067/_pkg_.a $WORK/b067/_go_.o $WORK/b067/_buildid.o
+echo '	.section .go.buildid,"e"' >> $WORK/b111/_buildid.s
+echo '	.byte 0x5a,0x7a,0x69,0x77,0x72,0x48,0x7a,0x53' >> $WORK/b111/_buildid.s
+echo '	.byte 0x38,0x76,0x46,0x74,0x6d,0x71,0x55,0x61' >> $WORK/b111/_buildid.s
+echo '	.byte 0x5a,0x4d,0x64,0x41,0x2f,0x5a,0x7a,0x69' >> $WORK/b111/_buildid.s
+echo '	.byte 0x77,0x72,0x48,0x7a,0x53,0x38,0x76,0x46' >> $WORK/b111/_buildid.s
+echo '	.byte 0x74,0x6d,0x71,0x55,0x61,0x5a,0x4d,0x64' >> $WORK/b111/_buildid.s
+echo '	.byte 0x41' >> $WORK/b111/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b111/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b111/_buildid.s
+echo '' >> $WORK/b111/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/balancer/gracefulswitch
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b111/ -c -o $WORK/b111/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1balancer_1gracefulswitch -m64 $WORK/b111/_buildid.s
+/my/install/dir/tools/buildid -w $WORK/b067/_pkg_.a # internal
+ar rcD $WORK/b111/_pkg_.a $WORK/b111/_go_.o $WORK/b111/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b111/_pkg_.a # internal
+cp $WORK/b111/_pkg_.a /home/ming/.cache/go-build/bf/bfefda0c387709271d56f97d87cce1e2849cb770ee9b5f249ad3c88467af61f5-d # internal
+cp $WORK/b067/_pkg_.a /home/ming/.cache/go-build/ae/aeec3354e6d7662df25d3c5d6c845fbe51671622e624284b713a6ae0d80ee2ed-d # internal
+echo '	.section .go.buildid,"e"' >> $WORK/b136/_buildid.s
+echo '	.byte 0x6f,0x39,0x76,0x46,0x46,0x74,0x6f,0x65' >> $WORK/b136/_buildid.s
+echo '	.byte 0x45,0x6f,0x38,0x62,0x79,0x44,0x55,0x4b' >> $WORK/b136/_buildid.s
+echo '	.byte 0x6d,0x6e,0x6e,0x58,0x2f,0x6f,0x39,0x76' >> $WORK/b136/_buildid.s
+echo '	.byte 0x46,0x46,0x74,0x6f,0x65,0x45,0x6f,0x38' >> $WORK/b136/_buildid.s
+echo '	.byte 0x62,0x79,0x44,0x55,0x4b,0x6d,0x6e,0x6e' >> $WORK/b136/_buildid.s
+echo '	.byte 0x58' >> $WORK/b136/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b136/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b136/_buildid.s
+echo '' >> $WORK/b136/_buildid.s
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0/internal/transport
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b136/ -c -o $WORK/b136/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc_1internal_1transport -m64 $WORK/b136/_buildid.s
+ar rcD $WORK/b136/_pkg_.a $WORK/b136/_go_.o $WORK/b136/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b136/_pkg_.a # internal
+cp $WORK/b136/_pkg_.a /home/ming/.cache/go-build/59/592f82580030152b26f08208070d6dd44a6af0cc952fee91425915a7cb0e698e-d # internal
+mkdir -p $WORK/b070/
+mkdir -p $WORK/b070/_importcfgroot_/golang.org/x/net
+ln -s /home/ming/.cache/go-build/7e/7ee314a34cc20f3ecda4b8ac4bcfa2b846e74e395b4f08dd8b4b286b7b91bd92-d $WORK/b070/_importcfgroot_/golang.org/x/net/libtrace.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/36/365675f2e261e062f25751b3197563a5cb740e7585b02f55e88b73577067619a-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libbackoff.a
+ln -s $WORK/b081/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libbalancer.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/balancer
+ln -s $WORK/b102/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/balancer/libbase.a
+ln -s $WORK/b103/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/balancer/libroundrobin.a
+ln -s $WORK/b082/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libchannelz.a
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libcodes.a
+ln -s /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libconnectivity.a
+ln -s $WORK/b090/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/credentials
+ln -s $WORK/b107/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/credentials/libinsecure.a
+ln -s /home/ming/.cache/go-build/f6/f65d6f53191058c6b5aa94aa126f38b20ddd083a103312dc154175ba540e5590-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libencoding.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/encoding
+ln -s $WORK/b109/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/encoding/libproto.a
+ln -s /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libgrpclog.a
+ln -s $WORK/b093/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libinternal.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal
+ln -s /home/ming/.cache/go-build/51/514cb61280ada7ad96373266c16cca3d3572d76993cdca18ea2d19d219351235-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libbackoff.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/balancer
+ln -s $WORK/b111/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/balancer/libgracefulswitch.a
+ln -s /home/ming/.cache/go-build/27/27fda2dbeba25c98129dc17aef191ce3dd3efca46cf636030e1702c70309e923-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libbalancerload.a
+ln -s $WORK/b113/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libbinarylog.a
+ln -s /home/ming/.cache/go-build/39/39798909ae1fd1379cb9073c6f26cd417dd26fd521de0a0e875a910a067a1a9c-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libbuffer.a
+ln -s $WORK/b083/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libchannelz.a
+ln -s /home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libgrpcrand.a
+ln -s /home/ming/.cache/go-build/64/6424581c069d3f05309fcd021f15a7b3b7b6bc58e3873f88a47717e901527146-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libgrpcsync.a
+ln -s /home/ming/.cache/go-build/48/48de3ed42f3b8c345209d0a6709880089ef237811ac3e67c6f1c4be67412a1ef-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libgrpcutil.a
+ln -s $WORK/b127/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libmetadata.a
+ln -s $WORK/b095/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libpretty.a
+ln -s $WORK/b128/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libresolver.a
+mkdir -p $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/resolver
+ln -s $WORK/b130/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/resolver/libdns.a
+ln -s $WORK/b133/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/resolver/libpassthrough.a
+ln -s $WORK/b134/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/resolver/libunix.a
+ln -s $WORK/b129/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libserviceconfig.a
+ln -s $WORK/b136/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/internal/libtransport.a
+ln -s /home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libkeepalive.a
+ln -s /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libmetadata.a
+ln -s $WORK/b151/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libpeer.a
+ln -s $WORK/b094/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libresolver.a
+ln -s /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libserviceconfig.a
+ln -s /home/ming/.cache/go-build/1d/1de622fbfb4f98fd814dfc7291fea6d74b56c33fd684c686a5af7b5fbda679b2-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libstats.a
+ln -s $WORK/b122/_pkg_.a $WORK/b070/_importcfgroot_/google.golang.org/grpc/libstatus.a
+ln -s /home/ming/.cache/go-build/8a/8a8afce22eaec62758ab2d606346679487be37f58dae2ec3bf45c42400765b8e-d $WORK/b070/_importcfgroot_/google.golang.org/grpc/libtap.a
+cd /home/ming/go/pkg/mod/google.golang.org/grpc@v1.48.0
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=google.golang.org/grpc -o $WORK/b070/_go_.o -I $WORK/b070/_importcfgroot_ ./backoff.go ./balancer_conn_wrappers.go ./call.go ./clientconn.go ./codec.go ./dialoptions.go ./doc.go ./interceptor.go ./picker_wrapper.go ./pickfirst.go ./preloader.go ./resolver_conn_wrapper.go ./rpc_util.go ./server.go ./service_config.go ./stream.go ./trace.go ./version.go
+echo '	.section .go.buildid,"e"' >> $WORK/b070/_buildid.s
+echo '	.byte 0x52,0x33,0x35,0x79,0x76,0x47,0x74,0x46' >> $WORK/b070/_buildid.s
+echo '	.byte 0x59,0x76,0x38,0x59,0x49,0x59,0x57,0x48' >> $WORK/b070/_buildid.s
+echo '	.byte 0x69,0x2d,0x41,0x33,0x2f,0x52,0x33,0x35' >> $WORK/b070/_buildid.s
+echo '	.byte 0x79,0x76,0x47,0x74,0x46,0x59,0x76,0x38' >> $WORK/b070/_buildid.s
+echo '	.byte 0x59,0x49,0x59,0x57,0x48,0x69,0x2d,0x41' >> $WORK/b070/_buildid.s
+echo '	.byte 0x33' >> $WORK/b070/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b070/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b070/_buildid.s
+echo '' >> $WORK/b070/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b070/ -c -o $WORK/b070/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=google_0golang_0org_1grpc -m64 $WORK/b070/_buildid.s
+ar rcD $WORK/b070/_pkg_.a $WORK/b070/_go_.o $WORK/b070/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b070/_pkg_.a # internal
+cp $WORK/b070/_pkg_.a /home/ming/.cache/go-build/74/74154c30b96c84bfd81cd72bf7390a99d17b0fe3f1f5fa83193d2c24a12e2c72-d # internal
+mkdir -p $WORK/b066/
+mkdir -p $WORK/b066/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b066/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b066/_importcfgroot_/github.com/hyperledger/fabric-protos-go
+ln -s $WORK/b067/_pkg_.a $WORK/b066/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libcommon.a
+mkdir -p $WORK/b066/_importcfgroot_/github.com/hyperledger/fabric-protos-go/ledger
+ln -s $WORK/b069/_pkg_.a $WORK/b066/_importcfgroot_/github.com/hyperledger/fabric-protos-go/ledger/librwset.a
+mkdir -p $WORK/b066/_importcfgroot_/google.golang.org
+ln -s $WORK/b070/_pkg_.a $WORK/b066/_importcfgroot_/google.golang.org/libgrpc.a
+mkdir -p $WORK/b066/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b066/_importcfgroot_/google.golang.org/grpc/libcodes.a
+ln -s $WORK/b122/_pkg_.a $WORK/b066/_importcfgroot_/google.golang.org/grpc/libstatus.a
+mkdir -p $WORK/b066/_importcfgroot_/google.golang.org/protobuf/types/known
+ln -s $WORK/b156/_pkg_.a $WORK/b066/_importcfgroot_/google.golang.org/protobuf/types/known/libemptypb.a
+ln -s $WORK/b060/_pkg_.a $WORK/b066/_importcfgroot_/google.golang.org/protobuf/types/known/libtimestamppb.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-protos-go@v0.3.0/peer
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-protos-go/peer -o $WORK/b066/_go_.o -I $WORK/b066/_importcfgroot_ ./chaincode.pb.go ./chaincode_event.pb.go ./chaincode_shim.pb.go ./collection.pb.go ./configuration.pb.go ./events.pb.go ./peer.pb.go ./policy.pb.go ./proposal.pb.go ./proposal_response.pb.go ./query.pb.go ./resources.pb.go ./signed_cc_dep_spec.pb.go ./snapshot.pb.go ./transaction.pb.go
+echo '	.section .go.buildid,"e"' >> $WORK/b066/_buildid.s
+echo '	.byte 0x6b,0x42,0x71,0x57,0x36,0x30,0x4d,0x64' >> $WORK/b066/_buildid.s
+echo '	.byte 0x37,0x5f,0x4e,0x48,0x51,0x32,0x65,0x37' >> $WORK/b066/_buildid.s
+echo '	.byte 0x73,0x67,0x6b,0x62,0x2f,0x6b,0x42,0x71' >> $WORK/b066/_buildid.s
+echo '	.byte 0x57,0x36,0x30,0x4d,0x64,0x37,0x5f,0x4e' >> $WORK/b066/_buildid.s
+echo '	.byte 0x48,0x51,0x32,0x65,0x37,0x73,0x67,0x6b' >> $WORK/b066/_buildid.s
+echo '	.byte 0x62' >> $WORK/b066/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b066/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b066/_buildid.s
+echo '' >> $WORK/b066/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b066/ -c -o $WORK/b066/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dprotos_x2dgo_1peer -m64 $WORK/b066/_buildid.s
+ar rcD $WORK/b066/_pkg_.a $WORK/b066/_go_.o $WORK/b066/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b066/_pkg_.a # internal
+cp $WORK/b066/_pkg_.a /home/ming/.cache/go-build/5e/5e9af88c3360c4802e91f9b3a0cd453b32899b2699fc73bb2480c088fa314692-d # internal
+mkdir -p $WORK/b062/
+mkdir -p $WORK/b062/_importcfgroot_/github.com/hyperledger/fabric-protos-go
+ln -s $WORK/b066/_pkg_.a $WORK/b062/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libpeer.a
+mkdir -p $WORK/b062/_importcfgroot_/google.golang.org
+ln -s $WORK/b070/_pkg_.a $WORK/b062/_importcfgroot_/google.golang.org/libgrpc.a
+mkdir -p $WORK/b062/_importcfgroot_/google.golang.org/grpc
+ln -s $WORK/b090/_pkg_.a $WORK/b062/_importcfgroot_/google.golang.org/grpc/libcredentials.a
+ln -s /home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d $WORK/b062/_importcfgroot_/google.golang.org/grpc/libkeepalive.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-chaincode-go@v0.0.0-20220920210243-7bc6fa0dd58b/shim/internal
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-chaincode-go/shim/internal -o $WORK/b062/_go_.o -I $WORK/b062/_importcfgroot_ ./client.go ./config.go ./server.go
+echo '	.section .go.buildid,"e"' >> $WORK/b062/_buildid.s
+echo '	.byte 0x52,0x48,0x59,0x47,0x4b,0x43,0x61,0x65' >> $WORK/b062/_buildid.s
+echo '	.byte 0x6d,0x72,0x36,0x77,0x5f,0x4f,0x4e,0x34' >> $WORK/b062/_buildid.s
+echo '	.byte 0x57,0x58,0x6f,0x52,0x2f,0x52,0x48,0x59' >> $WORK/b062/_buildid.s
+echo '	.byte 0x47,0x4b,0x43,0x61,0x65,0x6d,0x72,0x36' >> $WORK/b062/_buildid.s
+echo '	.byte 0x77,0x5f,0x4f,0x4e,0x34,0x57,0x58,0x6f' >> $WORK/b062/_buildid.s
+echo '	.byte 0x52' >> $WORK/b062/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b062/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b062/_buildid.s
+echo '' >> $WORK/b062/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b062/ -c -o $WORK/b062/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim_1internal -m64 $WORK/b062/_buildid.s
+ar rcD $WORK/b062/_pkg_.a $WORK/b062/_go_.o $WORK/b062/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b062/_pkg_.a # internal
+cp $WORK/b062/_pkg_.a /home/ming/.cache/go-build/fa/fa1f4048d12f48d0b2d8bb0bf1d46236a8170f880c384262e3268d856c9767aa-d # internal
+mkdir -p $WORK/b004/
+mkdir -p $WORK/b004/_importcfgroot_/github.com/golang/protobuf
+ln -s $WORK/b010/_pkg_.a $WORK/b004/_importcfgroot_/github.com/golang/protobuf/libproto.a
+mkdir -p $WORK/b004/_importcfgroot_/github.com/golang/protobuf/ptypes
+ln -s $WORK/b059/_pkg_.a $WORK/b004/_importcfgroot_/github.com/golang/protobuf/ptypes/libtimestamp.a
+mkdir -p $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-chaincode-go/shim
+ln -s $WORK/b062/_pkg_.a $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-chaincode-go/shim/libinternal.a
+mkdir -p $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-protos-go
+ln -s $WORK/b067/_pkg_.a $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libcommon.a
+mkdir -p $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-protos-go/ledger
+ln -s $WORK/b157/_pkg_.a $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-protos-go/ledger/libqueryresult.a
+ln -s $WORK/b066/_pkg_.a $WORK/b004/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libpeer.a
+mkdir -p $WORK/b004/_importcfgroot_/google.golang.org/grpc
+ln -s /home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d $WORK/b004/_importcfgroot_/google.golang.org/grpc/libkeepalive.a
+cd /home/ming/go/pkg/mod/github.com/hyperledger/fabric-chaincode-go@v0.0.0-20220920210243-7bc6fa0dd58b/shim
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -fgo-pkgpath=github.com/hyperledger/fabric-chaincode-go/shim -o $WORK/b004/_go_.o -I $WORK/b004/_importcfgroot_ ./chaincodeserver.go ./handler.go ./interfaces.go ./response.go ./shim.go ./stub.go
+echo '	.section .go.buildid,"e"' >> $WORK/b004/_buildid.s
+echo '	.byte 0x30,0x58,0x65,0x59,0x53,0x65,0x68,0x54' >> $WORK/b004/_buildid.s
+echo '	.byte 0x36,0x78,0x6d,0x46,0x76,0x34,0x4f,0x42' >> $WORK/b004/_buildid.s
+echo '	.byte 0x61,0x41,0x54,0x53,0x2f,0x30,0x58,0x65' >> $WORK/b004/_buildid.s
+echo '	.byte 0x59,0x53,0x65,0x68,0x54,0x36,0x78,0x6d' >> $WORK/b004/_buildid.s
+echo '	.byte 0x46,0x76,0x34,0x4f,0x42,0x61,0x41,0x54' >> $WORK/b004/_buildid.s
+echo '	.byte 0x53' >> $WORK/b004/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b004/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b004/_buildid.s
+echo '' >> $WORK/b004/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b004/ -c -o $WORK/b004/_buildid.o -D GOOS_linux -D GOARCH_amd64 -D GOPKGPATH=github_0com_1hyperledger_1fabric_x2dchaincode_x2dgo_1shim -m64 $WORK/b004/_buildid.s
+ar rcD $WORK/b004/_pkg_.a $WORK/b004/_go_.o $WORK/b004/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b004/_pkg_.a # internal
+cp $WORK/b004/_pkg_.a /home/ming/.cache/go-build/ab/ab8ed216cfffef971d89d404cc31f5e897510635428cf2aea9696b14f8b8fd42-d # internal
+mkdir -p $WORK/b001/
+cat >$WORK/b001/_gomod_.go << 'EOF' # internal
+package main
+import _ "unsafe"
+//go:linkname __set_debug_modinfo__ runtime.setmodinfo
+func __set_debug_modinfo__(string)
+func init() { __set_debug_modinfo__("0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\ndep\tgithub.com/golang/protobuf\tv1.5.2\th1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=\ndep\tgithub.com/hyperledger/fabric-chaincode-go\tv0.0.0-20220920210243-7bc6fa0dd58b\th1:MGT5rdajc4zbsbU7yMzkLJmsiRwJk5gBX5OdpU117Bg=\ndep\tgithub.com/hyperledger/fabric-protos-go\tv0.3.0\th1:MXxy44WTMENOh5TI8+PCK2x6pMj47Go2vFRKDHB2PZs=\ndep\tgolang.org/x/net\tv0.0.0-20220708220712-1185a9018129\th1:vucSRfWwTsoXro7P+3Cjlr6flUMtzCwzlvkxEQtHHB0=\ndep\tgolang.org/x/sys\tv0.0.0-20220715151400-c0bba94af5f8\th1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ=\ndep\tgolang.org/x/text\tv0.3.7\th1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=\ndep\tgoogle.golang.org/genproto\tv0.0.0-20220718134204-073382fd740c\th1:xDUAhRezFnKF6wopxkOfdWYvz2XCiRQzndyDdpwFgbc=\ndep\tgoogle.golang.org/grpc\tv1.48.0\th1:rQOsyJ/8+ufEDJd/Gdsz7HG220Mh9HAhFHRGnIjda0w=\ndep\tgoogle.golang.org/protobuf\tv1.28.1\th1:d0NfwRgPtno5B1Wa6L2DAG+KivqkdutMf1UhdNx175w=\nbuild\t-compiler=gccgo\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOEXPERIMENT=fieldtrack\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2") }
+EOF
+mkdir -p $WORK/b001/_importcfgroot_/github.com/hyperledger/fabric-chaincode-go
+ln -s $WORK/b004/_pkg_.a $WORK/b001/_importcfgroot_/github.com/hyperledger/fabric-chaincode-go/libshim.a
+mkdir -p $WORK/b001/_importcfgroot_/github.com/hyperledger/fabric-protos-go
+ln -s $WORK/b066/_pkg_.a $WORK/b001/_importcfgroot_/github.com/hyperledger/fabric-protos-go/libpeer.a
+cd /home/ming/go/src/chaincode_repo/testData
+/my/install/dir/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -o $WORK/b001/_go_.o -I $WORK/b001/_importcfgroot_ ./1.1.go $WORK/b001/_gomod_.go
+echo '	.section .go.buildid,"e"' >> $WORK/b001/_buildid.s
+echo '	.byte 0x71,0x44,0x41,0x77,0x61,0x70,0x6b,0x65' >> $WORK/b001/_buildid.s
+echo '	.byte 0x47,0x48,0x55,0x32,0x47,0x6b,0x4a,0x55' >> $WORK/b001/_buildid.s
+echo '	.byte 0x32,0x50,0x6f,0x78,0x2f,0x71,0x44,0x41' >> $WORK/b001/_buildid.s
+echo '	.byte 0x77,0x61,0x70,0x6b,0x65,0x47,0x48,0x55' >> $WORK/b001/_buildid.s
+echo '	.byte 0x32,0x47,0x6b,0x4a,0x55,0x32,0x50,0x6f' >> $WORK/b001/_buildid.s
+echo '	.byte 0x78' >> $WORK/b001/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b001/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b001/_buildid.s
+echo '' >> $WORK/b001/_buildid.s
+/my/install/dir/bin/llvm-goc -xassembler-with-cpp -I $WORK/b001/ -c -o $WORK/b001/_buildid.o -D GOOS_linux -D GOARCH_amd64 -m64 $WORK/b001/_buildid.s
+ar rcD $WORK/b001/_pkg_.a $WORK/b001/_go_.o $WORK/b001/_buildid.o
+/my/install/dir/tools/buildid -w $WORK/b001/_pkg_.a # internal
+cp $WORK/b001/_pkg_.a /home/ming/.cache/go-build/f7/f7cae361175ec49a5d964aca9a3ed5346a8bf41b4415786ad43436f5faaed80f-d # internal
+cat >$WORK/b001/importcfg.link << 'EOF' # internal
+packagefile command-line-arguments=$WORK/b001/_pkg_.a
+packagefile github.com/hyperledger/fabric-chaincode-go/shim=$WORK/b004/_pkg_.a
+packagefile github.com/hyperledger/fabric-protos-go/peer=$WORK/b066/_pkg_.a
+packagefile github.com/golang/protobuf/proto=$WORK/b010/_pkg_.a
+packagefile github.com/golang/protobuf/ptypes/timestamp=$WORK/b059/_pkg_.a
+packagefile github.com/hyperledger/fabric-chaincode-go/shim/internal=$WORK/b062/_pkg_.a
+packagefile github.com/hyperledger/fabric-protos-go/common=$WORK/b067/_pkg_.a
+packagefile github.com/hyperledger/fabric-protos-go/ledger/queryresult=$WORK/b157/_pkg_.a
+packagefile google.golang.org/grpc/keepalive=/home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d
+packagefile github.com/hyperledger/fabric-protos-go/ledger/rwset=$WORK/b069/_pkg_.a
+packagefile google.golang.org/grpc=$WORK/b070/_pkg_.a
+packagefile google.golang.org/grpc/codes=/home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d
+packagefile google.golang.org/grpc/status=$WORK/b122/_pkg_.a
+packagefile google.golang.org/protobuf/types/known/emptypb=$WORK/b156/_pkg_.a
+packagefile google.golang.org/protobuf/types/known/timestamppb=$WORK/b060/_pkg_.a
+packagefile google.golang.org/protobuf/encoding/prototext=$WORK/b014/_pkg_.a
+packagefile google.golang.org/protobuf/encoding/protowire=$WORK/b015/_pkg_.a
+packagefile google.golang.org/protobuf/proto=$WORK/b041/_pkg_.a
+packagefile google.golang.org/protobuf/reflect/protodesc=$WORK/b045/_pkg_.a
+packagefile google.golang.org/protobuf/reflect/protoreflect=$WORK/b024/_pkg_.a
+packagefile google.golang.org/protobuf/reflect/protoregistry=$WORK/b042/_pkg_.a
+packagefile google.golang.org/protobuf/runtime/protoiface=$WORK/b043/_pkg_.a
+packagefile google.golang.org/protobuf/runtime/protoimpl=$WORK/b052/_pkg_.a
+packagefile google.golang.org/grpc/credentials=$WORK/b090/_pkg_.a
+packagefile github.com/hyperledger/fabric-protos-go/msp=$WORK/b068/_pkg_.a
+packagefile golang.org/x/net/trace=/home/ming/.cache/go-build/7e/7ee314a34cc20f3ecda4b8ac4bcfa2b846e74e395b4f08dd8b4b286b7b91bd92-d
+packagefile google.golang.org/grpc/backoff=/home/ming/.cache/go-build/36/365675f2e261e062f25751b3197563a5cb740e7585b02f55e88b73577067619a-d
+packagefile google.golang.org/grpc/balancer=$WORK/b081/_pkg_.a
+packagefile google.golang.org/grpc/balancer/base=$WORK/b102/_pkg_.a
+packagefile google.golang.org/grpc/balancer/roundrobin=$WORK/b103/_pkg_.a
+packagefile google.golang.org/grpc/channelz=$WORK/b082/_pkg_.a
+packagefile google.golang.org/grpc/connectivity=/home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d
+packagefile google.golang.org/grpc/credentials/insecure=$WORK/b107/_pkg_.a
+packagefile google.golang.org/grpc/encoding=/home/ming/.cache/go-build/f6/f65d6f53191058c6b5aa94aa126f38b20ddd083a103312dc154175ba540e5590-d
+packagefile google.golang.org/grpc/encoding/proto=$WORK/b109/_pkg_.a
+packagefile google.golang.org/grpc/grpclog=/home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d
+packagefile google.golang.org/grpc/internal=$WORK/b093/_pkg_.a
+packagefile google.golang.org/grpc/internal/backoff=/home/ming/.cache/go-build/51/514cb61280ada7ad96373266c16cca3d3572d76993cdca18ea2d19d219351235-d
+packagefile google.golang.org/grpc/internal/balancer/gracefulswitch=$WORK/b111/_pkg_.a
+packagefile google.golang.org/grpc/internal/balancerload=/home/ming/.cache/go-build/27/27fda2dbeba25c98129dc17aef191ce3dd3efca46cf636030e1702c70309e923-d
+packagefile google.golang.org/grpc/internal/binarylog=$WORK/b113/_pkg_.a
+packagefile google.golang.org/grpc/internal/buffer=/home/ming/.cache/go-build/39/39798909ae1fd1379cb9073c6f26cd417dd26fd521de0a0e875a910a067a1a9c-d
+packagefile google.golang.org/grpc/internal/channelz=$WORK/b083/_pkg_.a
+packagefile google.golang.org/grpc/internal/grpcrand=/home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d
+packagefile google.golang.org/grpc/internal/grpcsync=/home/ming/.cache/go-build/64/6424581c069d3f05309fcd021f15a7b3b7b6bc58e3873f88a47717e901527146-d
+packagefile google.golang.org/grpc/internal/grpcutil=/home/ming/.cache/go-build/48/48de3ed42f3b8c345209d0a6709880089ef237811ac3e67c6f1c4be67412a1ef-d
+packagefile google.golang.org/grpc/internal/metadata=$WORK/b127/_pkg_.a
+packagefile google.golang.org/grpc/internal/pretty=$WORK/b095/_pkg_.a
+packagefile google.golang.org/grpc/internal/resolver=$WORK/b128/_pkg_.a
+packagefile google.golang.org/grpc/internal/resolver/dns=$WORK/b130/_pkg_.a
+packagefile google.golang.org/grpc/internal/resolver/passthrough=$WORK/b133/_pkg_.a
+packagefile google.golang.org/grpc/internal/resolver/unix=$WORK/b134/_pkg_.a
+packagefile google.golang.org/grpc/internal/serviceconfig=$WORK/b129/_pkg_.a
+packagefile google.golang.org/grpc/internal/transport=$WORK/b136/_pkg_.a
+packagefile google.golang.org/grpc/metadata=/home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d
+packagefile google.golang.org/grpc/peer=$WORK/b151/_pkg_.a
+packagefile google.golang.org/grpc/resolver=$WORK/b094/_pkg_.a
+packagefile google.golang.org/grpc/serviceconfig=/home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d
+packagefile google.golang.org/grpc/stats=/home/ming/.cache/go-build/1d/1de622fbfb4f98fd814dfc7291fea6d74b56c33fd684c686a5af7b5fbda679b2-d
+packagefile google.golang.org/grpc/tap=/home/ming/.cache/go-build/8a/8a8afce22eaec62758ab2d606346679487be37f58dae2ec3bf45c42400765b8e-d
+packagefile google.golang.org/genproto/googleapis/rpc/status=$WORK/b123/_pkg_.a
+packagefile google.golang.org/grpc/internal/status=$WORK/b124/_pkg_.a
+packagefile google.golang.org/protobuf/internal/encoding/messageset=$WORK/b023/_pkg_.a
+packagefile google.golang.org/protobuf/internal/encoding/text=$WORK/b030/_pkg_.a
+packagefile google.golang.org/protobuf/internal/errors=$WORK/b016/_pkg_.a
+packagefile google.golang.org/protobuf/internal/flags=$WORK/b031/_pkg_.a
+packagefile google.golang.org/protobuf/internal/genid=$WORK/b037/_pkg_.a
+packagefile google.golang.org/protobuf/internal/order=$WORK/b038/_pkg_.a
+packagefile google.golang.org/protobuf/internal/pragma=$WORK/b025/_pkg_.a
+packagefile google.golang.org/protobuf/internal/set=$WORK/b040/_pkg_.a
+packagefile google.golang.org/protobuf/internal/strs=$WORK/b032/_pkg_.a
+packagefile google.golang.org/protobuf/internal/encoding/defval=$WORK/b046/_pkg_.a
+packagefile google.golang.org/protobuf/internal/filedesc=$WORK/b047/_pkg_.a
+packagefile google.golang.org/protobuf/types/descriptorpb=$WORK/b051/_pkg_.a
+packagefile google.golang.org/protobuf/internal/filetype=$WORK/b053/_pkg_.a
+packagefile google.golang.org/protobuf/internal/impl=$WORK/b054/_pkg_.a
+packagefile google.golang.org/protobuf/internal/version=$WORK/b058/_pkg_.a
+packagefile google.golang.org/grpc/attributes=/home/ming/.cache/go-build/ce/cec6215cefbcba8259c6501044049f13c77dd7a5129207e391235f0649da6ea1-d
+packagefile google.golang.org/grpc/internal/credentials=/home/ming/.cache/go-build/6c/6cfb51d0d6f9081783fa64c8d812d56cd29e83cf28fa94a61d60c0e44a2234e3-d
+packagefile golang.org/x/net/internal/timeseries=/home/ming/.cache/go-build/5d/5d1ba21b54d029b30de617882cacf452ee28ca58c851b7828479ac8c20886e57-d
+packagefile google.golang.org/grpc/internal/grpclog=/home/ming/.cache/go-build/67/6761024e3fddc0e7a4e4f736bd3d01619e545d33ed8a31c57697800be7333ce2-d
+packagefile github.com/golang/protobuf/ptypes=$WORK/b115/_pkg_.a
+packagefile google.golang.org/grpc/binarylog/grpc_binarylog_v1=$WORK/b120/_pkg_.a
+packagefile golang.org/x/sys/unix=/home/ming/.cache/go-build/ad/adeb333dc502029a480027c5bbeac0fc7709026c4738925df2e36819a1d603a8-d
+packagefile github.com/golang/protobuf/jsonpb=$WORK/b096/_pkg_.a
+packagefile google.golang.org/protobuf/encoding/protojson=$WORK/b097/_pkg_.a
+packagefile google.golang.org/grpc/balancer/grpclb/state=$WORK/b131/_pkg_.a
+packagefile google.golang.org/grpc/internal/envconfig=/home/ming/.cache/go-build/4a/4a201fba0abe51c6f295ff68b7f7a72a9c7feb4ad532439de231423815a5f55f-d
+packagefile google.golang.org/grpc/internal/transport/networktype=$WORK/b135/_pkg_.a
+packagefile golang.org/x/net/http2=/home/ming/.cache/go-build/92/9287357fee5010b225f53e67db00fd1ed678daeca3827196d2a5b9035e4704d1-d
+packagefile golang.org/x/net/http2/hpack=/home/ming/.cache/go-build/d9/d907d2cd707689d240b8f6205565819aa84cac69980c7d68206d2dbc78a87513-d
+packagefile google.golang.org/grpc/internal/syscall=/home/ming/.cache/go-build/f4/f43a176726480309589445784ee5a1b0e16733952f4508375792ae205f73bf43-d
+packagefile google.golang.org/protobuf/types/known/anypb=$WORK/b117/_pkg_.a
+packagefile google.golang.org/protobuf/internal/detrand=$WORK/b017/_pkg_.a
+packagefile google.golang.org/protobuf/internal/descfmt=$WORK/b048/_pkg_.a
+packagefile google.golang.org/protobuf/internal/descopts=$WORK/b049/_pkg_.a
+packagefile google.golang.org/protobuf/internal/encoding/tag=$WORK/b055/_pkg_.a
+packagefile github.com/golang/protobuf/ptypes/any=$WORK/b116/_pkg_.a
+packagefile github.com/golang/protobuf/ptypes/duration=$WORK/b118/_pkg_.a
+packagefile google.golang.org/protobuf/types/known/durationpb=$WORK/b119/_pkg_.a
+packagefile golang.org/x/sys/internal/unsafeheader=/home/ming/.cache/go-build/cd/cd9a61d010487211bdfb77261e337fe4ea81fe51b9d56e7d7fb6b05835622a3d-d
+packagefile google.golang.org/protobuf/internal/encoding/json=$WORK/b098/_pkg_.a
+packagefile golang.org/x/net/http/httpguts=/home/ming/.cache/go-build/3f/3f155a10b3386e754809e7dddf1135bc6fac1a5c583790b9b909640f99f510c2-d
+packagefile golang.org/x/net/idna=/home/ming/.cache/go-build/32/320e9afd30360c76cb273b18efc75fa75dfecf30445984596c6003f85a4bd11d-d
+packagefile golang.org/x/text/secure/bidirule=/home/ming/.cache/go-build/c9/c92c840c4f6023b140e13d1f75beb15a9c726c79a70b010421e23fe966d30afd-d
+packagefile golang.org/x/text/unicode/bidi=/home/ming/.cache/go-build/9b/9b65d4653c226191c54a542ec564e4ee552d17481d50732b610680add96e69ec-d
+packagefile golang.org/x/text/unicode/norm=/home/ming/.cache/go-build/30/3026094a1d10ad33d16fa8010c83c96e09603a9b4c2aa9d501141b08ae253162-d
+packagefile golang.org/x/text/transform=/home/ming/.cache/go-build/89/8993b65b4e042c845e5136b1974ec0e059c3cc891164e3d747f2a51c0d94fd25-d
+modinfo "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\ndep\tgithub.com/golang/protobuf\tv1.5.2\th1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=\ndep\tgithub.com/hyperledger/fabric-chaincode-go\tv0.0.0-20220920210243-7bc6fa0dd58b\th1:MGT5rdajc4zbsbU7yMzkLJmsiRwJk5gBX5OdpU117Bg=\ndep\tgithub.com/hyperledger/fabric-protos-go\tv0.3.0\th1:MXxy44WTMENOh5TI8+PCK2x6pMj47Go2vFRKDHB2PZs=\ndep\tgolang.org/x/net\tv0.0.0-20220708220712-1185a9018129\th1:vucSRfWwTsoXro7P+3Cjlr6flUMtzCwzlvkxEQtHHB0=\ndep\tgolang.org/x/sys\tv0.0.0-20220715151400-c0bba94af5f8\th1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ=\ndep\tgolang.org/x/text\tv0.3.7\th1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=\ndep\tgoogle.golang.org/genproto\tv0.0.0-20220718134204-073382fd740c\th1:xDUAhRezFnKF6wopxkOfdWYvz2XCiRQzndyDdpwFgbc=\ndep\tgoogle.golang.org/grpc\tv1.48.0\th1:rQOsyJ/8+ufEDJd/Gdsz7HG220Mh9HAhFHRGnIjda0w=\ndep\tgoogle.golang.org/protobuf\tv1.28.1\th1:d0NfwRgPtno5B1Wa6L2DAG+KivqkdutMf1UhdNx175w=\nbuild\t-compiler=gccgo\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOEXPERIMENT=fieldtrack\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+EOF
+mkdir -p $WORK/b001/exe/
+cd .
+/my/install/dir/bin/llvm-goc -o $WORK/b001/exe/a.out "-Wl,-(" -m64 -Wl,--whole-archive $WORK/b001/_pkg_.a $WORK/b004/_pkg_.a $WORK/b066/_pkg_.a $WORK/b010/_pkg_.a $WORK/b059/_pkg_.a $WORK/b062/_pkg_.a $WORK/b067/_pkg_.a $WORK/b157/_pkg_.a /home/ming/.cache/go-build/3c/3ca1df396d8798543caf48a6c82f19d370326bfd6c30850126e5b2eb3ec739a2-d $WORK/b069/_pkg_.a $WORK/b070/_pkg_.a /home/ming/.cache/go-build/ea/ea623381bf232e6a7b243444e446b2468d900d483fea1d6e53d85b01549185dd-d $WORK/b122/_pkg_.a $WORK/b156/_pkg_.a $WORK/b060/_pkg_.a $WORK/b014/_pkg_.a $WORK/b015/_pkg_.a $WORK/b041/_pkg_.a $WORK/b045/_pkg_.a $WORK/b024/_pkg_.a $WORK/b042/_pkg_.a $WORK/b043/_pkg_.a $WORK/b052/_pkg_.a $WORK/b090/_pkg_.a $WORK/b068/_pkg_.a /home/ming/.cache/go-build/7e/7ee314a34cc20f3ecda4b8ac4bcfa2b846e74e395b4f08dd8b4b286b7b91bd92-d /home/ming/.cache/go-build/36/365675f2e261e062f25751b3197563a5cb740e7585b02f55e88b73577067619a-d $WORK/b081/_pkg_.a $WORK/b102/_pkg_.a $WORK/b103/_pkg_.a $WORK/b082/_pkg_.a /home/ming/.cache/go-build/05/0554bc1c913d33694d8609713efef889189c285feb972f052d8714f3c5593f31-d $WORK/b107/_pkg_.a /home/ming/.cache/go-build/f6/f65d6f53191058c6b5aa94aa126f38b20ddd083a103312dc154175ba540e5590-d $WORK/b109/_pkg_.a /home/ming/.cache/go-build/df/df46b46fb843f4423a670e5f50a4a806297085d6f4702baba2ef8958dcd8b5f2-d $WORK/b093/_pkg_.a /home/ming/.cache/go-build/51/514cb61280ada7ad96373266c16cca3d3572d76993cdca18ea2d19d219351235-d $WORK/b111/_pkg_.a /home/ming/.cache/go-build/27/27fda2dbeba25c98129dc17aef191ce3dd3efca46cf636030e1702c70309e923-d $WORK/b113/_pkg_.a /home/ming/.cache/go-build/39/39798909ae1fd1379cb9073c6f26cd417dd26fd521de0a0e875a910a067a1a9c-d $WORK/b083/_pkg_.a /home/ming/.cache/go-build/f2/f29082c5fa1e65fa3ba62a76806d2d7f6cc9ce81aa471354f56dc186d000921a-d /home/ming/.cache/go-build/64/6424581c069d3f05309fcd021f15a7b3b7b6bc58e3873f88a47717e901527146-d /home/ming/.cache/go-build/48/48de3ed42f3b8c345209d0a6709880089ef237811ac3e67c6f1c4be67412a1ef-d $WORK/b127/_pkg_.a $WORK/b095/_pkg_.a $WORK/b128/_pkg_.a $WORK/b130/_pkg_.a $WORK/b133/_pkg_.a $WORK/b134/_pkg_.a $WORK/b129/_pkg_.a $WORK/b136/_pkg_.a /home/ming/.cache/go-build/58/586a0f66561bf48543e0edff0e70610aac41b9879d3d8c1c00cbb90020cb1a36-d $WORK/b151/_pkg_.a $WORK/b094/_pkg_.a /home/ming/.cache/go-build/cd/cdefd5798cf15b063d9dc2bd5bfaeffe0e6cce5d685ef0e637834feb8aea399b-d /home/ming/.cache/go-build/1d/1de622fbfb4f98fd814dfc7291fea6d74b56c33fd684c686a5af7b5fbda679b2-d /home/ming/.cache/go-build/8a/8a8afce22eaec62758ab2d606346679487be37f58dae2ec3bf45c42400765b8e-d $WORK/b123/_pkg_.a $WORK/b124/_pkg_.a $WORK/b023/_pkg_.a $WORK/b030/_pkg_.a $WORK/b016/_pkg_.a $WORK/b031/_pkg_.a $WORK/b037/_pkg_.a $WORK/b038/_pkg_.a $WORK/b025/_pkg_.a $WORK/b040/_pkg_.a $WORK/b032/_pkg_.a $WORK/b046/_pkg_.a $WORK/b047/_pkg_.a $WORK/b051/_pkg_.a $WORK/b053/_pkg_.a $WORK/b054/_pkg_.a $WORK/b058/_pkg_.a /home/ming/.cache/go-build/ce/cec6215cefbcba8259c6501044049f13c77dd7a5129207e391235f0649da6ea1-d /home/ming/.cache/go-build/6c/6cfb51d0d6f9081783fa64c8d812d56cd29e83cf28fa94a61d60c0e44a2234e3-d /home/ming/.cache/go-build/5d/5d1ba21b54d029b30de617882cacf452ee28ca58c851b7828479ac8c20886e57-d /home/ming/.cache/go-build/67/6761024e3fddc0e7a4e4f736bd3d01619e545d33ed8a31c57697800be7333ce2-d $WORK/b115/_pkg_.a $WORK/b120/_pkg_.a /home/ming/.cache/go-build/ad/adeb333dc502029a480027c5bbeac0fc7709026c4738925df2e36819a1d603a8-d $WORK/b096/_pkg_.a $WORK/b097/_pkg_.a $WORK/b131/_pkg_.a /home/ming/.cache/go-build/4a/4a201fba0abe51c6f295ff68b7f7a72a9c7feb4ad532439de231423815a5f55f-d $WORK/b135/_pkg_.a /home/ming/.cache/go-build/92/9287357fee5010b225f53e67db00fd1ed678daeca3827196d2a5b9035e4704d1-d /home/ming/.cache/go-build/d9/d907d2cd707689d240b8f6205565819aa84cac69980c7d68206d2dbc78a87513-d /home/ming/.cache/go-build/f4/f43a176726480309589445784ee5a1b0e16733952f4508375792ae205f73bf43-d $WORK/b117/_pkg_.a $WORK/b017/_pkg_.a $WORK/b048/_pkg_.a $WORK/b049/_pkg_.a $WORK/b055/_pkg_.a $WORK/b116/_pkg_.a $WORK/b118/_pkg_.a $WORK/b119/_pkg_.a /home/ming/.cache/go-build/cd/cd9a61d010487211bdfb77261e337fe4ea81fe51b9d56e7d7fb6b05835622a3d-d $WORK/b098/_pkg_.a /home/ming/.cache/go-build/3f/3f155a10b3386e754809e7dddf1135bc6fac1a5c583790b9b909640f99f510c2-d /home/ming/.cache/go-build/32/320e9afd30360c76cb273b18efc75fa75dfecf30445984596c6003f85a4bd11d-d /home/ming/.cache/go-build/c9/c92c840c4f6023b140e13d1f75beb15a9c726c79a70b010421e23fe966d30afd-d /home/ming/.cache/go-build/9b/9b65d4653c226191c54a542ec564e4ee552d17481d50732b610680add96e69ec-d /home/ming/.cache/go-build/30/3026094a1d10ad33d16fa8010c83c96e09603a9b4c2aa9d501141b08ae253162-d /home/ming/.cache/go-build/89/8993b65b4e042c845e5136b1974ec0e059c3cc891164e3d747f2a51c0d94fd25-d -Wl,--no-whole-archive "-Wl,-)" -Wl,--build-id=0x45633042496c2d56473267315372616c626735472f7144417761706b6547485532476b4a5532506f782f79644a47755650525257646d314c3466664344302f45633042496c2d56473267315372616c62673547
+# command-line-arguments
+/usr/bin/ld.gold: error: /home/ming/.cache/go-build/ad/adeb333dc502029a480027c5bbeac0fc7709026c4738925df2e36819a1d603a8-d(gccgo_c.o): failed to match split-stack sequence at section 1 offset 0
+/usr/bin/ld.gold: error: /home/ming/.cache/go-build/ad/adeb333dc502029a480027c5bbeac0fc7709026c4738925df2e36819a1d603a8-d(gccgo_c.o): failed to match split-stack sequence at section 1 offset a6
