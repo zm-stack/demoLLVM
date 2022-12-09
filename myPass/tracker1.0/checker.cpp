@@ -28,10 +28,6 @@
 
 #include "llvm/ADT/StringRef.h"
 
-#include "llvm/IR/Operator.h"
-
-
-
 #define MAX_BB (1 << 10)        // function中最大basicblock数
 #define MAX_INST (1 << 20)      // function中最大instruction数
 #define MAX_GLOBAL (1 << 20)    // module中最大global_variable数
@@ -97,15 +93,12 @@ namespace {
 
             for (BasicBlock &B : *F) {
                 for (Instruction &I: B) {
-                    // unfixed bug: AtomicRMW -- GetElementPtr
-                    if (I.getOpcode() == Instruction :: AtomicCmpXchg) { 
-                        for (Use &U : I.operands()) {
-                            if (Value *v =U.get()) {
-                                // std::string arg;
-                                // raw_string_ostream(arg) << *v;
-                                errs() << *v << "\n";
-                            }
-                            break;
+                    if (I.getOpcode() == Instruction :: GetElementPtr) {
+                        Value *arg = I.getOperand(I.getNumOperands() - 1);
+                        std::string api;
+                        raw_string_ostream(api) << *arg;
+                        if (api == get_private) {
+                            errs()<< "find privacy read: " << I << "\n";
                         }
                     }
                 }

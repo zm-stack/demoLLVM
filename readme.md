@@ -12,8 +12,7 @@
 ## 依赖
 
 1. 环境依赖
-在Ubuntu上，建议安装的llvm-10和clang-12级以上版本，可参照[clang安装步骤](https://askubuntu.com/questions/1415621/can-you-help-me-install-clang-14-on-ubuntu-18-04-i-think-i-need-a-valid-repo-as)和[gollvm项目](https://go.googlesource.com/gollvm)。（clang-12到clang-15存在bug，参见[链接](https://github.com/llvm/llvm-project/issues/59322)）
-后续会用到clang-13、opt-13、llvm-config等指令，请确保它们可正常调用（可能需要添加环境变量）。如果有多个带版本后缀的可执行文件，可以考虑通过update-alternatives指令或使用ln指令来创建一个软链接/usr/bin/clang指向你所需要的版本的可执行文件。
+  在Ubuntu上，建议安装的llvm-15和clang-15，可参照[clang安装步骤](https://askubuntu.com/questions/1415621/can-you-help-me-install-clang-14-on-ubuntu-18-04-i-think-i-need-a-valid-repo-as)和[gollvm项目](https://go.googlesource.com/gollvm)。后续会用到clang-15、opt-15等指令，请确保它们可正常调用（可能需要添加环境变量，如果有多个带版本后缀的可执行文件，可以考虑通过update-alternatives指令或使用ln指令来创建一个软链接/usr/bin/clang指向你所需要的版本的可执行文件。）
 
 2. go程序转llvm ir
 
@@ -44,7 +43,7 @@
    - 因为LLVM没用到RTTI，所以用-fno-rtti 来让我们的Pass与之一致。
 
    ```bash
-   clang-13 `llvm-config --cxxflags` -fno-rtti -fPIC -shared Hello.cpp -o LLVMHello.so `llvm-config --ldflags`
+   clang-15 `llvm-config-15 --cxxflags` -fno-rtti -fPIC -shared Hello.cpp -o LLVMHello.so `llvm-config-15 --ldflags`
    ```
 
 ## 调用
@@ -57,13 +56,13 @@
     添加-time-passes选项获取当前Pass和其他Pass的执行时间信息。
 
     ```bash
-    opt-13 -load path/to/LLVMHello.so -hello main.bc -o /dev/null -enable-new-pm=0
+    opt-15 -load path/to/LLVMHello.so -hello main.bc -o /dev/null -enable-new-pm=0
     ```
 
     使用以下命令查看注册的Pass的情况
 
     ```bash
-    opt -load LLVMHello.so -help
+    opt-15 -load LLVMHello.so -help
     ```
 
 ## 污点源
