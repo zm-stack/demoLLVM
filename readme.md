@@ -1,6 +1,27 @@
 # ChaincodeChecker Instruction
 
+本工具用于自动化检测Fabric链码中存在的常见漏洞，并允许用户通过特定语法自定义功能约束对于链码进行形式化验证。
+
 [TOC]
+
+## 功能介绍
+
+- 链码漏洞检测功能，通过将链码转译成LLVM IR并通过污点分析进行漏洞检测，覆盖漏洞列表如下：
+
+  |  序号  |  漏洞名称  |  说明  |
+  |:------ |:----------|:-------|
+  | 1 | 全局变量及字段声明  | 不同节点调用链码得到的全局变量和字段值可能不同|
+  | 2 | 随机数与时间戳依赖  | 执行路径及结果不应依赖随机数和时间戳         |
+  | 3 | range over map    | 遍历键值返回的顺序随机，可能会导致结果不确定  |
+  | 4 | gorountine        | 链码中不鼓励使用并发                        |
+  | 5 | 区块链引入的不确定性| web服务，系统命令，外部文件访问，第三方库    |
+  | 6 | 幻影读             | 部分查询函数返回的结果不能用于更新账本       |
+  | 7 | 跨通道链码调用     | 不能通过调用其他通道上的链码提交数据          |
+  | 8 | 写后读            | 不能在同一个交易中更新并读取同一个key值       |
+  | 9 | 隐私泄露          | 隐私数据不应影响执行路径，不应作为参数和返回值 |
+  | 10 | 溢出             | 未受保护的数值计算                          |
+
+- 链码形式化验证功能，通过将插入注释的链码转译为LLVM IR并借助IR形式化验证工具实现可满足性判定。
 
 ## 文件说明
 
@@ -64,31 +85,3 @@
     ```bash
     opt-15 -load LLVMHello.so -help
     ```
-
-## 污点源
-
-关于链码的操作可以分类为以下3类，API之前的数字是该API的编号：
-
-- 读操作：
-  - 12 GetPrivateData(collection string, key string) ([]byte, error)
-  - 13 GetPrivateDataByPartialCompositeKey(collection, objectType string, attributes []string) StateQueryIteratorInterface, error)
-  - 14 GetPrivateDataByRange(collection, startKey, endKey string) (StateQueryIteratorInterface, error)
-  - 16 GetPrivateDataQueryResult(collection, query string) (StateQueryIteratorInterface, error)
-- 写操作
-  - 33 PutPrivateData(collection string, key string, value []byte) error
-- 删操作
-  - 2 DelPrivateData(collection string, key string) error
-  - 32 PurgePrivateData(collection string, key string) error
-
-1. 交易字段造成的隐私泄露
-   |序号|泄露原因|污点|判定|检测|
-   |:--|:--|:--|:--|:--|
-   |1 |参数  |无  |存在写，不存在transient    |检查API是否存在于同一个函数 |
-   |2 |分支  |get |存在更新，污点影响到Br语句  |定位API，定位分支语句      |
-   |3 |返回值|get |存在更新，且污点影响到返回值 |定位API，定位返回值        |
-
-2. 不必要的隐私扩散
-   |序号|泄露原因|污点|判定|检测|
-   |:--|:--|:--|:--|:--|
-   |1 |全局变量 |get |污点影响到全局变量  |检查API是否存在于同一个函数 |
-   |2 |其他链码 |get |污点传播到函数参数  |定位InvokeChaincode       |

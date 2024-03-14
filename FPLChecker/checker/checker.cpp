@@ -1,3 +1,11 @@
+// copyrigth: ziming
+// introduction: fabric链码（被转译成llvm ir）的漏洞检测
+
+// 计划覆盖漏洞：
+// 1. 幻影读
+// 2. 写后读
+// 3. 隐私泄露
+
 /*
 *  检测链码中的隐私泄露，参见read.me
 *  污点源：
